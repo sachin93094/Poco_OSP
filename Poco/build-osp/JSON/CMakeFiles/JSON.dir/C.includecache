@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Jun_unit_Testing/2jul/Poco/JSON/src/pdjson.c
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+errno.h
+-
+pdjson.h
+/root/Jun_unit_Testing/2jul/Poco/JSON/src/pdjson.h
+
+/root/Jun_unit_Testing/2jul/Poco/JSON/src/pdjson.h
+stdio.h
+-
+stdbool.h
+-
+

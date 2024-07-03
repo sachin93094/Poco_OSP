@@ -7,11 +7,11 @@ C_FLAGS = -O2 -g -DNDEBUG -fPIC
 
 C_DEFINES = -DHAVE_EXPAT_CONFIG_H -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DXML_DTD -DXML_EXPORTS -DXML_NS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500
 
-C_INCLUDES = -I/root/Jun_unit_Testing/tcu-adk-dev/poco/XML/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Foundation/include 
+C_INCLUDES = -I/mnt/Poco_OSP/Poco/XML/include -I/mnt/Poco_OSP/Poco/XML/src -I/mnt/Poco_OSP/Poco/Foundation/include 
 
 CXX_FLAGS = -O2 -g -DNDEBUG -fPIC   -std=gnu++14
 
 CXX_DEFINES = -DHAVE_EXPAT_CONFIG_H -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DXML_DTD -DXML_EXPORTS -DXML_NS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500
 
-CXX_INCLUDES = -I/root/Jun_unit_Testing/tcu-adk-dev/poco/XML/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Foundation/include 
+CXX_INCLUDES = -I/mnt/Poco_OSP/Poco/XML/include -I/mnt/Poco_OSP/Poco/XML/src -I/mnt/Poco_OSP/Poco/Foundation/include 
 

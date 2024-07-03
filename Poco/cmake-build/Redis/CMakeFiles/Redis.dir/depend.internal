@@ -82,7 +82,7 @@ Redis/CMakeFiles/Redis.dir/src/Array.cpp.o
  ../Redis/include/Poco/Redis/Redis.h
  ../Redis/include/Poco/Redis/RedisStream.h
  ../Redis/include/Poco/Redis/Type.h
- /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Array.cpp
+ /mnt/Poco_OSP/Poco/Redis/src/Array.cpp
 Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.o
  ../Foundation/include/Poco/AbstractDelegate.h
  ../Foundation/include/Poco/AbstractEvent.h
@@ -170,7 +170,7 @@ Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.o
  ../Redis/include/Poco/Redis/RedisEventArgs.h
  ../Redis/include/Poco/Redis/RedisStream.h
  ../Redis/include/Poco/Redis/Type.h
- /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/AsyncReader.cpp
+ /mnt/Poco_OSP/Poco/Redis/src/AsyncReader.cpp
 Redis/CMakeFiles/Redis.dir/src/Client.cpp.o
  ../Foundation/include/Poco/AbstractDelegate.h
  ../Foundation/include/Poco/AbstractEvent.h
@@ -254,7 +254,7 @@ Redis/CMakeFiles/Redis.dir/src/Client.cpp.o
  ../Redis/include/Poco/Redis/Redis.h
  ../Redis/include/Poco/Redis/RedisStream.h
  ../Redis/include/Poco/Redis/Type.h
- /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Client.cpp
+ /mnt/Poco_OSP/Poco/Redis/src/Client.cpp
 Redis/CMakeFiles/Redis.dir/src/Command.cpp.o
  ../Foundation/include/Poco/AbstractDelegate.h
  ../Foundation/include/Poco/AbstractEvent.h
@@ -337,7 +337,7 @@ Redis/CMakeFiles/Redis.dir/src/Command.cpp.o
  ../Redis/include/Poco/Redis/Redis.h
  ../Redis/include/Poco/Redis/RedisStream.h
  ../Redis/include/Poco/Redis/Type.h
- /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Command.cpp
+ /mnt/Poco_OSP/Poco/Redis/src/Command.cpp
 Redis/CMakeFiles/Redis.dir/src/Error.cpp.o
  ../Foundation/include/Poco/AbstractDelegate.h
  ../Foundation/include/Poco/AbstractEvent.h
@@ -418,7 +418,7 @@ Redis/CMakeFiles/Redis.dir/src/Error.cpp.o
  ../Redis/include/Poco/Redis/Redis.h
  ../Redis/include/Poco/Redis/RedisStream.h
  ../Redis/include/Poco/Redis/Type.h
- /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Error.cpp
+ /mnt/Poco_OSP/Poco/Redis/src/Error.cpp
 Redis/CMakeFiles/Redis.dir/src/Exception.cpp.o
  ../Foundation/include/Poco/Alignment.h
  ../Foundation/include/Poco/Bugcheck.h
@@ -433,7 +433,7 @@ Redis/CMakeFiles/Redis.dir/src/Exception.cpp.o
  ../Foundation/include/Poco/UnWindows.h
  ../Redis/include/Poco/Redis/Exception.h
  ../Redis/include/Poco/Redis/Redis.h
- /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Exception.cpp
+ /mnt/Poco_OSP/Poco/Redis/src/Exception.cpp
 Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.o
  ../Foundation/include/Poco/AbstractDelegate.h
  ../Foundation/include/Poco/AbstractEvent.h
@@ -514,7 +514,7 @@ Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.o
  ../Redis/include/Poco/Redis/RedisEventArgs.h
  ../Redis/include/Poco/Redis/RedisStream.h
  ../Redis/include/Poco/Redis/Type.h
- /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/RedisEventArgs.cpp
+ /mnt/Poco_OSP/Poco/Redis/src/RedisEventArgs.cpp
 Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.o
  ../Foundation/include/Poco/AbstractDelegate.h
  ../Foundation/include/Poco/AbstractEvent.h
@@ -580,7 +580,7 @@ Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.o
  ../Net/include/Poco/Net/StreamSocket.h
  ../Redis/include/Poco/Redis/Redis.h
  ../Redis/include/Poco/Redis/RedisStream.h
- /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/RedisStream.cpp
+ /mnt/Poco_OSP/Poco/Redis/src/RedisStream.cpp
 Redis/CMakeFiles/Redis.dir/src/Type.cpp.o
  ../Foundation/include/Poco/AbstractDelegate.h
  ../Foundation/include/Poco/AbstractEvent.h
@@ -663,4 +663,4 @@ Redis/CMakeFiles/Redis.dir/src/Type.cpp.o
  ../Redis/include/Poco/Redis/Redis.h
  ../Redis/include/Poco/Redis/RedisStream.h
  ../Redis/include/Poco/Redis/Type.h
- /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Type.cpp
+ /mnt/Poco_OSP/Poco/Redis/src/Type.cpp

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,7 +94,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CPackSourceConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/Poco_OSP/Poco/cmake-build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler/CMakeFiles/progress.marks
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles /mnt/Poco_OSP/Poco/cmake-build/PageCompiler/CMakeFiles/progress.marks
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/clean
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 PageCompiler/CMakeFiles/PageCompiler.dir/rule:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/CMakeFiles/PageCompiler.dir/rule
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/CMakeFiles/PageCompiler.dir/rule
 .PHONY : PageCompiler/CMakeFiles/PageCompiler.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ PageCompiler: PageCompiler/CMakeFiles/PageCompiler.dir/rule
 
 # fast build rule for target.
 PageCompiler/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/build
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/build
 .PHONY : PageCompiler/fast
 
 src/ApacheCodeWriter.o: src/ApacheCodeWriter.cpp.o
@@ -199,7 +199,7 @@ src/ApacheCodeWriter.o: src/ApacheCodeWriter.cpp.o
 
 # target to build an object file
 src/ApacheCodeWriter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.o
 .PHONY : src/ApacheCodeWriter.cpp.o
 
 src/ApacheCodeWriter.i: src/ApacheCodeWriter.cpp.i
@@ -208,7 +208,7 @@ src/ApacheCodeWriter.i: src/ApacheCodeWriter.cpp.i
 
 # target to preprocess a source file
 src/ApacheCodeWriter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.i
 .PHONY : src/ApacheCodeWriter.cpp.i
 
 src/ApacheCodeWriter.s: src/ApacheCodeWriter.cpp.s
@@ -217,7 +217,7 @@ src/ApacheCodeWriter.s: src/ApacheCodeWriter.cpp.s
 
 # target to generate assembly for a file
 src/ApacheCodeWriter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.s
 .PHONY : src/ApacheCodeWriter.cpp.s
 
 src/CodeWriter.o: src/CodeWriter.cpp.o
@@ -226,7 +226,7 @@ src/CodeWriter.o: src/CodeWriter.cpp.o
 
 # target to build an object file
 src/CodeWriter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.o
 .PHONY : src/CodeWriter.cpp.o
 
 src/CodeWriter.i: src/CodeWriter.cpp.i
@@ -235,7 +235,7 @@ src/CodeWriter.i: src/CodeWriter.cpp.i
 
 # target to preprocess a source file
 src/CodeWriter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.i
 .PHONY : src/CodeWriter.cpp.i
 
 src/CodeWriter.s: src/CodeWriter.cpp.s
@@ -244,7 +244,7 @@ src/CodeWriter.s: src/CodeWriter.cpp.s
 
 # target to generate assembly for a file
 src/CodeWriter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.s
 .PHONY : src/CodeWriter.cpp.s
 
 src/OSPCodeWriter.o: src/OSPCodeWriter.cpp.o
@@ -253,7 +253,7 @@ src/OSPCodeWriter.o: src/OSPCodeWriter.cpp.o
 
 # target to build an object file
 src/OSPCodeWriter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.o
 .PHONY : src/OSPCodeWriter.cpp.o
 
 src/OSPCodeWriter.i: src/OSPCodeWriter.cpp.i
@@ -262,7 +262,7 @@ src/OSPCodeWriter.i: src/OSPCodeWriter.cpp.i
 
 # target to preprocess a source file
 src/OSPCodeWriter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.i
 .PHONY : src/OSPCodeWriter.cpp.i
 
 src/OSPCodeWriter.s: src/OSPCodeWriter.cpp.s
@@ -271,7 +271,7 @@ src/OSPCodeWriter.s: src/OSPCodeWriter.cpp.s
 
 # target to generate assembly for a file
 src/OSPCodeWriter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.s
 .PHONY : src/OSPCodeWriter.cpp.s
 
 src/Page.o: src/Page.cpp.o
@@ -280,7 +280,7 @@ src/Page.o: src/Page.cpp.o
 
 # target to build an object file
 src/Page.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.o
 .PHONY : src/Page.cpp.o
 
 src/Page.i: src/Page.cpp.i
@@ -289,7 +289,7 @@ src/Page.i: src/Page.cpp.i
 
 # target to preprocess a source file
 src/Page.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.i
 .PHONY : src/Page.cpp.i
 
 src/Page.s: src/Page.cpp.s
@@ -298,7 +298,7 @@ src/Page.s: src/Page.cpp.s
 
 # target to generate assembly for a file
 src/Page.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.s
 .PHONY : src/Page.cpp.s
 
 src/PageCompiler.o: src/PageCompiler.cpp.o
@@ -307,7 +307,7 @@ src/PageCompiler.o: src/PageCompiler.cpp.o
 
 # target to build an object file
 src/PageCompiler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.o
 .PHONY : src/PageCompiler.cpp.o
 
 src/PageCompiler.i: src/PageCompiler.cpp.i
@@ -316,7 +316,7 @@ src/PageCompiler.i: src/PageCompiler.cpp.i
 
 # target to preprocess a source file
 src/PageCompiler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.i
 .PHONY : src/PageCompiler.cpp.i
 
 src/PageCompiler.s: src/PageCompiler.cpp.s
@@ -325,7 +325,7 @@ src/PageCompiler.s: src/PageCompiler.cpp.s
 
 # target to generate assembly for a file
 src/PageCompiler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.s
 .PHONY : src/PageCompiler.cpp.s
 
 src/PageReader.o: src/PageReader.cpp.o
@@ -334,7 +334,7 @@ src/PageReader.o: src/PageReader.cpp.o
 
 # target to build an object file
 src/PageReader.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.o
 .PHONY : src/PageReader.cpp.o
 
 src/PageReader.i: src/PageReader.cpp.i
@@ -343,7 +343,7 @@ src/PageReader.i: src/PageReader.cpp.i
 
 # target to preprocess a source file
 src/PageReader.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.i
 .PHONY : src/PageReader.cpp.i
 
 src/PageReader.s: src/PageReader.cpp.s
@@ -352,7 +352,7 @@ src/PageReader.s: src/PageReader.cpp.s
 
 # target to generate assembly for a file
 src/PageReader.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/CMakeFiles/PageCompiler.dir/build.make PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.s
 .PHONY : src/PageReader.cpp.s
 
 # Help Target
@@ -399,6 +399,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

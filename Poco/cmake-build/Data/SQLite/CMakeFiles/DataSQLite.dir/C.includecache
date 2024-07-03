@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/SQLite/src/sqlite3.c
+/mnt/Poco_OSP/Poco/Data/SQLite/src/sqlite3.c
 config.h
-/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/SQLite/src/config.h
+/mnt/Poco_OSP/Poco/Data/SQLite/src/config.h
 vxWorks.h
 -
 pthread.h
 -
 mingw.h
-/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/SQLite/src/mingw.h
+/mnt/Poco_OSP/Poco/Data/SQLite/src/mingw.h
 _mingw.h
-/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/SQLite/src/_mingw.h
+/mnt/Poco_OSP/Poco/Data/SQLite/src/_mingw.h
 stdarg.h
 -
 stdint.h
@@ -54,7 +54,7 @@ malloc.h
 pthread.h
 -
 windows.h
-/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/SQLite/src/windows.h
+/mnt/Poco_OSP/Poco/Data/SQLite/src/windows.h
 sys/cygwin.h
 -
 errno.h
@@ -98,13 +98,13 @@ sys/statvfs.h
 dlfcn.h
 -
 sqlite_tcl.h
-/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/SQLite/src/sqlite_tcl.h
+/mnt/Poco_OSP/Poco/Data/SQLite/src/sqlite_tcl.h
 tcl.h
-/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/SQLite/src/tcl.h
+/mnt/Poco_OSP/Poco/Data/SQLite/src/tcl.h
 ctype.h
 -
 sqlite3rtree.h
-/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/SQLite/src/sqlite3rtree.h
+/mnt/Poco_OSP/Poco/Data/SQLite/src/sqlite3rtree.h
 ctype.h
 -
 unicode/utypes.h

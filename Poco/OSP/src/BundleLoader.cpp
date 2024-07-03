@@ -517,11 +517,6 @@ void BundleLoader::startBundle(Bundle* pBundle)
 			_logger.debug("Invoking BundleActivator::start()"s);
 			pActivator->start(it->second.pContext);
 		}
-		else
-		{
-			_logger.debug("Invoking BundleActivator::pActivator is null"s);		
-			_logger.debug("Starting bundle failed %s."s, it->second);
-		}
 		if (_logger.information())
 		{
 			_logger.information("Bundle %s started."s, pBundle->symbolicName());
@@ -968,4 +963,3 @@ void BundleLoader::registerBundleActivator(const std::string& className, BundleA
 
 
 } } // namespace Poco::OSP
-

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,7 +94,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CPackSourceConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/Poco_OSP/Poco/cmake-build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Foundation/CMakeFiles/progress.marks
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Foundation/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles /mnt/Poco_OSP/Poco/cmake-build/Foundation/CMakeFiles/progress.marks
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Foundation/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Foundation/clean
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Foundation/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Foundation/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Foundation/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Foundation/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Foundation/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Foundation/CMakeFiles/Foundation.dir/rule:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Foundation/CMakeFiles/Foundation.dir/rule
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Foundation/CMakeFiles/Foundation.dir/rule
 .PHONY : Foundation/CMakeFiles/Foundation.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ Foundation: Foundation/CMakeFiles/Foundation.dir/rule
 
 # fast build rule for target.
 Foundation/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/build
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/build
 .PHONY : Foundation/fast
 
 src/ASCIIEncoding.o: src/ASCIIEncoding.cpp.o
@@ -199,7 +199,7 @@ src/ASCIIEncoding.o: src/ASCIIEncoding.cpp.o
 
 # target to build an object file
 src/ASCIIEncoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ASCIIEncoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ASCIIEncoding.cpp.o
 .PHONY : src/ASCIIEncoding.cpp.o
 
 src/ASCIIEncoding.i: src/ASCIIEncoding.cpp.i
@@ -208,7 +208,7 @@ src/ASCIIEncoding.i: src/ASCIIEncoding.cpp.i
 
 # target to preprocess a source file
 src/ASCIIEncoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ASCIIEncoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ASCIIEncoding.cpp.i
 .PHONY : src/ASCIIEncoding.cpp.i
 
 src/ASCIIEncoding.s: src/ASCIIEncoding.cpp.s
@@ -217,7 +217,7 @@ src/ASCIIEncoding.s: src/ASCIIEncoding.cpp.s
 
 # target to generate assembly for a file
 src/ASCIIEncoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ASCIIEncoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ASCIIEncoding.cpp.s
 .PHONY : src/ASCIIEncoding.cpp.s
 
 src/AbstractObserver.o: src/AbstractObserver.cpp.o
@@ -226,7 +226,7 @@ src/AbstractObserver.o: src/AbstractObserver.cpp.o
 
 # target to build an object file
 src/AbstractObserver.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AbstractObserver.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AbstractObserver.cpp.o
 .PHONY : src/AbstractObserver.cpp.o
 
 src/AbstractObserver.i: src/AbstractObserver.cpp.i
@@ -235,7 +235,7 @@ src/AbstractObserver.i: src/AbstractObserver.cpp.i
 
 # target to preprocess a source file
 src/AbstractObserver.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AbstractObserver.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AbstractObserver.cpp.i
 .PHONY : src/AbstractObserver.cpp.i
 
 src/AbstractObserver.s: src/AbstractObserver.cpp.s
@@ -244,7 +244,7 @@ src/AbstractObserver.s: src/AbstractObserver.cpp.s
 
 # target to generate assembly for a file
 src/AbstractObserver.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AbstractObserver.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AbstractObserver.cpp.s
 .PHONY : src/AbstractObserver.cpp.s
 
 src/ActiveDispatcher.o: src/ActiveDispatcher.cpp.o
@@ -253,7 +253,7 @@ src/ActiveDispatcher.o: src/ActiveDispatcher.cpp.o
 
 # target to build an object file
 src/ActiveDispatcher.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ActiveDispatcher.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ActiveDispatcher.cpp.o
 .PHONY : src/ActiveDispatcher.cpp.o
 
 src/ActiveDispatcher.i: src/ActiveDispatcher.cpp.i
@@ -262,7 +262,7 @@ src/ActiveDispatcher.i: src/ActiveDispatcher.cpp.i
 
 # target to preprocess a source file
 src/ActiveDispatcher.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ActiveDispatcher.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ActiveDispatcher.cpp.i
 .PHONY : src/ActiveDispatcher.cpp.i
 
 src/ActiveDispatcher.s: src/ActiveDispatcher.cpp.s
@@ -271,7 +271,7 @@ src/ActiveDispatcher.s: src/ActiveDispatcher.cpp.s
 
 # target to generate assembly for a file
 src/ActiveDispatcher.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ActiveDispatcher.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ActiveDispatcher.cpp.s
 .PHONY : src/ActiveDispatcher.cpp.s
 
 src/ArchiveStrategy.o: src/ArchiveStrategy.cpp.o
@@ -280,7 +280,7 @@ src/ArchiveStrategy.o: src/ArchiveStrategy.cpp.o
 
 # target to build an object file
 src/ArchiveStrategy.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ArchiveStrategy.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ArchiveStrategy.cpp.o
 .PHONY : src/ArchiveStrategy.cpp.o
 
 src/ArchiveStrategy.i: src/ArchiveStrategy.cpp.i
@@ -289,7 +289,7 @@ src/ArchiveStrategy.i: src/ArchiveStrategy.cpp.i
 
 # target to preprocess a source file
 src/ArchiveStrategy.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ArchiveStrategy.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ArchiveStrategy.cpp.i
 .PHONY : src/ArchiveStrategy.cpp.i
 
 src/ArchiveStrategy.s: src/ArchiveStrategy.cpp.s
@@ -298,7 +298,7 @@ src/ArchiveStrategy.s: src/ArchiveStrategy.cpp.s
 
 # target to generate assembly for a file
 src/ArchiveStrategy.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ArchiveStrategy.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ArchiveStrategy.cpp.s
 .PHONY : src/ArchiveStrategy.cpp.s
 
 src/Ascii.o: src/Ascii.cpp.o
@@ -307,7 +307,7 @@ src/Ascii.o: src/Ascii.cpp.o
 
 # target to build an object file
 src/Ascii.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Ascii.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Ascii.cpp.o
 .PHONY : src/Ascii.cpp.o
 
 src/Ascii.i: src/Ascii.cpp.i
@@ -316,7 +316,7 @@ src/Ascii.i: src/Ascii.cpp.i
 
 # target to preprocess a source file
 src/Ascii.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Ascii.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Ascii.cpp.i
 .PHONY : src/Ascii.cpp.i
 
 src/Ascii.s: src/Ascii.cpp.s
@@ -325,7 +325,7 @@ src/Ascii.s: src/Ascii.cpp.s
 
 # target to generate assembly for a file
 src/Ascii.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Ascii.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Ascii.cpp.s
 .PHONY : src/Ascii.cpp.s
 
 src/AsyncChannel.o: src/AsyncChannel.cpp.o
@@ -334,7 +334,7 @@ src/AsyncChannel.o: src/AsyncChannel.cpp.o
 
 # target to build an object file
 src/AsyncChannel.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AsyncChannel.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AsyncChannel.cpp.o
 .PHONY : src/AsyncChannel.cpp.o
 
 src/AsyncChannel.i: src/AsyncChannel.cpp.i
@@ -343,7 +343,7 @@ src/AsyncChannel.i: src/AsyncChannel.cpp.i
 
 # target to preprocess a source file
 src/AsyncChannel.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AsyncChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AsyncChannel.cpp.i
 .PHONY : src/AsyncChannel.cpp.i
 
 src/AsyncChannel.s: src/AsyncChannel.cpp.s
@@ -352,7 +352,7 @@ src/AsyncChannel.s: src/AsyncChannel.cpp.s
 
 # target to generate assembly for a file
 src/AsyncChannel.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AsyncChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AsyncChannel.cpp.s
 .PHONY : src/AsyncChannel.cpp.s
 
 src/AtomicCounter.o: src/AtomicCounter.cpp.o
@@ -361,7 +361,7 @@ src/AtomicCounter.o: src/AtomicCounter.cpp.o
 
 # target to build an object file
 src/AtomicCounter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AtomicCounter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AtomicCounter.cpp.o
 .PHONY : src/AtomicCounter.cpp.o
 
 src/AtomicCounter.i: src/AtomicCounter.cpp.i
@@ -370,7 +370,7 @@ src/AtomicCounter.i: src/AtomicCounter.cpp.i
 
 # target to preprocess a source file
 src/AtomicCounter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AtomicCounter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AtomicCounter.cpp.i
 .PHONY : src/AtomicCounter.cpp.i
 
 src/AtomicCounter.s: src/AtomicCounter.cpp.s
@@ -379,7 +379,7 @@ src/AtomicCounter.s: src/AtomicCounter.cpp.s
 
 # target to generate assembly for a file
 src/AtomicCounter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AtomicCounter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AtomicCounter.cpp.s
 .PHONY : src/AtomicCounter.cpp.s
 
 src/AtomicFlag.o: src/AtomicFlag.cpp.o
@@ -388,7 +388,7 @@ src/AtomicFlag.o: src/AtomicFlag.cpp.o
 
 # target to build an object file
 src/AtomicFlag.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AtomicFlag.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AtomicFlag.cpp.o
 .PHONY : src/AtomicFlag.cpp.o
 
 src/AtomicFlag.i: src/AtomicFlag.cpp.i
@@ -397,7 +397,7 @@ src/AtomicFlag.i: src/AtomicFlag.cpp.i
 
 # target to preprocess a source file
 src/AtomicFlag.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AtomicFlag.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AtomicFlag.cpp.i
 .PHONY : src/AtomicFlag.cpp.i
 
 src/AtomicFlag.s: src/AtomicFlag.cpp.s
@@ -406,7 +406,7 @@ src/AtomicFlag.s: src/AtomicFlag.cpp.s
 
 # target to generate assembly for a file
 src/AtomicFlag.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AtomicFlag.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/AtomicFlag.cpp.s
 .PHONY : src/AtomicFlag.cpp.s
 
 src/Base32Decoder.o: src/Base32Decoder.cpp.o
@@ -415,7 +415,7 @@ src/Base32Decoder.o: src/Base32Decoder.cpp.o
 
 # target to build an object file
 src/Base32Decoder.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base32Decoder.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base32Decoder.cpp.o
 .PHONY : src/Base32Decoder.cpp.o
 
 src/Base32Decoder.i: src/Base32Decoder.cpp.i
@@ -424,7 +424,7 @@ src/Base32Decoder.i: src/Base32Decoder.cpp.i
 
 # target to preprocess a source file
 src/Base32Decoder.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base32Decoder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base32Decoder.cpp.i
 .PHONY : src/Base32Decoder.cpp.i
 
 src/Base32Decoder.s: src/Base32Decoder.cpp.s
@@ -433,7 +433,7 @@ src/Base32Decoder.s: src/Base32Decoder.cpp.s
 
 # target to generate assembly for a file
 src/Base32Decoder.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base32Decoder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base32Decoder.cpp.s
 .PHONY : src/Base32Decoder.cpp.s
 
 src/Base32Encoder.o: src/Base32Encoder.cpp.o
@@ -442,7 +442,7 @@ src/Base32Encoder.o: src/Base32Encoder.cpp.o
 
 # target to build an object file
 src/Base32Encoder.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base32Encoder.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base32Encoder.cpp.o
 .PHONY : src/Base32Encoder.cpp.o
 
 src/Base32Encoder.i: src/Base32Encoder.cpp.i
@@ -451,7 +451,7 @@ src/Base32Encoder.i: src/Base32Encoder.cpp.i
 
 # target to preprocess a source file
 src/Base32Encoder.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base32Encoder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base32Encoder.cpp.i
 .PHONY : src/Base32Encoder.cpp.i
 
 src/Base32Encoder.s: src/Base32Encoder.cpp.s
@@ -460,7 +460,7 @@ src/Base32Encoder.s: src/Base32Encoder.cpp.s
 
 # target to generate assembly for a file
 src/Base32Encoder.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base32Encoder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base32Encoder.cpp.s
 .PHONY : src/Base32Encoder.cpp.s
 
 src/Base64Decoder.o: src/Base64Decoder.cpp.o
@@ -469,7 +469,7 @@ src/Base64Decoder.o: src/Base64Decoder.cpp.o
 
 # target to build an object file
 src/Base64Decoder.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base64Decoder.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base64Decoder.cpp.o
 .PHONY : src/Base64Decoder.cpp.o
 
 src/Base64Decoder.i: src/Base64Decoder.cpp.i
@@ -478,7 +478,7 @@ src/Base64Decoder.i: src/Base64Decoder.cpp.i
 
 # target to preprocess a source file
 src/Base64Decoder.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base64Decoder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base64Decoder.cpp.i
 .PHONY : src/Base64Decoder.cpp.i
 
 src/Base64Decoder.s: src/Base64Decoder.cpp.s
@@ -487,7 +487,7 @@ src/Base64Decoder.s: src/Base64Decoder.cpp.s
 
 # target to generate assembly for a file
 src/Base64Decoder.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base64Decoder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base64Decoder.cpp.s
 .PHONY : src/Base64Decoder.cpp.s
 
 src/Base64Encoder.o: src/Base64Encoder.cpp.o
@@ -496,7 +496,7 @@ src/Base64Encoder.o: src/Base64Encoder.cpp.o
 
 # target to build an object file
 src/Base64Encoder.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base64Encoder.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base64Encoder.cpp.o
 .PHONY : src/Base64Encoder.cpp.o
 
 src/Base64Encoder.i: src/Base64Encoder.cpp.i
@@ -505,7 +505,7 @@ src/Base64Encoder.i: src/Base64Encoder.cpp.i
 
 # target to preprocess a source file
 src/Base64Encoder.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base64Encoder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base64Encoder.cpp.i
 .PHONY : src/Base64Encoder.cpp.i
 
 src/Base64Encoder.s: src/Base64Encoder.cpp.s
@@ -514,7 +514,7 @@ src/Base64Encoder.s: src/Base64Encoder.cpp.s
 
 # target to generate assembly for a file
 src/Base64Encoder.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base64Encoder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Base64Encoder.cpp.s
 .PHONY : src/Base64Encoder.cpp.s
 
 src/BinaryReader.o: src/BinaryReader.cpp.o
@@ -523,7 +523,7 @@ src/BinaryReader.o: src/BinaryReader.cpp.o
 
 # target to build an object file
 src/BinaryReader.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/BinaryReader.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/BinaryReader.cpp.o
 .PHONY : src/BinaryReader.cpp.o
 
 src/BinaryReader.i: src/BinaryReader.cpp.i
@@ -532,7 +532,7 @@ src/BinaryReader.i: src/BinaryReader.cpp.i
 
 # target to preprocess a source file
 src/BinaryReader.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/BinaryReader.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/BinaryReader.cpp.i
 .PHONY : src/BinaryReader.cpp.i
 
 src/BinaryReader.s: src/BinaryReader.cpp.s
@@ -541,7 +541,7 @@ src/BinaryReader.s: src/BinaryReader.cpp.s
 
 # target to generate assembly for a file
 src/BinaryReader.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/BinaryReader.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/BinaryReader.cpp.s
 .PHONY : src/BinaryReader.cpp.s
 
 src/BinaryWriter.o: src/BinaryWriter.cpp.o
@@ -550,7 +550,7 @@ src/BinaryWriter.o: src/BinaryWriter.cpp.o
 
 # target to build an object file
 src/BinaryWriter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/BinaryWriter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/BinaryWriter.cpp.o
 .PHONY : src/BinaryWriter.cpp.o
 
 src/BinaryWriter.i: src/BinaryWriter.cpp.i
@@ -559,7 +559,7 @@ src/BinaryWriter.i: src/BinaryWriter.cpp.i
 
 # target to preprocess a source file
 src/BinaryWriter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/BinaryWriter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/BinaryWriter.cpp.i
 .PHONY : src/BinaryWriter.cpp.i
 
 src/BinaryWriter.s: src/BinaryWriter.cpp.s
@@ -568,7 +568,7 @@ src/BinaryWriter.s: src/BinaryWriter.cpp.s
 
 # target to generate assembly for a file
 src/BinaryWriter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/BinaryWriter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/BinaryWriter.cpp.s
 .PHONY : src/BinaryWriter.cpp.s
 
 src/Bugcheck.o: src/Bugcheck.cpp.o
@@ -577,7 +577,7 @@ src/Bugcheck.o: src/Bugcheck.cpp.o
 
 # target to build an object file
 src/Bugcheck.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Bugcheck.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Bugcheck.cpp.o
 .PHONY : src/Bugcheck.cpp.o
 
 src/Bugcheck.i: src/Bugcheck.cpp.i
@@ -586,7 +586,7 @@ src/Bugcheck.i: src/Bugcheck.cpp.i
 
 # target to preprocess a source file
 src/Bugcheck.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Bugcheck.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Bugcheck.cpp.i
 .PHONY : src/Bugcheck.cpp.i
 
 src/Bugcheck.s: src/Bugcheck.cpp.s
@@ -595,7 +595,7 @@ src/Bugcheck.s: src/Bugcheck.cpp.s
 
 # target to generate assembly for a file
 src/Bugcheck.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Bugcheck.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Bugcheck.cpp.s
 .PHONY : src/Bugcheck.cpp.s
 
 src/ByteOrder.o: src/ByteOrder.cpp.o
@@ -604,7 +604,7 @@ src/ByteOrder.o: src/ByteOrder.cpp.o
 
 # target to build an object file
 src/ByteOrder.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ByteOrder.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ByteOrder.cpp.o
 .PHONY : src/ByteOrder.cpp.o
 
 src/ByteOrder.i: src/ByteOrder.cpp.i
@@ -613,7 +613,7 @@ src/ByteOrder.i: src/ByteOrder.cpp.i
 
 # target to preprocess a source file
 src/ByteOrder.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ByteOrder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ByteOrder.cpp.i
 .PHONY : src/ByteOrder.cpp.i
 
 src/ByteOrder.s: src/ByteOrder.cpp.s
@@ -622,7 +622,7 @@ src/ByteOrder.s: src/ByteOrder.cpp.s
 
 # target to generate assembly for a file
 src/ByteOrder.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ByteOrder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ByteOrder.cpp.s
 .PHONY : src/ByteOrder.cpp.s
 
 src/Channel.o: src/Channel.cpp.o
@@ -631,7 +631,7 @@ src/Channel.o: src/Channel.cpp.o
 
 # target to build an object file
 src/Channel.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Channel.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Channel.cpp.o
 .PHONY : src/Channel.cpp.o
 
 src/Channel.i: src/Channel.cpp.i
@@ -640,7 +640,7 @@ src/Channel.i: src/Channel.cpp.i
 
 # target to preprocess a source file
 src/Channel.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Channel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Channel.cpp.i
 .PHONY : src/Channel.cpp.i
 
 src/Channel.s: src/Channel.cpp.s
@@ -649,7 +649,7 @@ src/Channel.s: src/Channel.cpp.s
 
 # target to generate assembly for a file
 src/Channel.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Channel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Channel.cpp.s
 .PHONY : src/Channel.cpp.s
 
 src/Checksum.o: src/Checksum.cpp.o
@@ -658,7 +658,7 @@ src/Checksum.o: src/Checksum.cpp.o
 
 # target to build an object file
 src/Checksum.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Checksum.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Checksum.cpp.o
 .PHONY : src/Checksum.cpp.o
 
 src/Checksum.i: src/Checksum.cpp.i
@@ -667,7 +667,7 @@ src/Checksum.i: src/Checksum.cpp.i
 
 # target to preprocess a source file
 src/Checksum.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Checksum.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Checksum.cpp.i
 .PHONY : src/Checksum.cpp.i
 
 src/Checksum.s: src/Checksum.cpp.s
@@ -676,7 +676,7 @@ src/Checksum.s: src/Checksum.cpp.s
 
 # target to generate assembly for a file
 src/Checksum.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Checksum.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Checksum.cpp.s
 .PHONY : src/Checksum.cpp.s
 
 src/Clock.o: src/Clock.cpp.o
@@ -685,7 +685,7 @@ src/Clock.o: src/Clock.cpp.o
 
 # target to build an object file
 src/Clock.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Clock.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Clock.cpp.o
 .PHONY : src/Clock.cpp.o
 
 src/Clock.i: src/Clock.cpp.i
@@ -694,7 +694,7 @@ src/Clock.i: src/Clock.cpp.i
 
 # target to preprocess a source file
 src/Clock.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Clock.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Clock.cpp.i
 .PHONY : src/Clock.cpp.i
 
 src/Clock.s: src/Clock.cpp.s
@@ -703,7 +703,7 @@ src/Clock.s: src/Clock.cpp.s
 
 # target to generate assembly for a file
 src/Clock.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Clock.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Clock.cpp.s
 .PHONY : src/Clock.cpp.s
 
 src/Condition.o: src/Condition.cpp.o
@@ -712,7 +712,7 @@ src/Condition.o: src/Condition.cpp.o
 
 # target to build an object file
 src/Condition.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Condition.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Condition.cpp.o
 .PHONY : src/Condition.cpp.o
 
 src/Condition.i: src/Condition.cpp.i
@@ -721,7 +721,7 @@ src/Condition.i: src/Condition.cpp.i
 
 # target to preprocess a source file
 src/Condition.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Condition.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Condition.cpp.i
 .PHONY : src/Condition.cpp.i
 
 src/Condition.s: src/Condition.cpp.s
@@ -730,7 +730,7 @@ src/Condition.s: src/Condition.cpp.s
 
 # target to generate assembly for a file
 src/Condition.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Condition.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Condition.cpp.s
 .PHONY : src/Condition.cpp.s
 
 src/Configurable.o: src/Configurable.cpp.o
@@ -739,7 +739,7 @@ src/Configurable.o: src/Configurable.cpp.o
 
 # target to build an object file
 src/Configurable.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Configurable.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Configurable.cpp.o
 .PHONY : src/Configurable.cpp.o
 
 src/Configurable.i: src/Configurable.cpp.i
@@ -748,7 +748,7 @@ src/Configurable.i: src/Configurable.cpp.i
 
 # target to preprocess a source file
 src/Configurable.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Configurable.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Configurable.cpp.i
 .PHONY : src/Configurable.cpp.i
 
 src/Configurable.s: src/Configurable.cpp.s
@@ -757,7 +757,7 @@ src/Configurable.s: src/Configurable.cpp.s
 
 # target to generate assembly for a file
 src/Configurable.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Configurable.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Configurable.cpp.s
 .PHONY : src/Configurable.cpp.s
 
 src/ConsoleChannel.o: src/ConsoleChannel.cpp.o
@@ -766,7 +766,7 @@ src/ConsoleChannel.o: src/ConsoleChannel.cpp.o
 
 # target to build an object file
 src/ConsoleChannel.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ConsoleChannel.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ConsoleChannel.cpp.o
 .PHONY : src/ConsoleChannel.cpp.o
 
 src/ConsoleChannel.i: src/ConsoleChannel.cpp.i
@@ -775,7 +775,7 @@ src/ConsoleChannel.i: src/ConsoleChannel.cpp.i
 
 # target to preprocess a source file
 src/ConsoleChannel.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ConsoleChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ConsoleChannel.cpp.i
 .PHONY : src/ConsoleChannel.cpp.i
 
 src/ConsoleChannel.s: src/ConsoleChannel.cpp.s
@@ -784,7 +784,7 @@ src/ConsoleChannel.s: src/ConsoleChannel.cpp.s
 
 # target to generate assembly for a file
 src/ConsoleChannel.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ConsoleChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ConsoleChannel.cpp.s
 .PHONY : src/ConsoleChannel.cpp.s
 
 src/CountingStream.o: src/CountingStream.cpp.o
@@ -793,7 +793,7 @@ src/CountingStream.o: src/CountingStream.cpp.o
 
 # target to build an object file
 src/CountingStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/CountingStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/CountingStream.cpp.o
 .PHONY : src/CountingStream.cpp.o
 
 src/CountingStream.i: src/CountingStream.cpp.i
@@ -802,7 +802,7 @@ src/CountingStream.i: src/CountingStream.cpp.i
 
 # target to preprocess a source file
 src/CountingStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/CountingStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/CountingStream.cpp.i
 .PHONY : src/CountingStream.cpp.i
 
 src/CountingStream.s: src/CountingStream.cpp.s
@@ -811,7 +811,7 @@ src/CountingStream.s: src/CountingStream.cpp.s
 
 # target to generate assembly for a file
 src/CountingStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/CountingStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/CountingStream.cpp.s
 .PHONY : src/CountingStream.cpp.s
 
 src/DataURIStream.o: src/DataURIStream.cpp.o
@@ -820,7 +820,7 @@ src/DataURIStream.o: src/DataURIStream.cpp.o
 
 # target to build an object file
 src/DataURIStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DataURIStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DataURIStream.cpp.o
 .PHONY : src/DataURIStream.cpp.o
 
 src/DataURIStream.i: src/DataURIStream.cpp.i
@@ -829,7 +829,7 @@ src/DataURIStream.i: src/DataURIStream.cpp.i
 
 # target to preprocess a source file
 src/DataURIStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DataURIStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DataURIStream.cpp.i
 .PHONY : src/DataURIStream.cpp.i
 
 src/DataURIStream.s: src/DataURIStream.cpp.s
@@ -838,7 +838,7 @@ src/DataURIStream.s: src/DataURIStream.cpp.s
 
 # target to generate assembly for a file
 src/DataURIStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DataURIStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DataURIStream.cpp.s
 .PHONY : src/DataURIStream.cpp.s
 
 src/DataURIStreamFactory.o: src/DataURIStreamFactory.cpp.o
@@ -847,7 +847,7 @@ src/DataURIStreamFactory.o: src/DataURIStreamFactory.cpp.o
 
 # target to build an object file
 src/DataURIStreamFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DataURIStreamFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DataURIStreamFactory.cpp.o
 .PHONY : src/DataURIStreamFactory.cpp.o
 
 src/DataURIStreamFactory.i: src/DataURIStreamFactory.cpp.i
@@ -856,7 +856,7 @@ src/DataURIStreamFactory.i: src/DataURIStreamFactory.cpp.i
 
 # target to preprocess a source file
 src/DataURIStreamFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DataURIStreamFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DataURIStreamFactory.cpp.i
 .PHONY : src/DataURIStreamFactory.cpp.i
 
 src/DataURIStreamFactory.s: src/DataURIStreamFactory.cpp.s
@@ -865,7 +865,7 @@ src/DataURIStreamFactory.s: src/DataURIStreamFactory.cpp.s
 
 # target to generate assembly for a file
 src/DataURIStreamFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DataURIStreamFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DataURIStreamFactory.cpp.s
 .PHONY : src/DataURIStreamFactory.cpp.s
 
 src/DateTime.o: src/DateTime.cpp.o
@@ -874,7 +874,7 @@ src/DateTime.o: src/DateTime.cpp.o
 
 # target to build an object file
 src/DateTime.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTime.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTime.cpp.o
 .PHONY : src/DateTime.cpp.o
 
 src/DateTime.i: src/DateTime.cpp.i
@@ -883,7 +883,7 @@ src/DateTime.i: src/DateTime.cpp.i
 
 # target to preprocess a source file
 src/DateTime.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTime.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTime.cpp.i
 .PHONY : src/DateTime.cpp.i
 
 src/DateTime.s: src/DateTime.cpp.s
@@ -892,7 +892,7 @@ src/DateTime.s: src/DateTime.cpp.s
 
 # target to generate assembly for a file
 src/DateTime.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTime.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTime.cpp.s
 .PHONY : src/DateTime.cpp.s
 
 src/DateTimeFormat.o: src/DateTimeFormat.cpp.o
@@ -901,7 +901,7 @@ src/DateTimeFormat.o: src/DateTimeFormat.cpp.o
 
 # target to build an object file
 src/DateTimeFormat.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeFormat.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeFormat.cpp.o
 .PHONY : src/DateTimeFormat.cpp.o
 
 src/DateTimeFormat.i: src/DateTimeFormat.cpp.i
@@ -910,7 +910,7 @@ src/DateTimeFormat.i: src/DateTimeFormat.cpp.i
 
 # target to preprocess a source file
 src/DateTimeFormat.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeFormat.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeFormat.cpp.i
 .PHONY : src/DateTimeFormat.cpp.i
 
 src/DateTimeFormat.s: src/DateTimeFormat.cpp.s
@@ -919,7 +919,7 @@ src/DateTimeFormat.s: src/DateTimeFormat.cpp.s
 
 # target to generate assembly for a file
 src/DateTimeFormat.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeFormat.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeFormat.cpp.s
 .PHONY : src/DateTimeFormat.cpp.s
 
 src/DateTimeFormatter.o: src/DateTimeFormatter.cpp.o
@@ -928,7 +928,7 @@ src/DateTimeFormatter.o: src/DateTimeFormatter.cpp.o
 
 # target to build an object file
 src/DateTimeFormatter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeFormatter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeFormatter.cpp.o
 .PHONY : src/DateTimeFormatter.cpp.o
 
 src/DateTimeFormatter.i: src/DateTimeFormatter.cpp.i
@@ -937,7 +937,7 @@ src/DateTimeFormatter.i: src/DateTimeFormatter.cpp.i
 
 # target to preprocess a source file
 src/DateTimeFormatter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeFormatter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeFormatter.cpp.i
 .PHONY : src/DateTimeFormatter.cpp.i
 
 src/DateTimeFormatter.s: src/DateTimeFormatter.cpp.s
@@ -946,7 +946,7 @@ src/DateTimeFormatter.s: src/DateTimeFormatter.cpp.s
 
 # target to generate assembly for a file
 src/DateTimeFormatter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeFormatter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeFormatter.cpp.s
 .PHONY : src/DateTimeFormatter.cpp.s
 
 src/DateTimeParser.o: src/DateTimeParser.cpp.o
@@ -955,7 +955,7 @@ src/DateTimeParser.o: src/DateTimeParser.cpp.o
 
 # target to build an object file
 src/DateTimeParser.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeParser.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeParser.cpp.o
 .PHONY : src/DateTimeParser.cpp.o
 
 src/DateTimeParser.i: src/DateTimeParser.cpp.i
@@ -964,7 +964,7 @@ src/DateTimeParser.i: src/DateTimeParser.cpp.i
 
 # target to preprocess a source file
 src/DateTimeParser.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeParser.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeParser.cpp.i
 .PHONY : src/DateTimeParser.cpp.i
 
 src/DateTimeParser.s: src/DateTimeParser.cpp.s
@@ -973,7 +973,7 @@ src/DateTimeParser.s: src/DateTimeParser.cpp.s
 
 # target to generate assembly for a file
 src/DateTimeParser.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeParser.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DateTimeParser.cpp.s
 .PHONY : src/DateTimeParser.cpp.s
 
 src/Debugger.o: src/Debugger.cpp.o
@@ -982,7 +982,7 @@ src/Debugger.o: src/Debugger.cpp.o
 
 # target to build an object file
 src/Debugger.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Debugger.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Debugger.cpp.o
 .PHONY : src/Debugger.cpp.o
 
 src/Debugger.i: src/Debugger.cpp.i
@@ -991,7 +991,7 @@ src/Debugger.i: src/Debugger.cpp.i
 
 # target to preprocess a source file
 src/Debugger.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Debugger.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Debugger.cpp.i
 .PHONY : src/Debugger.cpp.i
 
 src/Debugger.s: src/Debugger.cpp.s
@@ -1000,7 +1000,7 @@ src/Debugger.s: src/Debugger.cpp.s
 
 # target to generate assembly for a file
 src/Debugger.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Debugger.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Debugger.cpp.s
 .PHONY : src/Debugger.cpp.s
 
 src/DeflatingStream.o: src/DeflatingStream.cpp.o
@@ -1009,7 +1009,7 @@ src/DeflatingStream.o: src/DeflatingStream.cpp.o
 
 # target to build an object file
 src/DeflatingStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DeflatingStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DeflatingStream.cpp.o
 .PHONY : src/DeflatingStream.cpp.o
 
 src/DeflatingStream.i: src/DeflatingStream.cpp.i
@@ -1018,7 +1018,7 @@ src/DeflatingStream.i: src/DeflatingStream.cpp.i
 
 # target to preprocess a source file
 src/DeflatingStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DeflatingStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DeflatingStream.cpp.i
 .PHONY : src/DeflatingStream.cpp.i
 
 src/DeflatingStream.s: src/DeflatingStream.cpp.s
@@ -1027,7 +1027,7 @@ src/DeflatingStream.s: src/DeflatingStream.cpp.s
 
 # target to generate assembly for a file
 src/DeflatingStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DeflatingStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DeflatingStream.cpp.s
 .PHONY : src/DeflatingStream.cpp.s
 
 src/DigestEngine.o: src/DigestEngine.cpp.o
@@ -1036,7 +1036,7 @@ src/DigestEngine.o: src/DigestEngine.cpp.o
 
 # target to build an object file
 src/DigestEngine.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DigestEngine.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DigestEngine.cpp.o
 .PHONY : src/DigestEngine.cpp.o
 
 src/DigestEngine.i: src/DigestEngine.cpp.i
@@ -1045,7 +1045,7 @@ src/DigestEngine.i: src/DigestEngine.cpp.i
 
 # target to preprocess a source file
 src/DigestEngine.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DigestEngine.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DigestEngine.cpp.i
 .PHONY : src/DigestEngine.cpp.i
 
 src/DigestEngine.s: src/DigestEngine.cpp.s
@@ -1054,7 +1054,7 @@ src/DigestEngine.s: src/DigestEngine.cpp.s
 
 # target to generate assembly for a file
 src/DigestEngine.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DigestEngine.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DigestEngine.cpp.s
 .PHONY : src/DigestEngine.cpp.s
 
 src/DigestStream.o: src/DigestStream.cpp.o
@@ -1063,7 +1063,7 @@ src/DigestStream.o: src/DigestStream.cpp.o
 
 # target to build an object file
 src/DigestStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DigestStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DigestStream.cpp.o
 .PHONY : src/DigestStream.cpp.o
 
 src/DigestStream.i: src/DigestStream.cpp.i
@@ -1072,7 +1072,7 @@ src/DigestStream.i: src/DigestStream.cpp.i
 
 # target to preprocess a source file
 src/DigestStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DigestStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DigestStream.cpp.i
 .PHONY : src/DigestStream.cpp.i
 
 src/DigestStream.s: src/DigestStream.cpp.s
@@ -1081,7 +1081,7 @@ src/DigestStream.s: src/DigestStream.cpp.s
 
 # target to generate assembly for a file
 src/DigestStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DigestStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DigestStream.cpp.s
 .PHONY : src/DigestStream.cpp.s
 
 src/DirectoryIterator.o: src/DirectoryIterator.cpp.o
@@ -1090,7 +1090,7 @@ src/DirectoryIterator.o: src/DirectoryIterator.cpp.o
 
 # target to build an object file
 src/DirectoryIterator.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryIterator.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryIterator.cpp.o
 .PHONY : src/DirectoryIterator.cpp.o
 
 src/DirectoryIterator.i: src/DirectoryIterator.cpp.i
@@ -1099,7 +1099,7 @@ src/DirectoryIterator.i: src/DirectoryIterator.cpp.i
 
 # target to preprocess a source file
 src/DirectoryIterator.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryIterator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryIterator.cpp.i
 .PHONY : src/DirectoryIterator.cpp.i
 
 src/DirectoryIterator.s: src/DirectoryIterator.cpp.s
@@ -1108,7 +1108,7 @@ src/DirectoryIterator.s: src/DirectoryIterator.cpp.s
 
 # target to generate assembly for a file
 src/DirectoryIterator.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryIterator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryIterator.cpp.s
 .PHONY : src/DirectoryIterator.cpp.s
 
 src/DirectoryIteratorStrategy.o: src/DirectoryIteratorStrategy.cpp.o
@@ -1117,7 +1117,7 @@ src/DirectoryIteratorStrategy.o: src/DirectoryIteratorStrategy.cpp.o
 
 # target to build an object file
 src/DirectoryIteratorStrategy.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryIteratorStrategy.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryIteratorStrategy.cpp.o
 .PHONY : src/DirectoryIteratorStrategy.cpp.o
 
 src/DirectoryIteratorStrategy.i: src/DirectoryIteratorStrategy.cpp.i
@@ -1126,7 +1126,7 @@ src/DirectoryIteratorStrategy.i: src/DirectoryIteratorStrategy.cpp.i
 
 # target to preprocess a source file
 src/DirectoryIteratorStrategy.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryIteratorStrategy.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryIteratorStrategy.cpp.i
 .PHONY : src/DirectoryIteratorStrategy.cpp.i
 
 src/DirectoryIteratorStrategy.s: src/DirectoryIteratorStrategy.cpp.s
@@ -1135,7 +1135,7 @@ src/DirectoryIteratorStrategy.s: src/DirectoryIteratorStrategy.cpp.s
 
 # target to generate assembly for a file
 src/DirectoryIteratorStrategy.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryIteratorStrategy.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryIteratorStrategy.cpp.s
 .PHONY : src/DirectoryIteratorStrategy.cpp.s
 
 src/DirectoryWatcher.o: src/DirectoryWatcher.cpp.o
@@ -1144,7 +1144,7 @@ src/DirectoryWatcher.o: src/DirectoryWatcher.cpp.o
 
 # target to build an object file
 src/DirectoryWatcher.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryWatcher.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryWatcher.cpp.o
 .PHONY : src/DirectoryWatcher.cpp.o
 
 src/DirectoryWatcher.i: src/DirectoryWatcher.cpp.i
@@ -1153,7 +1153,7 @@ src/DirectoryWatcher.i: src/DirectoryWatcher.cpp.i
 
 # target to preprocess a source file
 src/DirectoryWatcher.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryWatcher.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryWatcher.cpp.i
 .PHONY : src/DirectoryWatcher.cpp.i
 
 src/DirectoryWatcher.s: src/DirectoryWatcher.cpp.s
@@ -1162,7 +1162,7 @@ src/DirectoryWatcher.s: src/DirectoryWatcher.cpp.s
 
 # target to generate assembly for a file
 src/DirectoryWatcher.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryWatcher.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/DirectoryWatcher.cpp.s
 .PHONY : src/DirectoryWatcher.cpp.s
 
 src/Environment.o: src/Environment.cpp.o
@@ -1171,7 +1171,7 @@ src/Environment.o: src/Environment.cpp.o
 
 # target to build an object file
 src/Environment.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Environment.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Environment.cpp.o
 .PHONY : src/Environment.cpp.o
 
 src/Environment.i: src/Environment.cpp.i
@@ -1180,7 +1180,7 @@ src/Environment.i: src/Environment.cpp.i
 
 # target to preprocess a source file
 src/Environment.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Environment.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Environment.cpp.i
 .PHONY : src/Environment.cpp.i
 
 src/Environment.s: src/Environment.cpp.s
@@ -1189,7 +1189,7 @@ src/Environment.s: src/Environment.cpp.s
 
 # target to generate assembly for a file
 src/Environment.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Environment.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Environment.cpp.s
 .PHONY : src/Environment.cpp.s
 
 src/Error.o: src/Error.cpp.o
@@ -1198,7 +1198,7 @@ src/Error.o: src/Error.cpp.o
 
 # target to build an object file
 src/Error.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Error.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Error.cpp.o
 .PHONY : src/Error.cpp.o
 
 src/Error.i: src/Error.cpp.i
@@ -1207,7 +1207,7 @@ src/Error.i: src/Error.cpp.i
 
 # target to preprocess a source file
 src/Error.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Error.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Error.cpp.i
 .PHONY : src/Error.cpp.i
 
 src/Error.s: src/Error.cpp.s
@@ -1216,7 +1216,7 @@ src/Error.s: src/Error.cpp.s
 
 # target to generate assembly for a file
 src/Error.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Error.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Error.cpp.s
 .PHONY : src/Error.cpp.s
 
 src/ErrorHandler.o: src/ErrorHandler.cpp.o
@@ -1225,7 +1225,7 @@ src/ErrorHandler.o: src/ErrorHandler.cpp.o
 
 # target to build an object file
 src/ErrorHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ErrorHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ErrorHandler.cpp.o
 .PHONY : src/ErrorHandler.cpp.o
 
 src/ErrorHandler.i: src/ErrorHandler.cpp.i
@@ -1234,7 +1234,7 @@ src/ErrorHandler.i: src/ErrorHandler.cpp.i
 
 # target to preprocess a source file
 src/ErrorHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ErrorHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ErrorHandler.cpp.i
 .PHONY : src/ErrorHandler.cpp.i
 
 src/ErrorHandler.s: src/ErrorHandler.cpp.s
@@ -1243,7 +1243,7 @@ src/ErrorHandler.s: src/ErrorHandler.cpp.s
 
 # target to generate assembly for a file
 src/ErrorHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ErrorHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ErrorHandler.cpp.s
 .PHONY : src/ErrorHandler.cpp.s
 
 src/Event.o: src/Event.cpp.o
@@ -1252,7 +1252,7 @@ src/Event.o: src/Event.cpp.o
 
 # target to build an object file
 src/Event.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Event.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Event.cpp.o
 .PHONY : src/Event.cpp.o
 
 src/Event.i: src/Event.cpp.i
@@ -1261,7 +1261,7 @@ src/Event.i: src/Event.cpp.i
 
 # target to preprocess a source file
 src/Event.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Event.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Event.cpp.i
 .PHONY : src/Event.cpp.i
 
 src/Event.s: src/Event.cpp.s
@@ -1270,7 +1270,7 @@ src/Event.s: src/Event.cpp.s
 
 # target to generate assembly for a file
 src/Event.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Event.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Event.cpp.s
 .PHONY : src/Event.cpp.s
 
 src/EventArgs.o: src/EventArgs.cpp.o
@@ -1279,7 +1279,7 @@ src/EventArgs.o: src/EventArgs.cpp.o
 
 # target to build an object file
 src/EventArgs.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/EventArgs.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/EventArgs.cpp.o
 .PHONY : src/EventArgs.cpp.o
 
 src/EventArgs.i: src/EventArgs.cpp.i
@@ -1288,7 +1288,7 @@ src/EventArgs.i: src/EventArgs.cpp.i
 
 # target to preprocess a source file
 src/EventArgs.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/EventArgs.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/EventArgs.cpp.i
 .PHONY : src/EventArgs.cpp.i
 
 src/EventArgs.s: src/EventArgs.cpp.s
@@ -1297,7 +1297,7 @@ src/EventArgs.s: src/EventArgs.cpp.s
 
 # target to generate assembly for a file
 src/EventArgs.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/EventArgs.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/EventArgs.cpp.s
 .PHONY : src/EventArgs.cpp.s
 
 src/EventChannel.o: src/EventChannel.cpp.o
@@ -1306,7 +1306,7 @@ src/EventChannel.o: src/EventChannel.cpp.o
 
 # target to build an object file
 src/EventChannel.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/EventChannel.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/EventChannel.cpp.o
 .PHONY : src/EventChannel.cpp.o
 
 src/EventChannel.i: src/EventChannel.cpp.i
@@ -1315,7 +1315,7 @@ src/EventChannel.i: src/EventChannel.cpp.i
 
 # target to preprocess a source file
 src/EventChannel.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/EventChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/EventChannel.cpp.i
 .PHONY : src/EventChannel.cpp.i
 
 src/EventChannel.s: src/EventChannel.cpp.s
@@ -1324,7 +1324,7 @@ src/EventChannel.s: src/EventChannel.cpp.s
 
 # target to generate assembly for a file
 src/EventChannel.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/EventChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/EventChannel.cpp.s
 .PHONY : src/EventChannel.cpp.s
 
 src/Exception.o: src/Exception.cpp.o
@@ -1333,7 +1333,7 @@ src/Exception.o: src/Exception.cpp.o
 
 # target to build an object file
 src/Exception.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Exception.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Exception.cpp.o
 .PHONY : src/Exception.cpp.o
 
 src/Exception.i: src/Exception.cpp.i
@@ -1342,7 +1342,7 @@ src/Exception.i: src/Exception.cpp.i
 
 # target to preprocess a source file
 src/Exception.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Exception.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Exception.cpp.i
 .PHONY : src/Exception.cpp.i
 
 src/Exception.s: src/Exception.cpp.s
@@ -1351,7 +1351,7 @@ src/Exception.s: src/Exception.cpp.s
 
 # target to generate assembly for a file
 src/Exception.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Exception.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Exception.cpp.s
 .PHONY : src/Exception.cpp.s
 
 src/FIFOBufferStream.o: src/FIFOBufferStream.cpp.o
@@ -1360,7 +1360,7 @@ src/FIFOBufferStream.o: src/FIFOBufferStream.cpp.o
 
 # target to build an object file
 src/FIFOBufferStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FIFOBufferStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FIFOBufferStream.cpp.o
 .PHONY : src/FIFOBufferStream.cpp.o
 
 src/FIFOBufferStream.i: src/FIFOBufferStream.cpp.i
@@ -1369,7 +1369,7 @@ src/FIFOBufferStream.i: src/FIFOBufferStream.cpp.i
 
 # target to preprocess a source file
 src/FIFOBufferStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FIFOBufferStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FIFOBufferStream.cpp.i
 .PHONY : src/FIFOBufferStream.cpp.i
 
 src/FIFOBufferStream.s: src/FIFOBufferStream.cpp.s
@@ -1378,7 +1378,7 @@ src/FIFOBufferStream.s: src/FIFOBufferStream.cpp.s
 
 # target to generate assembly for a file
 src/FIFOBufferStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FIFOBufferStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FIFOBufferStream.cpp.s
 .PHONY : src/FIFOBufferStream.cpp.s
 
 src/FPEnvironment.o: src/FPEnvironment.cpp.o
@@ -1387,7 +1387,7 @@ src/FPEnvironment.o: src/FPEnvironment.cpp.o
 
 # target to build an object file
 src/FPEnvironment.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FPEnvironment.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FPEnvironment.cpp.o
 .PHONY : src/FPEnvironment.cpp.o
 
 src/FPEnvironment.i: src/FPEnvironment.cpp.i
@@ -1396,7 +1396,7 @@ src/FPEnvironment.i: src/FPEnvironment.cpp.i
 
 # target to preprocess a source file
 src/FPEnvironment.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FPEnvironment.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FPEnvironment.cpp.i
 .PHONY : src/FPEnvironment.cpp.i
 
 src/FPEnvironment.s: src/FPEnvironment.cpp.s
@@ -1405,7 +1405,7 @@ src/FPEnvironment.s: src/FPEnvironment.cpp.s
 
 # target to generate assembly for a file
 src/FPEnvironment.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FPEnvironment.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FPEnvironment.cpp.s
 .PHONY : src/FPEnvironment.cpp.s
 
 src/File.o: src/File.cpp.o
@@ -1414,7 +1414,7 @@ src/File.o: src/File.cpp.o
 
 # target to build an object file
 src/File.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/File.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/File.cpp.o
 .PHONY : src/File.cpp.o
 
 src/File.i: src/File.cpp.i
@@ -1423,7 +1423,7 @@ src/File.i: src/File.cpp.i
 
 # target to preprocess a source file
 src/File.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/File.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/File.cpp.i
 .PHONY : src/File.cpp.i
 
 src/File.s: src/File.cpp.s
@@ -1432,7 +1432,7 @@ src/File.s: src/File.cpp.s
 
 # target to generate assembly for a file
 src/File.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/File.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/File.cpp.s
 .PHONY : src/File.cpp.s
 
 src/FileChannel.o: src/FileChannel.cpp.o
@@ -1441,7 +1441,7 @@ src/FileChannel.o: src/FileChannel.cpp.o
 
 # target to build an object file
 src/FileChannel.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileChannel.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileChannel.cpp.o
 .PHONY : src/FileChannel.cpp.o
 
 src/FileChannel.i: src/FileChannel.cpp.i
@@ -1450,7 +1450,7 @@ src/FileChannel.i: src/FileChannel.cpp.i
 
 # target to preprocess a source file
 src/FileChannel.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileChannel.cpp.i
 .PHONY : src/FileChannel.cpp.i
 
 src/FileChannel.s: src/FileChannel.cpp.s
@@ -1459,7 +1459,7 @@ src/FileChannel.s: src/FileChannel.cpp.s
 
 # target to generate assembly for a file
 src/FileChannel.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileChannel.cpp.s
 .PHONY : src/FileChannel.cpp.s
 
 src/FileStream.o: src/FileStream.cpp.o
@@ -1468,7 +1468,7 @@ src/FileStream.o: src/FileStream.cpp.o
 
 # target to build an object file
 src/FileStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileStream.cpp.o
 .PHONY : src/FileStream.cpp.o
 
 src/FileStream.i: src/FileStream.cpp.i
@@ -1477,7 +1477,7 @@ src/FileStream.i: src/FileStream.cpp.i
 
 # target to preprocess a source file
 src/FileStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileStream.cpp.i
 .PHONY : src/FileStream.cpp.i
 
 src/FileStream.s: src/FileStream.cpp.s
@@ -1486,7 +1486,7 @@ src/FileStream.s: src/FileStream.cpp.s
 
 # target to generate assembly for a file
 src/FileStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileStream.cpp.s
 .PHONY : src/FileStream.cpp.s
 
 src/FileStreamFactory.o: src/FileStreamFactory.cpp.o
@@ -1495,7 +1495,7 @@ src/FileStreamFactory.o: src/FileStreamFactory.cpp.o
 
 # target to build an object file
 src/FileStreamFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileStreamFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileStreamFactory.cpp.o
 .PHONY : src/FileStreamFactory.cpp.o
 
 src/FileStreamFactory.i: src/FileStreamFactory.cpp.i
@@ -1504,7 +1504,7 @@ src/FileStreamFactory.i: src/FileStreamFactory.cpp.i
 
 # target to preprocess a source file
 src/FileStreamFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileStreamFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileStreamFactory.cpp.i
 .PHONY : src/FileStreamFactory.cpp.i
 
 src/FileStreamFactory.s: src/FileStreamFactory.cpp.s
@@ -1513,7 +1513,7 @@ src/FileStreamFactory.s: src/FileStreamFactory.cpp.s
 
 # target to generate assembly for a file
 src/FileStreamFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileStreamFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FileStreamFactory.cpp.s
 .PHONY : src/FileStreamFactory.cpp.s
 
 src/Format.o: src/Format.cpp.o
@@ -1522,7 +1522,7 @@ src/Format.o: src/Format.cpp.o
 
 # target to build an object file
 src/Format.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Format.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Format.cpp.o
 .PHONY : src/Format.cpp.o
 
 src/Format.i: src/Format.cpp.i
@@ -1531,7 +1531,7 @@ src/Format.i: src/Format.cpp.i
 
 # target to preprocess a source file
 src/Format.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Format.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Format.cpp.i
 .PHONY : src/Format.cpp.i
 
 src/Format.s: src/Format.cpp.s
@@ -1540,7 +1540,7 @@ src/Format.s: src/Format.cpp.s
 
 # target to generate assembly for a file
 src/Format.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Format.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Format.cpp.s
 .PHONY : src/Format.cpp.s
 
 src/Formatter.o: src/Formatter.cpp.o
@@ -1549,7 +1549,7 @@ src/Formatter.o: src/Formatter.cpp.o
 
 # target to build an object file
 src/Formatter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Formatter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Formatter.cpp.o
 .PHONY : src/Formatter.cpp.o
 
 src/Formatter.i: src/Formatter.cpp.i
@@ -1558,7 +1558,7 @@ src/Formatter.i: src/Formatter.cpp.i
 
 # target to preprocess a source file
 src/Formatter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Formatter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Formatter.cpp.i
 .PHONY : src/Formatter.cpp.i
 
 src/Formatter.s: src/Formatter.cpp.s
@@ -1567,7 +1567,7 @@ src/Formatter.s: src/Formatter.cpp.s
 
 # target to generate assembly for a file
 src/Formatter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Formatter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Formatter.cpp.s
 .PHONY : src/Formatter.cpp.s
 
 src/FormattingChannel.o: src/FormattingChannel.cpp.o
@@ -1576,7 +1576,7 @@ src/FormattingChannel.o: src/FormattingChannel.cpp.o
 
 # target to build an object file
 src/FormattingChannel.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FormattingChannel.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FormattingChannel.cpp.o
 .PHONY : src/FormattingChannel.cpp.o
 
 src/FormattingChannel.i: src/FormattingChannel.cpp.i
@@ -1585,7 +1585,7 @@ src/FormattingChannel.i: src/FormattingChannel.cpp.i
 
 # target to preprocess a source file
 src/FormattingChannel.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FormattingChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FormattingChannel.cpp.i
 .PHONY : src/FormattingChannel.cpp.i
 
 src/FormattingChannel.s: src/FormattingChannel.cpp.s
@@ -1594,7 +1594,7 @@ src/FormattingChannel.s: src/FormattingChannel.cpp.s
 
 # target to generate assembly for a file
 src/FormattingChannel.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FormattingChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/FormattingChannel.cpp.s
 .PHONY : src/FormattingChannel.cpp.s
 
 src/Glob.o: src/Glob.cpp.o
@@ -1603,7 +1603,7 @@ src/Glob.o: src/Glob.cpp.o
 
 # target to build an object file
 src/Glob.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Glob.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Glob.cpp.o
 .PHONY : src/Glob.cpp.o
 
 src/Glob.i: src/Glob.cpp.i
@@ -1612,7 +1612,7 @@ src/Glob.i: src/Glob.cpp.i
 
 # target to preprocess a source file
 src/Glob.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Glob.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Glob.cpp.i
 .PHONY : src/Glob.cpp.i
 
 src/Glob.s: src/Glob.cpp.s
@@ -1621,7 +1621,7 @@ src/Glob.s: src/Glob.cpp.s
 
 # target to generate assembly for a file
 src/Glob.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Glob.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Glob.cpp.s
 .PHONY : src/Glob.cpp.s
 
 src/Hash.o: src/Hash.cpp.o
@@ -1630,7 +1630,7 @@ src/Hash.o: src/Hash.cpp.o
 
 # target to build an object file
 src/Hash.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Hash.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Hash.cpp.o
 .PHONY : src/Hash.cpp.o
 
 src/Hash.i: src/Hash.cpp.i
@@ -1639,7 +1639,7 @@ src/Hash.i: src/Hash.cpp.i
 
 # target to preprocess a source file
 src/Hash.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Hash.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Hash.cpp.i
 .PHONY : src/Hash.cpp.i
 
 src/Hash.s: src/Hash.cpp.s
@@ -1648,7 +1648,7 @@ src/Hash.s: src/Hash.cpp.s
 
 # target to generate assembly for a file
 src/Hash.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Hash.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Hash.cpp.s
 .PHONY : src/Hash.cpp.s
 
 src/HashStatistic.o: src/HashStatistic.cpp.o
@@ -1657,7 +1657,7 @@ src/HashStatistic.o: src/HashStatistic.cpp.o
 
 # target to build an object file
 src/HashStatistic.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HashStatistic.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HashStatistic.cpp.o
 .PHONY : src/HashStatistic.cpp.o
 
 src/HashStatistic.i: src/HashStatistic.cpp.i
@@ -1666,7 +1666,7 @@ src/HashStatistic.i: src/HashStatistic.cpp.i
 
 # target to preprocess a source file
 src/HashStatistic.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HashStatistic.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HashStatistic.cpp.i
 .PHONY : src/HashStatistic.cpp.i
 
 src/HashStatistic.s: src/HashStatistic.cpp.s
@@ -1675,7 +1675,7 @@ src/HashStatistic.s: src/HashStatistic.cpp.s
 
 # target to generate assembly for a file
 src/HashStatistic.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HashStatistic.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HashStatistic.cpp.s
 .PHONY : src/HashStatistic.cpp.s
 
 src/HexBinaryDecoder.o: src/HexBinaryDecoder.cpp.o
@@ -1684,7 +1684,7 @@ src/HexBinaryDecoder.o: src/HexBinaryDecoder.cpp.o
 
 # target to build an object file
 src/HexBinaryDecoder.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HexBinaryDecoder.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HexBinaryDecoder.cpp.o
 .PHONY : src/HexBinaryDecoder.cpp.o
 
 src/HexBinaryDecoder.i: src/HexBinaryDecoder.cpp.i
@@ -1693,7 +1693,7 @@ src/HexBinaryDecoder.i: src/HexBinaryDecoder.cpp.i
 
 # target to preprocess a source file
 src/HexBinaryDecoder.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HexBinaryDecoder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HexBinaryDecoder.cpp.i
 .PHONY : src/HexBinaryDecoder.cpp.i
 
 src/HexBinaryDecoder.s: src/HexBinaryDecoder.cpp.s
@@ -1702,7 +1702,7 @@ src/HexBinaryDecoder.s: src/HexBinaryDecoder.cpp.s
 
 # target to generate assembly for a file
 src/HexBinaryDecoder.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HexBinaryDecoder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HexBinaryDecoder.cpp.s
 .PHONY : src/HexBinaryDecoder.cpp.s
 
 src/HexBinaryEncoder.o: src/HexBinaryEncoder.cpp.o
@@ -1711,7 +1711,7 @@ src/HexBinaryEncoder.o: src/HexBinaryEncoder.cpp.o
 
 # target to build an object file
 src/HexBinaryEncoder.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HexBinaryEncoder.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HexBinaryEncoder.cpp.o
 .PHONY : src/HexBinaryEncoder.cpp.o
 
 src/HexBinaryEncoder.i: src/HexBinaryEncoder.cpp.i
@@ -1720,7 +1720,7 @@ src/HexBinaryEncoder.i: src/HexBinaryEncoder.cpp.i
 
 # target to preprocess a source file
 src/HexBinaryEncoder.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HexBinaryEncoder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HexBinaryEncoder.cpp.i
 .PHONY : src/HexBinaryEncoder.cpp.i
 
 src/HexBinaryEncoder.s: src/HexBinaryEncoder.cpp.s
@@ -1729,7 +1729,7 @@ src/HexBinaryEncoder.s: src/HexBinaryEncoder.cpp.s
 
 # target to generate assembly for a file
 src/HexBinaryEncoder.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HexBinaryEncoder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/HexBinaryEncoder.cpp.s
 .PHONY : src/HexBinaryEncoder.cpp.s
 
 src/InflatingStream.o: src/InflatingStream.cpp.o
@@ -1738,7 +1738,7 @@ src/InflatingStream.o: src/InflatingStream.cpp.o
 
 # target to build an object file
 src/InflatingStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/InflatingStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/InflatingStream.cpp.o
 .PHONY : src/InflatingStream.cpp.o
 
 src/InflatingStream.i: src/InflatingStream.cpp.i
@@ -1747,7 +1747,7 @@ src/InflatingStream.i: src/InflatingStream.cpp.i
 
 # target to preprocess a source file
 src/InflatingStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/InflatingStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/InflatingStream.cpp.i
 .PHONY : src/InflatingStream.cpp.i
 
 src/InflatingStream.s: src/InflatingStream.cpp.s
@@ -1756,7 +1756,7 @@ src/InflatingStream.s: src/InflatingStream.cpp.s
 
 # target to generate assembly for a file
 src/InflatingStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/InflatingStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/InflatingStream.cpp.s
 .PHONY : src/InflatingStream.cpp.s
 
 src/JSONString.o: src/JSONString.cpp.o
@@ -1765,7 +1765,7 @@ src/JSONString.o: src/JSONString.cpp.o
 
 # target to build an object file
 src/JSONString.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/JSONString.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/JSONString.cpp.o
 .PHONY : src/JSONString.cpp.o
 
 src/JSONString.i: src/JSONString.cpp.i
@@ -1774,7 +1774,7 @@ src/JSONString.i: src/JSONString.cpp.i
 
 # target to preprocess a source file
 src/JSONString.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/JSONString.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/JSONString.cpp.i
 .PHONY : src/JSONString.cpp.i
 
 src/JSONString.s: src/JSONString.cpp.s
@@ -1783,7 +1783,7 @@ src/JSONString.s: src/JSONString.cpp.s
 
 # target to generate assembly for a file
 src/JSONString.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/JSONString.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/JSONString.cpp.s
 .PHONY : src/JSONString.cpp.s
 
 src/Latin1Encoding.o: src/Latin1Encoding.cpp.o
@@ -1792,7 +1792,7 @@ src/Latin1Encoding.o: src/Latin1Encoding.cpp.o
 
 # target to build an object file
 src/Latin1Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin1Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin1Encoding.cpp.o
 .PHONY : src/Latin1Encoding.cpp.o
 
 src/Latin1Encoding.i: src/Latin1Encoding.cpp.i
@@ -1801,7 +1801,7 @@ src/Latin1Encoding.i: src/Latin1Encoding.cpp.i
 
 # target to preprocess a source file
 src/Latin1Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin1Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin1Encoding.cpp.i
 .PHONY : src/Latin1Encoding.cpp.i
 
 src/Latin1Encoding.s: src/Latin1Encoding.cpp.s
@@ -1810,7 +1810,7 @@ src/Latin1Encoding.s: src/Latin1Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Latin1Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin1Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin1Encoding.cpp.s
 .PHONY : src/Latin1Encoding.cpp.s
 
 src/Latin2Encoding.o: src/Latin2Encoding.cpp.o
@@ -1819,7 +1819,7 @@ src/Latin2Encoding.o: src/Latin2Encoding.cpp.o
 
 # target to build an object file
 src/Latin2Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin2Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin2Encoding.cpp.o
 .PHONY : src/Latin2Encoding.cpp.o
 
 src/Latin2Encoding.i: src/Latin2Encoding.cpp.i
@@ -1828,7 +1828,7 @@ src/Latin2Encoding.i: src/Latin2Encoding.cpp.i
 
 # target to preprocess a source file
 src/Latin2Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin2Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin2Encoding.cpp.i
 .PHONY : src/Latin2Encoding.cpp.i
 
 src/Latin2Encoding.s: src/Latin2Encoding.cpp.s
@@ -1837,7 +1837,7 @@ src/Latin2Encoding.s: src/Latin2Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Latin2Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin2Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin2Encoding.cpp.s
 .PHONY : src/Latin2Encoding.cpp.s
 
 src/Latin9Encoding.o: src/Latin9Encoding.cpp.o
@@ -1846,7 +1846,7 @@ src/Latin9Encoding.o: src/Latin9Encoding.cpp.o
 
 # target to build an object file
 src/Latin9Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin9Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin9Encoding.cpp.o
 .PHONY : src/Latin9Encoding.cpp.o
 
 src/Latin9Encoding.i: src/Latin9Encoding.cpp.i
@@ -1855,7 +1855,7 @@ src/Latin9Encoding.i: src/Latin9Encoding.cpp.i
 
 # target to preprocess a source file
 src/Latin9Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin9Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin9Encoding.cpp.i
 .PHONY : src/Latin9Encoding.cpp.i
 
 src/Latin9Encoding.s: src/Latin9Encoding.cpp.s
@@ -1864,7 +1864,7 @@ src/Latin9Encoding.s: src/Latin9Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Latin9Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin9Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Latin9Encoding.cpp.s
 .PHONY : src/Latin9Encoding.cpp.s
 
 src/LineEndingConverter.o: src/LineEndingConverter.cpp.o
@@ -1873,7 +1873,7 @@ src/LineEndingConverter.o: src/LineEndingConverter.cpp.o
 
 # target to build an object file
 src/LineEndingConverter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LineEndingConverter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LineEndingConverter.cpp.o
 .PHONY : src/LineEndingConverter.cpp.o
 
 src/LineEndingConverter.i: src/LineEndingConverter.cpp.i
@@ -1882,7 +1882,7 @@ src/LineEndingConverter.i: src/LineEndingConverter.cpp.i
 
 # target to preprocess a source file
 src/LineEndingConverter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LineEndingConverter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LineEndingConverter.cpp.i
 .PHONY : src/LineEndingConverter.cpp.i
 
 src/LineEndingConverter.s: src/LineEndingConverter.cpp.s
@@ -1891,7 +1891,7 @@ src/LineEndingConverter.s: src/LineEndingConverter.cpp.s
 
 # target to generate assembly for a file
 src/LineEndingConverter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LineEndingConverter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LineEndingConverter.cpp.s
 .PHONY : src/LineEndingConverter.cpp.s
 
 src/LocalDateTime.o: src/LocalDateTime.cpp.o
@@ -1900,7 +1900,7 @@ src/LocalDateTime.o: src/LocalDateTime.cpp.o
 
 # target to build an object file
 src/LocalDateTime.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LocalDateTime.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LocalDateTime.cpp.o
 .PHONY : src/LocalDateTime.cpp.o
 
 src/LocalDateTime.i: src/LocalDateTime.cpp.i
@@ -1909,7 +1909,7 @@ src/LocalDateTime.i: src/LocalDateTime.cpp.i
 
 # target to preprocess a source file
 src/LocalDateTime.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LocalDateTime.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LocalDateTime.cpp.i
 .PHONY : src/LocalDateTime.cpp.i
 
 src/LocalDateTime.s: src/LocalDateTime.cpp.s
@@ -1918,7 +1918,7 @@ src/LocalDateTime.s: src/LocalDateTime.cpp.s
 
 # target to generate assembly for a file
 src/LocalDateTime.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LocalDateTime.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LocalDateTime.cpp.s
 .PHONY : src/LocalDateTime.cpp.s
 
 src/LogFile.o: src/LogFile.cpp.o
@@ -1927,7 +1927,7 @@ src/LogFile.o: src/LogFile.cpp.o
 
 # target to build an object file
 src/LogFile.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LogFile.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LogFile.cpp.o
 .PHONY : src/LogFile.cpp.o
 
 src/LogFile.i: src/LogFile.cpp.i
@@ -1936,7 +1936,7 @@ src/LogFile.i: src/LogFile.cpp.i
 
 # target to preprocess a source file
 src/LogFile.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LogFile.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LogFile.cpp.i
 .PHONY : src/LogFile.cpp.i
 
 src/LogFile.s: src/LogFile.cpp.s
@@ -1945,7 +1945,7 @@ src/LogFile.s: src/LogFile.cpp.s
 
 # target to generate assembly for a file
 src/LogFile.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LogFile.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LogFile.cpp.s
 .PHONY : src/LogFile.cpp.s
 
 src/LogStream.o: src/LogStream.cpp.o
@@ -1954,7 +1954,7 @@ src/LogStream.o: src/LogStream.cpp.o
 
 # target to build an object file
 src/LogStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LogStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LogStream.cpp.o
 .PHONY : src/LogStream.cpp.o
 
 src/LogStream.i: src/LogStream.cpp.i
@@ -1963,7 +1963,7 @@ src/LogStream.i: src/LogStream.cpp.i
 
 # target to preprocess a source file
 src/LogStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LogStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LogStream.cpp.i
 .PHONY : src/LogStream.cpp.i
 
 src/LogStream.s: src/LogStream.cpp.s
@@ -1972,7 +1972,7 @@ src/LogStream.s: src/LogStream.cpp.s
 
 # target to generate assembly for a file
 src/LogStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LogStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LogStream.cpp.s
 .PHONY : src/LogStream.cpp.s
 
 src/Logger.o: src/Logger.cpp.o
@@ -1981,7 +1981,7 @@ src/Logger.o: src/Logger.cpp.o
 
 # target to build an object file
 src/Logger.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Logger.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Logger.cpp.o
 .PHONY : src/Logger.cpp.o
 
 src/Logger.i: src/Logger.cpp.i
@@ -1990,7 +1990,7 @@ src/Logger.i: src/Logger.cpp.i
 
 # target to preprocess a source file
 src/Logger.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Logger.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Logger.cpp.i
 .PHONY : src/Logger.cpp.i
 
 src/Logger.s: src/Logger.cpp.s
@@ -1999,7 +1999,7 @@ src/Logger.s: src/Logger.cpp.s
 
 # target to generate assembly for a file
 src/Logger.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Logger.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Logger.cpp.s
 .PHONY : src/Logger.cpp.s
 
 src/LoggingFactory.o: src/LoggingFactory.cpp.o
@@ -2008,7 +2008,7 @@ src/LoggingFactory.o: src/LoggingFactory.cpp.o
 
 # target to build an object file
 src/LoggingFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LoggingFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LoggingFactory.cpp.o
 .PHONY : src/LoggingFactory.cpp.o
 
 src/LoggingFactory.i: src/LoggingFactory.cpp.i
@@ -2017,7 +2017,7 @@ src/LoggingFactory.i: src/LoggingFactory.cpp.i
 
 # target to preprocess a source file
 src/LoggingFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LoggingFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LoggingFactory.cpp.i
 .PHONY : src/LoggingFactory.cpp.i
 
 src/LoggingFactory.s: src/LoggingFactory.cpp.s
@@ -2026,7 +2026,7 @@ src/LoggingFactory.s: src/LoggingFactory.cpp.s
 
 # target to generate assembly for a file
 src/LoggingFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LoggingFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LoggingFactory.cpp.s
 .PHONY : src/LoggingFactory.cpp.s
 
 src/LoggingRegistry.o: src/LoggingRegistry.cpp.o
@@ -2035,7 +2035,7 @@ src/LoggingRegistry.o: src/LoggingRegistry.cpp.o
 
 # target to build an object file
 src/LoggingRegistry.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LoggingRegistry.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LoggingRegistry.cpp.o
 .PHONY : src/LoggingRegistry.cpp.o
 
 src/LoggingRegistry.i: src/LoggingRegistry.cpp.i
@@ -2044,7 +2044,7 @@ src/LoggingRegistry.i: src/LoggingRegistry.cpp.i
 
 # target to preprocess a source file
 src/LoggingRegistry.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LoggingRegistry.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LoggingRegistry.cpp.i
 .PHONY : src/LoggingRegistry.cpp.i
 
 src/LoggingRegistry.s: src/LoggingRegistry.cpp.s
@@ -2053,7 +2053,7 @@ src/LoggingRegistry.s: src/LoggingRegistry.cpp.s
 
 # target to generate assembly for a file
 src/LoggingRegistry.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LoggingRegistry.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/LoggingRegistry.cpp.s
 .PHONY : src/LoggingRegistry.cpp.s
 
 src/MD4Engine.o: src/MD4Engine.cpp.o
@@ -2062,7 +2062,7 @@ src/MD4Engine.o: src/MD4Engine.cpp.o
 
 # target to build an object file
 src/MD4Engine.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MD4Engine.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MD4Engine.cpp.o
 .PHONY : src/MD4Engine.cpp.o
 
 src/MD4Engine.i: src/MD4Engine.cpp.i
@@ -2071,7 +2071,7 @@ src/MD4Engine.i: src/MD4Engine.cpp.i
 
 # target to preprocess a source file
 src/MD4Engine.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MD4Engine.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MD4Engine.cpp.i
 .PHONY : src/MD4Engine.cpp.i
 
 src/MD4Engine.s: src/MD4Engine.cpp.s
@@ -2080,7 +2080,7 @@ src/MD4Engine.s: src/MD4Engine.cpp.s
 
 # target to generate assembly for a file
 src/MD4Engine.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MD4Engine.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MD4Engine.cpp.s
 .PHONY : src/MD4Engine.cpp.s
 
 src/MD5Engine.o: src/MD5Engine.cpp.o
@@ -2089,7 +2089,7 @@ src/MD5Engine.o: src/MD5Engine.cpp.o
 
 # target to build an object file
 src/MD5Engine.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MD5Engine.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MD5Engine.cpp.o
 .PHONY : src/MD5Engine.cpp.o
 
 src/MD5Engine.i: src/MD5Engine.cpp.i
@@ -2098,7 +2098,7 @@ src/MD5Engine.i: src/MD5Engine.cpp.i
 
 # target to preprocess a source file
 src/MD5Engine.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MD5Engine.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MD5Engine.cpp.i
 .PHONY : src/MD5Engine.cpp.i
 
 src/MD5Engine.s: src/MD5Engine.cpp.s
@@ -2107,7 +2107,7 @@ src/MD5Engine.s: src/MD5Engine.cpp.s
 
 # target to generate assembly for a file
 src/MD5Engine.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MD5Engine.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MD5Engine.cpp.s
 .PHONY : src/MD5Engine.cpp.s
 
 src/Manifest.o: src/Manifest.cpp.o
@@ -2116,7 +2116,7 @@ src/Manifest.o: src/Manifest.cpp.o
 
 # target to build an object file
 src/Manifest.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Manifest.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Manifest.cpp.o
 .PHONY : src/Manifest.cpp.o
 
 src/Manifest.i: src/Manifest.cpp.i
@@ -2125,7 +2125,7 @@ src/Manifest.i: src/Manifest.cpp.i
 
 # target to preprocess a source file
 src/Manifest.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Manifest.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Manifest.cpp.i
 .PHONY : src/Manifest.cpp.i
 
 src/Manifest.s: src/Manifest.cpp.s
@@ -2134,7 +2134,7 @@ src/Manifest.s: src/Manifest.cpp.s
 
 # target to generate assembly for a file
 src/Manifest.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Manifest.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Manifest.cpp.s
 .PHONY : src/Manifest.cpp.s
 
 src/MemoryPool.o: src/MemoryPool.cpp.o
@@ -2143,7 +2143,7 @@ src/MemoryPool.o: src/MemoryPool.cpp.o
 
 # target to build an object file
 src/MemoryPool.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MemoryPool.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MemoryPool.cpp.o
 .PHONY : src/MemoryPool.cpp.o
 
 src/MemoryPool.i: src/MemoryPool.cpp.i
@@ -2152,7 +2152,7 @@ src/MemoryPool.i: src/MemoryPool.cpp.i
 
 # target to preprocess a source file
 src/MemoryPool.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MemoryPool.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MemoryPool.cpp.i
 .PHONY : src/MemoryPool.cpp.i
 
 src/MemoryPool.s: src/MemoryPool.cpp.s
@@ -2161,7 +2161,7 @@ src/MemoryPool.s: src/MemoryPool.cpp.s
 
 # target to generate assembly for a file
 src/MemoryPool.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MemoryPool.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MemoryPool.cpp.s
 .PHONY : src/MemoryPool.cpp.s
 
 src/MemoryStream.o: src/MemoryStream.cpp.o
@@ -2170,7 +2170,7 @@ src/MemoryStream.o: src/MemoryStream.cpp.o
 
 # target to build an object file
 src/MemoryStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MemoryStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MemoryStream.cpp.o
 .PHONY : src/MemoryStream.cpp.o
 
 src/MemoryStream.i: src/MemoryStream.cpp.i
@@ -2179,7 +2179,7 @@ src/MemoryStream.i: src/MemoryStream.cpp.i
 
 # target to preprocess a source file
 src/MemoryStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MemoryStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MemoryStream.cpp.i
 .PHONY : src/MemoryStream.cpp.i
 
 src/MemoryStream.s: src/MemoryStream.cpp.s
@@ -2188,7 +2188,7 @@ src/MemoryStream.s: src/MemoryStream.cpp.s
 
 # target to generate assembly for a file
 src/MemoryStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MemoryStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/MemoryStream.cpp.s
 .PHONY : src/MemoryStream.cpp.s
 
 src/Message.o: src/Message.cpp.o
@@ -2197,7 +2197,7 @@ src/Message.o: src/Message.cpp.o
 
 # target to build an object file
 src/Message.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Message.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Message.cpp.o
 .PHONY : src/Message.cpp.o
 
 src/Message.i: src/Message.cpp.i
@@ -2206,7 +2206,7 @@ src/Message.i: src/Message.cpp.i
 
 # target to preprocess a source file
 src/Message.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Message.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Message.cpp.i
 .PHONY : src/Message.cpp.i
 
 src/Message.s: src/Message.cpp.s
@@ -2215,7 +2215,7 @@ src/Message.s: src/Message.cpp.s
 
 # target to generate assembly for a file
 src/Message.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Message.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Message.cpp.s
 .PHONY : src/Message.cpp.s
 
 src/Mutex.o: src/Mutex.cpp.o
@@ -2224,7 +2224,7 @@ src/Mutex.o: src/Mutex.cpp.o
 
 # target to build an object file
 src/Mutex.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Mutex.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Mutex.cpp.o
 .PHONY : src/Mutex.cpp.o
 
 src/Mutex.i: src/Mutex.cpp.i
@@ -2233,7 +2233,7 @@ src/Mutex.i: src/Mutex.cpp.i
 
 # target to preprocess a source file
 src/Mutex.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Mutex.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Mutex.cpp.i
 .PHONY : src/Mutex.cpp.i
 
 src/Mutex.s: src/Mutex.cpp.s
@@ -2242,7 +2242,7 @@ src/Mutex.s: src/Mutex.cpp.s
 
 # target to generate assembly for a file
 src/Mutex.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Mutex.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Mutex.cpp.s
 .PHONY : src/Mutex.cpp.s
 
 src/NamedEvent.o: src/NamedEvent.cpp.o
@@ -2251,7 +2251,7 @@ src/NamedEvent.o: src/NamedEvent.cpp.o
 
 # target to build an object file
 src/NamedEvent.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NamedEvent.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NamedEvent.cpp.o
 .PHONY : src/NamedEvent.cpp.o
 
 src/NamedEvent.i: src/NamedEvent.cpp.i
@@ -2260,7 +2260,7 @@ src/NamedEvent.i: src/NamedEvent.cpp.i
 
 # target to preprocess a source file
 src/NamedEvent.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NamedEvent.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NamedEvent.cpp.i
 .PHONY : src/NamedEvent.cpp.i
 
 src/NamedEvent.s: src/NamedEvent.cpp.s
@@ -2269,7 +2269,7 @@ src/NamedEvent.s: src/NamedEvent.cpp.s
 
 # target to generate assembly for a file
 src/NamedEvent.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NamedEvent.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NamedEvent.cpp.s
 .PHONY : src/NamedEvent.cpp.s
 
 src/NamedMutex.o: src/NamedMutex.cpp.o
@@ -2278,7 +2278,7 @@ src/NamedMutex.o: src/NamedMutex.cpp.o
 
 # target to build an object file
 src/NamedMutex.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NamedMutex.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NamedMutex.cpp.o
 .PHONY : src/NamedMutex.cpp.o
 
 src/NamedMutex.i: src/NamedMutex.cpp.i
@@ -2287,7 +2287,7 @@ src/NamedMutex.i: src/NamedMutex.cpp.i
 
 # target to preprocess a source file
 src/NamedMutex.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NamedMutex.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NamedMutex.cpp.i
 .PHONY : src/NamedMutex.cpp.i
 
 src/NamedMutex.s: src/NamedMutex.cpp.s
@@ -2296,7 +2296,7 @@ src/NamedMutex.s: src/NamedMutex.cpp.s
 
 # target to generate assembly for a file
 src/NamedMutex.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NamedMutex.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NamedMutex.cpp.s
 .PHONY : src/NamedMutex.cpp.s
 
 src/NestedDiagnosticContext.o: src/NestedDiagnosticContext.cpp.o
@@ -2305,7 +2305,7 @@ src/NestedDiagnosticContext.o: src/NestedDiagnosticContext.cpp.o
 
 # target to build an object file
 src/NestedDiagnosticContext.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NestedDiagnosticContext.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NestedDiagnosticContext.cpp.o
 .PHONY : src/NestedDiagnosticContext.cpp.o
 
 src/NestedDiagnosticContext.i: src/NestedDiagnosticContext.cpp.i
@@ -2314,7 +2314,7 @@ src/NestedDiagnosticContext.i: src/NestedDiagnosticContext.cpp.i
 
 # target to preprocess a source file
 src/NestedDiagnosticContext.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NestedDiagnosticContext.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NestedDiagnosticContext.cpp.i
 .PHONY : src/NestedDiagnosticContext.cpp.i
 
 src/NestedDiagnosticContext.s: src/NestedDiagnosticContext.cpp.s
@@ -2323,7 +2323,7 @@ src/NestedDiagnosticContext.s: src/NestedDiagnosticContext.cpp.s
 
 # target to generate assembly for a file
 src/NestedDiagnosticContext.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NestedDiagnosticContext.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NestedDiagnosticContext.cpp.s
 .PHONY : src/NestedDiagnosticContext.cpp.s
 
 src/Notification.o: src/Notification.cpp.o
@@ -2332,7 +2332,7 @@ src/Notification.o: src/Notification.cpp.o
 
 # target to build an object file
 src/Notification.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Notification.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Notification.cpp.o
 .PHONY : src/Notification.cpp.o
 
 src/Notification.i: src/Notification.cpp.i
@@ -2341,7 +2341,7 @@ src/Notification.i: src/Notification.cpp.i
 
 # target to preprocess a source file
 src/Notification.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Notification.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Notification.cpp.i
 .PHONY : src/Notification.cpp.i
 
 src/Notification.s: src/Notification.cpp.s
@@ -2350,7 +2350,7 @@ src/Notification.s: src/Notification.cpp.s
 
 # target to generate assembly for a file
 src/Notification.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Notification.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Notification.cpp.s
 .PHONY : src/Notification.cpp.s
 
 src/NotificationCenter.o: src/NotificationCenter.cpp.o
@@ -2359,7 +2359,7 @@ src/NotificationCenter.o: src/NotificationCenter.cpp.o
 
 # target to build an object file
 src/NotificationCenter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NotificationCenter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NotificationCenter.cpp.o
 .PHONY : src/NotificationCenter.cpp.o
 
 src/NotificationCenter.i: src/NotificationCenter.cpp.i
@@ -2368,7 +2368,7 @@ src/NotificationCenter.i: src/NotificationCenter.cpp.i
 
 # target to preprocess a source file
 src/NotificationCenter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NotificationCenter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NotificationCenter.cpp.i
 .PHONY : src/NotificationCenter.cpp.i
 
 src/NotificationCenter.s: src/NotificationCenter.cpp.s
@@ -2377,7 +2377,7 @@ src/NotificationCenter.s: src/NotificationCenter.cpp.s
 
 # target to generate assembly for a file
 src/NotificationCenter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NotificationCenter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NotificationCenter.cpp.s
 .PHONY : src/NotificationCenter.cpp.s
 
 src/NotificationQueue.o: src/NotificationQueue.cpp.o
@@ -2386,7 +2386,7 @@ src/NotificationQueue.o: src/NotificationQueue.cpp.o
 
 # target to build an object file
 src/NotificationQueue.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NotificationQueue.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NotificationQueue.cpp.o
 .PHONY : src/NotificationQueue.cpp.o
 
 src/NotificationQueue.i: src/NotificationQueue.cpp.i
@@ -2395,7 +2395,7 @@ src/NotificationQueue.i: src/NotificationQueue.cpp.i
 
 # target to preprocess a source file
 src/NotificationQueue.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NotificationQueue.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NotificationQueue.cpp.i
 .PHONY : src/NotificationQueue.cpp.i
 
 src/NotificationQueue.s: src/NotificationQueue.cpp.s
@@ -2404,7 +2404,7 @@ src/NotificationQueue.s: src/NotificationQueue.cpp.s
 
 # target to generate assembly for a file
 src/NotificationQueue.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NotificationQueue.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NotificationQueue.cpp.s
 .PHONY : src/NotificationQueue.cpp.s
 
 src/NullChannel.o: src/NullChannel.cpp.o
@@ -2413,7 +2413,7 @@ src/NullChannel.o: src/NullChannel.cpp.o
 
 # target to build an object file
 src/NullChannel.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NullChannel.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NullChannel.cpp.o
 .PHONY : src/NullChannel.cpp.o
 
 src/NullChannel.i: src/NullChannel.cpp.i
@@ -2422,7 +2422,7 @@ src/NullChannel.i: src/NullChannel.cpp.i
 
 # target to preprocess a source file
 src/NullChannel.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NullChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NullChannel.cpp.i
 .PHONY : src/NullChannel.cpp.i
 
 src/NullChannel.s: src/NullChannel.cpp.s
@@ -2431,7 +2431,7 @@ src/NullChannel.s: src/NullChannel.cpp.s
 
 # target to generate assembly for a file
 src/NullChannel.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NullChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NullChannel.cpp.s
 .PHONY : src/NullChannel.cpp.s
 
 src/NullStream.o: src/NullStream.cpp.o
@@ -2440,7 +2440,7 @@ src/NullStream.o: src/NullStream.cpp.o
 
 # target to build an object file
 src/NullStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NullStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NullStream.cpp.o
 .PHONY : src/NullStream.cpp.o
 
 src/NullStream.i: src/NullStream.cpp.i
@@ -2449,7 +2449,7 @@ src/NullStream.i: src/NullStream.cpp.i
 
 # target to preprocess a source file
 src/NullStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NullStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NullStream.cpp.i
 .PHONY : src/NullStream.cpp.i
 
 src/NullStream.s: src/NullStream.cpp.s
@@ -2458,7 +2458,7 @@ src/NullStream.s: src/NullStream.cpp.s
 
 # target to generate assembly for a file
 src/NullStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NullStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NullStream.cpp.s
 .PHONY : src/NullStream.cpp.s
 
 src/NumberFormatter.o: src/NumberFormatter.cpp.o
@@ -2467,7 +2467,7 @@ src/NumberFormatter.o: src/NumberFormatter.cpp.o
 
 # target to build an object file
 src/NumberFormatter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumberFormatter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumberFormatter.cpp.o
 .PHONY : src/NumberFormatter.cpp.o
 
 src/NumberFormatter.i: src/NumberFormatter.cpp.i
@@ -2476,7 +2476,7 @@ src/NumberFormatter.i: src/NumberFormatter.cpp.i
 
 # target to preprocess a source file
 src/NumberFormatter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumberFormatter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumberFormatter.cpp.i
 .PHONY : src/NumberFormatter.cpp.i
 
 src/NumberFormatter.s: src/NumberFormatter.cpp.s
@@ -2485,7 +2485,7 @@ src/NumberFormatter.s: src/NumberFormatter.cpp.s
 
 # target to generate assembly for a file
 src/NumberFormatter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumberFormatter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumberFormatter.cpp.s
 .PHONY : src/NumberFormatter.cpp.s
 
 src/NumberParser.o: src/NumberParser.cpp.o
@@ -2494,7 +2494,7 @@ src/NumberParser.o: src/NumberParser.cpp.o
 
 # target to build an object file
 src/NumberParser.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumberParser.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumberParser.cpp.o
 .PHONY : src/NumberParser.cpp.o
 
 src/NumberParser.i: src/NumberParser.cpp.i
@@ -2503,7 +2503,7 @@ src/NumberParser.i: src/NumberParser.cpp.i
 
 # target to preprocess a source file
 src/NumberParser.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumberParser.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumberParser.cpp.i
 .PHONY : src/NumberParser.cpp.i
 
 src/NumberParser.s: src/NumberParser.cpp.s
@@ -2512,7 +2512,7 @@ src/NumberParser.s: src/NumberParser.cpp.s
 
 # target to generate assembly for a file
 src/NumberParser.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumberParser.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumberParser.cpp.s
 .PHONY : src/NumberParser.cpp.s
 
 src/NumericString.o: src/NumericString.cpp.o
@@ -2521,7 +2521,7 @@ src/NumericString.o: src/NumericString.cpp.o
 
 # target to build an object file
 src/NumericString.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumericString.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumericString.cpp.o
 .PHONY : src/NumericString.cpp.o
 
 src/NumericString.i: src/NumericString.cpp.i
@@ -2530,7 +2530,7 @@ src/NumericString.i: src/NumericString.cpp.i
 
 # target to preprocess a source file
 src/NumericString.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumericString.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumericString.cpp.i
 .PHONY : src/NumericString.cpp.i
 
 src/NumericString.s: src/NumericString.cpp.s
@@ -2539,7 +2539,7 @@ src/NumericString.s: src/NumericString.cpp.s
 
 # target to generate assembly for a file
 src/NumericString.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumericString.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/NumericString.cpp.s
 .PHONY : src/NumericString.cpp.s
 
 src/Path.o: src/Path.cpp.o
@@ -2548,7 +2548,7 @@ src/Path.o: src/Path.cpp.o
 
 # target to build an object file
 src/Path.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Path.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Path.cpp.o
 .PHONY : src/Path.cpp.o
 
 src/Path.i: src/Path.cpp.i
@@ -2557,7 +2557,7 @@ src/Path.i: src/Path.cpp.i
 
 # target to preprocess a source file
 src/Path.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Path.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Path.cpp.i
 .PHONY : src/Path.cpp.i
 
 src/Path.s: src/Path.cpp.s
@@ -2566,7 +2566,7 @@ src/Path.s: src/Path.cpp.s
 
 # target to generate assembly for a file
 src/Path.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Path.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Path.cpp.s
 .PHONY : src/Path.cpp.s
 
 src/PatternFormatter.o: src/PatternFormatter.cpp.o
@@ -2575,7 +2575,7 @@ src/PatternFormatter.o: src/PatternFormatter.cpp.o
 
 # target to build an object file
 src/PatternFormatter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PatternFormatter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PatternFormatter.cpp.o
 .PHONY : src/PatternFormatter.cpp.o
 
 src/PatternFormatter.i: src/PatternFormatter.cpp.i
@@ -2584,7 +2584,7 @@ src/PatternFormatter.i: src/PatternFormatter.cpp.i
 
 # target to preprocess a source file
 src/PatternFormatter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PatternFormatter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PatternFormatter.cpp.i
 .PHONY : src/PatternFormatter.cpp.i
 
 src/PatternFormatter.s: src/PatternFormatter.cpp.s
@@ -2593,7 +2593,7 @@ src/PatternFormatter.s: src/PatternFormatter.cpp.s
 
 # target to generate assembly for a file
 src/PatternFormatter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PatternFormatter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PatternFormatter.cpp.s
 .PHONY : src/PatternFormatter.cpp.s
 
 src/Pipe.o: src/Pipe.cpp.o
@@ -2602,7 +2602,7 @@ src/Pipe.o: src/Pipe.cpp.o
 
 # target to build an object file
 src/Pipe.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Pipe.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Pipe.cpp.o
 .PHONY : src/Pipe.cpp.o
 
 src/Pipe.i: src/Pipe.cpp.i
@@ -2611,7 +2611,7 @@ src/Pipe.i: src/Pipe.cpp.i
 
 # target to preprocess a source file
 src/Pipe.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Pipe.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Pipe.cpp.i
 .PHONY : src/Pipe.cpp.i
 
 src/Pipe.s: src/Pipe.cpp.s
@@ -2620,7 +2620,7 @@ src/Pipe.s: src/Pipe.cpp.s
 
 # target to generate assembly for a file
 src/Pipe.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Pipe.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Pipe.cpp.s
 .PHONY : src/Pipe.cpp.s
 
 src/PipeImpl.o: src/PipeImpl.cpp.o
@@ -2629,7 +2629,7 @@ src/PipeImpl.o: src/PipeImpl.cpp.o
 
 # target to build an object file
 src/PipeImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PipeImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PipeImpl.cpp.o
 .PHONY : src/PipeImpl.cpp.o
 
 src/PipeImpl.i: src/PipeImpl.cpp.i
@@ -2638,7 +2638,7 @@ src/PipeImpl.i: src/PipeImpl.cpp.i
 
 # target to preprocess a source file
 src/PipeImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PipeImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PipeImpl.cpp.i
 .PHONY : src/PipeImpl.cpp.i
 
 src/PipeImpl.s: src/PipeImpl.cpp.s
@@ -2647,7 +2647,7 @@ src/PipeImpl.s: src/PipeImpl.cpp.s
 
 # target to generate assembly for a file
 src/PipeImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PipeImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PipeImpl.cpp.s
 .PHONY : src/PipeImpl.cpp.s
 
 src/PipeStream.o: src/PipeStream.cpp.o
@@ -2656,7 +2656,7 @@ src/PipeStream.o: src/PipeStream.cpp.o
 
 # target to build an object file
 src/PipeStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PipeStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PipeStream.cpp.o
 .PHONY : src/PipeStream.cpp.o
 
 src/PipeStream.i: src/PipeStream.cpp.i
@@ -2665,7 +2665,7 @@ src/PipeStream.i: src/PipeStream.cpp.i
 
 # target to preprocess a source file
 src/PipeStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PipeStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PipeStream.cpp.i
 .PHONY : src/PipeStream.cpp.i
 
 src/PipeStream.s: src/PipeStream.cpp.s
@@ -2674,7 +2674,7 @@ src/PipeStream.s: src/PipeStream.cpp.s
 
 # target to generate assembly for a file
 src/PipeStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PipeStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PipeStream.cpp.s
 .PHONY : src/PipeStream.cpp.s
 
 src/PriorityNotificationQueue.o: src/PriorityNotificationQueue.cpp.o
@@ -2683,7 +2683,7 @@ src/PriorityNotificationQueue.o: src/PriorityNotificationQueue.cpp.o
 
 # target to build an object file
 src/PriorityNotificationQueue.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PriorityNotificationQueue.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PriorityNotificationQueue.cpp.o
 .PHONY : src/PriorityNotificationQueue.cpp.o
 
 src/PriorityNotificationQueue.i: src/PriorityNotificationQueue.cpp.i
@@ -2692,7 +2692,7 @@ src/PriorityNotificationQueue.i: src/PriorityNotificationQueue.cpp.i
 
 # target to preprocess a source file
 src/PriorityNotificationQueue.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PriorityNotificationQueue.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PriorityNotificationQueue.cpp.i
 .PHONY : src/PriorityNotificationQueue.cpp.i
 
 src/PriorityNotificationQueue.s: src/PriorityNotificationQueue.cpp.s
@@ -2701,7 +2701,7 @@ src/PriorityNotificationQueue.s: src/PriorityNotificationQueue.cpp.s
 
 # target to generate assembly for a file
 src/PriorityNotificationQueue.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PriorityNotificationQueue.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PriorityNotificationQueue.cpp.s
 .PHONY : src/PriorityNotificationQueue.cpp.s
 
 src/Process.o: src/Process.cpp.o
@@ -2710,7 +2710,7 @@ src/Process.o: src/Process.cpp.o
 
 # target to build an object file
 src/Process.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Process.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Process.cpp.o
 .PHONY : src/Process.cpp.o
 
 src/Process.i: src/Process.cpp.i
@@ -2719,7 +2719,7 @@ src/Process.i: src/Process.cpp.i
 
 # target to preprocess a source file
 src/Process.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Process.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Process.cpp.i
 .PHONY : src/Process.cpp.i
 
 src/Process.s: src/Process.cpp.s
@@ -2728,7 +2728,7 @@ src/Process.s: src/Process.cpp.s
 
 # target to generate assembly for a file
 src/Process.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Process.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Process.cpp.s
 .PHONY : src/Process.cpp.s
 
 src/PurgeStrategy.o: src/PurgeStrategy.cpp.o
@@ -2737,7 +2737,7 @@ src/PurgeStrategy.o: src/PurgeStrategy.cpp.o
 
 # target to build an object file
 src/PurgeStrategy.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PurgeStrategy.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PurgeStrategy.cpp.o
 .PHONY : src/PurgeStrategy.cpp.o
 
 src/PurgeStrategy.i: src/PurgeStrategy.cpp.i
@@ -2746,7 +2746,7 @@ src/PurgeStrategy.i: src/PurgeStrategy.cpp.i
 
 # target to preprocess a source file
 src/PurgeStrategy.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PurgeStrategy.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PurgeStrategy.cpp.i
 .PHONY : src/PurgeStrategy.cpp.i
 
 src/PurgeStrategy.s: src/PurgeStrategy.cpp.s
@@ -2755,7 +2755,7 @@ src/PurgeStrategy.s: src/PurgeStrategy.cpp.s
 
 # target to generate assembly for a file
 src/PurgeStrategy.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PurgeStrategy.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/PurgeStrategy.cpp.s
 .PHONY : src/PurgeStrategy.cpp.s
 
 src/RWLock.o: src/RWLock.cpp.o
@@ -2764,7 +2764,7 @@ src/RWLock.o: src/RWLock.cpp.o
 
 # target to build an object file
 src/RWLock.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RWLock.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RWLock.cpp.o
 .PHONY : src/RWLock.cpp.o
 
 src/RWLock.i: src/RWLock.cpp.i
@@ -2773,7 +2773,7 @@ src/RWLock.i: src/RWLock.cpp.i
 
 # target to preprocess a source file
 src/RWLock.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RWLock.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RWLock.cpp.i
 .PHONY : src/RWLock.cpp.i
 
 src/RWLock.s: src/RWLock.cpp.s
@@ -2782,7 +2782,7 @@ src/RWLock.s: src/RWLock.cpp.s
 
 # target to generate assembly for a file
 src/RWLock.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RWLock.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RWLock.cpp.s
 .PHONY : src/RWLock.cpp.s
 
 src/Random.o: src/Random.cpp.o
@@ -2791,7 +2791,7 @@ src/Random.o: src/Random.cpp.o
 
 # target to build an object file
 src/Random.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Random.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Random.cpp.o
 .PHONY : src/Random.cpp.o
 
 src/Random.i: src/Random.cpp.i
@@ -2800,7 +2800,7 @@ src/Random.i: src/Random.cpp.i
 
 # target to preprocess a source file
 src/Random.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Random.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Random.cpp.i
 .PHONY : src/Random.cpp.i
 
 src/Random.s: src/Random.cpp.s
@@ -2809,7 +2809,7 @@ src/Random.s: src/Random.cpp.s
 
 # target to generate assembly for a file
 src/Random.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Random.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Random.cpp.s
 .PHONY : src/Random.cpp.s
 
 src/RandomStream.o: src/RandomStream.cpp.o
@@ -2818,7 +2818,7 @@ src/RandomStream.o: src/RandomStream.cpp.o
 
 # target to build an object file
 src/RandomStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RandomStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RandomStream.cpp.o
 .PHONY : src/RandomStream.cpp.o
 
 src/RandomStream.i: src/RandomStream.cpp.i
@@ -2827,7 +2827,7 @@ src/RandomStream.i: src/RandomStream.cpp.i
 
 # target to preprocess a source file
 src/RandomStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RandomStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RandomStream.cpp.i
 .PHONY : src/RandomStream.cpp.i
 
 src/RandomStream.s: src/RandomStream.cpp.s
@@ -2836,7 +2836,7 @@ src/RandomStream.s: src/RandomStream.cpp.s
 
 # target to generate assembly for a file
 src/RandomStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RandomStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RandomStream.cpp.s
 .PHONY : src/RandomStream.cpp.s
 
 src/RefCountedObject.o: src/RefCountedObject.cpp.o
@@ -2845,7 +2845,7 @@ src/RefCountedObject.o: src/RefCountedObject.cpp.o
 
 # target to build an object file
 src/RefCountedObject.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RefCountedObject.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RefCountedObject.cpp.o
 .PHONY : src/RefCountedObject.cpp.o
 
 src/RefCountedObject.i: src/RefCountedObject.cpp.i
@@ -2854,7 +2854,7 @@ src/RefCountedObject.i: src/RefCountedObject.cpp.i
 
 # target to preprocess a source file
 src/RefCountedObject.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RefCountedObject.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RefCountedObject.cpp.i
 .PHONY : src/RefCountedObject.cpp.i
 
 src/RefCountedObject.s: src/RefCountedObject.cpp.s
@@ -2863,7 +2863,7 @@ src/RefCountedObject.s: src/RefCountedObject.cpp.s
 
 # target to generate assembly for a file
 src/RefCountedObject.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RefCountedObject.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RefCountedObject.cpp.s
 .PHONY : src/RefCountedObject.cpp.s
 
 src/RegularExpression.o: src/RegularExpression.cpp.o
@@ -2872,7 +2872,7 @@ src/RegularExpression.o: src/RegularExpression.cpp.o
 
 # target to build an object file
 src/RegularExpression.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RegularExpression.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RegularExpression.cpp.o
 .PHONY : src/RegularExpression.cpp.o
 
 src/RegularExpression.i: src/RegularExpression.cpp.i
@@ -2881,7 +2881,7 @@ src/RegularExpression.i: src/RegularExpression.cpp.i
 
 # target to preprocess a source file
 src/RegularExpression.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RegularExpression.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RegularExpression.cpp.i
 .PHONY : src/RegularExpression.cpp.i
 
 src/RegularExpression.s: src/RegularExpression.cpp.s
@@ -2890,7 +2890,7 @@ src/RegularExpression.s: src/RegularExpression.cpp.s
 
 # target to generate assembly for a file
 src/RegularExpression.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RegularExpression.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RegularExpression.cpp.s
 .PHONY : src/RegularExpression.cpp.s
 
 src/RotateStrategy.o: src/RotateStrategy.cpp.o
@@ -2899,7 +2899,7 @@ src/RotateStrategy.o: src/RotateStrategy.cpp.o
 
 # target to build an object file
 src/RotateStrategy.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RotateStrategy.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RotateStrategy.cpp.o
 .PHONY : src/RotateStrategy.cpp.o
 
 src/RotateStrategy.i: src/RotateStrategy.cpp.i
@@ -2908,7 +2908,7 @@ src/RotateStrategy.i: src/RotateStrategy.cpp.i
 
 # target to preprocess a source file
 src/RotateStrategy.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RotateStrategy.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RotateStrategy.cpp.i
 .PHONY : src/RotateStrategy.cpp.i
 
 src/RotateStrategy.s: src/RotateStrategy.cpp.s
@@ -2917,7 +2917,7 @@ src/RotateStrategy.s: src/RotateStrategy.cpp.s
 
 # target to generate assembly for a file
 src/RotateStrategy.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RotateStrategy.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/RotateStrategy.cpp.s
 .PHONY : src/RotateStrategy.cpp.s
 
 src/Runnable.o: src/Runnable.cpp.o
@@ -2926,7 +2926,7 @@ src/Runnable.o: src/Runnable.cpp.o
 
 # target to build an object file
 src/Runnable.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Runnable.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Runnable.cpp.o
 .PHONY : src/Runnable.cpp.o
 
 src/Runnable.i: src/Runnable.cpp.i
@@ -2935,7 +2935,7 @@ src/Runnable.i: src/Runnable.cpp.i
 
 # target to preprocess a source file
 src/Runnable.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Runnable.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Runnable.cpp.i
 .PHONY : src/Runnable.cpp.i
 
 src/Runnable.s: src/Runnable.cpp.s
@@ -2944,7 +2944,7 @@ src/Runnable.s: src/Runnable.cpp.s
 
 # target to generate assembly for a file
 src/Runnable.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Runnable.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Runnable.cpp.s
 .PHONY : src/Runnable.cpp.s
 
 src/SHA1Engine.o: src/SHA1Engine.cpp.o
@@ -2953,7 +2953,7 @@ src/SHA1Engine.o: src/SHA1Engine.cpp.o
 
 # target to build an object file
 src/SHA1Engine.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SHA1Engine.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SHA1Engine.cpp.o
 .PHONY : src/SHA1Engine.cpp.o
 
 src/SHA1Engine.i: src/SHA1Engine.cpp.i
@@ -2962,7 +2962,7 @@ src/SHA1Engine.i: src/SHA1Engine.cpp.i
 
 # target to preprocess a source file
 src/SHA1Engine.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SHA1Engine.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SHA1Engine.cpp.i
 .PHONY : src/SHA1Engine.cpp.i
 
 src/SHA1Engine.s: src/SHA1Engine.cpp.s
@@ -2971,7 +2971,7 @@ src/SHA1Engine.s: src/SHA1Engine.cpp.s
 
 # target to generate assembly for a file
 src/SHA1Engine.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SHA1Engine.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SHA1Engine.cpp.s
 .PHONY : src/SHA1Engine.cpp.s
 
 src/SHA2Engine.o: src/SHA2Engine.cpp.o
@@ -2980,7 +2980,7 @@ src/SHA2Engine.o: src/SHA2Engine.cpp.o
 
 # target to build an object file
 src/SHA2Engine.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SHA2Engine.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SHA2Engine.cpp.o
 .PHONY : src/SHA2Engine.cpp.o
 
 src/SHA2Engine.i: src/SHA2Engine.cpp.i
@@ -2989,7 +2989,7 @@ src/SHA2Engine.i: src/SHA2Engine.cpp.i
 
 # target to preprocess a source file
 src/SHA2Engine.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SHA2Engine.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SHA2Engine.cpp.i
 .PHONY : src/SHA2Engine.cpp.i
 
 src/SHA2Engine.s: src/SHA2Engine.cpp.s
@@ -2998,7 +2998,7 @@ src/SHA2Engine.s: src/SHA2Engine.cpp.s
 
 # target to generate assembly for a file
 src/SHA2Engine.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SHA2Engine.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SHA2Engine.cpp.s
 .PHONY : src/SHA2Engine.cpp.s
 
 src/Semaphore.o: src/Semaphore.cpp.o
@@ -3007,7 +3007,7 @@ src/Semaphore.o: src/Semaphore.cpp.o
 
 # target to build an object file
 src/Semaphore.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Semaphore.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Semaphore.cpp.o
 .PHONY : src/Semaphore.cpp.o
 
 src/Semaphore.i: src/Semaphore.cpp.i
@@ -3016,7 +3016,7 @@ src/Semaphore.i: src/Semaphore.cpp.i
 
 # target to preprocess a source file
 src/Semaphore.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Semaphore.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Semaphore.cpp.i
 .PHONY : src/Semaphore.cpp.i
 
 src/Semaphore.s: src/Semaphore.cpp.s
@@ -3025,7 +3025,7 @@ src/Semaphore.s: src/Semaphore.cpp.s
 
 # target to generate assembly for a file
 src/Semaphore.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Semaphore.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Semaphore.cpp.s
 .PHONY : src/Semaphore.cpp.s
 
 src/SharedLibrary.o: src/SharedLibrary.cpp.o
@@ -3034,7 +3034,7 @@ src/SharedLibrary.o: src/SharedLibrary.cpp.o
 
 # target to build an object file
 src/SharedLibrary.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SharedLibrary.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SharedLibrary.cpp.o
 .PHONY : src/SharedLibrary.cpp.o
 
 src/SharedLibrary.i: src/SharedLibrary.cpp.i
@@ -3043,7 +3043,7 @@ src/SharedLibrary.i: src/SharedLibrary.cpp.i
 
 # target to preprocess a source file
 src/SharedLibrary.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SharedLibrary.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SharedLibrary.cpp.i
 .PHONY : src/SharedLibrary.cpp.i
 
 src/SharedLibrary.s: src/SharedLibrary.cpp.s
@@ -3052,7 +3052,7 @@ src/SharedLibrary.s: src/SharedLibrary.cpp.s
 
 # target to generate assembly for a file
 src/SharedLibrary.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SharedLibrary.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SharedLibrary.cpp.s
 .PHONY : src/SharedLibrary.cpp.s
 
 src/SharedMemory.o: src/SharedMemory.cpp.o
@@ -3061,7 +3061,7 @@ src/SharedMemory.o: src/SharedMemory.cpp.o
 
 # target to build an object file
 src/SharedMemory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SharedMemory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SharedMemory.cpp.o
 .PHONY : src/SharedMemory.cpp.o
 
 src/SharedMemory.i: src/SharedMemory.cpp.i
@@ -3070,7 +3070,7 @@ src/SharedMemory.i: src/SharedMemory.cpp.i
 
 # target to preprocess a source file
 src/SharedMemory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SharedMemory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SharedMemory.cpp.i
 .PHONY : src/SharedMemory.cpp.i
 
 src/SharedMemory.s: src/SharedMemory.cpp.s
@@ -3079,7 +3079,7 @@ src/SharedMemory.s: src/SharedMemory.cpp.s
 
 # target to generate assembly for a file
 src/SharedMemory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SharedMemory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SharedMemory.cpp.s
 .PHONY : src/SharedMemory.cpp.s
 
 src/SignalHandler.o: src/SignalHandler.cpp.o
@@ -3088,7 +3088,7 @@ src/SignalHandler.o: src/SignalHandler.cpp.o
 
 # target to build an object file
 src/SignalHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SignalHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SignalHandler.cpp.o
 .PHONY : src/SignalHandler.cpp.o
 
 src/SignalHandler.i: src/SignalHandler.cpp.i
@@ -3097,7 +3097,7 @@ src/SignalHandler.i: src/SignalHandler.cpp.i
 
 # target to preprocess a source file
 src/SignalHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SignalHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SignalHandler.cpp.i
 .PHONY : src/SignalHandler.cpp.i
 
 src/SignalHandler.s: src/SignalHandler.cpp.s
@@ -3106,7 +3106,7 @@ src/SignalHandler.s: src/SignalHandler.cpp.s
 
 # target to generate assembly for a file
 src/SignalHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SignalHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SignalHandler.cpp.s
 .PHONY : src/SignalHandler.cpp.s
 
 src/SimpleFileChannel.o: src/SimpleFileChannel.cpp.o
@@ -3115,7 +3115,7 @@ src/SimpleFileChannel.o: src/SimpleFileChannel.cpp.o
 
 # target to build an object file
 src/SimpleFileChannel.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SimpleFileChannel.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SimpleFileChannel.cpp.o
 .PHONY : src/SimpleFileChannel.cpp.o
 
 src/SimpleFileChannel.i: src/SimpleFileChannel.cpp.i
@@ -3124,7 +3124,7 @@ src/SimpleFileChannel.i: src/SimpleFileChannel.cpp.i
 
 # target to preprocess a source file
 src/SimpleFileChannel.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SimpleFileChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SimpleFileChannel.cpp.i
 .PHONY : src/SimpleFileChannel.cpp.i
 
 src/SimpleFileChannel.s: src/SimpleFileChannel.cpp.s
@@ -3133,7 +3133,7 @@ src/SimpleFileChannel.s: src/SimpleFileChannel.cpp.s
 
 # target to generate assembly for a file
 src/SimpleFileChannel.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SimpleFileChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SimpleFileChannel.cpp.s
 .PHONY : src/SimpleFileChannel.cpp.s
 
 src/SortedDirectoryIterator.o: src/SortedDirectoryIterator.cpp.o
@@ -3142,7 +3142,7 @@ src/SortedDirectoryIterator.o: src/SortedDirectoryIterator.cpp.o
 
 # target to build an object file
 src/SortedDirectoryIterator.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SortedDirectoryIterator.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SortedDirectoryIterator.cpp.o
 .PHONY : src/SortedDirectoryIterator.cpp.o
 
 src/SortedDirectoryIterator.i: src/SortedDirectoryIterator.cpp.i
@@ -3151,7 +3151,7 @@ src/SortedDirectoryIterator.i: src/SortedDirectoryIterator.cpp.i
 
 # target to preprocess a source file
 src/SortedDirectoryIterator.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SortedDirectoryIterator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SortedDirectoryIterator.cpp.i
 .PHONY : src/SortedDirectoryIterator.cpp.i
 
 src/SortedDirectoryIterator.s: src/SortedDirectoryIterator.cpp.s
@@ -3160,7 +3160,7 @@ src/SortedDirectoryIterator.s: src/SortedDirectoryIterator.cpp.s
 
 # target to generate assembly for a file
 src/SortedDirectoryIterator.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SortedDirectoryIterator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SortedDirectoryIterator.cpp.s
 .PHONY : src/SortedDirectoryIterator.cpp.s
 
 src/SplitterChannel.o: src/SplitterChannel.cpp.o
@@ -3169,7 +3169,7 @@ src/SplitterChannel.o: src/SplitterChannel.cpp.o
 
 # target to build an object file
 src/SplitterChannel.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SplitterChannel.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SplitterChannel.cpp.o
 .PHONY : src/SplitterChannel.cpp.o
 
 src/SplitterChannel.i: src/SplitterChannel.cpp.i
@@ -3178,7 +3178,7 @@ src/SplitterChannel.i: src/SplitterChannel.cpp.i
 
 # target to preprocess a source file
 src/SplitterChannel.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SplitterChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SplitterChannel.cpp.i
 .PHONY : src/SplitterChannel.cpp.i
 
 src/SplitterChannel.s: src/SplitterChannel.cpp.s
@@ -3187,7 +3187,7 @@ src/SplitterChannel.s: src/SplitterChannel.cpp.s
 
 # target to generate assembly for a file
 src/SplitterChannel.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SplitterChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SplitterChannel.cpp.s
 .PHONY : src/SplitterChannel.cpp.s
 
 src/Stopwatch.o: src/Stopwatch.cpp.o
@@ -3196,7 +3196,7 @@ src/Stopwatch.o: src/Stopwatch.cpp.o
 
 # target to build an object file
 src/Stopwatch.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Stopwatch.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Stopwatch.cpp.o
 .PHONY : src/Stopwatch.cpp.o
 
 src/Stopwatch.i: src/Stopwatch.cpp.i
@@ -3205,7 +3205,7 @@ src/Stopwatch.i: src/Stopwatch.cpp.i
 
 # target to preprocess a source file
 src/Stopwatch.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Stopwatch.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Stopwatch.cpp.i
 .PHONY : src/Stopwatch.cpp.i
 
 src/Stopwatch.s: src/Stopwatch.cpp.s
@@ -3214,7 +3214,7 @@ src/Stopwatch.s: src/Stopwatch.cpp.s
 
 # target to generate assembly for a file
 src/Stopwatch.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Stopwatch.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Stopwatch.cpp.s
 .PHONY : src/Stopwatch.cpp.s
 
 src/StreamChannel.o: src/StreamChannel.cpp.o
@@ -3223,7 +3223,7 @@ src/StreamChannel.o: src/StreamChannel.cpp.o
 
 # target to build an object file
 src/StreamChannel.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamChannel.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamChannel.cpp.o
 .PHONY : src/StreamChannel.cpp.o
 
 src/StreamChannel.i: src/StreamChannel.cpp.i
@@ -3232,7 +3232,7 @@ src/StreamChannel.i: src/StreamChannel.cpp.i
 
 # target to preprocess a source file
 src/StreamChannel.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamChannel.cpp.i
 .PHONY : src/StreamChannel.cpp.i
 
 src/StreamChannel.s: src/StreamChannel.cpp.s
@@ -3241,7 +3241,7 @@ src/StreamChannel.s: src/StreamChannel.cpp.s
 
 # target to generate assembly for a file
 src/StreamChannel.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamChannel.cpp.s
 .PHONY : src/StreamChannel.cpp.s
 
 src/StreamConverter.o: src/StreamConverter.cpp.o
@@ -3250,7 +3250,7 @@ src/StreamConverter.o: src/StreamConverter.cpp.o
 
 # target to build an object file
 src/StreamConverter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamConverter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamConverter.cpp.o
 .PHONY : src/StreamConverter.cpp.o
 
 src/StreamConverter.i: src/StreamConverter.cpp.i
@@ -3259,7 +3259,7 @@ src/StreamConverter.i: src/StreamConverter.cpp.i
 
 # target to preprocess a source file
 src/StreamConverter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamConverter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamConverter.cpp.i
 .PHONY : src/StreamConverter.cpp.i
 
 src/StreamConverter.s: src/StreamConverter.cpp.s
@@ -3268,7 +3268,7 @@ src/StreamConverter.s: src/StreamConverter.cpp.s
 
 # target to generate assembly for a file
 src/StreamConverter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamConverter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamConverter.cpp.s
 .PHONY : src/StreamConverter.cpp.s
 
 src/StreamCopier.o: src/StreamCopier.cpp.o
@@ -3277,7 +3277,7 @@ src/StreamCopier.o: src/StreamCopier.cpp.o
 
 # target to build an object file
 src/StreamCopier.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamCopier.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamCopier.cpp.o
 .PHONY : src/StreamCopier.cpp.o
 
 src/StreamCopier.i: src/StreamCopier.cpp.i
@@ -3286,7 +3286,7 @@ src/StreamCopier.i: src/StreamCopier.cpp.i
 
 # target to preprocess a source file
 src/StreamCopier.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamCopier.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamCopier.cpp.i
 .PHONY : src/StreamCopier.cpp.i
 
 src/StreamCopier.s: src/StreamCopier.cpp.s
@@ -3295,7 +3295,7 @@ src/StreamCopier.s: src/StreamCopier.cpp.s
 
 # target to generate assembly for a file
 src/StreamCopier.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamCopier.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamCopier.cpp.s
 .PHONY : src/StreamCopier.cpp.s
 
 src/StreamTokenizer.o: src/StreamTokenizer.cpp.o
@@ -3304,7 +3304,7 @@ src/StreamTokenizer.o: src/StreamTokenizer.cpp.o
 
 # target to build an object file
 src/StreamTokenizer.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamTokenizer.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamTokenizer.cpp.o
 .PHONY : src/StreamTokenizer.cpp.o
 
 src/StreamTokenizer.i: src/StreamTokenizer.cpp.i
@@ -3313,7 +3313,7 @@ src/StreamTokenizer.i: src/StreamTokenizer.cpp.i
 
 # target to preprocess a source file
 src/StreamTokenizer.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamTokenizer.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamTokenizer.cpp.i
 .PHONY : src/StreamTokenizer.cpp.i
 
 src/StreamTokenizer.s: src/StreamTokenizer.cpp.s
@@ -3322,7 +3322,7 @@ src/StreamTokenizer.s: src/StreamTokenizer.cpp.s
 
 # target to generate assembly for a file
 src/StreamTokenizer.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamTokenizer.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StreamTokenizer.cpp.s
 .PHONY : src/StreamTokenizer.cpp.s
 
 src/String.o: src/String.cpp.o
@@ -3331,7 +3331,7 @@ src/String.o: src/String.cpp.o
 
 # target to build an object file
 src/String.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/String.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/String.cpp.o
 .PHONY : src/String.cpp.o
 
 src/String.i: src/String.cpp.i
@@ -3340,7 +3340,7 @@ src/String.i: src/String.cpp.i
 
 # target to preprocess a source file
 src/String.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/String.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/String.cpp.i
 .PHONY : src/String.cpp.i
 
 src/String.s: src/String.cpp.s
@@ -3349,7 +3349,7 @@ src/String.s: src/String.cpp.s
 
 # target to generate assembly for a file
 src/String.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/String.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/String.cpp.s
 .PHONY : src/String.cpp.s
 
 src/StringTokenizer.o: src/StringTokenizer.cpp.o
@@ -3358,7 +3358,7 @@ src/StringTokenizer.o: src/StringTokenizer.cpp.o
 
 # target to build an object file
 src/StringTokenizer.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StringTokenizer.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StringTokenizer.cpp.o
 .PHONY : src/StringTokenizer.cpp.o
 
 src/StringTokenizer.i: src/StringTokenizer.cpp.i
@@ -3367,7 +3367,7 @@ src/StringTokenizer.i: src/StringTokenizer.cpp.i
 
 # target to preprocess a source file
 src/StringTokenizer.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StringTokenizer.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StringTokenizer.cpp.i
 .PHONY : src/StringTokenizer.cpp.i
 
 src/StringTokenizer.s: src/StringTokenizer.cpp.s
@@ -3376,7 +3376,7 @@ src/StringTokenizer.s: src/StringTokenizer.cpp.s
 
 # target to generate assembly for a file
 src/StringTokenizer.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StringTokenizer.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/StringTokenizer.cpp.s
 .PHONY : src/StringTokenizer.cpp.s
 
 src/SynchronizedObject.o: src/SynchronizedObject.cpp.o
@@ -3385,7 +3385,7 @@ src/SynchronizedObject.o: src/SynchronizedObject.cpp.o
 
 # target to build an object file
 src/SynchronizedObject.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SynchronizedObject.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SynchronizedObject.cpp.o
 .PHONY : src/SynchronizedObject.cpp.o
 
 src/SynchronizedObject.i: src/SynchronizedObject.cpp.i
@@ -3394,7 +3394,7 @@ src/SynchronizedObject.i: src/SynchronizedObject.cpp.i
 
 # target to preprocess a source file
 src/SynchronizedObject.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SynchronizedObject.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SynchronizedObject.cpp.i
 .PHONY : src/SynchronizedObject.cpp.i
 
 src/SynchronizedObject.s: src/SynchronizedObject.cpp.s
@@ -3403,7 +3403,7 @@ src/SynchronizedObject.s: src/SynchronizedObject.cpp.s
 
 # target to generate assembly for a file
 src/SynchronizedObject.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SynchronizedObject.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SynchronizedObject.cpp.s
 .PHONY : src/SynchronizedObject.cpp.s
 
 src/SyslogChannel.o: src/SyslogChannel.cpp.o
@@ -3412,7 +3412,7 @@ src/SyslogChannel.o: src/SyslogChannel.cpp.o
 
 # target to build an object file
 src/SyslogChannel.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SyslogChannel.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SyslogChannel.cpp.o
 .PHONY : src/SyslogChannel.cpp.o
 
 src/SyslogChannel.i: src/SyslogChannel.cpp.i
@@ -3421,7 +3421,7 @@ src/SyslogChannel.i: src/SyslogChannel.cpp.i
 
 # target to preprocess a source file
 src/SyslogChannel.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SyslogChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SyslogChannel.cpp.i
 .PHONY : src/SyslogChannel.cpp.i
 
 src/SyslogChannel.s: src/SyslogChannel.cpp.s
@@ -3430,7 +3430,7 @@ src/SyslogChannel.s: src/SyslogChannel.cpp.s
 
 # target to generate assembly for a file
 src/SyslogChannel.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SyslogChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/SyslogChannel.cpp.s
 .PHONY : src/SyslogChannel.cpp.s
 
 src/Task.o: src/Task.cpp.o
@@ -3439,7 +3439,7 @@ src/Task.o: src/Task.cpp.o
 
 # target to build an object file
 src/Task.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Task.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Task.cpp.o
 .PHONY : src/Task.cpp.o
 
 src/Task.i: src/Task.cpp.i
@@ -3448,7 +3448,7 @@ src/Task.i: src/Task.cpp.i
 
 # target to preprocess a source file
 src/Task.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Task.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Task.cpp.i
 .PHONY : src/Task.cpp.i
 
 src/Task.s: src/Task.cpp.s
@@ -3457,7 +3457,7 @@ src/Task.s: src/Task.cpp.s
 
 # target to generate assembly for a file
 src/Task.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Task.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Task.cpp.s
 .PHONY : src/Task.cpp.s
 
 src/TaskManager.o: src/TaskManager.cpp.o
@@ -3466,7 +3466,7 @@ src/TaskManager.o: src/TaskManager.cpp.o
 
 # target to build an object file
 src/TaskManager.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TaskManager.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TaskManager.cpp.o
 .PHONY : src/TaskManager.cpp.o
 
 src/TaskManager.i: src/TaskManager.cpp.i
@@ -3475,7 +3475,7 @@ src/TaskManager.i: src/TaskManager.cpp.i
 
 # target to preprocess a source file
 src/TaskManager.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TaskManager.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TaskManager.cpp.i
 .PHONY : src/TaskManager.cpp.i
 
 src/TaskManager.s: src/TaskManager.cpp.s
@@ -3484,7 +3484,7 @@ src/TaskManager.s: src/TaskManager.cpp.s
 
 # target to generate assembly for a file
 src/TaskManager.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TaskManager.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TaskManager.cpp.s
 .PHONY : src/TaskManager.cpp.s
 
 src/TaskNotification.o: src/TaskNotification.cpp.o
@@ -3493,7 +3493,7 @@ src/TaskNotification.o: src/TaskNotification.cpp.o
 
 # target to build an object file
 src/TaskNotification.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TaskNotification.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TaskNotification.cpp.o
 .PHONY : src/TaskNotification.cpp.o
 
 src/TaskNotification.i: src/TaskNotification.cpp.i
@@ -3502,7 +3502,7 @@ src/TaskNotification.i: src/TaskNotification.cpp.i
 
 # target to preprocess a source file
 src/TaskNotification.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TaskNotification.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TaskNotification.cpp.i
 .PHONY : src/TaskNotification.cpp.i
 
 src/TaskNotification.s: src/TaskNotification.cpp.s
@@ -3511,7 +3511,7 @@ src/TaskNotification.s: src/TaskNotification.cpp.s
 
 # target to generate assembly for a file
 src/TaskNotification.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TaskNotification.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TaskNotification.cpp.s
 .PHONY : src/TaskNotification.cpp.s
 
 src/TeeStream.o: src/TeeStream.cpp.o
@@ -3520,7 +3520,7 @@ src/TeeStream.o: src/TeeStream.cpp.o
 
 # target to build an object file
 src/TeeStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TeeStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TeeStream.cpp.o
 .PHONY : src/TeeStream.cpp.o
 
 src/TeeStream.i: src/TeeStream.cpp.i
@@ -3529,7 +3529,7 @@ src/TeeStream.i: src/TeeStream.cpp.i
 
 # target to preprocess a source file
 src/TeeStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TeeStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TeeStream.cpp.i
 .PHONY : src/TeeStream.cpp.i
 
 src/TeeStream.s: src/TeeStream.cpp.s
@@ -3538,7 +3538,7 @@ src/TeeStream.s: src/TeeStream.cpp.s
 
 # target to generate assembly for a file
 src/TeeStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TeeStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TeeStream.cpp.s
 .PHONY : src/TeeStream.cpp.s
 
 src/TemporaryFile.o: src/TemporaryFile.cpp.o
@@ -3547,7 +3547,7 @@ src/TemporaryFile.o: src/TemporaryFile.cpp.o
 
 # target to build an object file
 src/TemporaryFile.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TemporaryFile.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TemporaryFile.cpp.o
 .PHONY : src/TemporaryFile.cpp.o
 
 src/TemporaryFile.i: src/TemporaryFile.cpp.i
@@ -3556,7 +3556,7 @@ src/TemporaryFile.i: src/TemporaryFile.cpp.i
 
 # target to preprocess a source file
 src/TemporaryFile.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TemporaryFile.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TemporaryFile.cpp.i
 .PHONY : src/TemporaryFile.cpp.i
 
 src/TemporaryFile.s: src/TemporaryFile.cpp.s
@@ -3565,7 +3565,7 @@ src/TemporaryFile.s: src/TemporaryFile.cpp.s
 
 # target to generate assembly for a file
 src/TemporaryFile.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TemporaryFile.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TemporaryFile.cpp.s
 .PHONY : src/TemporaryFile.cpp.s
 
 src/TextBufferIterator.o: src/TextBufferIterator.cpp.o
@@ -3574,7 +3574,7 @@ src/TextBufferIterator.o: src/TextBufferIterator.cpp.o
 
 # target to build an object file
 src/TextBufferIterator.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextBufferIterator.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextBufferIterator.cpp.o
 .PHONY : src/TextBufferIterator.cpp.o
 
 src/TextBufferIterator.i: src/TextBufferIterator.cpp.i
@@ -3583,7 +3583,7 @@ src/TextBufferIterator.i: src/TextBufferIterator.cpp.i
 
 # target to preprocess a source file
 src/TextBufferIterator.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextBufferIterator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextBufferIterator.cpp.i
 .PHONY : src/TextBufferIterator.cpp.i
 
 src/TextBufferIterator.s: src/TextBufferIterator.cpp.s
@@ -3592,7 +3592,7 @@ src/TextBufferIterator.s: src/TextBufferIterator.cpp.s
 
 # target to generate assembly for a file
 src/TextBufferIterator.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextBufferIterator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextBufferIterator.cpp.s
 .PHONY : src/TextBufferIterator.cpp.s
 
 src/TextConverter.o: src/TextConverter.cpp.o
@@ -3601,7 +3601,7 @@ src/TextConverter.o: src/TextConverter.cpp.o
 
 # target to build an object file
 src/TextConverter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextConverter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextConverter.cpp.o
 .PHONY : src/TextConverter.cpp.o
 
 src/TextConverter.i: src/TextConverter.cpp.i
@@ -3610,7 +3610,7 @@ src/TextConverter.i: src/TextConverter.cpp.i
 
 # target to preprocess a source file
 src/TextConverter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextConverter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextConverter.cpp.i
 .PHONY : src/TextConverter.cpp.i
 
 src/TextConverter.s: src/TextConverter.cpp.s
@@ -3619,7 +3619,7 @@ src/TextConverter.s: src/TextConverter.cpp.s
 
 # target to generate assembly for a file
 src/TextConverter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextConverter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextConverter.cpp.s
 .PHONY : src/TextConverter.cpp.s
 
 src/TextEncoding.o: src/TextEncoding.cpp.o
@@ -3628,7 +3628,7 @@ src/TextEncoding.o: src/TextEncoding.cpp.o
 
 # target to build an object file
 src/TextEncoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextEncoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextEncoding.cpp.o
 .PHONY : src/TextEncoding.cpp.o
 
 src/TextEncoding.i: src/TextEncoding.cpp.i
@@ -3637,7 +3637,7 @@ src/TextEncoding.i: src/TextEncoding.cpp.i
 
 # target to preprocess a source file
 src/TextEncoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextEncoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextEncoding.cpp.i
 .PHONY : src/TextEncoding.cpp.i
 
 src/TextEncoding.s: src/TextEncoding.cpp.s
@@ -3646,7 +3646,7 @@ src/TextEncoding.s: src/TextEncoding.cpp.s
 
 # target to generate assembly for a file
 src/TextEncoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextEncoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextEncoding.cpp.s
 .PHONY : src/TextEncoding.cpp.s
 
 src/TextIterator.o: src/TextIterator.cpp.o
@@ -3655,7 +3655,7 @@ src/TextIterator.o: src/TextIterator.cpp.o
 
 # target to build an object file
 src/TextIterator.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextIterator.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextIterator.cpp.o
 .PHONY : src/TextIterator.cpp.o
 
 src/TextIterator.i: src/TextIterator.cpp.i
@@ -3664,7 +3664,7 @@ src/TextIterator.i: src/TextIterator.cpp.i
 
 # target to preprocess a source file
 src/TextIterator.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextIterator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextIterator.cpp.i
 .PHONY : src/TextIterator.cpp.i
 
 src/TextIterator.s: src/TextIterator.cpp.s
@@ -3673,7 +3673,7 @@ src/TextIterator.s: src/TextIterator.cpp.s
 
 # target to generate assembly for a file
 src/TextIterator.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextIterator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TextIterator.cpp.s
 .PHONY : src/TextIterator.cpp.s
 
 src/Thread.o: src/Thread.cpp.o
@@ -3682,7 +3682,7 @@ src/Thread.o: src/Thread.cpp.o
 
 # target to build an object file
 src/Thread.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Thread.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Thread.cpp.o
 .PHONY : src/Thread.cpp.o
 
 src/Thread.i: src/Thread.cpp.i
@@ -3691,7 +3691,7 @@ src/Thread.i: src/Thread.cpp.i
 
 # target to preprocess a source file
 src/Thread.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Thread.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Thread.cpp.i
 .PHONY : src/Thread.cpp.i
 
 src/Thread.s: src/Thread.cpp.s
@@ -3700,7 +3700,7 @@ src/Thread.s: src/Thread.cpp.s
 
 # target to generate assembly for a file
 src/Thread.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Thread.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Thread.cpp.s
 .PHONY : src/Thread.cpp.s
 
 src/ThreadLocal.o: src/ThreadLocal.cpp.o
@@ -3709,7 +3709,7 @@ src/ThreadLocal.o: src/ThreadLocal.cpp.o
 
 # target to build an object file
 src/ThreadLocal.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadLocal.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadLocal.cpp.o
 .PHONY : src/ThreadLocal.cpp.o
 
 src/ThreadLocal.i: src/ThreadLocal.cpp.i
@@ -3718,7 +3718,7 @@ src/ThreadLocal.i: src/ThreadLocal.cpp.i
 
 # target to preprocess a source file
 src/ThreadLocal.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadLocal.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadLocal.cpp.i
 .PHONY : src/ThreadLocal.cpp.i
 
 src/ThreadLocal.s: src/ThreadLocal.cpp.s
@@ -3727,7 +3727,7 @@ src/ThreadLocal.s: src/ThreadLocal.cpp.s
 
 # target to generate assembly for a file
 src/ThreadLocal.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadLocal.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadLocal.cpp.s
 .PHONY : src/ThreadLocal.cpp.s
 
 src/ThreadPool.o: src/ThreadPool.cpp.o
@@ -3736,7 +3736,7 @@ src/ThreadPool.o: src/ThreadPool.cpp.o
 
 # target to build an object file
 src/ThreadPool.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadPool.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadPool.cpp.o
 .PHONY : src/ThreadPool.cpp.o
 
 src/ThreadPool.i: src/ThreadPool.cpp.i
@@ -3745,7 +3745,7 @@ src/ThreadPool.i: src/ThreadPool.cpp.i
 
 # target to preprocess a source file
 src/ThreadPool.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadPool.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadPool.cpp.i
 .PHONY : src/ThreadPool.cpp.i
 
 src/ThreadPool.s: src/ThreadPool.cpp.s
@@ -3754,7 +3754,7 @@ src/ThreadPool.s: src/ThreadPool.cpp.s
 
 # target to generate assembly for a file
 src/ThreadPool.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadPool.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadPool.cpp.s
 .PHONY : src/ThreadPool.cpp.s
 
 src/ThreadTarget.o: src/ThreadTarget.cpp.o
@@ -3763,7 +3763,7 @@ src/ThreadTarget.o: src/ThreadTarget.cpp.o
 
 # target to build an object file
 src/ThreadTarget.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadTarget.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadTarget.cpp.o
 .PHONY : src/ThreadTarget.cpp.o
 
 src/ThreadTarget.i: src/ThreadTarget.cpp.i
@@ -3772,7 +3772,7 @@ src/ThreadTarget.i: src/ThreadTarget.cpp.i
 
 # target to preprocess a source file
 src/ThreadTarget.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadTarget.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadTarget.cpp.i
 .PHONY : src/ThreadTarget.cpp.i
 
 src/ThreadTarget.s: src/ThreadTarget.cpp.s
@@ -3781,7 +3781,7 @@ src/ThreadTarget.s: src/ThreadTarget.cpp.s
 
 # target to generate assembly for a file
 src/ThreadTarget.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadTarget.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/ThreadTarget.cpp.s
 .PHONY : src/ThreadTarget.cpp.s
 
 src/TimedNotificationQueue.o: src/TimedNotificationQueue.cpp.o
@@ -3790,7 +3790,7 @@ src/TimedNotificationQueue.o: src/TimedNotificationQueue.cpp.o
 
 # target to build an object file
 src/TimedNotificationQueue.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TimedNotificationQueue.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TimedNotificationQueue.cpp.o
 .PHONY : src/TimedNotificationQueue.cpp.o
 
 src/TimedNotificationQueue.i: src/TimedNotificationQueue.cpp.i
@@ -3799,7 +3799,7 @@ src/TimedNotificationQueue.i: src/TimedNotificationQueue.cpp.i
 
 # target to preprocess a source file
 src/TimedNotificationQueue.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TimedNotificationQueue.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TimedNotificationQueue.cpp.i
 .PHONY : src/TimedNotificationQueue.cpp.i
 
 src/TimedNotificationQueue.s: src/TimedNotificationQueue.cpp.s
@@ -3808,7 +3808,7 @@ src/TimedNotificationQueue.s: src/TimedNotificationQueue.cpp.s
 
 # target to generate assembly for a file
 src/TimedNotificationQueue.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TimedNotificationQueue.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/TimedNotificationQueue.cpp.s
 .PHONY : src/TimedNotificationQueue.cpp.s
 
 src/Timer.o: src/Timer.cpp.o
@@ -3817,7 +3817,7 @@ src/Timer.o: src/Timer.cpp.o
 
 # target to build an object file
 src/Timer.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timer.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timer.cpp.o
 .PHONY : src/Timer.cpp.o
 
 src/Timer.i: src/Timer.cpp.i
@@ -3826,7 +3826,7 @@ src/Timer.i: src/Timer.cpp.i
 
 # target to preprocess a source file
 src/Timer.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timer.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timer.cpp.i
 .PHONY : src/Timer.cpp.i
 
 src/Timer.s: src/Timer.cpp.s
@@ -3835,7 +3835,7 @@ src/Timer.s: src/Timer.cpp.s
 
 # target to generate assembly for a file
 src/Timer.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timer.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timer.cpp.s
 .PHONY : src/Timer.cpp.s
 
 src/Timespan.o: src/Timespan.cpp.o
@@ -3844,7 +3844,7 @@ src/Timespan.o: src/Timespan.cpp.o
 
 # target to build an object file
 src/Timespan.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timespan.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timespan.cpp.o
 .PHONY : src/Timespan.cpp.o
 
 src/Timespan.i: src/Timespan.cpp.i
@@ -3853,7 +3853,7 @@ src/Timespan.i: src/Timespan.cpp.i
 
 # target to preprocess a source file
 src/Timespan.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timespan.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timespan.cpp.i
 .PHONY : src/Timespan.cpp.i
 
 src/Timespan.s: src/Timespan.cpp.s
@@ -3862,7 +3862,7 @@ src/Timespan.s: src/Timespan.cpp.s
 
 # target to generate assembly for a file
 src/Timespan.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timespan.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timespan.cpp.s
 .PHONY : src/Timespan.cpp.s
 
 src/Timestamp.o: src/Timestamp.cpp.o
@@ -3871,7 +3871,7 @@ src/Timestamp.o: src/Timestamp.cpp.o
 
 # target to build an object file
 src/Timestamp.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timestamp.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timestamp.cpp.o
 .PHONY : src/Timestamp.cpp.o
 
 src/Timestamp.i: src/Timestamp.cpp.i
@@ -3880,7 +3880,7 @@ src/Timestamp.i: src/Timestamp.cpp.i
 
 # target to preprocess a source file
 src/Timestamp.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timestamp.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timestamp.cpp.i
 .PHONY : src/Timestamp.cpp.i
 
 src/Timestamp.s: src/Timestamp.cpp.s
@@ -3889,7 +3889,7 @@ src/Timestamp.s: src/Timestamp.cpp.s
 
 # target to generate assembly for a file
 src/Timestamp.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timestamp.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timestamp.cpp.s
 .PHONY : src/Timestamp.cpp.s
 
 src/Timezone.o: src/Timezone.cpp.o
@@ -3898,7 +3898,7 @@ src/Timezone.o: src/Timezone.cpp.o
 
 # target to build an object file
 src/Timezone.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timezone.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timezone.cpp.o
 .PHONY : src/Timezone.cpp.o
 
 src/Timezone.i: src/Timezone.cpp.i
@@ -3907,7 +3907,7 @@ src/Timezone.i: src/Timezone.cpp.i
 
 # target to preprocess a source file
 src/Timezone.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timezone.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timezone.cpp.i
 .PHONY : src/Timezone.cpp.i
 
 src/Timezone.s: src/Timezone.cpp.s
@@ -3916,7 +3916,7 @@ src/Timezone.s: src/Timezone.cpp.s
 
 # target to generate assembly for a file
 src/Timezone.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timezone.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Timezone.cpp.s
 .PHONY : src/Timezone.cpp.s
 
 src/Token.o: src/Token.cpp.o
@@ -3925,7 +3925,7 @@ src/Token.o: src/Token.cpp.o
 
 # target to build an object file
 src/Token.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Token.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Token.cpp.o
 .PHONY : src/Token.cpp.o
 
 src/Token.i: src/Token.cpp.i
@@ -3934,7 +3934,7 @@ src/Token.i: src/Token.cpp.i
 
 # target to preprocess a source file
 src/Token.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Token.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Token.cpp.i
 .PHONY : src/Token.cpp.i
 
 src/Token.s: src/Token.cpp.s
@@ -3943,7 +3943,7 @@ src/Token.s: src/Token.cpp.s
 
 # target to generate assembly for a file
 src/Token.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Token.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Token.cpp.s
 .PHONY : src/Token.cpp.s
 
 src/URI.o: src/URI.cpp.o
@@ -3952,7 +3952,7 @@ src/URI.o: src/URI.cpp.o
 
 # target to build an object file
 src/URI.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URI.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URI.cpp.o
 .PHONY : src/URI.cpp.o
 
 src/URI.i: src/URI.cpp.i
@@ -3961,7 +3961,7 @@ src/URI.i: src/URI.cpp.i
 
 # target to preprocess a source file
 src/URI.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URI.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URI.cpp.i
 .PHONY : src/URI.cpp.i
 
 src/URI.s: src/URI.cpp.s
@@ -3970,7 +3970,7 @@ src/URI.s: src/URI.cpp.s
 
 # target to generate assembly for a file
 src/URI.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URI.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URI.cpp.s
 .PHONY : src/URI.cpp.s
 
 src/URIStreamFactory.o: src/URIStreamFactory.cpp.o
@@ -3979,7 +3979,7 @@ src/URIStreamFactory.o: src/URIStreamFactory.cpp.o
 
 # target to build an object file
 src/URIStreamFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URIStreamFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URIStreamFactory.cpp.o
 .PHONY : src/URIStreamFactory.cpp.o
 
 src/URIStreamFactory.i: src/URIStreamFactory.cpp.i
@@ -3988,7 +3988,7 @@ src/URIStreamFactory.i: src/URIStreamFactory.cpp.i
 
 # target to preprocess a source file
 src/URIStreamFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URIStreamFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URIStreamFactory.cpp.i
 .PHONY : src/URIStreamFactory.cpp.i
 
 src/URIStreamFactory.s: src/URIStreamFactory.cpp.s
@@ -3997,7 +3997,7 @@ src/URIStreamFactory.s: src/URIStreamFactory.cpp.s
 
 # target to generate assembly for a file
 src/URIStreamFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URIStreamFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URIStreamFactory.cpp.s
 .PHONY : src/URIStreamFactory.cpp.s
 
 src/URIStreamOpener.o: src/URIStreamOpener.cpp.o
@@ -4006,7 +4006,7 @@ src/URIStreamOpener.o: src/URIStreamOpener.cpp.o
 
 # target to build an object file
 src/URIStreamOpener.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URIStreamOpener.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URIStreamOpener.cpp.o
 .PHONY : src/URIStreamOpener.cpp.o
 
 src/URIStreamOpener.i: src/URIStreamOpener.cpp.i
@@ -4015,7 +4015,7 @@ src/URIStreamOpener.i: src/URIStreamOpener.cpp.i
 
 # target to preprocess a source file
 src/URIStreamOpener.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URIStreamOpener.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URIStreamOpener.cpp.i
 .PHONY : src/URIStreamOpener.cpp.i
 
 src/URIStreamOpener.s: src/URIStreamOpener.cpp.s
@@ -4024,7 +4024,7 @@ src/URIStreamOpener.s: src/URIStreamOpener.cpp.s
 
 # target to generate assembly for a file
 src/URIStreamOpener.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URIStreamOpener.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/URIStreamOpener.cpp.s
 .PHONY : src/URIStreamOpener.cpp.s
 
 src/UTF16Encoding.o: src/UTF16Encoding.cpp.o
@@ -4033,7 +4033,7 @@ src/UTF16Encoding.o: src/UTF16Encoding.cpp.o
 
 # target to build an object file
 src/UTF16Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF16Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF16Encoding.cpp.o
 .PHONY : src/UTF16Encoding.cpp.o
 
 src/UTF16Encoding.i: src/UTF16Encoding.cpp.i
@@ -4042,7 +4042,7 @@ src/UTF16Encoding.i: src/UTF16Encoding.cpp.i
 
 # target to preprocess a source file
 src/UTF16Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF16Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF16Encoding.cpp.i
 .PHONY : src/UTF16Encoding.cpp.i
 
 src/UTF16Encoding.s: src/UTF16Encoding.cpp.s
@@ -4051,7 +4051,7 @@ src/UTF16Encoding.s: src/UTF16Encoding.cpp.s
 
 # target to generate assembly for a file
 src/UTF16Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF16Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF16Encoding.cpp.s
 .PHONY : src/UTF16Encoding.cpp.s
 
 src/UTF32Encoding.o: src/UTF32Encoding.cpp.o
@@ -4060,7 +4060,7 @@ src/UTF32Encoding.o: src/UTF32Encoding.cpp.o
 
 # target to build an object file
 src/UTF32Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF32Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF32Encoding.cpp.o
 .PHONY : src/UTF32Encoding.cpp.o
 
 src/UTF32Encoding.i: src/UTF32Encoding.cpp.i
@@ -4069,7 +4069,7 @@ src/UTF32Encoding.i: src/UTF32Encoding.cpp.i
 
 # target to preprocess a source file
 src/UTF32Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF32Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF32Encoding.cpp.i
 .PHONY : src/UTF32Encoding.cpp.i
 
 src/UTF32Encoding.s: src/UTF32Encoding.cpp.s
@@ -4078,7 +4078,7 @@ src/UTF32Encoding.s: src/UTF32Encoding.cpp.s
 
 # target to generate assembly for a file
 src/UTF32Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF32Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF32Encoding.cpp.s
 .PHONY : src/UTF32Encoding.cpp.s
 
 src/UTF8Encoding.o: src/UTF8Encoding.cpp.o
@@ -4087,7 +4087,7 @@ src/UTF8Encoding.o: src/UTF8Encoding.cpp.o
 
 # target to build an object file
 src/UTF8Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF8Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF8Encoding.cpp.o
 .PHONY : src/UTF8Encoding.cpp.o
 
 src/UTF8Encoding.i: src/UTF8Encoding.cpp.i
@@ -4096,7 +4096,7 @@ src/UTF8Encoding.i: src/UTF8Encoding.cpp.i
 
 # target to preprocess a source file
 src/UTF8Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF8Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF8Encoding.cpp.i
 .PHONY : src/UTF8Encoding.cpp.i
 
 src/UTF8Encoding.s: src/UTF8Encoding.cpp.s
@@ -4105,7 +4105,7 @@ src/UTF8Encoding.s: src/UTF8Encoding.cpp.s
 
 # target to generate assembly for a file
 src/UTF8Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF8Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF8Encoding.cpp.s
 .PHONY : src/UTF8Encoding.cpp.s
 
 src/UTF8String.o: src/UTF8String.cpp.o
@@ -4114,7 +4114,7 @@ src/UTF8String.o: src/UTF8String.cpp.o
 
 # target to build an object file
 src/UTF8String.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF8String.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF8String.cpp.o
 .PHONY : src/UTF8String.cpp.o
 
 src/UTF8String.i: src/UTF8String.cpp.i
@@ -4123,7 +4123,7 @@ src/UTF8String.i: src/UTF8String.cpp.i
 
 # target to preprocess a source file
 src/UTF8String.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF8String.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF8String.cpp.i
 .PHONY : src/UTF8String.cpp.i
 
 src/UTF8String.s: src/UTF8String.cpp.s
@@ -4132,7 +4132,7 @@ src/UTF8String.s: src/UTF8String.cpp.s
 
 # target to generate assembly for a file
 src/UTF8String.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF8String.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UTF8String.cpp.s
 .PHONY : src/UTF8String.cpp.s
 
 src/UUID.o: src/UUID.cpp.o
@@ -4141,7 +4141,7 @@ src/UUID.o: src/UUID.cpp.o
 
 # target to build an object file
 src/UUID.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UUID.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UUID.cpp.o
 .PHONY : src/UUID.cpp.o
 
 src/UUID.i: src/UUID.cpp.i
@@ -4150,7 +4150,7 @@ src/UUID.i: src/UUID.cpp.i
 
 # target to preprocess a source file
 src/UUID.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UUID.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UUID.cpp.i
 .PHONY : src/UUID.cpp.i
 
 src/UUID.s: src/UUID.cpp.s
@@ -4159,7 +4159,7 @@ src/UUID.s: src/UUID.cpp.s
 
 # target to generate assembly for a file
 src/UUID.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UUID.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UUID.cpp.s
 .PHONY : src/UUID.cpp.s
 
 src/UUIDGenerator.o: src/UUIDGenerator.cpp.o
@@ -4168,7 +4168,7 @@ src/UUIDGenerator.o: src/UUIDGenerator.cpp.o
 
 # target to build an object file
 src/UUIDGenerator.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UUIDGenerator.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UUIDGenerator.cpp.o
 .PHONY : src/UUIDGenerator.cpp.o
 
 src/UUIDGenerator.i: src/UUIDGenerator.cpp.i
@@ -4177,7 +4177,7 @@ src/UUIDGenerator.i: src/UUIDGenerator.cpp.i
 
 # target to preprocess a source file
 src/UUIDGenerator.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UUIDGenerator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UUIDGenerator.cpp.i
 .PHONY : src/UUIDGenerator.cpp.i
 
 src/UUIDGenerator.s: src/UUIDGenerator.cpp.s
@@ -4186,7 +4186,7 @@ src/UUIDGenerator.s: src/UUIDGenerator.cpp.s
 
 # target to generate assembly for a file
 src/UUIDGenerator.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UUIDGenerator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UUIDGenerator.cpp.s
 .PHONY : src/UUIDGenerator.cpp.s
 
 src/Unicode.o: src/Unicode.cpp.o
@@ -4195,7 +4195,7 @@ src/Unicode.o: src/Unicode.cpp.o
 
 # target to build an object file
 src/Unicode.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Unicode.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Unicode.cpp.o
 .PHONY : src/Unicode.cpp.o
 
 src/Unicode.i: src/Unicode.cpp.i
@@ -4204,7 +4204,7 @@ src/Unicode.i: src/Unicode.cpp.i
 
 # target to preprocess a source file
 src/Unicode.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Unicode.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Unicode.cpp.i
 .PHONY : src/Unicode.cpp.i
 
 src/Unicode.s: src/Unicode.cpp.s
@@ -4213,7 +4213,7 @@ src/Unicode.s: src/Unicode.cpp.s
 
 # target to generate assembly for a file
 src/Unicode.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Unicode.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Unicode.cpp.s
 .PHONY : src/Unicode.cpp.s
 
 src/UnicodeConverter.o: src/UnicodeConverter.cpp.o
@@ -4222,7 +4222,7 @@ src/UnicodeConverter.o: src/UnicodeConverter.cpp.o
 
 # target to build an object file
 src/UnicodeConverter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UnicodeConverter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UnicodeConverter.cpp.o
 .PHONY : src/UnicodeConverter.cpp.o
 
 src/UnicodeConverter.i: src/UnicodeConverter.cpp.i
@@ -4231,7 +4231,7 @@ src/UnicodeConverter.i: src/UnicodeConverter.cpp.i
 
 # target to preprocess a source file
 src/UnicodeConverter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UnicodeConverter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UnicodeConverter.cpp.i
 .PHONY : src/UnicodeConverter.cpp.i
 
 src/UnicodeConverter.s: src/UnicodeConverter.cpp.s
@@ -4240,7 +4240,7 @@ src/UnicodeConverter.s: src/UnicodeConverter.cpp.s
 
 # target to generate assembly for a file
 src/UnicodeConverter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UnicodeConverter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/UnicodeConverter.cpp.s
 .PHONY : src/UnicodeConverter.cpp.s
 
 src/Var.o: src/Var.cpp.o
@@ -4249,7 +4249,7 @@ src/Var.o: src/Var.cpp.o
 
 # target to build an object file
 src/Var.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Var.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Var.cpp.o
 .PHONY : src/Var.cpp.o
 
 src/Var.i: src/Var.cpp.i
@@ -4258,7 +4258,7 @@ src/Var.i: src/Var.cpp.i
 
 # target to preprocess a source file
 src/Var.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Var.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Var.cpp.i
 .PHONY : src/Var.cpp.i
 
 src/Var.s: src/Var.cpp.s
@@ -4267,7 +4267,7 @@ src/Var.s: src/Var.cpp.s
 
 # target to generate assembly for a file
 src/Var.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Var.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Var.cpp.s
 .PHONY : src/Var.cpp.s
 
 src/VarHolder.o: src/VarHolder.cpp.o
@@ -4276,7 +4276,7 @@ src/VarHolder.o: src/VarHolder.cpp.o
 
 # target to build an object file
 src/VarHolder.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/VarHolder.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/VarHolder.cpp.o
 .PHONY : src/VarHolder.cpp.o
 
 src/VarHolder.i: src/VarHolder.cpp.i
@@ -4285,7 +4285,7 @@ src/VarHolder.i: src/VarHolder.cpp.i
 
 # target to preprocess a source file
 src/VarHolder.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/VarHolder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/VarHolder.cpp.i
 .PHONY : src/VarHolder.cpp.i
 
 src/VarHolder.s: src/VarHolder.cpp.s
@@ -4294,7 +4294,7 @@ src/VarHolder.s: src/VarHolder.cpp.s
 
 # target to generate assembly for a file
 src/VarHolder.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/VarHolder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/VarHolder.cpp.s
 .PHONY : src/VarHolder.cpp.s
 
 src/VarIterator.o: src/VarIterator.cpp.o
@@ -4303,7 +4303,7 @@ src/VarIterator.o: src/VarIterator.cpp.o
 
 # target to build an object file
 src/VarIterator.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/VarIterator.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/VarIterator.cpp.o
 .PHONY : src/VarIterator.cpp.o
 
 src/VarIterator.i: src/VarIterator.cpp.i
@@ -4312,7 +4312,7 @@ src/VarIterator.i: src/VarIterator.cpp.i
 
 # target to preprocess a source file
 src/VarIterator.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/VarIterator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/VarIterator.cpp.i
 .PHONY : src/VarIterator.cpp.i
 
 src/VarIterator.s: src/VarIterator.cpp.s
@@ -4321,7 +4321,7 @@ src/VarIterator.s: src/VarIterator.cpp.s
 
 # target to generate assembly for a file
 src/VarIterator.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/VarIterator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/VarIterator.cpp.s
 .PHONY : src/VarIterator.cpp.s
 
 src/Void.o: src/Void.cpp.o
@@ -4330,7 +4330,7 @@ src/Void.o: src/Void.cpp.o
 
 # target to build an object file
 src/Void.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Void.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Void.cpp.o
 .PHONY : src/Void.cpp.o
 
 src/Void.i: src/Void.cpp.i
@@ -4339,7 +4339,7 @@ src/Void.i: src/Void.cpp.i
 
 # target to preprocess a source file
 src/Void.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Void.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Void.cpp.i
 .PHONY : src/Void.cpp.i
 
 src/Void.s: src/Void.cpp.s
@@ -4348,7 +4348,7 @@ src/Void.s: src/Void.cpp.s
 
 # target to generate assembly for a file
 src/Void.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Void.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Void.cpp.s
 .PHONY : src/Void.cpp.s
 
 src/Windows1250Encoding.o: src/Windows1250Encoding.cpp.o
@@ -4357,7 +4357,7 @@ src/Windows1250Encoding.o: src/Windows1250Encoding.cpp.o
 
 # target to build an object file
 src/Windows1250Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1250Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1250Encoding.cpp.o
 .PHONY : src/Windows1250Encoding.cpp.o
 
 src/Windows1250Encoding.i: src/Windows1250Encoding.cpp.i
@@ -4366,7 +4366,7 @@ src/Windows1250Encoding.i: src/Windows1250Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows1250Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1250Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1250Encoding.cpp.i
 .PHONY : src/Windows1250Encoding.cpp.i
 
 src/Windows1250Encoding.s: src/Windows1250Encoding.cpp.s
@@ -4375,7 +4375,7 @@ src/Windows1250Encoding.s: src/Windows1250Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows1250Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1250Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1250Encoding.cpp.s
 .PHONY : src/Windows1250Encoding.cpp.s
 
 src/Windows1251Encoding.o: src/Windows1251Encoding.cpp.o
@@ -4384,7 +4384,7 @@ src/Windows1251Encoding.o: src/Windows1251Encoding.cpp.o
 
 # target to build an object file
 src/Windows1251Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1251Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1251Encoding.cpp.o
 .PHONY : src/Windows1251Encoding.cpp.o
 
 src/Windows1251Encoding.i: src/Windows1251Encoding.cpp.i
@@ -4393,7 +4393,7 @@ src/Windows1251Encoding.i: src/Windows1251Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows1251Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1251Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1251Encoding.cpp.i
 .PHONY : src/Windows1251Encoding.cpp.i
 
 src/Windows1251Encoding.s: src/Windows1251Encoding.cpp.s
@@ -4402,7 +4402,7 @@ src/Windows1251Encoding.s: src/Windows1251Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows1251Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1251Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1251Encoding.cpp.s
 .PHONY : src/Windows1251Encoding.cpp.s
 
 src/Windows1252Encoding.o: src/Windows1252Encoding.cpp.o
@@ -4411,7 +4411,7 @@ src/Windows1252Encoding.o: src/Windows1252Encoding.cpp.o
 
 # target to build an object file
 src/Windows1252Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1252Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1252Encoding.cpp.o
 .PHONY : src/Windows1252Encoding.cpp.o
 
 src/Windows1252Encoding.i: src/Windows1252Encoding.cpp.i
@@ -4420,7 +4420,7 @@ src/Windows1252Encoding.i: src/Windows1252Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows1252Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1252Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1252Encoding.cpp.i
 .PHONY : src/Windows1252Encoding.cpp.i
 
 src/Windows1252Encoding.s: src/Windows1252Encoding.cpp.s
@@ -4429,7 +4429,7 @@ src/Windows1252Encoding.s: src/Windows1252Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows1252Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1252Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/Windows1252Encoding.cpp.s
 .PHONY : src/Windows1252Encoding.cpp.s
 
 src/adler32.o: src/adler32.c.o
@@ -4438,7 +4438,7 @@ src/adler32.o: src/adler32.c.o
 
 # target to build an object file
 src/adler32.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/adler32.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/adler32.c.o
 .PHONY : src/adler32.c.o
 
 src/adler32.i: src/adler32.c.i
@@ -4447,7 +4447,7 @@ src/adler32.i: src/adler32.c.i
 
 # target to preprocess a source file
 src/adler32.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/adler32.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/adler32.c.i
 .PHONY : src/adler32.c.i
 
 src/adler32.s: src/adler32.c.s
@@ -4456,7 +4456,7 @@ src/adler32.s: src/adler32.c.s
 
 # target to generate assembly for a file
 src/adler32.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/adler32.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/adler32.c.s
 .PHONY : src/adler32.c.s
 
 src/compress.o: src/compress.c.o
@@ -4465,7 +4465,7 @@ src/compress.o: src/compress.c.o
 
 # target to build an object file
 src/compress.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/compress.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/compress.c.o
 .PHONY : src/compress.c.o
 
 src/compress.i: src/compress.c.i
@@ -4474,7 +4474,7 @@ src/compress.i: src/compress.c.i
 
 # target to preprocess a source file
 src/compress.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/compress.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/compress.c.i
 .PHONY : src/compress.c.i
 
 src/compress.s: src/compress.c.s
@@ -4483,7 +4483,7 @@ src/compress.s: src/compress.c.s
 
 # target to generate assembly for a file
 src/compress.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/compress.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/compress.c.s
 .PHONY : src/compress.c.s
 
 src/crc32.o: src/crc32.c.o
@@ -4492,7 +4492,7 @@ src/crc32.o: src/crc32.c.o
 
 # target to build an object file
 src/crc32.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/crc32.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/crc32.c.o
 .PHONY : src/crc32.c.o
 
 src/crc32.i: src/crc32.c.i
@@ -4501,7 +4501,7 @@ src/crc32.i: src/crc32.c.i
 
 # target to preprocess a source file
 src/crc32.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/crc32.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/crc32.c.i
 .PHONY : src/crc32.c.i
 
 src/crc32.s: src/crc32.c.s
@@ -4510,7 +4510,7 @@ src/crc32.s: src/crc32.c.s
 
 # target to generate assembly for a file
 src/crc32.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/crc32.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/crc32.c.s
 .PHONY : src/crc32.c.s
 
 src/deflate.o: src/deflate.c.o
@@ -4519,7 +4519,7 @@ src/deflate.o: src/deflate.c.o
 
 # target to build an object file
 src/deflate.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/deflate.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/deflate.c.o
 .PHONY : src/deflate.c.o
 
 src/deflate.i: src/deflate.c.i
@@ -4528,7 +4528,7 @@ src/deflate.i: src/deflate.c.i
 
 # target to preprocess a source file
 src/deflate.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/deflate.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/deflate.c.i
 .PHONY : src/deflate.c.i
 
 src/deflate.s: src/deflate.c.s
@@ -4537,7 +4537,7 @@ src/deflate.s: src/deflate.c.s
 
 # target to generate assembly for a file
 src/deflate.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/deflate.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/deflate.c.s
 .PHONY : src/deflate.c.s
 
 src/infback.o: src/infback.c.o
@@ -4546,7 +4546,7 @@ src/infback.o: src/infback.c.o
 
 # target to build an object file
 src/infback.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/infback.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/infback.c.o
 .PHONY : src/infback.c.o
 
 src/infback.i: src/infback.c.i
@@ -4555,7 +4555,7 @@ src/infback.i: src/infback.c.i
 
 # target to preprocess a source file
 src/infback.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/infback.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/infback.c.i
 .PHONY : src/infback.c.i
 
 src/infback.s: src/infback.c.s
@@ -4564,7 +4564,7 @@ src/infback.s: src/infback.c.s
 
 # target to generate assembly for a file
 src/infback.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/infback.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/infback.c.s
 .PHONY : src/infback.c.s
 
 src/inffast.o: src/inffast.c.o
@@ -4573,7 +4573,7 @@ src/inffast.o: src/inffast.c.o
 
 # target to build an object file
 src/inffast.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inffast.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inffast.c.o
 .PHONY : src/inffast.c.o
 
 src/inffast.i: src/inffast.c.i
@@ -4582,7 +4582,7 @@ src/inffast.i: src/inffast.c.i
 
 # target to preprocess a source file
 src/inffast.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inffast.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inffast.c.i
 .PHONY : src/inffast.c.i
 
 src/inffast.s: src/inffast.c.s
@@ -4591,7 +4591,7 @@ src/inffast.s: src/inffast.c.s
 
 # target to generate assembly for a file
 src/inffast.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inffast.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inffast.c.s
 .PHONY : src/inffast.c.s
 
 src/inflate.o: src/inflate.c.o
@@ -4600,7 +4600,7 @@ src/inflate.o: src/inflate.c.o
 
 # target to build an object file
 src/inflate.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inflate.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inflate.c.o
 .PHONY : src/inflate.c.o
 
 src/inflate.i: src/inflate.c.i
@@ -4609,7 +4609,7 @@ src/inflate.i: src/inflate.c.i
 
 # target to preprocess a source file
 src/inflate.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inflate.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inflate.c.i
 .PHONY : src/inflate.c.i
 
 src/inflate.s: src/inflate.c.s
@@ -4618,7 +4618,7 @@ src/inflate.s: src/inflate.c.s
 
 # target to generate assembly for a file
 src/inflate.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inflate.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inflate.c.s
 .PHONY : src/inflate.c.s
 
 src/inftrees.o: src/inftrees.c.o
@@ -4627,7 +4627,7 @@ src/inftrees.o: src/inftrees.c.o
 
 # target to build an object file
 src/inftrees.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inftrees.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inftrees.c.o
 .PHONY : src/inftrees.c.o
 
 src/inftrees.i: src/inftrees.c.i
@@ -4636,7 +4636,7 @@ src/inftrees.i: src/inftrees.c.i
 
 # target to preprocess a source file
 src/inftrees.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inftrees.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inftrees.c.i
 .PHONY : src/inftrees.c.i
 
 src/inftrees.s: src/inftrees.c.s
@@ -4645,7 +4645,7 @@ src/inftrees.s: src/inftrees.c.s
 
 # target to generate assembly for a file
 src/inftrees.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inftrees.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/inftrees.c.s
 .PHONY : src/inftrees.c.s
 
 src/pcre_byte_order.o: src/pcre_byte_order.c.o
@@ -4654,7 +4654,7 @@ src/pcre_byte_order.o: src/pcre_byte_order.c.o
 
 # target to build an object file
 src/pcre_byte_order.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_byte_order.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_byte_order.c.o
 .PHONY : src/pcre_byte_order.c.o
 
 src/pcre_byte_order.i: src/pcre_byte_order.c.i
@@ -4663,7 +4663,7 @@ src/pcre_byte_order.i: src/pcre_byte_order.c.i
 
 # target to preprocess a source file
 src/pcre_byte_order.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_byte_order.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_byte_order.c.i
 .PHONY : src/pcre_byte_order.c.i
 
 src/pcre_byte_order.s: src/pcre_byte_order.c.s
@@ -4672,7 +4672,7 @@ src/pcre_byte_order.s: src/pcre_byte_order.c.s
 
 # target to generate assembly for a file
 src/pcre_byte_order.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_byte_order.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_byte_order.c.s
 .PHONY : src/pcre_byte_order.c.s
 
 src/pcre_chartables.o: src/pcre_chartables.c.o
@@ -4681,7 +4681,7 @@ src/pcre_chartables.o: src/pcre_chartables.c.o
 
 # target to build an object file
 src/pcre_chartables.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_chartables.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_chartables.c.o
 .PHONY : src/pcre_chartables.c.o
 
 src/pcre_chartables.i: src/pcre_chartables.c.i
@@ -4690,7 +4690,7 @@ src/pcre_chartables.i: src/pcre_chartables.c.i
 
 # target to preprocess a source file
 src/pcre_chartables.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_chartables.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_chartables.c.i
 .PHONY : src/pcre_chartables.c.i
 
 src/pcre_chartables.s: src/pcre_chartables.c.s
@@ -4699,7 +4699,7 @@ src/pcre_chartables.s: src/pcre_chartables.c.s
 
 # target to generate assembly for a file
 src/pcre_chartables.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_chartables.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_chartables.c.s
 .PHONY : src/pcre_chartables.c.s
 
 src/pcre_compile.o: src/pcre_compile.c.o
@@ -4708,7 +4708,7 @@ src/pcre_compile.o: src/pcre_compile.c.o
 
 # target to build an object file
 src/pcre_compile.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_compile.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_compile.c.o
 .PHONY : src/pcre_compile.c.o
 
 src/pcre_compile.i: src/pcre_compile.c.i
@@ -4717,7 +4717,7 @@ src/pcre_compile.i: src/pcre_compile.c.i
 
 # target to preprocess a source file
 src/pcre_compile.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_compile.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_compile.c.i
 .PHONY : src/pcre_compile.c.i
 
 src/pcre_compile.s: src/pcre_compile.c.s
@@ -4726,7 +4726,7 @@ src/pcre_compile.s: src/pcre_compile.c.s
 
 # target to generate assembly for a file
 src/pcre_compile.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_compile.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_compile.c.s
 .PHONY : src/pcre_compile.c.s
 
 src/pcre_config.o: src/pcre_config.c.o
@@ -4735,7 +4735,7 @@ src/pcre_config.o: src/pcre_config.c.o
 
 # target to build an object file
 src/pcre_config.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_config.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_config.c.o
 .PHONY : src/pcre_config.c.o
 
 src/pcre_config.i: src/pcre_config.c.i
@@ -4744,7 +4744,7 @@ src/pcre_config.i: src/pcre_config.c.i
 
 # target to preprocess a source file
 src/pcre_config.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_config.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_config.c.i
 .PHONY : src/pcre_config.c.i
 
 src/pcre_config.s: src/pcre_config.c.s
@@ -4753,7 +4753,7 @@ src/pcre_config.s: src/pcre_config.c.s
 
 # target to generate assembly for a file
 src/pcre_config.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_config.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_config.c.s
 .PHONY : src/pcre_config.c.s
 
 src/pcre_dfa_exec.o: src/pcre_dfa_exec.c.o
@@ -4762,7 +4762,7 @@ src/pcre_dfa_exec.o: src/pcre_dfa_exec.c.o
 
 # target to build an object file
 src/pcre_dfa_exec.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_dfa_exec.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_dfa_exec.c.o
 .PHONY : src/pcre_dfa_exec.c.o
 
 src/pcre_dfa_exec.i: src/pcre_dfa_exec.c.i
@@ -4771,7 +4771,7 @@ src/pcre_dfa_exec.i: src/pcre_dfa_exec.c.i
 
 # target to preprocess a source file
 src/pcre_dfa_exec.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_dfa_exec.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_dfa_exec.c.i
 .PHONY : src/pcre_dfa_exec.c.i
 
 src/pcre_dfa_exec.s: src/pcre_dfa_exec.c.s
@@ -4780,7 +4780,7 @@ src/pcre_dfa_exec.s: src/pcre_dfa_exec.c.s
 
 # target to generate assembly for a file
 src/pcre_dfa_exec.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_dfa_exec.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_dfa_exec.c.s
 .PHONY : src/pcre_dfa_exec.c.s
 
 src/pcre_exec.o: src/pcre_exec.c.o
@@ -4789,7 +4789,7 @@ src/pcre_exec.o: src/pcre_exec.c.o
 
 # target to build an object file
 src/pcre_exec.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_exec.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_exec.c.o
 .PHONY : src/pcre_exec.c.o
 
 src/pcre_exec.i: src/pcre_exec.c.i
@@ -4798,7 +4798,7 @@ src/pcre_exec.i: src/pcre_exec.c.i
 
 # target to preprocess a source file
 src/pcre_exec.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_exec.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_exec.c.i
 .PHONY : src/pcre_exec.c.i
 
 src/pcre_exec.s: src/pcre_exec.c.s
@@ -4807,7 +4807,7 @@ src/pcre_exec.s: src/pcre_exec.c.s
 
 # target to generate assembly for a file
 src/pcre_exec.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_exec.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_exec.c.s
 .PHONY : src/pcre_exec.c.s
 
 src/pcre_fullinfo.o: src/pcre_fullinfo.c.o
@@ -4816,7 +4816,7 @@ src/pcre_fullinfo.o: src/pcre_fullinfo.c.o
 
 # target to build an object file
 src/pcre_fullinfo.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_fullinfo.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_fullinfo.c.o
 .PHONY : src/pcre_fullinfo.c.o
 
 src/pcre_fullinfo.i: src/pcre_fullinfo.c.i
@@ -4825,7 +4825,7 @@ src/pcre_fullinfo.i: src/pcre_fullinfo.c.i
 
 # target to preprocess a source file
 src/pcre_fullinfo.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_fullinfo.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_fullinfo.c.i
 .PHONY : src/pcre_fullinfo.c.i
 
 src/pcre_fullinfo.s: src/pcre_fullinfo.c.s
@@ -4834,7 +4834,7 @@ src/pcre_fullinfo.s: src/pcre_fullinfo.c.s
 
 # target to generate assembly for a file
 src/pcre_fullinfo.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_fullinfo.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_fullinfo.c.s
 .PHONY : src/pcre_fullinfo.c.s
 
 src/pcre_get.o: src/pcre_get.c.o
@@ -4843,7 +4843,7 @@ src/pcre_get.o: src/pcre_get.c.o
 
 # target to build an object file
 src/pcre_get.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_get.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_get.c.o
 .PHONY : src/pcre_get.c.o
 
 src/pcre_get.i: src/pcre_get.c.i
@@ -4852,7 +4852,7 @@ src/pcre_get.i: src/pcre_get.c.i
 
 # target to preprocess a source file
 src/pcre_get.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_get.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_get.c.i
 .PHONY : src/pcre_get.c.i
 
 src/pcre_get.s: src/pcre_get.c.s
@@ -4861,7 +4861,7 @@ src/pcre_get.s: src/pcre_get.c.s
 
 # target to generate assembly for a file
 src/pcre_get.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_get.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_get.c.s
 .PHONY : src/pcre_get.c.s
 
 src/pcre_globals.o: src/pcre_globals.c.o
@@ -4870,7 +4870,7 @@ src/pcre_globals.o: src/pcre_globals.c.o
 
 # target to build an object file
 src/pcre_globals.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_globals.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_globals.c.o
 .PHONY : src/pcre_globals.c.o
 
 src/pcre_globals.i: src/pcre_globals.c.i
@@ -4879,7 +4879,7 @@ src/pcre_globals.i: src/pcre_globals.c.i
 
 # target to preprocess a source file
 src/pcre_globals.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_globals.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_globals.c.i
 .PHONY : src/pcre_globals.c.i
 
 src/pcre_globals.s: src/pcre_globals.c.s
@@ -4888,7 +4888,7 @@ src/pcre_globals.s: src/pcre_globals.c.s
 
 # target to generate assembly for a file
 src/pcre_globals.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_globals.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_globals.c.s
 .PHONY : src/pcre_globals.c.s
 
 src/pcre_jit_compile.o: src/pcre_jit_compile.c.o
@@ -4897,7 +4897,7 @@ src/pcre_jit_compile.o: src/pcre_jit_compile.c.o
 
 # target to build an object file
 src/pcre_jit_compile.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_jit_compile.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_jit_compile.c.o
 .PHONY : src/pcre_jit_compile.c.o
 
 src/pcre_jit_compile.i: src/pcre_jit_compile.c.i
@@ -4906,7 +4906,7 @@ src/pcre_jit_compile.i: src/pcre_jit_compile.c.i
 
 # target to preprocess a source file
 src/pcre_jit_compile.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_jit_compile.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_jit_compile.c.i
 .PHONY : src/pcre_jit_compile.c.i
 
 src/pcre_jit_compile.s: src/pcre_jit_compile.c.s
@@ -4915,7 +4915,7 @@ src/pcre_jit_compile.s: src/pcre_jit_compile.c.s
 
 # target to generate assembly for a file
 src/pcre_jit_compile.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_jit_compile.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_jit_compile.c.s
 .PHONY : src/pcre_jit_compile.c.s
 
 src/pcre_maketables.o: src/pcre_maketables.c.o
@@ -4924,7 +4924,7 @@ src/pcre_maketables.o: src/pcre_maketables.c.o
 
 # target to build an object file
 src/pcre_maketables.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_maketables.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_maketables.c.o
 .PHONY : src/pcre_maketables.c.o
 
 src/pcre_maketables.i: src/pcre_maketables.c.i
@@ -4933,7 +4933,7 @@ src/pcre_maketables.i: src/pcre_maketables.c.i
 
 # target to preprocess a source file
 src/pcre_maketables.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_maketables.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_maketables.c.i
 .PHONY : src/pcre_maketables.c.i
 
 src/pcre_maketables.s: src/pcre_maketables.c.s
@@ -4942,7 +4942,7 @@ src/pcre_maketables.s: src/pcre_maketables.c.s
 
 # target to generate assembly for a file
 src/pcre_maketables.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_maketables.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_maketables.c.s
 .PHONY : src/pcre_maketables.c.s
 
 src/pcre_newline.o: src/pcre_newline.c.o
@@ -4951,7 +4951,7 @@ src/pcre_newline.o: src/pcre_newline.c.o
 
 # target to build an object file
 src/pcre_newline.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_newline.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_newline.c.o
 .PHONY : src/pcre_newline.c.o
 
 src/pcre_newline.i: src/pcre_newline.c.i
@@ -4960,7 +4960,7 @@ src/pcre_newline.i: src/pcre_newline.c.i
 
 # target to preprocess a source file
 src/pcre_newline.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_newline.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_newline.c.i
 .PHONY : src/pcre_newline.c.i
 
 src/pcre_newline.s: src/pcre_newline.c.s
@@ -4969,7 +4969,7 @@ src/pcre_newline.s: src/pcre_newline.c.s
 
 # target to generate assembly for a file
 src/pcre_newline.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_newline.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_newline.c.s
 .PHONY : src/pcre_newline.c.s
 
 src/pcre_ord2utf8.o: src/pcre_ord2utf8.c.o
@@ -4978,7 +4978,7 @@ src/pcre_ord2utf8.o: src/pcre_ord2utf8.c.o
 
 # target to build an object file
 src/pcre_ord2utf8.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_ord2utf8.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_ord2utf8.c.o
 .PHONY : src/pcre_ord2utf8.c.o
 
 src/pcre_ord2utf8.i: src/pcre_ord2utf8.c.i
@@ -4987,7 +4987,7 @@ src/pcre_ord2utf8.i: src/pcre_ord2utf8.c.i
 
 # target to preprocess a source file
 src/pcre_ord2utf8.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_ord2utf8.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_ord2utf8.c.i
 .PHONY : src/pcre_ord2utf8.c.i
 
 src/pcre_ord2utf8.s: src/pcre_ord2utf8.c.s
@@ -4996,7 +4996,7 @@ src/pcre_ord2utf8.s: src/pcre_ord2utf8.c.s
 
 # target to generate assembly for a file
 src/pcre_ord2utf8.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_ord2utf8.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_ord2utf8.c.s
 .PHONY : src/pcre_ord2utf8.c.s
 
 src/pcre_refcount.o: src/pcre_refcount.c.o
@@ -5005,7 +5005,7 @@ src/pcre_refcount.o: src/pcre_refcount.c.o
 
 # target to build an object file
 src/pcre_refcount.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_refcount.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_refcount.c.o
 .PHONY : src/pcre_refcount.c.o
 
 src/pcre_refcount.i: src/pcre_refcount.c.i
@@ -5014,7 +5014,7 @@ src/pcre_refcount.i: src/pcre_refcount.c.i
 
 # target to preprocess a source file
 src/pcre_refcount.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_refcount.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_refcount.c.i
 .PHONY : src/pcre_refcount.c.i
 
 src/pcre_refcount.s: src/pcre_refcount.c.s
@@ -5023,7 +5023,7 @@ src/pcre_refcount.s: src/pcre_refcount.c.s
 
 # target to generate assembly for a file
 src/pcre_refcount.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_refcount.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_refcount.c.s
 .PHONY : src/pcre_refcount.c.s
 
 src/pcre_string_utils.o: src/pcre_string_utils.c.o
@@ -5032,7 +5032,7 @@ src/pcre_string_utils.o: src/pcre_string_utils.c.o
 
 # target to build an object file
 src/pcre_string_utils.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_string_utils.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_string_utils.c.o
 .PHONY : src/pcre_string_utils.c.o
 
 src/pcre_string_utils.i: src/pcre_string_utils.c.i
@@ -5041,7 +5041,7 @@ src/pcre_string_utils.i: src/pcre_string_utils.c.i
 
 # target to preprocess a source file
 src/pcre_string_utils.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_string_utils.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_string_utils.c.i
 .PHONY : src/pcre_string_utils.c.i
 
 src/pcre_string_utils.s: src/pcre_string_utils.c.s
@@ -5050,7 +5050,7 @@ src/pcre_string_utils.s: src/pcre_string_utils.c.s
 
 # target to generate assembly for a file
 src/pcre_string_utils.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_string_utils.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_string_utils.c.s
 .PHONY : src/pcre_string_utils.c.s
 
 src/pcre_study.o: src/pcre_study.c.o
@@ -5059,7 +5059,7 @@ src/pcre_study.o: src/pcre_study.c.o
 
 # target to build an object file
 src/pcre_study.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_study.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_study.c.o
 .PHONY : src/pcre_study.c.o
 
 src/pcre_study.i: src/pcre_study.c.i
@@ -5068,7 +5068,7 @@ src/pcre_study.i: src/pcre_study.c.i
 
 # target to preprocess a source file
 src/pcre_study.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_study.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_study.c.i
 .PHONY : src/pcre_study.c.i
 
 src/pcre_study.s: src/pcre_study.c.s
@@ -5077,7 +5077,7 @@ src/pcre_study.s: src/pcre_study.c.s
 
 # target to generate assembly for a file
 src/pcre_study.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_study.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_study.c.s
 .PHONY : src/pcre_study.c.s
 
 src/pcre_tables.o: src/pcre_tables.c.o
@@ -5086,7 +5086,7 @@ src/pcre_tables.o: src/pcre_tables.c.o
 
 # target to build an object file
 src/pcre_tables.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_tables.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_tables.c.o
 .PHONY : src/pcre_tables.c.o
 
 src/pcre_tables.i: src/pcre_tables.c.i
@@ -5095,7 +5095,7 @@ src/pcre_tables.i: src/pcre_tables.c.i
 
 # target to preprocess a source file
 src/pcre_tables.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_tables.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_tables.c.i
 .PHONY : src/pcre_tables.c.i
 
 src/pcre_tables.s: src/pcre_tables.c.s
@@ -5104,7 +5104,7 @@ src/pcre_tables.s: src/pcre_tables.c.s
 
 # target to generate assembly for a file
 src/pcre_tables.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_tables.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_tables.c.s
 .PHONY : src/pcre_tables.c.s
 
 src/pcre_ucd.o: src/pcre_ucd.c.o
@@ -5113,7 +5113,7 @@ src/pcre_ucd.o: src/pcre_ucd.c.o
 
 # target to build an object file
 src/pcre_ucd.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_ucd.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_ucd.c.o
 .PHONY : src/pcre_ucd.c.o
 
 src/pcre_ucd.i: src/pcre_ucd.c.i
@@ -5122,7 +5122,7 @@ src/pcre_ucd.i: src/pcre_ucd.c.i
 
 # target to preprocess a source file
 src/pcre_ucd.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_ucd.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_ucd.c.i
 .PHONY : src/pcre_ucd.c.i
 
 src/pcre_ucd.s: src/pcre_ucd.c.s
@@ -5131,7 +5131,7 @@ src/pcre_ucd.s: src/pcre_ucd.c.s
 
 # target to generate assembly for a file
 src/pcre_ucd.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_ucd.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_ucd.c.s
 .PHONY : src/pcre_ucd.c.s
 
 src/pcre_valid_utf8.o: src/pcre_valid_utf8.c.o
@@ -5140,7 +5140,7 @@ src/pcre_valid_utf8.o: src/pcre_valid_utf8.c.o
 
 # target to build an object file
 src/pcre_valid_utf8.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_valid_utf8.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_valid_utf8.c.o
 .PHONY : src/pcre_valid_utf8.c.o
 
 src/pcre_valid_utf8.i: src/pcre_valid_utf8.c.i
@@ -5149,7 +5149,7 @@ src/pcre_valid_utf8.i: src/pcre_valid_utf8.c.i
 
 # target to preprocess a source file
 src/pcre_valid_utf8.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_valid_utf8.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_valid_utf8.c.i
 .PHONY : src/pcre_valid_utf8.c.i
 
 src/pcre_valid_utf8.s: src/pcre_valid_utf8.c.s
@@ -5158,7 +5158,7 @@ src/pcre_valid_utf8.s: src/pcre_valid_utf8.c.s
 
 # target to generate assembly for a file
 src/pcre_valid_utf8.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_valid_utf8.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_valid_utf8.c.s
 .PHONY : src/pcre_valid_utf8.c.s
 
 src/pcre_version.o: src/pcre_version.c.o
@@ -5167,7 +5167,7 @@ src/pcre_version.o: src/pcre_version.c.o
 
 # target to build an object file
 src/pcre_version.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_version.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_version.c.o
 .PHONY : src/pcre_version.c.o
 
 src/pcre_version.i: src/pcre_version.c.i
@@ -5176,7 +5176,7 @@ src/pcre_version.i: src/pcre_version.c.i
 
 # target to preprocess a source file
 src/pcre_version.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_version.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_version.c.i
 .PHONY : src/pcre_version.c.i
 
 src/pcre_version.s: src/pcre_version.c.s
@@ -5185,7 +5185,7 @@ src/pcre_version.s: src/pcre_version.c.s
 
 # target to generate assembly for a file
 src/pcre_version.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_version.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_version.c.s
 .PHONY : src/pcre_version.c.s
 
 src/pcre_xclass.o: src/pcre_xclass.c.o
@@ -5194,7 +5194,7 @@ src/pcre_xclass.o: src/pcre_xclass.c.o
 
 # target to build an object file
 src/pcre_xclass.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_xclass.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_xclass.c.o
 .PHONY : src/pcre_xclass.c.o
 
 src/pcre_xclass.i: src/pcre_xclass.c.i
@@ -5203,7 +5203,7 @@ src/pcre_xclass.i: src/pcre_xclass.c.i
 
 # target to preprocess a source file
 src/pcre_xclass.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_xclass.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_xclass.c.i
 .PHONY : src/pcre_xclass.c.i
 
 src/pcre_xclass.s: src/pcre_xclass.c.s
@@ -5212,7 +5212,7 @@ src/pcre_xclass.s: src/pcre_xclass.c.s
 
 # target to generate assembly for a file
 src/pcre_xclass.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_xclass.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/pcre_xclass.c.s
 .PHONY : src/pcre_xclass.c.s
 
 src/trees.o: src/trees.c.o
@@ -5221,7 +5221,7 @@ src/trees.o: src/trees.c.o
 
 # target to build an object file
 src/trees.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/trees.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/trees.c.o
 .PHONY : src/trees.c.o
 
 src/trees.i: src/trees.c.i
@@ -5230,7 +5230,7 @@ src/trees.i: src/trees.c.i
 
 # target to preprocess a source file
 src/trees.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/trees.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/trees.c.i
 .PHONY : src/trees.c.i
 
 src/trees.s: src/trees.c.s
@@ -5239,7 +5239,7 @@ src/trees.s: src/trees.c.s
 
 # target to generate assembly for a file
 src/trees.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/trees.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/trees.c.s
 .PHONY : src/trees.c.s
 
 src/zutil.o: src/zutil.c.o
@@ -5248,7 +5248,7 @@ src/zutil.o: src/zutil.c.o
 
 # target to build an object file
 src/zutil.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/zutil.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/zutil.c.o
 .PHONY : src/zutil.c.o
 
 src/zutil.i: src/zutil.c.i
@@ -5257,7 +5257,7 @@ src/zutil.i: src/zutil.c.i
 
 # target to preprocess a source file
 src/zutil.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/zutil.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/zutil.c.i
 .PHONY : src/zutil.c.i
 
 src/zutil.s: src/zutil.c.s
@@ -5266,7 +5266,7 @@ src/zutil.s: src/zutil.c.s
 
 # target to generate assembly for a file
 src/zutil.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/zutil.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Foundation/CMakeFiles/Foundation.dir/build.make Foundation/CMakeFiles/Foundation.dir/src/zutil.c.s
 .PHONY : src/zutil.c.s
 
 # Help Target
@@ -5859,6 +5859,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,7 +94,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CPackSourceConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/Poco_OSP/Poco/cmake-build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL/CMakeFiles/progress.marks
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 NetSSL_OpenSSL/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL/CMakeFiles/progress.marks
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 NetSSL_OpenSSL/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 NetSSL_OpenSSL/clean
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 NetSSL_OpenSSL/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 NetSSL_OpenSSL/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 NetSSL_OpenSSL/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 NetSSL_OpenSSL/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 NetSSL_OpenSSL/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/rule:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/rule
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/rule
 .PHONY : NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ NetSSL: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/rule
 
 # fast build rule for target.
 NetSSL/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build
 .PHONY : NetSSL/fast
 
 src/AcceptCertificateHandler.o: src/AcceptCertificateHandler.cpp.o
@@ -199,7 +199,7 @@ src/AcceptCertificateHandler.o: src/AcceptCertificateHandler.cpp.o
 
 # target to build an object file
 src/AcceptCertificateHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.o
 .PHONY : src/AcceptCertificateHandler.cpp.o
 
 src/AcceptCertificateHandler.i: src/AcceptCertificateHandler.cpp.i
@@ -208,7 +208,7 @@ src/AcceptCertificateHandler.i: src/AcceptCertificateHandler.cpp.i
 
 # target to preprocess a source file
 src/AcceptCertificateHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.i
 .PHONY : src/AcceptCertificateHandler.cpp.i
 
 src/AcceptCertificateHandler.s: src/AcceptCertificateHandler.cpp.s
@@ -217,7 +217,7 @@ src/AcceptCertificateHandler.s: src/AcceptCertificateHandler.cpp.s
 
 # target to generate assembly for a file
 src/AcceptCertificateHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.s
 .PHONY : src/AcceptCertificateHandler.cpp.s
 
 src/CertificateHandlerFactory.o: src/CertificateHandlerFactory.cpp.o
@@ -226,7 +226,7 @@ src/CertificateHandlerFactory.o: src/CertificateHandlerFactory.cpp.o
 
 # target to build an object file
 src/CertificateHandlerFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.o
 .PHONY : src/CertificateHandlerFactory.cpp.o
 
 src/CertificateHandlerFactory.i: src/CertificateHandlerFactory.cpp.i
@@ -235,7 +235,7 @@ src/CertificateHandlerFactory.i: src/CertificateHandlerFactory.cpp.i
 
 # target to preprocess a source file
 src/CertificateHandlerFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.i
 .PHONY : src/CertificateHandlerFactory.cpp.i
 
 src/CertificateHandlerFactory.s: src/CertificateHandlerFactory.cpp.s
@@ -244,7 +244,7 @@ src/CertificateHandlerFactory.s: src/CertificateHandlerFactory.cpp.s
 
 # target to generate assembly for a file
 src/CertificateHandlerFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.s
 .PHONY : src/CertificateHandlerFactory.cpp.s
 
 src/CertificateHandlerFactoryMgr.o: src/CertificateHandlerFactoryMgr.cpp.o
@@ -253,7 +253,7 @@ src/CertificateHandlerFactoryMgr.o: src/CertificateHandlerFactoryMgr.cpp.o
 
 # target to build an object file
 src/CertificateHandlerFactoryMgr.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.o
 .PHONY : src/CertificateHandlerFactoryMgr.cpp.o
 
 src/CertificateHandlerFactoryMgr.i: src/CertificateHandlerFactoryMgr.cpp.i
@@ -262,7 +262,7 @@ src/CertificateHandlerFactoryMgr.i: src/CertificateHandlerFactoryMgr.cpp.i
 
 # target to preprocess a source file
 src/CertificateHandlerFactoryMgr.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.i
 .PHONY : src/CertificateHandlerFactoryMgr.cpp.i
 
 src/CertificateHandlerFactoryMgr.s: src/CertificateHandlerFactoryMgr.cpp.s
@@ -271,7 +271,7 @@ src/CertificateHandlerFactoryMgr.s: src/CertificateHandlerFactoryMgr.cpp.s
 
 # target to generate assembly for a file
 src/CertificateHandlerFactoryMgr.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.s
 .PHONY : src/CertificateHandlerFactoryMgr.cpp.s
 
 src/ConsoleCertificateHandler.o: src/ConsoleCertificateHandler.cpp.o
@@ -280,7 +280,7 @@ src/ConsoleCertificateHandler.o: src/ConsoleCertificateHandler.cpp.o
 
 # target to build an object file
 src/ConsoleCertificateHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.o
 .PHONY : src/ConsoleCertificateHandler.cpp.o
 
 src/ConsoleCertificateHandler.i: src/ConsoleCertificateHandler.cpp.i
@@ -289,7 +289,7 @@ src/ConsoleCertificateHandler.i: src/ConsoleCertificateHandler.cpp.i
 
 # target to preprocess a source file
 src/ConsoleCertificateHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.i
 .PHONY : src/ConsoleCertificateHandler.cpp.i
 
 src/ConsoleCertificateHandler.s: src/ConsoleCertificateHandler.cpp.s
@@ -298,7 +298,7 @@ src/ConsoleCertificateHandler.s: src/ConsoleCertificateHandler.cpp.s
 
 # target to generate assembly for a file
 src/ConsoleCertificateHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.s
 .PHONY : src/ConsoleCertificateHandler.cpp.s
 
 src/Context.o: src/Context.cpp.o
@@ -307,7 +307,7 @@ src/Context.o: src/Context.cpp.o
 
 # target to build an object file
 src/Context.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Context.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Context.cpp.o
 .PHONY : src/Context.cpp.o
 
 src/Context.i: src/Context.cpp.i
@@ -316,7 +316,7 @@ src/Context.i: src/Context.cpp.i
 
 # target to preprocess a source file
 src/Context.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Context.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Context.cpp.i
 .PHONY : src/Context.cpp.i
 
 src/Context.s: src/Context.cpp.s
@@ -325,7 +325,7 @@ src/Context.s: src/Context.cpp.s
 
 # target to generate assembly for a file
 src/Context.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Context.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Context.cpp.s
 .PHONY : src/Context.cpp.s
 
 src/FTPSClientSession.o: src/FTPSClientSession.cpp.o
@@ -334,7 +334,7 @@ src/FTPSClientSession.o: src/FTPSClientSession.cpp.o
 
 # target to build an object file
 src/FTPSClientSession.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.o
 .PHONY : src/FTPSClientSession.cpp.o
 
 src/FTPSClientSession.i: src/FTPSClientSession.cpp.i
@@ -343,7 +343,7 @@ src/FTPSClientSession.i: src/FTPSClientSession.cpp.i
 
 # target to preprocess a source file
 src/FTPSClientSession.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.i
 .PHONY : src/FTPSClientSession.cpp.i
 
 src/FTPSClientSession.s: src/FTPSClientSession.cpp.s
@@ -352,7 +352,7 @@ src/FTPSClientSession.s: src/FTPSClientSession.cpp.s
 
 # target to generate assembly for a file
 src/FTPSClientSession.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.s
 .PHONY : src/FTPSClientSession.cpp.s
 
 src/FTPSStreamFactory.o: src/FTPSStreamFactory.cpp.o
@@ -361,7 +361,7 @@ src/FTPSStreamFactory.o: src/FTPSStreamFactory.cpp.o
 
 # target to build an object file
 src/FTPSStreamFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.o
 .PHONY : src/FTPSStreamFactory.cpp.o
 
 src/FTPSStreamFactory.i: src/FTPSStreamFactory.cpp.i
@@ -370,7 +370,7 @@ src/FTPSStreamFactory.i: src/FTPSStreamFactory.cpp.i
 
 # target to preprocess a source file
 src/FTPSStreamFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.i
 .PHONY : src/FTPSStreamFactory.cpp.i
 
 src/FTPSStreamFactory.s: src/FTPSStreamFactory.cpp.s
@@ -379,7 +379,7 @@ src/FTPSStreamFactory.s: src/FTPSStreamFactory.cpp.s
 
 # target to generate assembly for a file
 src/FTPSStreamFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.s
 .PHONY : src/FTPSStreamFactory.cpp.s
 
 src/HTTPSClientSession.o: src/HTTPSClientSession.cpp.o
@@ -388,7 +388,7 @@ src/HTTPSClientSession.o: src/HTTPSClientSession.cpp.o
 
 # target to build an object file
 src/HTTPSClientSession.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.o
 .PHONY : src/HTTPSClientSession.cpp.o
 
 src/HTTPSClientSession.i: src/HTTPSClientSession.cpp.i
@@ -397,7 +397,7 @@ src/HTTPSClientSession.i: src/HTTPSClientSession.cpp.i
 
 # target to preprocess a source file
 src/HTTPSClientSession.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.i
 .PHONY : src/HTTPSClientSession.cpp.i
 
 src/HTTPSClientSession.s: src/HTTPSClientSession.cpp.s
@@ -406,7 +406,7 @@ src/HTTPSClientSession.s: src/HTTPSClientSession.cpp.s
 
 # target to generate assembly for a file
 src/HTTPSClientSession.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.s
 .PHONY : src/HTTPSClientSession.cpp.s
 
 src/HTTPSSessionInstantiator.o: src/HTTPSSessionInstantiator.cpp.o
@@ -415,7 +415,7 @@ src/HTTPSSessionInstantiator.o: src/HTTPSSessionInstantiator.cpp.o
 
 # target to build an object file
 src/HTTPSSessionInstantiator.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.o
 .PHONY : src/HTTPSSessionInstantiator.cpp.o
 
 src/HTTPSSessionInstantiator.i: src/HTTPSSessionInstantiator.cpp.i
@@ -424,7 +424,7 @@ src/HTTPSSessionInstantiator.i: src/HTTPSSessionInstantiator.cpp.i
 
 # target to preprocess a source file
 src/HTTPSSessionInstantiator.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.i
 .PHONY : src/HTTPSSessionInstantiator.cpp.i
 
 src/HTTPSSessionInstantiator.s: src/HTTPSSessionInstantiator.cpp.s
@@ -433,7 +433,7 @@ src/HTTPSSessionInstantiator.s: src/HTTPSSessionInstantiator.cpp.s
 
 # target to generate assembly for a file
 src/HTTPSSessionInstantiator.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.s
 .PHONY : src/HTTPSSessionInstantiator.cpp.s
 
 src/HTTPSStreamFactory.o: src/HTTPSStreamFactory.cpp.o
@@ -442,7 +442,7 @@ src/HTTPSStreamFactory.o: src/HTTPSStreamFactory.cpp.o
 
 # target to build an object file
 src/HTTPSStreamFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.o
 .PHONY : src/HTTPSStreamFactory.cpp.o
 
 src/HTTPSStreamFactory.i: src/HTTPSStreamFactory.cpp.i
@@ -451,7 +451,7 @@ src/HTTPSStreamFactory.i: src/HTTPSStreamFactory.cpp.i
 
 # target to preprocess a source file
 src/HTTPSStreamFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.i
 .PHONY : src/HTTPSStreamFactory.cpp.i
 
 src/HTTPSStreamFactory.s: src/HTTPSStreamFactory.cpp.s
@@ -460,7 +460,7 @@ src/HTTPSStreamFactory.s: src/HTTPSStreamFactory.cpp.s
 
 # target to generate assembly for a file
 src/HTTPSStreamFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.s
 .PHONY : src/HTTPSStreamFactory.cpp.s
 
 src/InvalidCertificateHandler.o: src/InvalidCertificateHandler.cpp.o
@@ -469,7 +469,7 @@ src/InvalidCertificateHandler.o: src/InvalidCertificateHandler.cpp.o
 
 # target to build an object file
 src/InvalidCertificateHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.o
 .PHONY : src/InvalidCertificateHandler.cpp.o
 
 src/InvalidCertificateHandler.i: src/InvalidCertificateHandler.cpp.i
@@ -478,7 +478,7 @@ src/InvalidCertificateHandler.i: src/InvalidCertificateHandler.cpp.i
 
 # target to preprocess a source file
 src/InvalidCertificateHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.i
 .PHONY : src/InvalidCertificateHandler.cpp.i
 
 src/InvalidCertificateHandler.s: src/InvalidCertificateHandler.cpp.s
@@ -487,7 +487,7 @@ src/InvalidCertificateHandler.s: src/InvalidCertificateHandler.cpp.s
 
 # target to generate assembly for a file
 src/InvalidCertificateHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.s
 .PHONY : src/InvalidCertificateHandler.cpp.s
 
 src/KeyConsoleHandler.o: src/KeyConsoleHandler.cpp.o
@@ -496,7 +496,7 @@ src/KeyConsoleHandler.o: src/KeyConsoleHandler.cpp.o
 
 # target to build an object file
 src/KeyConsoleHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.o
 .PHONY : src/KeyConsoleHandler.cpp.o
 
 src/KeyConsoleHandler.i: src/KeyConsoleHandler.cpp.i
@@ -505,7 +505,7 @@ src/KeyConsoleHandler.i: src/KeyConsoleHandler.cpp.i
 
 # target to preprocess a source file
 src/KeyConsoleHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.i
 .PHONY : src/KeyConsoleHandler.cpp.i
 
 src/KeyConsoleHandler.s: src/KeyConsoleHandler.cpp.s
@@ -514,7 +514,7 @@ src/KeyConsoleHandler.s: src/KeyConsoleHandler.cpp.s
 
 # target to generate assembly for a file
 src/KeyConsoleHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.s
 .PHONY : src/KeyConsoleHandler.cpp.s
 
 src/KeyFileHandler.o: src/KeyFileHandler.cpp.o
@@ -523,7 +523,7 @@ src/KeyFileHandler.o: src/KeyFileHandler.cpp.o
 
 # target to build an object file
 src/KeyFileHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.o
 .PHONY : src/KeyFileHandler.cpp.o
 
 src/KeyFileHandler.i: src/KeyFileHandler.cpp.i
@@ -532,7 +532,7 @@ src/KeyFileHandler.i: src/KeyFileHandler.cpp.i
 
 # target to preprocess a source file
 src/KeyFileHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.i
 .PHONY : src/KeyFileHandler.cpp.i
 
 src/KeyFileHandler.s: src/KeyFileHandler.cpp.s
@@ -541,7 +541,7 @@ src/KeyFileHandler.s: src/KeyFileHandler.cpp.s
 
 # target to generate assembly for a file
 src/KeyFileHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.s
 .PHONY : src/KeyFileHandler.cpp.s
 
 src/PrivateKeyFactory.o: src/PrivateKeyFactory.cpp.o
@@ -550,7 +550,7 @@ src/PrivateKeyFactory.o: src/PrivateKeyFactory.cpp.o
 
 # target to build an object file
 src/PrivateKeyFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.o
 .PHONY : src/PrivateKeyFactory.cpp.o
 
 src/PrivateKeyFactory.i: src/PrivateKeyFactory.cpp.i
@@ -559,7 +559,7 @@ src/PrivateKeyFactory.i: src/PrivateKeyFactory.cpp.i
 
 # target to preprocess a source file
 src/PrivateKeyFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.i
 .PHONY : src/PrivateKeyFactory.cpp.i
 
 src/PrivateKeyFactory.s: src/PrivateKeyFactory.cpp.s
@@ -568,7 +568,7 @@ src/PrivateKeyFactory.s: src/PrivateKeyFactory.cpp.s
 
 # target to generate assembly for a file
 src/PrivateKeyFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.s
 .PHONY : src/PrivateKeyFactory.cpp.s
 
 src/PrivateKeyFactoryMgr.o: src/PrivateKeyFactoryMgr.cpp.o
@@ -577,7 +577,7 @@ src/PrivateKeyFactoryMgr.o: src/PrivateKeyFactoryMgr.cpp.o
 
 # target to build an object file
 src/PrivateKeyFactoryMgr.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.o
 .PHONY : src/PrivateKeyFactoryMgr.cpp.o
 
 src/PrivateKeyFactoryMgr.i: src/PrivateKeyFactoryMgr.cpp.i
@@ -586,7 +586,7 @@ src/PrivateKeyFactoryMgr.i: src/PrivateKeyFactoryMgr.cpp.i
 
 # target to preprocess a source file
 src/PrivateKeyFactoryMgr.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.i
 .PHONY : src/PrivateKeyFactoryMgr.cpp.i
 
 src/PrivateKeyFactoryMgr.s: src/PrivateKeyFactoryMgr.cpp.s
@@ -595,7 +595,7 @@ src/PrivateKeyFactoryMgr.s: src/PrivateKeyFactoryMgr.cpp.s
 
 # target to generate assembly for a file
 src/PrivateKeyFactoryMgr.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.s
 .PHONY : src/PrivateKeyFactoryMgr.cpp.s
 
 src/PrivateKeyPassphraseHandler.o: src/PrivateKeyPassphraseHandler.cpp.o
@@ -604,7 +604,7 @@ src/PrivateKeyPassphraseHandler.o: src/PrivateKeyPassphraseHandler.cpp.o
 
 # target to build an object file
 src/PrivateKeyPassphraseHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.o
 .PHONY : src/PrivateKeyPassphraseHandler.cpp.o
 
 src/PrivateKeyPassphraseHandler.i: src/PrivateKeyPassphraseHandler.cpp.i
@@ -613,7 +613,7 @@ src/PrivateKeyPassphraseHandler.i: src/PrivateKeyPassphraseHandler.cpp.i
 
 # target to preprocess a source file
 src/PrivateKeyPassphraseHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.i
 .PHONY : src/PrivateKeyPassphraseHandler.cpp.i
 
 src/PrivateKeyPassphraseHandler.s: src/PrivateKeyPassphraseHandler.cpp.s
@@ -622,7 +622,7 @@ src/PrivateKeyPassphraseHandler.s: src/PrivateKeyPassphraseHandler.cpp.s
 
 # target to generate assembly for a file
 src/PrivateKeyPassphraseHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.s
 .PHONY : src/PrivateKeyPassphraseHandler.cpp.s
 
 src/RejectCertificateHandler.o: src/RejectCertificateHandler.cpp.o
@@ -631,7 +631,7 @@ src/RejectCertificateHandler.o: src/RejectCertificateHandler.cpp.o
 
 # target to build an object file
 src/RejectCertificateHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.o
 .PHONY : src/RejectCertificateHandler.cpp.o
 
 src/RejectCertificateHandler.i: src/RejectCertificateHandler.cpp.i
@@ -640,7 +640,7 @@ src/RejectCertificateHandler.i: src/RejectCertificateHandler.cpp.i
 
 # target to preprocess a source file
 src/RejectCertificateHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.i
 .PHONY : src/RejectCertificateHandler.cpp.i
 
 src/RejectCertificateHandler.s: src/RejectCertificateHandler.cpp.s
@@ -649,7 +649,7 @@ src/RejectCertificateHandler.s: src/RejectCertificateHandler.cpp.s
 
 # target to generate assembly for a file
 src/RejectCertificateHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.s
 .PHONY : src/RejectCertificateHandler.cpp.s
 
 src/SSLException.o: src/SSLException.cpp.o
@@ -658,7 +658,7 @@ src/SSLException.o: src/SSLException.cpp.o
 
 # target to build an object file
 src/SSLException.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLException.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLException.cpp.o
 .PHONY : src/SSLException.cpp.o
 
 src/SSLException.i: src/SSLException.cpp.i
@@ -667,7 +667,7 @@ src/SSLException.i: src/SSLException.cpp.i
 
 # target to preprocess a source file
 src/SSLException.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLException.cpp.i
 .PHONY : src/SSLException.cpp.i
 
 src/SSLException.s: src/SSLException.cpp.s
@@ -676,7 +676,7 @@ src/SSLException.s: src/SSLException.cpp.s
 
 # target to generate assembly for a file
 src/SSLException.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLException.cpp.s
 .PHONY : src/SSLException.cpp.s
 
 src/SSLManager.o: src/SSLManager.cpp.o
@@ -685,7 +685,7 @@ src/SSLManager.o: src/SSLManager.cpp.o
 
 # target to build an object file
 src/SSLManager.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLManager.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLManager.cpp.o
 .PHONY : src/SSLManager.cpp.o
 
 src/SSLManager.i: src/SSLManager.cpp.i
@@ -694,7 +694,7 @@ src/SSLManager.i: src/SSLManager.cpp.i
 
 # target to preprocess a source file
 src/SSLManager.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLManager.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLManager.cpp.i
 .PHONY : src/SSLManager.cpp.i
 
 src/SSLManager.s: src/SSLManager.cpp.s
@@ -703,7 +703,7 @@ src/SSLManager.s: src/SSLManager.cpp.s
 
 # target to generate assembly for a file
 src/SSLManager.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLManager.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLManager.cpp.s
 .PHONY : src/SSLManager.cpp.s
 
 src/SecureSMTPClientSession.o: src/SecureSMTPClientSession.cpp.o
@@ -712,7 +712,7 @@ src/SecureSMTPClientSession.o: src/SecureSMTPClientSession.cpp.o
 
 # target to build an object file
 src/SecureSMTPClientSession.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.o
 .PHONY : src/SecureSMTPClientSession.cpp.o
 
 src/SecureSMTPClientSession.i: src/SecureSMTPClientSession.cpp.i
@@ -721,7 +721,7 @@ src/SecureSMTPClientSession.i: src/SecureSMTPClientSession.cpp.i
 
 # target to preprocess a source file
 src/SecureSMTPClientSession.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.i
 .PHONY : src/SecureSMTPClientSession.cpp.i
 
 src/SecureSMTPClientSession.s: src/SecureSMTPClientSession.cpp.s
@@ -730,7 +730,7 @@ src/SecureSMTPClientSession.s: src/SecureSMTPClientSession.cpp.s
 
 # target to generate assembly for a file
 src/SecureSMTPClientSession.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.s
 .PHONY : src/SecureSMTPClientSession.cpp.s
 
 src/SecureServerSocket.o: src/SecureServerSocket.cpp.o
@@ -739,7 +739,7 @@ src/SecureServerSocket.o: src/SecureServerSocket.cpp.o
 
 # target to build an object file
 src/SecureServerSocket.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.o
 .PHONY : src/SecureServerSocket.cpp.o
 
 src/SecureServerSocket.i: src/SecureServerSocket.cpp.i
@@ -748,7 +748,7 @@ src/SecureServerSocket.i: src/SecureServerSocket.cpp.i
 
 # target to preprocess a source file
 src/SecureServerSocket.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.i
 .PHONY : src/SecureServerSocket.cpp.i
 
 src/SecureServerSocket.s: src/SecureServerSocket.cpp.s
@@ -757,7 +757,7 @@ src/SecureServerSocket.s: src/SecureServerSocket.cpp.s
 
 # target to generate assembly for a file
 src/SecureServerSocket.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.s
 .PHONY : src/SecureServerSocket.cpp.s
 
 src/SecureServerSocketImpl.o: src/SecureServerSocketImpl.cpp.o
@@ -766,7 +766,7 @@ src/SecureServerSocketImpl.o: src/SecureServerSocketImpl.cpp.o
 
 # target to build an object file
 src/SecureServerSocketImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.o
 .PHONY : src/SecureServerSocketImpl.cpp.o
 
 src/SecureServerSocketImpl.i: src/SecureServerSocketImpl.cpp.i
@@ -775,7 +775,7 @@ src/SecureServerSocketImpl.i: src/SecureServerSocketImpl.cpp.i
 
 # target to preprocess a source file
 src/SecureServerSocketImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.i
 .PHONY : src/SecureServerSocketImpl.cpp.i
 
 src/SecureServerSocketImpl.s: src/SecureServerSocketImpl.cpp.s
@@ -784,7 +784,7 @@ src/SecureServerSocketImpl.s: src/SecureServerSocketImpl.cpp.s
 
 # target to generate assembly for a file
 src/SecureServerSocketImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.s
 .PHONY : src/SecureServerSocketImpl.cpp.s
 
 src/SecureSocketImpl.o: src/SecureSocketImpl.cpp.o
@@ -793,7 +793,7 @@ src/SecureSocketImpl.o: src/SecureSocketImpl.cpp.o
 
 # target to build an object file
 src/SecureSocketImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.o
 .PHONY : src/SecureSocketImpl.cpp.o
 
 src/SecureSocketImpl.i: src/SecureSocketImpl.cpp.i
@@ -802,7 +802,7 @@ src/SecureSocketImpl.i: src/SecureSocketImpl.cpp.i
 
 # target to preprocess a source file
 src/SecureSocketImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.i
 .PHONY : src/SecureSocketImpl.cpp.i
 
 src/SecureSocketImpl.s: src/SecureSocketImpl.cpp.s
@@ -811,7 +811,7 @@ src/SecureSocketImpl.s: src/SecureSocketImpl.cpp.s
 
 # target to generate assembly for a file
 src/SecureSocketImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.s
 .PHONY : src/SecureSocketImpl.cpp.s
 
 src/SecureStreamSocket.o: src/SecureStreamSocket.cpp.o
@@ -820,7 +820,7 @@ src/SecureStreamSocket.o: src/SecureStreamSocket.cpp.o
 
 # target to build an object file
 src/SecureStreamSocket.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.o
 .PHONY : src/SecureStreamSocket.cpp.o
 
 src/SecureStreamSocket.i: src/SecureStreamSocket.cpp.i
@@ -829,7 +829,7 @@ src/SecureStreamSocket.i: src/SecureStreamSocket.cpp.i
 
 # target to preprocess a source file
 src/SecureStreamSocket.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.i
 .PHONY : src/SecureStreamSocket.cpp.i
 
 src/SecureStreamSocket.s: src/SecureStreamSocket.cpp.s
@@ -838,7 +838,7 @@ src/SecureStreamSocket.s: src/SecureStreamSocket.cpp.s
 
 # target to generate assembly for a file
 src/SecureStreamSocket.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.s
 .PHONY : src/SecureStreamSocket.cpp.s
 
 src/SecureStreamSocketImpl.o: src/SecureStreamSocketImpl.cpp.o
@@ -847,7 +847,7 @@ src/SecureStreamSocketImpl.o: src/SecureStreamSocketImpl.cpp.o
 
 # target to build an object file
 src/SecureStreamSocketImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.o
 .PHONY : src/SecureStreamSocketImpl.cpp.o
 
 src/SecureStreamSocketImpl.i: src/SecureStreamSocketImpl.cpp.i
@@ -856,7 +856,7 @@ src/SecureStreamSocketImpl.i: src/SecureStreamSocketImpl.cpp.i
 
 # target to preprocess a source file
 src/SecureStreamSocketImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.i
 .PHONY : src/SecureStreamSocketImpl.cpp.i
 
 src/SecureStreamSocketImpl.s: src/SecureStreamSocketImpl.cpp.s
@@ -865,7 +865,7 @@ src/SecureStreamSocketImpl.s: src/SecureStreamSocketImpl.cpp.s
 
 # target to generate assembly for a file
 src/SecureStreamSocketImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.s
 .PHONY : src/SecureStreamSocketImpl.cpp.s
 
 src/Session.o: src/Session.cpp.o
@@ -874,7 +874,7 @@ src/Session.o: src/Session.cpp.o
 
 # target to build an object file
 src/Session.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Session.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Session.cpp.o
 .PHONY : src/Session.cpp.o
 
 src/Session.i: src/Session.cpp.i
@@ -883,7 +883,7 @@ src/Session.i: src/Session.cpp.i
 
 # target to preprocess a source file
 src/Session.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Session.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Session.cpp.i
 .PHONY : src/Session.cpp.i
 
 src/Session.s: src/Session.cpp.s
@@ -892,7 +892,7 @@ src/Session.s: src/Session.cpp.s
 
 # target to generate assembly for a file
 src/Session.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Session.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Session.cpp.s
 .PHONY : src/Session.cpp.s
 
 src/Utility.o: src/Utility.cpp.o
@@ -901,7 +901,7 @@ src/Utility.o: src/Utility.cpp.o
 
 # target to build an object file
 src/Utility.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Utility.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Utility.cpp.o
 .PHONY : src/Utility.cpp.o
 
 src/Utility.i: src/Utility.cpp.i
@@ -910,7 +910,7 @@ src/Utility.i: src/Utility.cpp.i
 
 # target to preprocess a source file
 src/Utility.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Utility.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Utility.cpp.i
 .PHONY : src/Utility.cpp.i
 
 src/Utility.s: src/Utility.cpp.s
@@ -919,7 +919,7 @@ src/Utility.s: src/Utility.cpp.s
 
 # target to generate assembly for a file
 src/Utility.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Utility.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Utility.cpp.s
 .PHONY : src/Utility.cpp.s
 
 src/VerificationErrorArgs.o: src/VerificationErrorArgs.cpp.o
@@ -928,7 +928,7 @@ src/VerificationErrorArgs.o: src/VerificationErrorArgs.cpp.o
 
 # target to build an object file
 src/VerificationErrorArgs.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.o
 .PHONY : src/VerificationErrorArgs.cpp.o
 
 src/VerificationErrorArgs.i: src/VerificationErrorArgs.cpp.i
@@ -937,7 +937,7 @@ src/VerificationErrorArgs.i: src/VerificationErrorArgs.cpp.i
 
 # target to preprocess a source file
 src/VerificationErrorArgs.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.i
 .PHONY : src/VerificationErrorArgs.cpp.i
 
 src/VerificationErrorArgs.s: src/VerificationErrorArgs.cpp.s
@@ -946,7 +946,7 @@ src/VerificationErrorArgs.s: src/VerificationErrorArgs.cpp.s
 
 # target to generate assembly for a file
 src/VerificationErrorArgs.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.s
 .PHONY : src/VerificationErrorArgs.cpp.s
 
 src/X509Certificate.o: src/X509Certificate.cpp.o
@@ -955,7 +955,7 @@ src/X509Certificate.o: src/X509Certificate.cpp.o
 
 # target to build an object file
 src/X509Certificate.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.o
 .PHONY : src/X509Certificate.cpp.o
 
 src/X509Certificate.i: src/X509Certificate.cpp.i
@@ -964,7 +964,7 @@ src/X509Certificate.i: src/X509Certificate.cpp.i
 
 # target to preprocess a source file
 src/X509Certificate.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.i
 .PHONY : src/X509Certificate.cpp.i
 
 src/X509Certificate.s: src/X509Certificate.cpp.s
@@ -973,7 +973,7 @@ src/X509Certificate.s: src/X509Certificate.cpp.s
 
 # target to generate assembly for a file
 src/X509Certificate.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build.make NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.s
 .PHONY : src/X509Certificate.cpp.s
 
 # Help Target
@@ -1089,6 +1089,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

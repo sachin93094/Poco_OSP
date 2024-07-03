@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/cmake_uninstall.cmake
+	/usr/bin/cmake -P /mnt/Poco_OSP/Poco/cmake-build/cmake_uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Jun_unit_Testing/tcu-adk-dev/poco /root/Jun_unit_Testing/tcu-adk-dev/poco /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/Poco_OSP/Poco /mnt/Poco_OSP/Poco /mnt/Poco_OSP/Poco/cmake-build /mnt/Poco_OSP/Poco/cmake-build /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

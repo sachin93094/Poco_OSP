@@ -47,14 +47,14 @@ add_library(Poco::Foundation SHARED IMPORTED)
 set_target_properties(Poco::Foundation PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "\$<\$<CONFIG:Debug>:_DEBUG>;\$<\$<BOOL:>:POCO_DISABLE_CPP14>;\$<\$<NOT:\$<BOOL:>>:POCO_ENABLE_CPP14>;\$<\$<BOOL:>:POCO_DISABLE_CPP11>;\$<\$<NOT:\$<BOOL:>>:POCO_ENABLE_CPP11>;POCO_OS_FAMILY_UNIX;_REENTRANT;_THREAD_SAFE;_LARGEFILE64_SOURCE;_FILE_OFFSET_BITS=64;_XOPEN_SOURCE=500;POCO_HAVE_FD_EPOLL"
   INTERFACE_COMPILE_FEATURES "\$<\$<NOT:\$<BOOL:>>:cxx_defaulted_move_initializers>;cxx_std_14"
-  INTERFACE_INCLUDE_DIRECTORIES "/root/Jun_unit_Testing/tcu-adk-dev/poco/Foundation/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/mnt/Poco_OSP/Poco/Foundation/include"
   INTERFACE_LINK_LIBRARIES "pthread;dl;rt"
 )
 
 # Import target "Poco::Foundation" for configuration "RelWithDebInfo"
 set_property(TARGET Poco::Foundation APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(Poco::Foundation PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib/libPocoFoundation.so.71"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/mnt/Poco_OSP/Poco/cmake-build/lib/libPocoFoundation.so.71"
   IMPORTED_SONAME_RELWITHDEBINFO "libPocoFoundation.so.71"
   )
 

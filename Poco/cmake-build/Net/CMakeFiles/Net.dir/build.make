@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 # Include any dependencies generated for this target.
 include Net/CMakeFiles/Net.dir/depend.make
@@ -59,1381 +59,1381 @@ include Net/CMakeFiles/Net.dir/flags.make
 
 Net/CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.o: ../Net/src/AbstractHTTPRequestHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Net/CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/AbstractHTTPRequestHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Net/CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/AbstractHTTPRequestHandler.cpp
 
 Net/CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/AbstractHTTPRequestHandler.cpp > CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/AbstractHTTPRequestHandler.cpp > CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.i
 
 Net/CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/AbstractHTTPRequestHandler.cpp -o CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/AbstractHTTPRequestHandler.cpp -o CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.s
 
 Net/CMakeFiles/Net.dir/src/DNS.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/DNS.cpp.o: ../Net/src/DNS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Net/CMakeFiles/Net.dir/src/DNS.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/DNS.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/DNS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Net/CMakeFiles/Net.dir/src/DNS.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/DNS.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/DNS.cpp
 
 Net/CMakeFiles/Net.dir/src/DNS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/DNS.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/DNS.cpp > CMakeFiles/Net.dir/src/DNS.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/DNS.cpp > CMakeFiles/Net.dir/src/DNS.cpp.i
 
 Net/CMakeFiles/Net.dir/src/DNS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/DNS.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/DNS.cpp -o CMakeFiles/Net.dir/src/DNS.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/DNS.cpp -o CMakeFiles/Net.dir/src/DNS.cpp.s
 
 Net/CMakeFiles/Net.dir/src/DatagramSocket.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/DatagramSocket.cpp.o: ../Net/src/DatagramSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Net/CMakeFiles/Net.dir/src/DatagramSocket.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/DatagramSocket.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/DatagramSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Net/CMakeFiles/Net.dir/src/DatagramSocket.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/DatagramSocket.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/DatagramSocket.cpp
 
 Net/CMakeFiles/Net.dir/src/DatagramSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/DatagramSocket.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/DatagramSocket.cpp > CMakeFiles/Net.dir/src/DatagramSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/DatagramSocket.cpp > CMakeFiles/Net.dir/src/DatagramSocket.cpp.i
 
 Net/CMakeFiles/Net.dir/src/DatagramSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/DatagramSocket.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/DatagramSocket.cpp -o CMakeFiles/Net.dir/src/DatagramSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/DatagramSocket.cpp -o CMakeFiles/Net.dir/src/DatagramSocket.cpp.s
 
 Net/CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.o: ../Net/src/DatagramSocketImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Net/CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/DatagramSocketImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Net/CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/DatagramSocketImpl.cpp
 
 Net/CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/DatagramSocketImpl.cpp > CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/DatagramSocketImpl.cpp > CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.i
 
 Net/CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/DatagramSocketImpl.cpp -o CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/DatagramSocketImpl.cpp -o CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.s
 
 Net/CMakeFiles/Net.dir/src/DialogSocket.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/DialogSocket.cpp.o: ../Net/src/DialogSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Net/CMakeFiles/Net.dir/src/DialogSocket.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/DialogSocket.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/DialogSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Net/CMakeFiles/Net.dir/src/DialogSocket.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/DialogSocket.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/DialogSocket.cpp
 
 Net/CMakeFiles/Net.dir/src/DialogSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/DialogSocket.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/DialogSocket.cpp > CMakeFiles/Net.dir/src/DialogSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/DialogSocket.cpp > CMakeFiles/Net.dir/src/DialogSocket.cpp.i
 
 Net/CMakeFiles/Net.dir/src/DialogSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/DialogSocket.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/DialogSocket.cpp -o CMakeFiles/Net.dir/src/DialogSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/DialogSocket.cpp -o CMakeFiles/Net.dir/src/DialogSocket.cpp.s
 
 Net/CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.o: ../Net/src/EscapeHTMLStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Net/CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/EscapeHTMLStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Net/CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/EscapeHTMLStream.cpp
 
 Net/CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/EscapeHTMLStream.cpp > CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/EscapeHTMLStream.cpp > CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.i
 
 Net/CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/EscapeHTMLStream.cpp -o CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/EscapeHTMLStream.cpp -o CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.s
 
 Net/CMakeFiles/Net.dir/src/FTPClientSession.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/FTPClientSession.cpp.o: ../Net/src/FTPClientSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Net/CMakeFiles/Net.dir/src/FTPClientSession.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/FTPClientSession.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/FTPClientSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Net/CMakeFiles/Net.dir/src/FTPClientSession.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/FTPClientSession.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/FTPClientSession.cpp
 
 Net/CMakeFiles/Net.dir/src/FTPClientSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/FTPClientSession.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/FTPClientSession.cpp > CMakeFiles/Net.dir/src/FTPClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/FTPClientSession.cpp > CMakeFiles/Net.dir/src/FTPClientSession.cpp.i
 
 Net/CMakeFiles/Net.dir/src/FTPClientSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/FTPClientSession.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/FTPClientSession.cpp -o CMakeFiles/Net.dir/src/FTPClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/FTPClientSession.cpp -o CMakeFiles/Net.dir/src/FTPClientSession.cpp.s
 
 Net/CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.o: ../Net/src/FTPStreamFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Net/CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/FTPStreamFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Net/CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/FTPStreamFactory.cpp
 
 Net/CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/FTPStreamFactory.cpp > CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/FTPStreamFactory.cpp > CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.i
 
 Net/CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/FTPStreamFactory.cpp -o CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/FTPStreamFactory.cpp -o CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.s
 
 Net/CMakeFiles/Net.dir/src/FilePartSource.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/FilePartSource.cpp.o: ../Net/src/FilePartSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Net/CMakeFiles/Net.dir/src/FilePartSource.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/FilePartSource.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/FilePartSource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Net/CMakeFiles/Net.dir/src/FilePartSource.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/FilePartSource.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/FilePartSource.cpp
 
 Net/CMakeFiles/Net.dir/src/FilePartSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/FilePartSource.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/FilePartSource.cpp > CMakeFiles/Net.dir/src/FilePartSource.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/FilePartSource.cpp > CMakeFiles/Net.dir/src/FilePartSource.cpp.i
 
 Net/CMakeFiles/Net.dir/src/FilePartSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/FilePartSource.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/FilePartSource.cpp -o CMakeFiles/Net.dir/src/FilePartSource.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/FilePartSource.cpp -o CMakeFiles/Net.dir/src/FilePartSource.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTMLForm.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTMLForm.cpp.o: ../Net/src/HTMLForm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Net/CMakeFiles/Net.dir/src/HTMLForm.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTMLForm.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTMLForm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Net/CMakeFiles/Net.dir/src/HTMLForm.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTMLForm.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTMLForm.cpp
 
 Net/CMakeFiles/Net.dir/src/HTMLForm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTMLForm.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTMLForm.cpp > CMakeFiles/Net.dir/src/HTMLForm.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTMLForm.cpp > CMakeFiles/Net.dir/src/HTMLForm.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTMLForm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTMLForm.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTMLForm.cpp -o CMakeFiles/Net.dir/src/HTMLForm.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTMLForm.cpp -o CMakeFiles/Net.dir/src/HTMLForm.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.o: ../Net/src/HTTPAuthenticationParams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPAuthenticationParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPAuthenticationParams.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPAuthenticationParams.cpp > CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPAuthenticationParams.cpp > CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPAuthenticationParams.cpp -o CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPAuthenticationParams.cpp -o CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.o: ../Net/src/HTTPBasicCredentials.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPBasicCredentials.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPBasicCredentials.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPBasicCredentials.cpp > CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPBasicCredentials.cpp > CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPBasicCredentials.cpp -o CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPBasicCredentials.cpp -o CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.o: ../Net/src/HTTPBufferAllocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPBufferAllocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPBufferAllocator.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPBufferAllocator.cpp > CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPBufferAllocator.cpp > CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPBufferAllocator.cpp -o CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPBufferAllocator.cpp -o CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.o: ../Net/src/HTTPChunkedStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPChunkedStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPChunkedStream.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPChunkedStream.cpp > CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPChunkedStream.cpp > CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPChunkedStream.cpp -o CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPChunkedStream.cpp -o CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPClientSession.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPClientSession.cpp.o: ../Net/src/HTTPClientSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPClientSession.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPClientSession.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPClientSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPClientSession.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPClientSession.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPClientSession.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPClientSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPClientSession.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPClientSession.cpp > CMakeFiles/Net.dir/src/HTTPClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPClientSession.cpp > CMakeFiles/Net.dir/src/HTTPClientSession.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPClientSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPClientSession.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPClientSession.cpp -o CMakeFiles/Net.dir/src/HTTPClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPClientSession.cpp -o CMakeFiles/Net.dir/src/HTTPClientSession.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPCookie.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPCookie.cpp.o: ../Net/src/HTTPCookie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPCookie.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPCookie.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPCookie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPCookie.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPCookie.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPCookie.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPCookie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPCookie.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPCookie.cpp > CMakeFiles/Net.dir/src/HTTPCookie.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPCookie.cpp > CMakeFiles/Net.dir/src/HTTPCookie.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPCookie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPCookie.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPCookie.cpp -o CMakeFiles/Net.dir/src/HTTPCookie.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPCookie.cpp -o CMakeFiles/Net.dir/src/HTTPCookie.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPCredentials.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPCredentials.cpp.o: ../Net/src/HTTPCredentials.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPCredentials.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPCredentials.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPCredentials.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPCredentials.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPCredentials.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPCredentials.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPCredentials.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPCredentials.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPCredentials.cpp > CMakeFiles/Net.dir/src/HTTPCredentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPCredentials.cpp > CMakeFiles/Net.dir/src/HTTPCredentials.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPCredentials.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPCredentials.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPCredentials.cpp -o CMakeFiles/Net.dir/src/HTTPCredentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPCredentials.cpp -o CMakeFiles/Net.dir/src/HTTPCredentials.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.o: ../Net/src/HTTPDigestCredentials.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPDigestCredentials.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPDigestCredentials.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPDigestCredentials.cpp > CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPDigestCredentials.cpp > CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPDigestCredentials.cpp -o CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPDigestCredentials.cpp -o CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.o: ../Net/src/HTTPFixedLengthStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPFixedLengthStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPFixedLengthStream.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPFixedLengthStream.cpp > CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPFixedLengthStream.cpp > CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPFixedLengthStream.cpp -o CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPFixedLengthStream.cpp -o CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.o: ../Net/src/HTTPHeaderStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPHeaderStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPHeaderStream.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPHeaderStream.cpp > CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPHeaderStream.cpp > CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPHeaderStream.cpp -o CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPHeaderStream.cpp -o CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPIOStream.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPIOStream.cpp.o: ../Net/src/HTTPIOStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPIOStream.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPIOStream.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPIOStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPIOStream.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPIOStream.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPIOStream.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPIOStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPIOStream.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPIOStream.cpp > CMakeFiles/Net.dir/src/HTTPIOStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPIOStream.cpp > CMakeFiles/Net.dir/src/HTTPIOStream.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPIOStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPIOStream.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPIOStream.cpp -o CMakeFiles/Net.dir/src/HTTPIOStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPIOStream.cpp -o CMakeFiles/Net.dir/src/HTTPIOStream.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPMessage.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPMessage.cpp.o: ../Net/src/HTTPMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPMessage.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPMessage.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPMessage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPMessage.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPMessage.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPMessage.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPMessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPMessage.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPMessage.cpp > CMakeFiles/Net.dir/src/HTTPMessage.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPMessage.cpp > CMakeFiles/Net.dir/src/HTTPMessage.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPMessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPMessage.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPMessage.cpp -o CMakeFiles/Net.dir/src/HTTPMessage.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPMessage.cpp -o CMakeFiles/Net.dir/src/HTTPMessage.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.o: ../Net/src/HTTPNTLMCredentials.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPNTLMCredentials.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPNTLMCredentials.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPNTLMCredentials.cpp > CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPNTLMCredentials.cpp > CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPNTLMCredentials.cpp -o CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPNTLMCredentials.cpp -o CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPRequest.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPRequest.cpp.o: ../Net/src/HTTPRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPRequest.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPRequest.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPRequest.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPRequest.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPRequest.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPRequest.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPRequest.cpp > CMakeFiles/Net.dir/src/HTTPRequest.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPRequest.cpp > CMakeFiles/Net.dir/src/HTTPRequest.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPRequest.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPRequest.cpp -o CMakeFiles/Net.dir/src/HTTPRequest.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPRequest.cpp -o CMakeFiles/Net.dir/src/HTTPRequest.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.o: ../Net/src/HTTPRequestHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPRequestHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPRequestHandler.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPRequestHandler.cpp > CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPRequestHandler.cpp > CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPRequestHandler.cpp -o CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPRequestHandler.cpp -o CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.o: ../Net/src/HTTPRequestHandlerFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPRequestHandlerFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPRequestHandlerFactory.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPRequestHandlerFactory.cpp > CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPRequestHandlerFactory.cpp > CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPRequestHandlerFactory.cpp -o CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPRequestHandlerFactory.cpp -o CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPResponse.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPResponse.cpp.o: ../Net/src/HTTPResponse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPResponse.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPResponse.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPResponse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPResponse.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPResponse.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPResponse.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPResponse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPResponse.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPResponse.cpp > CMakeFiles/Net.dir/src/HTTPResponse.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPResponse.cpp > CMakeFiles/Net.dir/src/HTTPResponse.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPResponse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPResponse.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPResponse.cpp -o CMakeFiles/Net.dir/src/HTTPResponse.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPResponse.cpp -o CMakeFiles/Net.dir/src/HTTPResponse.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPServer.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPServer.cpp.o: ../Net/src/HTTPServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServer.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServer.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServer.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServer.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPServer.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPServer.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServer.cpp > CMakeFiles/Net.dir/src/HTTPServer.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPServer.cpp > CMakeFiles/Net.dir/src/HTTPServer.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPServer.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServer.cpp -o CMakeFiles/Net.dir/src/HTTPServer.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPServer.cpp -o CMakeFiles/Net.dir/src/HTTPServer.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.o: ../Net/src/HTTPServerConnection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPServerConnection.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerConnection.cpp > CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPServerConnection.cpp > CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerConnection.cpp -o CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPServerConnection.cpp -o CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.o: ../Net/src/HTTPServerConnectionFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerConnectionFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPServerConnectionFactory.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerConnectionFactory.cpp > CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPServerConnectionFactory.cpp > CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerConnectionFactory.cpp -o CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPServerConnectionFactory.cpp -o CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPServerParams.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPServerParams.cpp.o: ../Net/src/HTTPServerParams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerParams.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerParams.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerParams.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerParams.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPServerParams.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPServerParams.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPServerParams.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerParams.cpp > CMakeFiles/Net.dir/src/HTTPServerParams.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPServerParams.cpp > CMakeFiles/Net.dir/src/HTTPServerParams.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPServerParams.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPServerParams.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerParams.cpp -o CMakeFiles/Net.dir/src/HTTPServerParams.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPServerParams.cpp -o CMakeFiles/Net.dir/src/HTTPServerParams.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.o: ../Net/src/HTTPServerRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPServerRequest.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerRequest.cpp > CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPServerRequest.cpp > CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerRequest.cpp -o CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPServerRequest.cpp -o CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.o: ../Net/src/HTTPServerRequestImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerRequestImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPServerRequestImpl.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerRequestImpl.cpp > CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPServerRequestImpl.cpp > CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerRequestImpl.cpp -o CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPServerRequestImpl.cpp -o CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.o: ../Net/src/HTTPServerResponse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerResponse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPServerResponse.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerResponse.cpp > CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPServerResponse.cpp > CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerResponse.cpp -o CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPServerResponse.cpp -o CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.o: ../Net/src/HTTPServerResponseImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerResponseImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPServerResponseImpl.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerResponseImpl.cpp > CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPServerResponseImpl.cpp > CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerResponseImpl.cpp -o CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPServerResponseImpl.cpp -o CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPServerSession.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPServerSession.cpp.o: ../Net/src/HTTPServerSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerSession.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerSession.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPServerSession.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPServerSession.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPServerSession.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPServerSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPServerSession.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerSession.cpp > CMakeFiles/Net.dir/src/HTTPServerSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPServerSession.cpp > CMakeFiles/Net.dir/src/HTTPServerSession.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPServerSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPServerSession.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPServerSession.cpp -o CMakeFiles/Net.dir/src/HTTPServerSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPServerSession.cpp -o CMakeFiles/Net.dir/src/HTTPServerSession.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPSession.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPSession.cpp.o: ../Net/src/HTTPSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPSession.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPSession.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPSession.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPSession.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPSession.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPSession.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPSession.cpp > CMakeFiles/Net.dir/src/HTTPSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPSession.cpp > CMakeFiles/Net.dir/src/HTTPSession.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPSession.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPSession.cpp -o CMakeFiles/Net.dir/src/HTTPSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPSession.cpp -o CMakeFiles/Net.dir/src/HTTPSession.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.o: ../Net/src/HTTPSessionFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPSessionFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPSessionFactory.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPSessionFactory.cpp > CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPSessionFactory.cpp > CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPSessionFactory.cpp -o CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPSessionFactory.cpp -o CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.o: ../Net/src/HTTPSessionInstantiator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPSessionInstantiator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPSessionInstantiator.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPSessionInstantiator.cpp > CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPSessionInstantiator.cpp > CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPSessionInstantiator.cpp -o CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPSessionInstantiator.cpp -o CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPStream.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPStream.cpp.o: ../Net/src/HTTPStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPStream.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPStream.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPStream.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPStream.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPStream.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPStream.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPStream.cpp > CMakeFiles/Net.dir/src/HTTPStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPStream.cpp > CMakeFiles/Net.dir/src/HTTPStream.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPStream.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPStream.cpp -o CMakeFiles/Net.dir/src/HTTPStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPStream.cpp -o CMakeFiles/Net.dir/src/HTTPStream.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.o: ../Net/src/HTTPStreamFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPStreamFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object Net/CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HTTPStreamFactory.cpp
 
 Net/CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPStreamFactory.cpp > CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HTTPStreamFactory.cpp > CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HTTPStreamFactory.cpp -o CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HTTPStreamFactory.cpp -o CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.s
 
 Net/CMakeFiles/Net.dir/src/HostEntry.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/HostEntry.cpp.o: ../Net/src/HostEntry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object Net/CMakeFiles/Net.dir/src/HostEntry.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HostEntry.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HostEntry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object Net/CMakeFiles/Net.dir/src/HostEntry.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/HostEntry.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/HostEntry.cpp
 
 Net/CMakeFiles/Net.dir/src/HostEntry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/HostEntry.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HostEntry.cpp > CMakeFiles/Net.dir/src/HostEntry.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/HostEntry.cpp > CMakeFiles/Net.dir/src/HostEntry.cpp.i
 
 Net/CMakeFiles/Net.dir/src/HostEntry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/HostEntry.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/HostEntry.cpp -o CMakeFiles/Net.dir/src/HostEntry.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/HostEntry.cpp -o CMakeFiles/Net.dir/src/HostEntry.cpp.s
 
 Net/CMakeFiles/Net.dir/src/ICMPClient.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/ICMPClient.cpp.o: ../Net/src/ICMPClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPClient.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPClient.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPClient.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPClient.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/ICMPClient.cpp
 
 Net/CMakeFiles/Net.dir/src/ICMPClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/ICMPClient.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPClient.cpp > CMakeFiles/Net.dir/src/ICMPClient.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/ICMPClient.cpp > CMakeFiles/Net.dir/src/ICMPClient.cpp.i
 
 Net/CMakeFiles/Net.dir/src/ICMPClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/ICMPClient.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPClient.cpp -o CMakeFiles/Net.dir/src/ICMPClient.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/ICMPClient.cpp -o CMakeFiles/Net.dir/src/ICMPClient.cpp.s
 
 Net/CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.o: ../Net/src/ICMPEventArgs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPEventArgs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/ICMPEventArgs.cpp
 
 Net/CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPEventArgs.cpp > CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/ICMPEventArgs.cpp > CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.i
 
 Net/CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPEventArgs.cpp -o CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/ICMPEventArgs.cpp -o CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.s
 
 Net/CMakeFiles/Net.dir/src/ICMPPacket.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/ICMPPacket.cpp.o: ../Net/src/ICMPPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPPacket.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPPacket.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPPacket.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPPacket.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/ICMPPacket.cpp
 
 Net/CMakeFiles/Net.dir/src/ICMPPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/ICMPPacket.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPPacket.cpp > CMakeFiles/Net.dir/src/ICMPPacket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/ICMPPacket.cpp > CMakeFiles/Net.dir/src/ICMPPacket.cpp.i
 
 Net/CMakeFiles/Net.dir/src/ICMPPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/ICMPPacket.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPPacket.cpp -o CMakeFiles/Net.dir/src/ICMPPacket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/ICMPPacket.cpp -o CMakeFiles/Net.dir/src/ICMPPacket.cpp.s
 
 Net/CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.o: ../Net/src/ICMPPacketImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPPacketImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/ICMPPacketImpl.cpp
 
 Net/CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPPacketImpl.cpp > CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/ICMPPacketImpl.cpp > CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.i
 
 Net/CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPPacketImpl.cpp -o CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/ICMPPacketImpl.cpp -o CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.s
 
 Net/CMakeFiles/Net.dir/src/ICMPSocket.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/ICMPSocket.cpp.o: ../Net/src/ICMPSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPSocket.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPSocket.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPSocket.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPSocket.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/ICMPSocket.cpp
 
 Net/CMakeFiles/Net.dir/src/ICMPSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/ICMPSocket.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPSocket.cpp > CMakeFiles/Net.dir/src/ICMPSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/ICMPSocket.cpp > CMakeFiles/Net.dir/src/ICMPSocket.cpp.i
 
 Net/CMakeFiles/Net.dir/src/ICMPSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/ICMPSocket.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPSocket.cpp -o CMakeFiles/Net.dir/src/ICMPSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/ICMPSocket.cpp -o CMakeFiles/Net.dir/src/ICMPSocket.cpp.s
 
 Net/CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.o: ../Net/src/ICMPSocketImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPSocketImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/ICMPSocketImpl.cpp
 
 Net/CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPSocketImpl.cpp > CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/ICMPSocketImpl.cpp > CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.i
 
 Net/CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPSocketImpl.cpp -o CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/ICMPSocketImpl.cpp -o CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.s
 
 Net/CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.o: ../Net/src/ICMPv4PacketImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPv4PacketImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object Net/CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/ICMPv4PacketImpl.cpp
 
 Net/CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPv4PacketImpl.cpp > CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/ICMPv4PacketImpl.cpp > CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.i
 
 Net/CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ICMPv4PacketImpl.cpp -o CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/ICMPv4PacketImpl.cpp -o CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.s
 
 Net/CMakeFiles/Net.dir/src/IPAddress.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/IPAddress.cpp.o: ../Net/src/IPAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object Net/CMakeFiles/Net.dir/src/IPAddress.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/IPAddress.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/IPAddress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object Net/CMakeFiles/Net.dir/src/IPAddress.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/IPAddress.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/IPAddress.cpp
 
 Net/CMakeFiles/Net.dir/src/IPAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/IPAddress.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/IPAddress.cpp > CMakeFiles/Net.dir/src/IPAddress.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/IPAddress.cpp > CMakeFiles/Net.dir/src/IPAddress.cpp.i
 
 Net/CMakeFiles/Net.dir/src/IPAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/IPAddress.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/IPAddress.cpp -o CMakeFiles/Net.dir/src/IPAddress.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/IPAddress.cpp -o CMakeFiles/Net.dir/src/IPAddress.cpp.s
 
 Net/CMakeFiles/Net.dir/src/IPAddressImpl.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/IPAddressImpl.cpp.o: ../Net/src/IPAddressImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object Net/CMakeFiles/Net.dir/src/IPAddressImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/IPAddressImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/IPAddressImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object Net/CMakeFiles/Net.dir/src/IPAddressImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/IPAddressImpl.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/IPAddressImpl.cpp
 
 Net/CMakeFiles/Net.dir/src/IPAddressImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/IPAddressImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/IPAddressImpl.cpp > CMakeFiles/Net.dir/src/IPAddressImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/IPAddressImpl.cpp > CMakeFiles/Net.dir/src/IPAddressImpl.cpp.i
 
 Net/CMakeFiles/Net.dir/src/IPAddressImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/IPAddressImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/IPAddressImpl.cpp -o CMakeFiles/Net.dir/src/IPAddressImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/IPAddressImpl.cpp -o CMakeFiles/Net.dir/src/IPAddressImpl.cpp.s
 
 Net/CMakeFiles/Net.dir/src/MailMessage.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/MailMessage.cpp.o: ../Net/src/MailMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object Net/CMakeFiles/Net.dir/src/MailMessage.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MailMessage.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MailMessage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object Net/CMakeFiles/Net.dir/src/MailMessage.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MailMessage.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/MailMessage.cpp
 
 Net/CMakeFiles/Net.dir/src/MailMessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/MailMessage.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MailMessage.cpp > CMakeFiles/Net.dir/src/MailMessage.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/MailMessage.cpp > CMakeFiles/Net.dir/src/MailMessage.cpp.i
 
 Net/CMakeFiles/Net.dir/src/MailMessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/MailMessage.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MailMessage.cpp -o CMakeFiles/Net.dir/src/MailMessage.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/MailMessage.cpp -o CMakeFiles/Net.dir/src/MailMessage.cpp.s
 
 Net/CMakeFiles/Net.dir/src/MailRecipient.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/MailRecipient.cpp.o: ../Net/src/MailRecipient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object Net/CMakeFiles/Net.dir/src/MailRecipient.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MailRecipient.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MailRecipient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object Net/CMakeFiles/Net.dir/src/MailRecipient.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MailRecipient.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/MailRecipient.cpp
 
 Net/CMakeFiles/Net.dir/src/MailRecipient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/MailRecipient.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MailRecipient.cpp > CMakeFiles/Net.dir/src/MailRecipient.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/MailRecipient.cpp > CMakeFiles/Net.dir/src/MailRecipient.cpp.i
 
 Net/CMakeFiles/Net.dir/src/MailRecipient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/MailRecipient.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MailRecipient.cpp -o CMakeFiles/Net.dir/src/MailRecipient.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/MailRecipient.cpp -o CMakeFiles/Net.dir/src/MailRecipient.cpp.s
 
 Net/CMakeFiles/Net.dir/src/MailStream.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/MailStream.cpp.o: ../Net/src/MailStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object Net/CMakeFiles/Net.dir/src/MailStream.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MailStream.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MailStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object Net/CMakeFiles/Net.dir/src/MailStream.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MailStream.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/MailStream.cpp
 
 Net/CMakeFiles/Net.dir/src/MailStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/MailStream.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MailStream.cpp > CMakeFiles/Net.dir/src/MailStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/MailStream.cpp > CMakeFiles/Net.dir/src/MailStream.cpp.i
 
 Net/CMakeFiles/Net.dir/src/MailStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/MailStream.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MailStream.cpp -o CMakeFiles/Net.dir/src/MailStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/MailStream.cpp -o CMakeFiles/Net.dir/src/MailStream.cpp.s
 
 Net/CMakeFiles/Net.dir/src/MediaType.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/MediaType.cpp.o: ../Net/src/MediaType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object Net/CMakeFiles/Net.dir/src/MediaType.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MediaType.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MediaType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object Net/CMakeFiles/Net.dir/src/MediaType.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MediaType.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/MediaType.cpp
 
 Net/CMakeFiles/Net.dir/src/MediaType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/MediaType.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MediaType.cpp > CMakeFiles/Net.dir/src/MediaType.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/MediaType.cpp > CMakeFiles/Net.dir/src/MediaType.cpp.i
 
 Net/CMakeFiles/Net.dir/src/MediaType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/MediaType.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MediaType.cpp -o CMakeFiles/Net.dir/src/MediaType.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/MediaType.cpp -o CMakeFiles/Net.dir/src/MediaType.cpp.s
 
 Net/CMakeFiles/Net.dir/src/MessageHeader.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/MessageHeader.cpp.o: ../Net/src/MessageHeader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object Net/CMakeFiles/Net.dir/src/MessageHeader.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MessageHeader.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MessageHeader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object Net/CMakeFiles/Net.dir/src/MessageHeader.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MessageHeader.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/MessageHeader.cpp
 
 Net/CMakeFiles/Net.dir/src/MessageHeader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/MessageHeader.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MessageHeader.cpp > CMakeFiles/Net.dir/src/MessageHeader.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/MessageHeader.cpp > CMakeFiles/Net.dir/src/MessageHeader.cpp.i
 
 Net/CMakeFiles/Net.dir/src/MessageHeader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/MessageHeader.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MessageHeader.cpp -o CMakeFiles/Net.dir/src/MessageHeader.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/MessageHeader.cpp -o CMakeFiles/Net.dir/src/MessageHeader.cpp.s
 
 Net/CMakeFiles/Net.dir/src/MulticastSocket.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/MulticastSocket.cpp.o: ../Net/src/MulticastSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object Net/CMakeFiles/Net.dir/src/MulticastSocket.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MulticastSocket.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MulticastSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object Net/CMakeFiles/Net.dir/src/MulticastSocket.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MulticastSocket.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/MulticastSocket.cpp
 
 Net/CMakeFiles/Net.dir/src/MulticastSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/MulticastSocket.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MulticastSocket.cpp > CMakeFiles/Net.dir/src/MulticastSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/MulticastSocket.cpp > CMakeFiles/Net.dir/src/MulticastSocket.cpp.i
 
 Net/CMakeFiles/Net.dir/src/MulticastSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/MulticastSocket.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MulticastSocket.cpp -o CMakeFiles/Net.dir/src/MulticastSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/MulticastSocket.cpp -o CMakeFiles/Net.dir/src/MulticastSocket.cpp.s
 
 Net/CMakeFiles/Net.dir/src/MultipartReader.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/MultipartReader.cpp.o: ../Net/src/MultipartReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object Net/CMakeFiles/Net.dir/src/MultipartReader.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MultipartReader.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MultipartReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object Net/CMakeFiles/Net.dir/src/MultipartReader.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MultipartReader.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/MultipartReader.cpp
 
 Net/CMakeFiles/Net.dir/src/MultipartReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/MultipartReader.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MultipartReader.cpp > CMakeFiles/Net.dir/src/MultipartReader.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/MultipartReader.cpp > CMakeFiles/Net.dir/src/MultipartReader.cpp.i
 
 Net/CMakeFiles/Net.dir/src/MultipartReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/MultipartReader.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MultipartReader.cpp -o CMakeFiles/Net.dir/src/MultipartReader.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/MultipartReader.cpp -o CMakeFiles/Net.dir/src/MultipartReader.cpp.s
 
 Net/CMakeFiles/Net.dir/src/MultipartWriter.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/MultipartWriter.cpp.o: ../Net/src/MultipartWriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object Net/CMakeFiles/Net.dir/src/MultipartWriter.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MultipartWriter.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MultipartWriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object Net/CMakeFiles/Net.dir/src/MultipartWriter.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/MultipartWriter.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/MultipartWriter.cpp
 
 Net/CMakeFiles/Net.dir/src/MultipartWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/MultipartWriter.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MultipartWriter.cpp > CMakeFiles/Net.dir/src/MultipartWriter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/MultipartWriter.cpp > CMakeFiles/Net.dir/src/MultipartWriter.cpp.i
 
 Net/CMakeFiles/Net.dir/src/MultipartWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/MultipartWriter.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/MultipartWriter.cpp -o CMakeFiles/Net.dir/src/MultipartWriter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/MultipartWriter.cpp -o CMakeFiles/Net.dir/src/MultipartWriter.cpp.s
 
 Net/CMakeFiles/Net.dir/src/NTLMCredentials.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/NTLMCredentials.cpp.o: ../Net/src/NTLMCredentials.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object Net/CMakeFiles/Net.dir/src/NTLMCredentials.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NTLMCredentials.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NTLMCredentials.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object Net/CMakeFiles/Net.dir/src/NTLMCredentials.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NTLMCredentials.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/NTLMCredentials.cpp
 
 Net/CMakeFiles/Net.dir/src/NTLMCredentials.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/NTLMCredentials.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NTLMCredentials.cpp > CMakeFiles/Net.dir/src/NTLMCredentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/NTLMCredentials.cpp > CMakeFiles/Net.dir/src/NTLMCredentials.cpp.i
 
 Net/CMakeFiles/Net.dir/src/NTLMCredentials.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/NTLMCredentials.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NTLMCredentials.cpp -o CMakeFiles/Net.dir/src/NTLMCredentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/NTLMCredentials.cpp -o CMakeFiles/Net.dir/src/NTLMCredentials.cpp.s
 
 Net/CMakeFiles/Net.dir/src/NTPClient.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/NTPClient.cpp.o: ../Net/src/NTPClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object Net/CMakeFiles/Net.dir/src/NTPClient.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NTPClient.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NTPClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object Net/CMakeFiles/Net.dir/src/NTPClient.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NTPClient.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/NTPClient.cpp
 
 Net/CMakeFiles/Net.dir/src/NTPClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/NTPClient.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NTPClient.cpp > CMakeFiles/Net.dir/src/NTPClient.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/NTPClient.cpp > CMakeFiles/Net.dir/src/NTPClient.cpp.i
 
 Net/CMakeFiles/Net.dir/src/NTPClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/NTPClient.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NTPClient.cpp -o CMakeFiles/Net.dir/src/NTPClient.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/NTPClient.cpp -o CMakeFiles/Net.dir/src/NTPClient.cpp.s
 
 Net/CMakeFiles/Net.dir/src/NTPEventArgs.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/NTPEventArgs.cpp.o: ../Net/src/NTPEventArgs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object Net/CMakeFiles/Net.dir/src/NTPEventArgs.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NTPEventArgs.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NTPEventArgs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object Net/CMakeFiles/Net.dir/src/NTPEventArgs.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NTPEventArgs.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/NTPEventArgs.cpp
 
 Net/CMakeFiles/Net.dir/src/NTPEventArgs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/NTPEventArgs.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NTPEventArgs.cpp > CMakeFiles/Net.dir/src/NTPEventArgs.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/NTPEventArgs.cpp > CMakeFiles/Net.dir/src/NTPEventArgs.cpp.i
 
 Net/CMakeFiles/Net.dir/src/NTPEventArgs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/NTPEventArgs.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NTPEventArgs.cpp -o CMakeFiles/Net.dir/src/NTPEventArgs.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/NTPEventArgs.cpp -o CMakeFiles/Net.dir/src/NTPEventArgs.cpp.s
 
 Net/CMakeFiles/Net.dir/src/NTPPacket.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/NTPPacket.cpp.o: ../Net/src/NTPPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object Net/CMakeFiles/Net.dir/src/NTPPacket.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NTPPacket.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NTPPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object Net/CMakeFiles/Net.dir/src/NTPPacket.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NTPPacket.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/NTPPacket.cpp
 
 Net/CMakeFiles/Net.dir/src/NTPPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/NTPPacket.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NTPPacket.cpp > CMakeFiles/Net.dir/src/NTPPacket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/NTPPacket.cpp > CMakeFiles/Net.dir/src/NTPPacket.cpp.i
 
 Net/CMakeFiles/Net.dir/src/NTPPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/NTPPacket.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NTPPacket.cpp -o CMakeFiles/Net.dir/src/NTPPacket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/NTPPacket.cpp -o CMakeFiles/Net.dir/src/NTPPacket.cpp.s
 
 Net/CMakeFiles/Net.dir/src/NameValueCollection.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/NameValueCollection.cpp.o: ../Net/src/NameValueCollection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object Net/CMakeFiles/Net.dir/src/NameValueCollection.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NameValueCollection.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NameValueCollection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object Net/CMakeFiles/Net.dir/src/NameValueCollection.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NameValueCollection.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/NameValueCollection.cpp
 
 Net/CMakeFiles/Net.dir/src/NameValueCollection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/NameValueCollection.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NameValueCollection.cpp > CMakeFiles/Net.dir/src/NameValueCollection.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/NameValueCollection.cpp > CMakeFiles/Net.dir/src/NameValueCollection.cpp.i
 
 Net/CMakeFiles/Net.dir/src/NameValueCollection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/NameValueCollection.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NameValueCollection.cpp -o CMakeFiles/Net.dir/src/NameValueCollection.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/NameValueCollection.cpp -o CMakeFiles/Net.dir/src/NameValueCollection.cpp.s
 
 Net/CMakeFiles/Net.dir/src/Net.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/Net.cpp.o: ../Net/src/Net.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object Net/CMakeFiles/Net.dir/src/Net.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/Net.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/Net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object Net/CMakeFiles/Net.dir/src/Net.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/Net.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/Net.cpp
 
 Net/CMakeFiles/Net.dir/src/Net.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/Net.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/Net.cpp > CMakeFiles/Net.dir/src/Net.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/Net.cpp > CMakeFiles/Net.dir/src/Net.cpp.i
 
 Net/CMakeFiles/Net.dir/src/Net.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/Net.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/Net.cpp -o CMakeFiles/Net.dir/src/Net.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/Net.cpp -o CMakeFiles/Net.dir/src/Net.cpp.s
 
 Net/CMakeFiles/Net.dir/src/NetException.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/NetException.cpp.o: ../Net/src/NetException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object Net/CMakeFiles/Net.dir/src/NetException.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NetException.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NetException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object Net/CMakeFiles/Net.dir/src/NetException.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NetException.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/NetException.cpp
 
 Net/CMakeFiles/Net.dir/src/NetException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/NetException.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NetException.cpp > CMakeFiles/Net.dir/src/NetException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/NetException.cpp > CMakeFiles/Net.dir/src/NetException.cpp.i
 
 Net/CMakeFiles/Net.dir/src/NetException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/NetException.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NetException.cpp -o CMakeFiles/Net.dir/src/NetException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/NetException.cpp -o CMakeFiles/Net.dir/src/NetException.cpp.s
 
 Net/CMakeFiles/Net.dir/src/NetworkInterface.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/NetworkInterface.cpp.o: ../Net/src/NetworkInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object Net/CMakeFiles/Net.dir/src/NetworkInterface.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NetworkInterface.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NetworkInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object Net/CMakeFiles/Net.dir/src/NetworkInterface.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NetworkInterface.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/NetworkInterface.cpp
 
 Net/CMakeFiles/Net.dir/src/NetworkInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/NetworkInterface.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NetworkInterface.cpp > CMakeFiles/Net.dir/src/NetworkInterface.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/NetworkInterface.cpp > CMakeFiles/Net.dir/src/NetworkInterface.cpp.i
 
 Net/CMakeFiles/Net.dir/src/NetworkInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/NetworkInterface.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NetworkInterface.cpp -o CMakeFiles/Net.dir/src/NetworkInterface.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/NetworkInterface.cpp -o CMakeFiles/Net.dir/src/NetworkInterface.cpp.s
 
 Net/CMakeFiles/Net.dir/src/NullPartHandler.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/NullPartHandler.cpp.o: ../Net/src/NullPartHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object Net/CMakeFiles/Net.dir/src/NullPartHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NullPartHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NullPartHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object Net/CMakeFiles/Net.dir/src/NullPartHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/NullPartHandler.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/NullPartHandler.cpp
 
 Net/CMakeFiles/Net.dir/src/NullPartHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/NullPartHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NullPartHandler.cpp > CMakeFiles/Net.dir/src/NullPartHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/NullPartHandler.cpp > CMakeFiles/Net.dir/src/NullPartHandler.cpp.i
 
 Net/CMakeFiles/Net.dir/src/NullPartHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/NullPartHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/NullPartHandler.cpp -o CMakeFiles/Net.dir/src/NullPartHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/NullPartHandler.cpp -o CMakeFiles/Net.dir/src/NullPartHandler.cpp.s
 
 Net/CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.o: ../Net/src/OAuth10Credentials.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object Net/CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/OAuth10Credentials.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object Net/CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/OAuth10Credentials.cpp
 
 Net/CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/OAuth10Credentials.cpp > CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/OAuth10Credentials.cpp > CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.i
 
 Net/CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/OAuth10Credentials.cpp -o CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/OAuth10Credentials.cpp -o CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.s
 
 Net/CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.o: ../Net/src/OAuth20Credentials.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object Net/CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/OAuth20Credentials.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object Net/CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/OAuth20Credentials.cpp
 
 Net/CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/OAuth20Credentials.cpp > CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/OAuth20Credentials.cpp > CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.i
 
 Net/CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/OAuth20Credentials.cpp -o CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/OAuth20Credentials.cpp -o CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.s
 
 Net/CMakeFiles/Net.dir/src/POP3ClientSession.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/POP3ClientSession.cpp.o: ../Net/src/POP3ClientSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object Net/CMakeFiles/Net.dir/src/POP3ClientSession.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/POP3ClientSession.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/POP3ClientSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object Net/CMakeFiles/Net.dir/src/POP3ClientSession.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/POP3ClientSession.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/POP3ClientSession.cpp
 
 Net/CMakeFiles/Net.dir/src/POP3ClientSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/POP3ClientSession.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/POP3ClientSession.cpp > CMakeFiles/Net.dir/src/POP3ClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/POP3ClientSession.cpp > CMakeFiles/Net.dir/src/POP3ClientSession.cpp.i
 
 Net/CMakeFiles/Net.dir/src/POP3ClientSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/POP3ClientSession.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/POP3ClientSession.cpp -o CMakeFiles/Net.dir/src/POP3ClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/POP3ClientSession.cpp -o CMakeFiles/Net.dir/src/POP3ClientSession.cpp.s
 
 Net/CMakeFiles/Net.dir/src/PartHandler.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/PartHandler.cpp.o: ../Net/src/PartHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object Net/CMakeFiles/Net.dir/src/PartHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/PartHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/PartHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object Net/CMakeFiles/Net.dir/src/PartHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/PartHandler.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/PartHandler.cpp
 
 Net/CMakeFiles/Net.dir/src/PartHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/PartHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/PartHandler.cpp > CMakeFiles/Net.dir/src/PartHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/PartHandler.cpp > CMakeFiles/Net.dir/src/PartHandler.cpp.i
 
 Net/CMakeFiles/Net.dir/src/PartHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/PartHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/PartHandler.cpp -o CMakeFiles/Net.dir/src/PartHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/PartHandler.cpp -o CMakeFiles/Net.dir/src/PartHandler.cpp.s
 
 Net/CMakeFiles/Net.dir/src/PartSource.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/PartSource.cpp.o: ../Net/src/PartSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object Net/CMakeFiles/Net.dir/src/PartSource.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/PartSource.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/PartSource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object Net/CMakeFiles/Net.dir/src/PartSource.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/PartSource.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/PartSource.cpp
 
 Net/CMakeFiles/Net.dir/src/PartSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/PartSource.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/PartSource.cpp > CMakeFiles/Net.dir/src/PartSource.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/PartSource.cpp > CMakeFiles/Net.dir/src/PartSource.cpp.i
 
 Net/CMakeFiles/Net.dir/src/PartSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/PartSource.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/PartSource.cpp -o CMakeFiles/Net.dir/src/PartSource.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/PartSource.cpp -o CMakeFiles/Net.dir/src/PartSource.cpp.s
 
 Net/CMakeFiles/Net.dir/src/PartStore.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/PartStore.cpp.o: ../Net/src/PartStore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object Net/CMakeFiles/Net.dir/src/PartStore.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/PartStore.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/PartStore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object Net/CMakeFiles/Net.dir/src/PartStore.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/PartStore.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/PartStore.cpp
 
 Net/CMakeFiles/Net.dir/src/PartStore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/PartStore.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/PartStore.cpp > CMakeFiles/Net.dir/src/PartStore.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/PartStore.cpp > CMakeFiles/Net.dir/src/PartStore.cpp.i
 
 Net/CMakeFiles/Net.dir/src/PartStore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/PartStore.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/PartStore.cpp -o CMakeFiles/Net.dir/src/PartStore.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/PartStore.cpp -o CMakeFiles/Net.dir/src/PartStore.cpp.s
 
 Net/CMakeFiles/Net.dir/src/PollSet.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/PollSet.cpp.o: ../Net/src/PollSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object Net/CMakeFiles/Net.dir/src/PollSet.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/PollSet.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/PollSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object Net/CMakeFiles/Net.dir/src/PollSet.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/PollSet.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/PollSet.cpp
 
 Net/CMakeFiles/Net.dir/src/PollSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/PollSet.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/PollSet.cpp > CMakeFiles/Net.dir/src/PollSet.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/PollSet.cpp > CMakeFiles/Net.dir/src/PollSet.cpp.i
 
 Net/CMakeFiles/Net.dir/src/PollSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/PollSet.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/PollSet.cpp -o CMakeFiles/Net.dir/src/PollSet.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/PollSet.cpp -o CMakeFiles/Net.dir/src/PollSet.cpp.s
 
 Net/CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.o: ../Net/src/QuotedPrintableDecoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object Net/CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/QuotedPrintableDecoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object Net/CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/QuotedPrintableDecoder.cpp
 
 Net/CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/QuotedPrintableDecoder.cpp > CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/QuotedPrintableDecoder.cpp > CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.i
 
 Net/CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/QuotedPrintableDecoder.cpp -o CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/QuotedPrintableDecoder.cpp -o CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.s
 
 Net/CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.o: ../Net/src/QuotedPrintableEncoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object Net/CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/QuotedPrintableEncoder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object Net/CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/QuotedPrintableEncoder.cpp
 
 Net/CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/QuotedPrintableEncoder.cpp > CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/QuotedPrintableEncoder.cpp > CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.i
 
 Net/CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/QuotedPrintableEncoder.cpp -o CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/QuotedPrintableEncoder.cpp -o CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.s
 
 Net/CMakeFiles/Net.dir/src/RawSocket.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/RawSocket.cpp.o: ../Net/src/RawSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object Net/CMakeFiles/Net.dir/src/RawSocket.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/RawSocket.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/RawSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object Net/CMakeFiles/Net.dir/src/RawSocket.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/RawSocket.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/RawSocket.cpp
 
 Net/CMakeFiles/Net.dir/src/RawSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/RawSocket.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/RawSocket.cpp > CMakeFiles/Net.dir/src/RawSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/RawSocket.cpp > CMakeFiles/Net.dir/src/RawSocket.cpp.i
 
 Net/CMakeFiles/Net.dir/src/RawSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/RawSocket.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/RawSocket.cpp -o CMakeFiles/Net.dir/src/RawSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/RawSocket.cpp -o CMakeFiles/Net.dir/src/RawSocket.cpp.s
 
 Net/CMakeFiles/Net.dir/src/RawSocketImpl.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/RawSocketImpl.cpp.o: ../Net/src/RawSocketImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object Net/CMakeFiles/Net.dir/src/RawSocketImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/RawSocketImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/RawSocketImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object Net/CMakeFiles/Net.dir/src/RawSocketImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/RawSocketImpl.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/RawSocketImpl.cpp
 
 Net/CMakeFiles/Net.dir/src/RawSocketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/RawSocketImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/RawSocketImpl.cpp > CMakeFiles/Net.dir/src/RawSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/RawSocketImpl.cpp > CMakeFiles/Net.dir/src/RawSocketImpl.cpp.i
 
 Net/CMakeFiles/Net.dir/src/RawSocketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/RawSocketImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/RawSocketImpl.cpp -o CMakeFiles/Net.dir/src/RawSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/RawSocketImpl.cpp -o CMakeFiles/Net.dir/src/RawSocketImpl.cpp.s
 
 Net/CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.o: ../Net/src/RemoteSyslogChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object Net/CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/RemoteSyslogChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object Net/CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/RemoteSyslogChannel.cpp
 
 Net/CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/RemoteSyslogChannel.cpp > CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/RemoteSyslogChannel.cpp > CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.i
 
 Net/CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/RemoteSyslogChannel.cpp -o CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/RemoteSyslogChannel.cpp -o CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.s
 
 Net/CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.o: ../Net/src/RemoteSyslogListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object Net/CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/RemoteSyslogListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object Net/CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/RemoteSyslogListener.cpp
 
 Net/CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/RemoteSyslogListener.cpp > CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/RemoteSyslogListener.cpp > CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.i
 
 Net/CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/RemoteSyslogListener.cpp -o CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/RemoteSyslogListener.cpp -o CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.s
 
 Net/CMakeFiles/Net.dir/src/SMTPChannel.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/SMTPChannel.cpp.o: ../Net/src/SMTPChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object Net/CMakeFiles/Net.dir/src/SMTPChannel.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SMTPChannel.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SMTPChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object Net/CMakeFiles/Net.dir/src/SMTPChannel.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SMTPChannel.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/SMTPChannel.cpp
 
 Net/CMakeFiles/Net.dir/src/SMTPChannel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/SMTPChannel.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SMTPChannel.cpp > CMakeFiles/Net.dir/src/SMTPChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/SMTPChannel.cpp > CMakeFiles/Net.dir/src/SMTPChannel.cpp.i
 
 Net/CMakeFiles/Net.dir/src/SMTPChannel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/SMTPChannel.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SMTPChannel.cpp -o CMakeFiles/Net.dir/src/SMTPChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/SMTPChannel.cpp -o CMakeFiles/Net.dir/src/SMTPChannel.cpp.s
 
 Net/CMakeFiles/Net.dir/src/SMTPClientSession.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/SMTPClientSession.cpp.o: ../Net/src/SMTPClientSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object Net/CMakeFiles/Net.dir/src/SMTPClientSession.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SMTPClientSession.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SMTPClientSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object Net/CMakeFiles/Net.dir/src/SMTPClientSession.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SMTPClientSession.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/SMTPClientSession.cpp
 
 Net/CMakeFiles/Net.dir/src/SMTPClientSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/SMTPClientSession.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SMTPClientSession.cpp > CMakeFiles/Net.dir/src/SMTPClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/SMTPClientSession.cpp > CMakeFiles/Net.dir/src/SMTPClientSession.cpp.i
 
 Net/CMakeFiles/Net.dir/src/SMTPClientSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/SMTPClientSession.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SMTPClientSession.cpp -o CMakeFiles/Net.dir/src/SMTPClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/SMTPClientSession.cpp -o CMakeFiles/Net.dir/src/SMTPClientSession.cpp.s
 
 Net/CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.o: ../Net/src/SSPINTLMCredentials.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object Net/CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SSPINTLMCredentials.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object Net/CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/SSPINTLMCredentials.cpp
 
 Net/CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SSPINTLMCredentials.cpp > CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/SSPINTLMCredentials.cpp > CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.i
 
 Net/CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SSPINTLMCredentials.cpp -o CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/SSPINTLMCredentials.cpp -o CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.s
 
 Net/CMakeFiles/Net.dir/src/ServerSocket.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/ServerSocket.cpp.o: ../Net/src/ServerSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object Net/CMakeFiles/Net.dir/src/ServerSocket.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ServerSocket.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ServerSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object Net/CMakeFiles/Net.dir/src/ServerSocket.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ServerSocket.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/ServerSocket.cpp
 
 Net/CMakeFiles/Net.dir/src/ServerSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/ServerSocket.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ServerSocket.cpp > CMakeFiles/Net.dir/src/ServerSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/ServerSocket.cpp > CMakeFiles/Net.dir/src/ServerSocket.cpp.i
 
 Net/CMakeFiles/Net.dir/src/ServerSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/ServerSocket.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ServerSocket.cpp -o CMakeFiles/Net.dir/src/ServerSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/ServerSocket.cpp -o CMakeFiles/Net.dir/src/ServerSocket.cpp.s
 
 Net/CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.o: ../Net/src/ServerSocketImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object Net/CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ServerSocketImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object Net/CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/ServerSocketImpl.cpp
 
 Net/CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ServerSocketImpl.cpp > CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/ServerSocketImpl.cpp > CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.i
 
 Net/CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/ServerSocketImpl.cpp -o CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/ServerSocketImpl.cpp -o CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.s
 
 Net/CMakeFiles/Net.dir/src/Socket.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/Socket.cpp.o: ../Net/src/Socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object Net/CMakeFiles/Net.dir/src/Socket.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/Socket.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object Net/CMakeFiles/Net.dir/src/Socket.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/Socket.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/Socket.cpp
 
 Net/CMakeFiles/Net.dir/src/Socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/Socket.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/Socket.cpp > CMakeFiles/Net.dir/src/Socket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/Socket.cpp > CMakeFiles/Net.dir/src/Socket.cpp.i
 
 Net/CMakeFiles/Net.dir/src/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/Socket.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/Socket.cpp -o CMakeFiles/Net.dir/src/Socket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/Socket.cpp -o CMakeFiles/Net.dir/src/Socket.cpp.s
 
 Net/CMakeFiles/Net.dir/src/SocketAddress.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/SocketAddress.cpp.o: ../Net/src/SocketAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketAddress.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketAddress.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketAddress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketAddress.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketAddress.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/SocketAddress.cpp
 
 Net/CMakeFiles/Net.dir/src/SocketAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/SocketAddress.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketAddress.cpp > CMakeFiles/Net.dir/src/SocketAddress.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/SocketAddress.cpp > CMakeFiles/Net.dir/src/SocketAddress.cpp.i
 
 Net/CMakeFiles/Net.dir/src/SocketAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/SocketAddress.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketAddress.cpp -o CMakeFiles/Net.dir/src/SocketAddress.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/SocketAddress.cpp -o CMakeFiles/Net.dir/src/SocketAddress.cpp.s
 
 Net/CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.o: ../Net/src/SocketAddressImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketAddressImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/SocketAddressImpl.cpp
 
 Net/CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketAddressImpl.cpp > CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/SocketAddressImpl.cpp > CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.i
 
 Net/CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketAddressImpl.cpp -o CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/SocketAddressImpl.cpp -o CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.s
 
 Net/CMakeFiles/Net.dir/src/SocketImpl.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/SocketImpl.cpp.o: ../Net/src/SocketImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketImpl.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/SocketImpl.cpp
 
 Net/CMakeFiles/Net.dir/src/SocketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/SocketImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketImpl.cpp > CMakeFiles/Net.dir/src/SocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/SocketImpl.cpp > CMakeFiles/Net.dir/src/SocketImpl.cpp.i
 
 Net/CMakeFiles/Net.dir/src/SocketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/SocketImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketImpl.cpp -o CMakeFiles/Net.dir/src/SocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/SocketImpl.cpp -o CMakeFiles/Net.dir/src/SocketImpl.cpp.s
 
 Net/CMakeFiles/Net.dir/src/SocketNotification.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/SocketNotification.cpp.o: ../Net/src/SocketNotification.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketNotification.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketNotification.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketNotification.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketNotification.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketNotification.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/SocketNotification.cpp
 
 Net/CMakeFiles/Net.dir/src/SocketNotification.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/SocketNotification.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketNotification.cpp > CMakeFiles/Net.dir/src/SocketNotification.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/SocketNotification.cpp > CMakeFiles/Net.dir/src/SocketNotification.cpp.i
 
 Net/CMakeFiles/Net.dir/src/SocketNotification.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/SocketNotification.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketNotification.cpp -o CMakeFiles/Net.dir/src/SocketNotification.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/SocketNotification.cpp -o CMakeFiles/Net.dir/src/SocketNotification.cpp.s
 
 Net/CMakeFiles/Net.dir/src/SocketNotifier.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/SocketNotifier.cpp.o: ../Net/src/SocketNotifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketNotifier.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketNotifier.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketNotifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketNotifier.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketNotifier.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/SocketNotifier.cpp
 
 Net/CMakeFiles/Net.dir/src/SocketNotifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/SocketNotifier.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketNotifier.cpp > CMakeFiles/Net.dir/src/SocketNotifier.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/SocketNotifier.cpp > CMakeFiles/Net.dir/src/SocketNotifier.cpp.i
 
 Net/CMakeFiles/Net.dir/src/SocketNotifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/SocketNotifier.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketNotifier.cpp -o CMakeFiles/Net.dir/src/SocketNotifier.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/SocketNotifier.cpp -o CMakeFiles/Net.dir/src/SocketNotifier.cpp.s
 
 Net/CMakeFiles/Net.dir/src/SocketReactor.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/SocketReactor.cpp.o: ../Net/src/SocketReactor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketReactor.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketReactor.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketReactor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketReactor.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketReactor.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/SocketReactor.cpp
 
 Net/CMakeFiles/Net.dir/src/SocketReactor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/SocketReactor.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketReactor.cpp > CMakeFiles/Net.dir/src/SocketReactor.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/SocketReactor.cpp > CMakeFiles/Net.dir/src/SocketReactor.cpp.i
 
 Net/CMakeFiles/Net.dir/src/SocketReactor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/SocketReactor.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketReactor.cpp -o CMakeFiles/Net.dir/src/SocketReactor.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/SocketReactor.cpp -o CMakeFiles/Net.dir/src/SocketReactor.cpp.s
 
 Net/CMakeFiles/Net.dir/src/SocketStream.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/SocketStream.cpp.o: ../Net/src/SocketStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketStream.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketStream.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object Net/CMakeFiles/Net.dir/src/SocketStream.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/SocketStream.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/SocketStream.cpp
 
 Net/CMakeFiles/Net.dir/src/SocketStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/SocketStream.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketStream.cpp > CMakeFiles/Net.dir/src/SocketStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/SocketStream.cpp > CMakeFiles/Net.dir/src/SocketStream.cpp.i
 
 Net/CMakeFiles/Net.dir/src/SocketStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/SocketStream.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/SocketStream.cpp -o CMakeFiles/Net.dir/src/SocketStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/SocketStream.cpp -o CMakeFiles/Net.dir/src/SocketStream.cpp.s
 
 Net/CMakeFiles/Net.dir/src/StreamSocket.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/StreamSocket.cpp.o: ../Net/src/StreamSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object Net/CMakeFiles/Net.dir/src/StreamSocket.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/StreamSocket.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/StreamSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object Net/CMakeFiles/Net.dir/src/StreamSocket.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/StreamSocket.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/StreamSocket.cpp
 
 Net/CMakeFiles/Net.dir/src/StreamSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/StreamSocket.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/StreamSocket.cpp > CMakeFiles/Net.dir/src/StreamSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/StreamSocket.cpp > CMakeFiles/Net.dir/src/StreamSocket.cpp.i
 
 Net/CMakeFiles/Net.dir/src/StreamSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/StreamSocket.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/StreamSocket.cpp -o CMakeFiles/Net.dir/src/StreamSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/StreamSocket.cpp -o CMakeFiles/Net.dir/src/StreamSocket.cpp.s
 
 Net/CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.o: ../Net/src/StreamSocketImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object Net/CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/StreamSocketImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object Net/CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/StreamSocketImpl.cpp
 
 Net/CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/StreamSocketImpl.cpp > CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/StreamSocketImpl.cpp > CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.i
 
 Net/CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/StreamSocketImpl.cpp -o CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/StreamSocketImpl.cpp -o CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.s
 
 Net/CMakeFiles/Net.dir/src/StringPartSource.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/StringPartSource.cpp.o: ../Net/src/StringPartSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object Net/CMakeFiles/Net.dir/src/StringPartSource.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/StringPartSource.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/StringPartSource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object Net/CMakeFiles/Net.dir/src/StringPartSource.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/StringPartSource.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/StringPartSource.cpp
 
 Net/CMakeFiles/Net.dir/src/StringPartSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/StringPartSource.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/StringPartSource.cpp > CMakeFiles/Net.dir/src/StringPartSource.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/StringPartSource.cpp > CMakeFiles/Net.dir/src/StringPartSource.cpp.i
 
 Net/CMakeFiles/Net.dir/src/StringPartSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/StringPartSource.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/StringPartSource.cpp -o CMakeFiles/Net.dir/src/StringPartSource.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/StringPartSource.cpp -o CMakeFiles/Net.dir/src/StringPartSource.cpp.s
 
 Net/CMakeFiles/Net.dir/src/TCPServer.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/TCPServer.cpp.o: ../Net/src/TCPServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object Net/CMakeFiles/Net.dir/src/TCPServer.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/TCPServer.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object Net/CMakeFiles/Net.dir/src/TCPServer.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/TCPServer.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/TCPServer.cpp
 
 Net/CMakeFiles/Net.dir/src/TCPServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/TCPServer.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServer.cpp > CMakeFiles/Net.dir/src/TCPServer.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/TCPServer.cpp > CMakeFiles/Net.dir/src/TCPServer.cpp.i
 
 Net/CMakeFiles/Net.dir/src/TCPServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/TCPServer.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServer.cpp -o CMakeFiles/Net.dir/src/TCPServer.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/TCPServer.cpp -o CMakeFiles/Net.dir/src/TCPServer.cpp.s
 
 Net/CMakeFiles/Net.dir/src/TCPServerConnection.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/TCPServerConnection.cpp.o: ../Net/src/TCPServerConnection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object Net/CMakeFiles/Net.dir/src/TCPServerConnection.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/TCPServerConnection.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServerConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object Net/CMakeFiles/Net.dir/src/TCPServerConnection.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/TCPServerConnection.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/TCPServerConnection.cpp
 
 Net/CMakeFiles/Net.dir/src/TCPServerConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/TCPServerConnection.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServerConnection.cpp > CMakeFiles/Net.dir/src/TCPServerConnection.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/TCPServerConnection.cpp > CMakeFiles/Net.dir/src/TCPServerConnection.cpp.i
 
 Net/CMakeFiles/Net.dir/src/TCPServerConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/TCPServerConnection.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServerConnection.cpp -o CMakeFiles/Net.dir/src/TCPServerConnection.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/TCPServerConnection.cpp -o CMakeFiles/Net.dir/src/TCPServerConnection.cpp.s
 
 Net/CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.o: ../Net/src/TCPServerConnectionFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object Net/CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServerConnectionFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object Net/CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/TCPServerConnectionFactory.cpp
 
 Net/CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServerConnectionFactory.cpp > CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/TCPServerConnectionFactory.cpp > CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.i
 
 Net/CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServerConnectionFactory.cpp -o CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/TCPServerConnectionFactory.cpp -o CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.s
 
 Net/CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.o: ../Net/src/TCPServerDispatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object Net/CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServerDispatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object Net/CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/TCPServerDispatcher.cpp
 
 Net/CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServerDispatcher.cpp > CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/TCPServerDispatcher.cpp > CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.i
 
 Net/CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServerDispatcher.cpp -o CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/TCPServerDispatcher.cpp -o CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.s
 
 Net/CMakeFiles/Net.dir/src/TCPServerParams.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/TCPServerParams.cpp.o: ../Net/src/TCPServerParams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object Net/CMakeFiles/Net.dir/src/TCPServerParams.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/TCPServerParams.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServerParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object Net/CMakeFiles/Net.dir/src/TCPServerParams.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/TCPServerParams.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/TCPServerParams.cpp
 
 Net/CMakeFiles/Net.dir/src/TCPServerParams.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/TCPServerParams.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServerParams.cpp > CMakeFiles/Net.dir/src/TCPServerParams.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/TCPServerParams.cpp > CMakeFiles/Net.dir/src/TCPServerParams.cpp.i
 
 Net/CMakeFiles/Net.dir/src/TCPServerParams.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/TCPServerParams.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/TCPServerParams.cpp -o CMakeFiles/Net.dir/src/TCPServerParams.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/TCPServerParams.cpp -o CMakeFiles/Net.dir/src/TCPServerParams.cpp.s
 
 Net/CMakeFiles/Net.dir/src/UDPClient.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/UDPClient.cpp.o: ../Net/src/UDPClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object Net/CMakeFiles/Net.dir/src/UDPClient.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/UDPClient.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/UDPClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object Net/CMakeFiles/Net.dir/src/UDPClient.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/UDPClient.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/UDPClient.cpp
 
 Net/CMakeFiles/Net.dir/src/UDPClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/UDPClient.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/UDPClient.cpp > CMakeFiles/Net.dir/src/UDPClient.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/UDPClient.cpp > CMakeFiles/Net.dir/src/UDPClient.cpp.i
 
 Net/CMakeFiles/Net.dir/src/UDPClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/UDPClient.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/UDPClient.cpp -o CMakeFiles/Net.dir/src/UDPClient.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/UDPClient.cpp -o CMakeFiles/Net.dir/src/UDPClient.cpp.s
 
 Net/CMakeFiles/Net.dir/src/UDPServerParams.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/UDPServerParams.cpp.o: ../Net/src/UDPServerParams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object Net/CMakeFiles/Net.dir/src/UDPServerParams.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/UDPServerParams.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/UDPServerParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object Net/CMakeFiles/Net.dir/src/UDPServerParams.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/UDPServerParams.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/UDPServerParams.cpp
 
 Net/CMakeFiles/Net.dir/src/UDPServerParams.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/UDPServerParams.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/UDPServerParams.cpp > CMakeFiles/Net.dir/src/UDPServerParams.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/UDPServerParams.cpp > CMakeFiles/Net.dir/src/UDPServerParams.cpp.i
 
 Net/CMakeFiles/Net.dir/src/UDPServerParams.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/UDPServerParams.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/UDPServerParams.cpp -o CMakeFiles/Net.dir/src/UDPServerParams.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/UDPServerParams.cpp -o CMakeFiles/Net.dir/src/UDPServerParams.cpp.s
 
 Net/CMakeFiles/Net.dir/src/WebSocket.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/WebSocket.cpp.o: ../Net/src/WebSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object Net/CMakeFiles/Net.dir/src/WebSocket.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/WebSocket.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/WebSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object Net/CMakeFiles/Net.dir/src/WebSocket.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/WebSocket.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/WebSocket.cpp
 
 Net/CMakeFiles/Net.dir/src/WebSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/WebSocket.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/WebSocket.cpp > CMakeFiles/Net.dir/src/WebSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/WebSocket.cpp > CMakeFiles/Net.dir/src/WebSocket.cpp.i
 
 Net/CMakeFiles/Net.dir/src/WebSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/WebSocket.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/WebSocket.cpp -o CMakeFiles/Net.dir/src/WebSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/WebSocket.cpp -o CMakeFiles/Net.dir/src/WebSocket.cpp.s
 
 Net/CMakeFiles/Net.dir/src/WebSocketImpl.cpp.o: Net/CMakeFiles/Net.dir/flags.make
 Net/CMakeFiles/Net.dir/src/WebSocketImpl.cpp.o: ../Net/src/WebSocketImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object Net/CMakeFiles/Net.dir/src/WebSocketImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/WebSocketImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/WebSocketImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object Net/CMakeFiles/Net.dir/src/WebSocketImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Net.dir/src/WebSocketImpl.cpp.o -c /mnt/Poco_OSP/Poco/Net/src/WebSocketImpl.cpp
 
 Net/CMakeFiles/Net.dir/src/WebSocketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Net.dir/src/WebSocketImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/WebSocketImpl.cpp > CMakeFiles/Net.dir/src/WebSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Net/src/WebSocketImpl.cpp > CMakeFiles/Net.dir/src/WebSocketImpl.cpp.i
 
 Net/CMakeFiles/Net.dir/src/WebSocketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Net.dir/src/WebSocketImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Net/src/WebSocketImpl.cpp -o CMakeFiles/Net.dir/src/WebSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Net/src/WebSocketImpl.cpp -o CMakeFiles/Net.dir/src/WebSocketImpl.cpp.s
 
 # Object files for target Net
 Net_OBJECTS = \
@@ -1656,9 +1656,9 @@ lib/libPocoNet.so.71: Net/CMakeFiles/Net.dir/src/WebSocketImpl.cpp.o
 lib/libPocoNet.so.71: Net/CMakeFiles/Net.dir/build.make
 lib/libPocoNet.so.71: lib/libPocoFoundation.so.71
 lib/libPocoNet.so.71: Net/CMakeFiles/Net.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Linking CXX shared library ../lib/libPocoNet.so"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Net.dir/link.txt --verbose=$(VERBOSE)
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libPocoNet.so.71 ../lib/libPocoNet.so.71 ../lib/libPocoNet.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Linking CXX shared library ../lib/libPocoNet.so"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Net.dir/link.txt --verbose=$(VERBOSE)
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libPocoNet.so.71 ../lib/libPocoNet.so.71 ../lib/libPocoNet.so
 
 lib/libPocoNet.so: lib/libPocoNet.so.71
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libPocoNet.so
@@ -1669,10 +1669,10 @@ Net/CMakeFiles/Net.dir/build: lib/libPocoNet.so
 .PHONY : Net/CMakeFiles/Net.dir/build
 
 Net/CMakeFiles/Net.dir/clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net && $(CMAKE_COMMAND) -P CMakeFiles/Net.dir/cmake_clean.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build/Net && $(CMAKE_COMMAND) -P CMakeFiles/Net.dir/cmake_clean.cmake
 .PHONY : Net/CMakeFiles/Net.dir/clean
 
 Net/CMakeFiles/Net.dir/depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Jun_unit_Testing/tcu-adk-dev/poco /root/Jun_unit_Testing/tcu-adk-dev/poco/Net /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net/CMakeFiles/Net.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/Poco_OSP/Poco /mnt/Poco_OSP/Poco/Net /mnt/Poco_OSP/Poco/cmake-build /mnt/Poco_OSP/Poco/cmake-build/Net /mnt/Poco_OSP/Poco/cmake-build/Net/CMakeFiles/Net.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Net/CMakeFiles/Net.dir/depend
 

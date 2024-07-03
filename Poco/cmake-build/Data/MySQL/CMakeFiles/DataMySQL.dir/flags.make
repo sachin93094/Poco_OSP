@@ -6,5 +6,5 @@ CXX_FLAGS = -O2 -g -DNDEBUG -fPIC   -std=gnu++14
 
 CXX_DEFINES = -DMySQL_EXPORTS -DNO_TCL -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DTHREADSAFE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500
 
-CXX_INCLUDES = -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/MySQL/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/MySQL/src -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Foundation/include -isystem /usr/include/mysql 
+CXX_INCLUDES = -I/mnt/Poco_OSP/Poco/Data/MySQL/include -I/mnt/Poco_OSP/Poco/Data/MySQL/src -I/mnt/Poco_OSP/Poco/Data/include -I/mnt/Poco_OSP/Poco/Foundation/include -isystem /usr/include/mysql 
 

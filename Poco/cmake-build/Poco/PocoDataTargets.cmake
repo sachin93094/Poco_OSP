@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(Poco::Data SHARED IMPORTED)
 
 set_target_properties(Poco::Data PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/mnt/Poco_OSP/Poco/Data/include"
   INTERFACE_LINK_LIBRARIES "Poco::Foundation"
 )
 
 # Import target "Poco::Data" for configuration "RelWithDebInfo"
 set_property(TARGET Poco::Data APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(Poco::Data PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib/libPocoData.so.71"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/mnt/Poco_OSP/Poco/cmake-build/lib/libPocoData.so.71"
   IMPORTED_SONAME_RELWITHDEBINFO "libPocoData.so.71"
   )
 

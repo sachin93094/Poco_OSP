@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(Poco::Zip SHARED IMPORTED)
 
 set_target_properties(Poco::Zip PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/root/Jun_unit_Testing/tcu-adk-dev/poco/Zip/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/mnt/Poco_OSP/Poco/Zip/include"
   INTERFACE_LINK_LIBRARIES "Poco::Util;Poco::XML"
 )
 
 # Import target "Poco::Zip" for configuration "RelWithDebInfo"
 set_property(TARGET Poco::Zip APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(Poco::Zip PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib/libPocoZip.so.71"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/mnt/Poco_OSP/Poco/cmake-build/lib/libPocoZip.so.71"
   IMPORTED_SONAME_RELWITHDEBINFO "libPocoZip.so.71"
   )
 

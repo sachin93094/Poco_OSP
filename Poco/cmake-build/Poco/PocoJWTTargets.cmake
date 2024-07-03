@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(Poco::JWT SHARED IMPORTED)
 
 set_target_properties(Poco::JWT PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/root/Jun_unit_Testing/tcu-adk-dev/poco/JWT/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/mnt/Poco_OSP/Poco/JWT/include"
   INTERFACE_LINK_LIBRARIES "Poco::JSON;Poco::Crypto"
 )
 
 # Import target "Poco::JWT" for configuration "RelWithDebInfo"
 set_property(TARGET Poco::JWT APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(Poco::JWT PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib/libPocoJWT.so.71"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/mnt/Poco_OSP/Poco/cmake-build/lib/libPocoJWT.so.71"
   IMPORTED_SONAME_RELWITHDEBINFO "libPocoJWT.so.71"
   )
 

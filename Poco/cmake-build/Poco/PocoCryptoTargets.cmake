@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(Poco::Crypto SHARED IMPORTED)
 
 set_target_properties(Poco::Crypto PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/root/Jun_unit_Testing/tcu-adk-dev/poco/Crypto/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/mnt/Poco_OSP/Poco/Crypto/include"
   INTERFACE_LINK_LIBRARIES "Poco::Foundation;OpenSSL::SSL;OpenSSL::Crypto"
 )
 
 # Import target "Poco::Crypto" for configuration "RelWithDebInfo"
 set_property(TARGET Poco::Crypto APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(Poco::Crypto PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib/libPocoCrypto.so.71"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/mnt/Poco_OSP/Poco/cmake-build/lib/libPocoCrypto.so.71"
   IMPORTED_SONAME_RELWITHDEBINFO "libPocoCrypto.so.71"
   )
 

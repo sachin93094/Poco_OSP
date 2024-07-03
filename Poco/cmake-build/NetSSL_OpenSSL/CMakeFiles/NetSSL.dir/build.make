@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 # Include any dependencies generated for this target.
 include NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/depend.make
@@ -59,380 +59,380 @@ include NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.o: ../NetSSL_OpenSSL/src/AcceptCertificateHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/AcceptCertificateHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/AcceptCertificateHandler.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/AcceptCertificateHandler.cpp > CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/AcceptCertificateHandler.cpp > CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/AcceptCertificateHandler.cpp -o CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/AcceptCertificateHandler.cpp -o CMakeFiles/NetSSL.dir/src/AcceptCertificateHandler.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.o: ../NetSSL_OpenSSL/src/CertificateHandlerFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/CertificateHandlerFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/CertificateHandlerFactory.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/CertificateHandlerFactory.cpp > CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/CertificateHandlerFactory.cpp > CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/CertificateHandlerFactory.cpp -o CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/CertificateHandlerFactory.cpp -o CMakeFiles/NetSSL.dir/src/CertificateHandlerFactory.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.o: ../NetSSL_OpenSSL/src/CertificateHandlerFactoryMgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/CertificateHandlerFactoryMgr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/CertificateHandlerFactoryMgr.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/CertificateHandlerFactoryMgr.cpp > CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/CertificateHandlerFactoryMgr.cpp > CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/CertificateHandlerFactoryMgr.cpp -o CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/CertificateHandlerFactoryMgr.cpp -o CMakeFiles/NetSSL.dir/src/CertificateHandlerFactoryMgr.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.o: ../NetSSL_OpenSSL/src/ConsoleCertificateHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/ConsoleCertificateHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/ConsoleCertificateHandler.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/ConsoleCertificateHandler.cpp > CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/ConsoleCertificateHandler.cpp > CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/ConsoleCertificateHandler.cpp -o CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/ConsoleCertificateHandler.cpp -o CMakeFiles/NetSSL.dir/src/ConsoleCertificateHandler.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Context.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Context.cpp.o: ../NetSSL_OpenSSL/src/Context.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Context.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/Context.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/Context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Context.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/Context.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/Context.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/Context.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/Context.cpp > CMakeFiles/NetSSL.dir/src/Context.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/Context.cpp > CMakeFiles/NetSSL.dir/src/Context.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/Context.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/Context.cpp -o CMakeFiles/NetSSL.dir/src/Context.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/Context.cpp -o CMakeFiles/NetSSL.dir/src/Context.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.o: ../NetSSL_OpenSSL/src/FTPSClientSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/FTPSClientSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/FTPSClientSession.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/FTPSClientSession.cpp > CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/FTPSClientSession.cpp > CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/FTPSClientSession.cpp -o CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/FTPSClientSession.cpp -o CMakeFiles/NetSSL.dir/src/FTPSClientSession.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.o: ../NetSSL_OpenSSL/src/FTPSStreamFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/FTPSStreamFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/FTPSStreamFactory.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/FTPSStreamFactory.cpp > CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/FTPSStreamFactory.cpp > CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/FTPSStreamFactory.cpp -o CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/FTPSStreamFactory.cpp -o CMakeFiles/NetSSL.dir/src/FTPSStreamFactory.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.o: ../NetSSL_OpenSSL/src/HTTPSClientSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/HTTPSClientSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/HTTPSClientSession.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/HTTPSClientSession.cpp > CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/HTTPSClientSession.cpp > CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/HTTPSClientSession.cpp -o CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/HTTPSClientSession.cpp -o CMakeFiles/NetSSL.dir/src/HTTPSClientSession.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.o: ../NetSSL_OpenSSL/src/HTTPSSessionInstantiator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/HTTPSSessionInstantiator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/HTTPSSessionInstantiator.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/HTTPSSessionInstantiator.cpp > CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/HTTPSSessionInstantiator.cpp > CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/HTTPSSessionInstantiator.cpp -o CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/HTTPSSessionInstantiator.cpp -o CMakeFiles/NetSSL.dir/src/HTTPSSessionInstantiator.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.o: ../NetSSL_OpenSSL/src/HTTPSStreamFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/HTTPSStreamFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/HTTPSStreamFactory.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/HTTPSStreamFactory.cpp > CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/HTTPSStreamFactory.cpp > CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/HTTPSStreamFactory.cpp -o CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/HTTPSStreamFactory.cpp -o CMakeFiles/NetSSL.dir/src/HTTPSStreamFactory.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.o: ../NetSSL_OpenSSL/src/InvalidCertificateHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/InvalidCertificateHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/InvalidCertificateHandler.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/InvalidCertificateHandler.cpp > CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/InvalidCertificateHandler.cpp > CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/InvalidCertificateHandler.cpp -o CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/InvalidCertificateHandler.cpp -o CMakeFiles/NetSSL.dir/src/InvalidCertificateHandler.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.o: ../NetSSL_OpenSSL/src/KeyConsoleHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/KeyConsoleHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/KeyConsoleHandler.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/KeyConsoleHandler.cpp > CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/KeyConsoleHandler.cpp > CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/KeyConsoleHandler.cpp -o CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/KeyConsoleHandler.cpp -o CMakeFiles/NetSSL.dir/src/KeyConsoleHandler.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.o: ../NetSSL_OpenSSL/src/KeyFileHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/KeyFileHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/KeyFileHandler.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/KeyFileHandler.cpp > CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/KeyFileHandler.cpp > CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/KeyFileHandler.cpp -o CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/KeyFileHandler.cpp -o CMakeFiles/NetSSL.dir/src/KeyFileHandler.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.o: ../NetSSL_OpenSSL/src/PrivateKeyFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/PrivateKeyFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/PrivateKeyFactory.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/PrivateKeyFactory.cpp > CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/PrivateKeyFactory.cpp > CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/PrivateKeyFactory.cpp -o CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/PrivateKeyFactory.cpp -o CMakeFiles/NetSSL.dir/src/PrivateKeyFactory.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.o: ../NetSSL_OpenSSL/src/PrivateKeyFactoryMgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/PrivateKeyFactoryMgr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/PrivateKeyFactoryMgr.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/PrivateKeyFactoryMgr.cpp > CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/PrivateKeyFactoryMgr.cpp > CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/PrivateKeyFactoryMgr.cpp -o CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/PrivateKeyFactoryMgr.cpp -o CMakeFiles/NetSSL.dir/src/PrivateKeyFactoryMgr.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.o: ../NetSSL_OpenSSL/src/PrivateKeyPassphraseHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/PrivateKeyPassphraseHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/PrivateKeyPassphraseHandler.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/PrivateKeyPassphraseHandler.cpp > CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/PrivateKeyPassphraseHandler.cpp > CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/PrivateKeyPassphraseHandler.cpp -o CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/PrivateKeyPassphraseHandler.cpp -o CMakeFiles/NetSSL.dir/src/PrivateKeyPassphraseHandler.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.o: ../NetSSL_OpenSSL/src/RejectCertificateHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/RejectCertificateHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/RejectCertificateHandler.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/RejectCertificateHandler.cpp > CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/RejectCertificateHandler.cpp > CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/RejectCertificateHandler.cpp -o CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/RejectCertificateHandler.cpp -o CMakeFiles/NetSSL.dir/src/RejectCertificateHandler.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLException.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLException.cpp.o: ../NetSSL_OpenSSL/src/SSLException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLException.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SSLException.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SSLException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLException.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SSLException.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SSLException.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/SSLException.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SSLException.cpp > CMakeFiles/NetSSL.dir/src/SSLException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SSLException.cpp > CMakeFiles/NetSSL.dir/src/SSLException.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/SSLException.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SSLException.cpp -o CMakeFiles/NetSSL.dir/src/SSLException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SSLException.cpp -o CMakeFiles/NetSSL.dir/src/SSLException.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLManager.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLManager.cpp.o: ../NetSSL_OpenSSL/src/SSLManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLManager.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SSLManager.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SSLManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLManager.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SSLManager.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SSLManager.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/SSLManager.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SSLManager.cpp > CMakeFiles/NetSSL.dir/src/SSLManager.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SSLManager.cpp > CMakeFiles/NetSSL.dir/src/SSLManager.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SSLManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/SSLManager.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SSLManager.cpp -o CMakeFiles/NetSSL.dir/src/SSLManager.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SSLManager.cpp -o CMakeFiles/NetSSL.dir/src/SSLManager.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.o: ../NetSSL_OpenSSL/src/SecureSMTPClientSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureSMTPClientSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureSMTPClientSession.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureSMTPClientSession.cpp > CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureSMTPClientSession.cpp > CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureSMTPClientSession.cpp -o CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureSMTPClientSession.cpp -o CMakeFiles/NetSSL.dir/src/SecureSMTPClientSession.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.o: ../NetSSL_OpenSSL/src/SecureServerSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureServerSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureServerSocket.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureServerSocket.cpp > CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureServerSocket.cpp > CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureServerSocket.cpp -o CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureServerSocket.cpp -o CMakeFiles/NetSSL.dir/src/SecureServerSocket.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.o: ../NetSSL_OpenSSL/src/SecureServerSocketImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureServerSocketImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureServerSocketImpl.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureServerSocketImpl.cpp > CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureServerSocketImpl.cpp > CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureServerSocketImpl.cpp -o CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureServerSocketImpl.cpp -o CMakeFiles/NetSSL.dir/src/SecureServerSocketImpl.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.o: ../NetSSL_OpenSSL/src/SecureSocketImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureSocketImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureSocketImpl.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureSocketImpl.cpp > CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureSocketImpl.cpp > CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureSocketImpl.cpp -o CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureSocketImpl.cpp -o CMakeFiles/NetSSL.dir/src/SecureSocketImpl.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.o: ../NetSSL_OpenSSL/src/SecureStreamSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureStreamSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureStreamSocket.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureStreamSocket.cpp > CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureStreamSocket.cpp > CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureStreamSocket.cpp -o CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureStreamSocket.cpp -o CMakeFiles/NetSSL.dir/src/SecureStreamSocket.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.o: ../NetSSL_OpenSSL/src/SecureStreamSocketImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureStreamSocketImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureStreamSocketImpl.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureStreamSocketImpl.cpp > CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureStreamSocketImpl.cpp > CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/SecureStreamSocketImpl.cpp -o CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/SecureStreamSocketImpl.cpp -o CMakeFiles/NetSSL.dir/src/SecureStreamSocketImpl.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Session.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Session.cpp.o: ../NetSSL_OpenSSL/src/Session.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Session.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/Session.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/Session.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Session.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/Session.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/Session.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Session.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/Session.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/Session.cpp > CMakeFiles/NetSSL.dir/src/Session.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/Session.cpp > CMakeFiles/NetSSL.dir/src/Session.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Session.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/Session.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/Session.cpp -o CMakeFiles/NetSSL.dir/src/Session.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/Session.cpp -o CMakeFiles/NetSSL.dir/src/Session.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Utility.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Utility.cpp.o: ../NetSSL_OpenSSL/src/Utility.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Utility.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/Utility.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/Utility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Utility.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/Utility.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/Utility.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Utility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/Utility.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/Utility.cpp > CMakeFiles/NetSSL.dir/src/Utility.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/Utility.cpp > CMakeFiles/NetSSL.dir/src/Utility.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/Utility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/Utility.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/Utility.cpp -o CMakeFiles/NetSSL.dir/src/Utility.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/Utility.cpp -o CMakeFiles/NetSSL.dir/src/Utility.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.o: ../NetSSL_OpenSSL/src/VerificationErrorArgs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/VerificationErrorArgs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/VerificationErrorArgs.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/VerificationErrorArgs.cpp > CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/VerificationErrorArgs.cpp > CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/VerificationErrorArgs.cpp -o CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/VerificationErrorArgs.cpp -o CMakeFiles/NetSSL.dir/src/VerificationErrorArgs.cpp.s
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.o: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/flags.make
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.o: ../NetSSL_OpenSSL/src/X509Certificate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/X509Certificate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.o -c /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/X509Certificate.cpp
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/X509Certificate.cpp > CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/X509Certificate.cpp > CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.i
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL/src/X509Certificate.cpp -o CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/NetSSL_OpenSSL/src/X509Certificate.cpp -o CMakeFiles/NetSSL.dir/src/X509Certificate.cpp.s
 
 # Object files for target NetSSL
 NetSSL_OBJECTS = \
@@ -508,9 +508,9 @@ lib/libPocoNetSSL.so.71: lib/libPocoXML.so.71
 lib/libPocoNetSSL.so.71: lib/libPocoJSON.so.71
 lib/libPocoNetSSL.so.71: lib/libPocoFoundation.so.71
 lib/libPocoNetSSL.so.71: NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX shared library ../lib/libPocoNetSSL.so"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NetSSL.dir/link.txt --verbose=$(VERBOSE)
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libPocoNetSSL.so.71 ../lib/libPocoNetSSL.so.71 ../lib/libPocoNetSSL.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX shared library ../lib/libPocoNetSSL.so"
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NetSSL.dir/link.txt --verbose=$(VERBOSE)
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libPocoNetSSL.so.71 ../lib/libPocoNetSSL.so.71 ../lib/libPocoNetSSL.so
 
 lib/libPocoNetSSL.so: lib/libPocoNetSSL.so.71
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libPocoNetSSL.so
@@ -521,10 +521,10 @@ NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build: lib/libPocoNetSSL.so
 .PHONY : NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/build
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL && $(CMAKE_COMMAND) -P CMakeFiles/NetSSL.dir/cmake_clean.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL && $(CMAKE_COMMAND) -P CMakeFiles/NetSSL.dir/cmake_clean.cmake
 .PHONY : NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/clean
 
 NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Jun_unit_Testing/tcu-adk-dev/poco /root/Jun_unit_Testing/tcu-adk-dev/poco/NetSSL_OpenSSL /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/Poco_OSP/Poco /mnt/Poco_OSP/Poco/NetSSL_OpenSSL /mnt/Poco_OSP/Poco/cmake-build /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL /mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : NetSSL_OpenSSL/CMakeFiles/NetSSL.dir/depend
 

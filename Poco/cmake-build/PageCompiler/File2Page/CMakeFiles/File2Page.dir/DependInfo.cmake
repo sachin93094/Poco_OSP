@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/File2Page/src/File2Page.cpp" "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler/File2Page/CMakeFiles/File2Page.dir/src/File2Page.cpp.o"
+  "/mnt/Poco_OSP/Poco/PageCompiler/File2Page/src/File2Page.cpp" "/mnt/Poco_OSP/Poco/cmake-build/PageCompiler/File2Page/CMakeFiles/File2Page.dir/src/File2Page.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -32,10 +32,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Util/CMakeFiles/Util.dir/DependInfo.cmake"
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML/CMakeFiles/XML.dir/DependInfo.cmake"
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON/CMakeFiles/JSON.dir/DependInfo.cmake"
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Foundation/CMakeFiles/Foundation.dir/DependInfo.cmake"
+  "/mnt/Poco_OSP/Poco/cmake-build/Util/CMakeFiles/Util.dir/DependInfo.cmake"
+  "/mnt/Poco_OSP/Poco/cmake-build/XML/CMakeFiles/XML.dir/DependInfo.cmake"
+  "/mnt/Poco_OSP/Poco/cmake-build/JSON/CMakeFiles/JSON.dir/DependInfo.cmake"
+  "/mnt/Poco_OSP/Poco/cmake-build/Foundation/CMakeFiles/Foundation.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

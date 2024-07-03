@@ -46,14 +46,14 @@ add_library(Poco::JSON SHARED IMPORTED)
 
 set_target_properties(Poco::JSON PROPERTIES
   INTERFACE_COMPILE_FEATURES "c_variadic_macros"
-  INTERFACE_INCLUDE_DIRECTORIES "/root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/mnt/Poco_OSP/Poco/JSON/include"
   INTERFACE_LINK_LIBRARIES "Poco::Foundation"
 )
 
 # Import target "Poco::JSON" for configuration "RelWithDebInfo"
 set_property(TARGET Poco::JSON APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(Poco::JSON PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib/libPocoJSON.so.71"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/mnt/Poco_OSP/Poco/cmake-build/lib/libPocoJSON.so.71"
   IMPORTED_SONAME_RELWITHDEBINFO "libPocoJSON.so.71"
   )
 

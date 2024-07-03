@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(Poco::MongoDB SHARED IMPORTED)
 
 set_target_properties(Poco::MongoDB PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/root/Jun_unit_Testing/tcu-adk-dev/poco/MongoDB/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/mnt/Poco_OSP/Poco/MongoDB/include"
   INTERFACE_LINK_LIBRARIES "Poco::Net"
 )
 
 # Import target "Poco::MongoDB" for configuration "RelWithDebInfo"
 set_property(TARGET Poco::MongoDB APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(Poco::MongoDB PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib/libPocoMongoDB.so.71"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/mnt/Poco_OSP/Poco/cmake-build/lib/libPocoMongoDB.so.71"
   IMPORTED_SONAME_RELWITHDEBINFO "libPocoMongoDB.so.71"
   )
 

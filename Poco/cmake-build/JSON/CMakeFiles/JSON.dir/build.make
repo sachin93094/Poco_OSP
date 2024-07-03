@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 # Include any dependencies generated for this target.
 include JSON/CMakeFiles/JSON.dir/depend.make
@@ -59,172 +59,172 @@ include JSON/CMakeFiles/JSON.dir/flags.make
 
 JSON/CMakeFiles/JSON.dir/src/Array.cpp.o: JSON/CMakeFiles/JSON.dir/flags.make
 JSON/CMakeFiles/JSON.dir/src/Array.cpp.o: ../JSON/src/Array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Array.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Array.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Array.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Array.cpp.o -c /mnt/Poco_OSP/Poco/JSON/src/Array.cpp
 
 JSON/CMakeFiles/JSON.dir/src/Array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSON.dir/src/Array.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Array.cpp > CMakeFiles/JSON.dir/src/Array.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/JSON/src/Array.cpp > CMakeFiles/JSON.dir/src/Array.cpp.i
 
 JSON/CMakeFiles/JSON.dir/src/Array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSON.dir/src/Array.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Array.cpp -o CMakeFiles/JSON.dir/src/Array.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/JSON/src/Array.cpp -o CMakeFiles/JSON.dir/src/Array.cpp.s
 
 JSON/CMakeFiles/JSON.dir/src/Handler.cpp.o: JSON/CMakeFiles/JSON.dir/flags.make
 JSON/CMakeFiles/JSON.dir/src/Handler.cpp.o: ../JSON/src/Handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Handler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Handler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Handler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Handler.cpp.o -c /mnt/Poco_OSP/Poco/JSON/src/Handler.cpp
 
 JSON/CMakeFiles/JSON.dir/src/Handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSON.dir/src/Handler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Handler.cpp > CMakeFiles/JSON.dir/src/Handler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/JSON/src/Handler.cpp > CMakeFiles/JSON.dir/src/Handler.cpp.i
 
 JSON/CMakeFiles/JSON.dir/src/Handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSON.dir/src/Handler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Handler.cpp -o CMakeFiles/JSON.dir/src/Handler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/JSON/src/Handler.cpp -o CMakeFiles/JSON.dir/src/Handler.cpp.s
 
 JSON/CMakeFiles/JSON.dir/src/JSONException.cpp.o: JSON/CMakeFiles/JSON.dir/flags.make
 JSON/CMakeFiles/JSON.dir/src/JSONException.cpp.o: ../JSON/src/JSONException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object JSON/CMakeFiles/JSON.dir/src/JSONException.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/JSONException.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/JSONException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object JSON/CMakeFiles/JSON.dir/src/JSONException.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/JSONException.cpp.o -c /mnt/Poco_OSP/Poco/JSON/src/JSONException.cpp
 
 JSON/CMakeFiles/JSON.dir/src/JSONException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSON.dir/src/JSONException.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/JSONException.cpp > CMakeFiles/JSON.dir/src/JSONException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/JSON/src/JSONException.cpp > CMakeFiles/JSON.dir/src/JSONException.cpp.i
 
 JSON/CMakeFiles/JSON.dir/src/JSONException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSON.dir/src/JSONException.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/JSONException.cpp -o CMakeFiles/JSON.dir/src/JSONException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/JSON/src/JSONException.cpp -o CMakeFiles/JSON.dir/src/JSONException.cpp.s
 
 JSON/CMakeFiles/JSON.dir/src/Object.cpp.o: JSON/CMakeFiles/JSON.dir/flags.make
 JSON/CMakeFiles/JSON.dir/src/Object.cpp.o: ../JSON/src/Object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Object.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Object.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Object.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Object.cpp.o -c /mnt/Poco_OSP/Poco/JSON/src/Object.cpp
 
 JSON/CMakeFiles/JSON.dir/src/Object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSON.dir/src/Object.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Object.cpp > CMakeFiles/JSON.dir/src/Object.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/JSON/src/Object.cpp > CMakeFiles/JSON.dir/src/Object.cpp.i
 
 JSON/CMakeFiles/JSON.dir/src/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSON.dir/src/Object.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Object.cpp -o CMakeFiles/JSON.dir/src/Object.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/JSON/src/Object.cpp -o CMakeFiles/JSON.dir/src/Object.cpp.s
 
 JSON/CMakeFiles/JSON.dir/src/ParseHandler.cpp.o: JSON/CMakeFiles/JSON.dir/flags.make
 JSON/CMakeFiles/JSON.dir/src/ParseHandler.cpp.o: ../JSON/src/ParseHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object JSON/CMakeFiles/JSON.dir/src/ParseHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/ParseHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/ParseHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object JSON/CMakeFiles/JSON.dir/src/ParseHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/ParseHandler.cpp.o -c /mnt/Poco_OSP/Poco/JSON/src/ParseHandler.cpp
 
 JSON/CMakeFiles/JSON.dir/src/ParseHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSON.dir/src/ParseHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/ParseHandler.cpp > CMakeFiles/JSON.dir/src/ParseHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/JSON/src/ParseHandler.cpp > CMakeFiles/JSON.dir/src/ParseHandler.cpp.i
 
 JSON/CMakeFiles/JSON.dir/src/ParseHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSON.dir/src/ParseHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/ParseHandler.cpp -o CMakeFiles/JSON.dir/src/ParseHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/JSON/src/ParseHandler.cpp -o CMakeFiles/JSON.dir/src/ParseHandler.cpp.s
 
 JSON/CMakeFiles/JSON.dir/src/Parser.cpp.o: JSON/CMakeFiles/JSON.dir/flags.make
 JSON/CMakeFiles/JSON.dir/src/Parser.cpp.o: ../JSON/src/Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Parser.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Parser.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Parser.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Parser.cpp.o -c /mnt/Poco_OSP/Poco/JSON/src/Parser.cpp
 
 JSON/CMakeFiles/JSON.dir/src/Parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSON.dir/src/Parser.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Parser.cpp > CMakeFiles/JSON.dir/src/Parser.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/JSON/src/Parser.cpp > CMakeFiles/JSON.dir/src/Parser.cpp.i
 
 JSON/CMakeFiles/JSON.dir/src/Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSON.dir/src/Parser.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Parser.cpp -o CMakeFiles/JSON.dir/src/Parser.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/JSON/src/Parser.cpp -o CMakeFiles/JSON.dir/src/Parser.cpp.s
 
 JSON/CMakeFiles/JSON.dir/src/ParserImpl.cpp.o: JSON/CMakeFiles/JSON.dir/flags.make
 JSON/CMakeFiles/JSON.dir/src/ParserImpl.cpp.o: ../JSON/src/ParserImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object JSON/CMakeFiles/JSON.dir/src/ParserImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/ParserImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/ParserImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object JSON/CMakeFiles/JSON.dir/src/ParserImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/ParserImpl.cpp.o -c /mnt/Poco_OSP/Poco/JSON/src/ParserImpl.cpp
 
 JSON/CMakeFiles/JSON.dir/src/ParserImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSON.dir/src/ParserImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/ParserImpl.cpp > CMakeFiles/JSON.dir/src/ParserImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/JSON/src/ParserImpl.cpp > CMakeFiles/JSON.dir/src/ParserImpl.cpp.i
 
 JSON/CMakeFiles/JSON.dir/src/ParserImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSON.dir/src/ParserImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/ParserImpl.cpp -o CMakeFiles/JSON.dir/src/ParserImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/JSON/src/ParserImpl.cpp -o CMakeFiles/JSON.dir/src/ParserImpl.cpp.s
 
 JSON/CMakeFiles/JSON.dir/src/PrintHandler.cpp.o: JSON/CMakeFiles/JSON.dir/flags.make
 JSON/CMakeFiles/JSON.dir/src/PrintHandler.cpp.o: ../JSON/src/PrintHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object JSON/CMakeFiles/JSON.dir/src/PrintHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/PrintHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/PrintHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object JSON/CMakeFiles/JSON.dir/src/PrintHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/PrintHandler.cpp.o -c /mnt/Poco_OSP/Poco/JSON/src/PrintHandler.cpp
 
 JSON/CMakeFiles/JSON.dir/src/PrintHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSON.dir/src/PrintHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/PrintHandler.cpp > CMakeFiles/JSON.dir/src/PrintHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/JSON/src/PrintHandler.cpp > CMakeFiles/JSON.dir/src/PrintHandler.cpp.i
 
 JSON/CMakeFiles/JSON.dir/src/PrintHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSON.dir/src/PrintHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/PrintHandler.cpp -o CMakeFiles/JSON.dir/src/PrintHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/JSON/src/PrintHandler.cpp -o CMakeFiles/JSON.dir/src/PrintHandler.cpp.s
 
 JSON/CMakeFiles/JSON.dir/src/Query.cpp.o: JSON/CMakeFiles/JSON.dir/flags.make
 JSON/CMakeFiles/JSON.dir/src/Query.cpp.o: ../JSON/src/Query.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Query.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Query.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Query.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Query.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Query.cpp.o -c /mnt/Poco_OSP/Poco/JSON/src/Query.cpp
 
 JSON/CMakeFiles/JSON.dir/src/Query.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSON.dir/src/Query.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Query.cpp > CMakeFiles/JSON.dir/src/Query.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/JSON/src/Query.cpp > CMakeFiles/JSON.dir/src/Query.cpp.i
 
 JSON/CMakeFiles/JSON.dir/src/Query.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSON.dir/src/Query.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Query.cpp -o CMakeFiles/JSON.dir/src/Query.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/JSON/src/Query.cpp -o CMakeFiles/JSON.dir/src/Query.cpp.s
 
 JSON/CMakeFiles/JSON.dir/src/Stringifier.cpp.o: JSON/CMakeFiles/JSON.dir/flags.make
 JSON/CMakeFiles/JSON.dir/src/Stringifier.cpp.o: ../JSON/src/Stringifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Stringifier.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Stringifier.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Stringifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Stringifier.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Stringifier.cpp.o -c /mnt/Poco_OSP/Poco/JSON/src/Stringifier.cpp
 
 JSON/CMakeFiles/JSON.dir/src/Stringifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSON.dir/src/Stringifier.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Stringifier.cpp > CMakeFiles/JSON.dir/src/Stringifier.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/JSON/src/Stringifier.cpp > CMakeFiles/JSON.dir/src/Stringifier.cpp.i
 
 JSON/CMakeFiles/JSON.dir/src/Stringifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSON.dir/src/Stringifier.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Stringifier.cpp -o CMakeFiles/JSON.dir/src/Stringifier.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/JSON/src/Stringifier.cpp -o CMakeFiles/JSON.dir/src/Stringifier.cpp.s
 
 JSON/CMakeFiles/JSON.dir/src/Template.cpp.o: JSON/CMakeFiles/JSON.dir/flags.make
 JSON/CMakeFiles/JSON.dir/src/Template.cpp.o: ../JSON/src/Template.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Template.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Template.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Template.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object JSON/CMakeFiles/JSON.dir/src/Template.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/Template.cpp.o -c /mnt/Poco_OSP/Poco/JSON/src/Template.cpp
 
 JSON/CMakeFiles/JSON.dir/src/Template.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSON.dir/src/Template.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Template.cpp > CMakeFiles/JSON.dir/src/Template.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/JSON/src/Template.cpp > CMakeFiles/JSON.dir/src/Template.cpp.i
 
 JSON/CMakeFiles/JSON.dir/src/Template.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSON.dir/src/Template.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/Template.cpp -o CMakeFiles/JSON.dir/src/Template.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/JSON/src/Template.cpp -o CMakeFiles/JSON.dir/src/Template.cpp.s
 
 JSON/CMakeFiles/JSON.dir/src/TemplateCache.cpp.o: JSON/CMakeFiles/JSON.dir/flags.make
 JSON/CMakeFiles/JSON.dir/src/TemplateCache.cpp.o: ../JSON/src/TemplateCache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object JSON/CMakeFiles/JSON.dir/src/TemplateCache.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/TemplateCache.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/TemplateCache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object JSON/CMakeFiles/JSON.dir/src/TemplateCache.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JSON.dir/src/TemplateCache.cpp.o -c /mnt/Poco_OSP/Poco/JSON/src/TemplateCache.cpp
 
 JSON/CMakeFiles/JSON.dir/src/TemplateCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JSON.dir/src/TemplateCache.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/TemplateCache.cpp > CMakeFiles/JSON.dir/src/TemplateCache.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/JSON/src/TemplateCache.cpp > CMakeFiles/JSON.dir/src/TemplateCache.cpp.i
 
 JSON/CMakeFiles/JSON.dir/src/TemplateCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JSON.dir/src/TemplateCache.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/TemplateCache.cpp -o CMakeFiles/JSON.dir/src/TemplateCache.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/JSON/src/TemplateCache.cpp -o CMakeFiles/JSON.dir/src/TemplateCache.cpp.s
 
 JSON/CMakeFiles/JSON.dir/src/pdjson.c.o: JSON/CMakeFiles/JSON.dir/flags.make
 JSON/CMakeFiles/JSON.dir/src/pdjson.c.o: ../JSON/src/pdjson.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object JSON/CMakeFiles/JSON.dir/src/pdjson.c.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JSON.dir/src/pdjson.c.o   -c /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/pdjson.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object JSON/CMakeFiles/JSON.dir/src/pdjson.c.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JSON.dir/src/pdjson.c.o   -c /mnt/Poco_OSP/Poco/JSON/src/pdjson.c
 
 JSON/CMakeFiles/JSON.dir/src/pdjson.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JSON.dir/src/pdjson.c.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/pdjson.c > CMakeFiles/JSON.dir/src/pdjson.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/Poco_OSP/Poco/JSON/src/pdjson.c > CMakeFiles/JSON.dir/src/pdjson.c.i
 
 JSON/CMakeFiles/JSON.dir/src/pdjson.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JSON.dir/src/pdjson.c.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/src/pdjson.c -o CMakeFiles/JSON.dir/src/pdjson.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/Poco_OSP/Poco/JSON/src/pdjson.c -o CMakeFiles/JSON.dir/src/pdjson.c.s
 
 # Object files for target JSON
 JSON_OBJECTS = \
@@ -261,9 +261,9 @@ lib/libPocoJSON.so.71: JSON/CMakeFiles/JSON.dir/src/pdjson.c.o
 lib/libPocoJSON.so.71: JSON/CMakeFiles/JSON.dir/build.make
 lib/libPocoJSON.so.71: lib/libPocoFoundation.so.71
 lib/libPocoJSON.so.71: JSON/CMakeFiles/JSON.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX shared library ../lib/libPocoJSON.so"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JSON.dir/link.txt --verbose=$(VERBOSE)
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libPocoJSON.so.71 ../lib/libPocoJSON.so.71 ../lib/libPocoJSON.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX shared library ../lib/libPocoJSON.so"
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JSON.dir/link.txt --verbose=$(VERBOSE)
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libPocoJSON.so.71 ../lib/libPocoJSON.so.71 ../lib/libPocoJSON.so
 
 lib/libPocoJSON.so: lib/libPocoJSON.so.71
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libPocoJSON.so
@@ -274,10 +274,10 @@ JSON/CMakeFiles/JSON.dir/build: lib/libPocoJSON.so
 .PHONY : JSON/CMakeFiles/JSON.dir/build
 
 JSON/CMakeFiles/JSON.dir/clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON && $(CMAKE_COMMAND) -P CMakeFiles/JSON.dir/cmake_clean.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build/JSON && $(CMAKE_COMMAND) -P CMakeFiles/JSON.dir/cmake_clean.cmake
 .PHONY : JSON/CMakeFiles/JSON.dir/clean
 
 JSON/CMakeFiles/JSON.dir/depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Jun_unit_Testing/tcu-adk-dev/poco /root/Jun_unit_Testing/tcu-adk-dev/poco/JSON /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON/CMakeFiles/JSON.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/Poco_OSP/Poco /mnt/Poco_OSP/Poco/JSON /mnt/Poco_OSP/Poco/cmake-build /mnt/Poco_OSP/Poco/cmake-build/JSON /mnt/Poco_OSP/Poco/cmake-build/JSON/CMakeFiles/JSON.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : JSON/CMakeFiles/JSON.dir/depend
 

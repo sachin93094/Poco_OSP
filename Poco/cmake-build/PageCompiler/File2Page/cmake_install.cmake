@@ -1,4 +1,4 @@
-# Install script for directory: /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/File2Page
+# Install script for directory: /mnt/Poco_OSP/Poco/PageCompiler/File2Page
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/f2cpsp"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/bin/f2cpsp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/Poco_OSP/Poco/cmake-build/bin/f2cpsp")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/f2cpsp" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/f2cpsp")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/f2cpsp"
-         OLD_RPATH "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib:"
+         OLD_RPATH "/mnt/Poco_OSP/Poco/cmake-build/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/f2cpsp")

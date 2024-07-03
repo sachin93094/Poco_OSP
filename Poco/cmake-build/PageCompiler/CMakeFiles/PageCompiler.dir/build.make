@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 # Include any dependencies generated for this target.
 include PageCompiler/CMakeFiles/PageCompiler.dir/depend.make
@@ -59,81 +59,81 @@ include PageCompiler/CMakeFiles/PageCompiler.dir/flags.make
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.o: PageCompiler/CMakeFiles/PageCompiler.dir/flags.make
 PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.o: ../PageCompiler/src/ApacheCodeWriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/ApacheCodeWriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.o -c /mnt/Poco_OSP/Poco/PageCompiler/src/ApacheCodeWriter.cpp
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/ApacheCodeWriter.cpp > CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/PageCompiler/src/ApacheCodeWriter.cpp > CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.i
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/ApacheCodeWriter.cpp -o CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/PageCompiler/src/ApacheCodeWriter.cpp -o CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.s
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.o: PageCompiler/CMakeFiles/PageCompiler.dir/flags.make
 PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.o: ../PageCompiler/src/CodeWriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/CodeWriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.o -c /mnt/Poco_OSP/Poco/PageCompiler/src/CodeWriter.cpp
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/CodeWriter.cpp > CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/PageCompiler/src/CodeWriter.cpp > CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.i
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/CodeWriter.cpp -o CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/PageCompiler/src/CodeWriter.cpp -o CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.s
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.o: PageCompiler/CMakeFiles/PageCompiler.dir/flags.make
 PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.o: ../PageCompiler/src/OSPCodeWriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/OSPCodeWriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.o -c /mnt/Poco_OSP/Poco/PageCompiler/src/OSPCodeWriter.cpp
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/OSPCodeWriter.cpp > CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/PageCompiler/src/OSPCodeWriter.cpp > CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.i
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/OSPCodeWriter.cpp -o CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/PageCompiler/src/OSPCodeWriter.cpp -o CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.s
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.o: PageCompiler/CMakeFiles/PageCompiler.dir/flags.make
 PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.o: ../PageCompiler/src/Page.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PageCompiler.dir/src/Page.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/Page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PageCompiler.dir/src/Page.cpp.o -c /mnt/Poco_OSP/Poco/PageCompiler/src/Page.cpp
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PageCompiler.dir/src/Page.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/Page.cpp > CMakeFiles/PageCompiler.dir/src/Page.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/PageCompiler/src/Page.cpp > CMakeFiles/PageCompiler.dir/src/Page.cpp.i
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PageCompiler.dir/src/Page.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/Page.cpp -o CMakeFiles/PageCompiler.dir/src/Page.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/PageCompiler/src/Page.cpp -o CMakeFiles/PageCompiler.dir/src/Page.cpp.s
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.o: PageCompiler/CMakeFiles/PageCompiler.dir/flags.make
 PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.o: ../PageCompiler/src/PageCompiler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/PageCompiler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.o -c /mnt/Poco_OSP/Poco/PageCompiler/src/PageCompiler.cpp
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/PageCompiler.cpp > CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/PageCompiler/src/PageCompiler.cpp > CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.i
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/PageCompiler.cpp -o CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/PageCompiler/src/PageCompiler.cpp -o CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.s
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.o: PageCompiler/CMakeFiles/PageCompiler.dir/flags.make
 PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.o: ../PageCompiler/src/PageReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PageCompiler.dir/src/PageReader.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/PageReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PageCompiler.dir/src/PageReader.cpp.o -c /mnt/Poco_OSP/Poco/PageCompiler/src/PageReader.cpp
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PageCompiler.dir/src/PageReader.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/PageReader.cpp > CMakeFiles/PageCompiler.dir/src/PageReader.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/PageCompiler/src/PageReader.cpp > CMakeFiles/PageCompiler.dir/src/PageReader.cpp.i
 
 PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PageCompiler.dir/src/PageReader.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/PageReader.cpp -o CMakeFiles/PageCompiler.dir/src/PageReader.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/PageCompiler/src/PageReader.cpp -o CMakeFiles/PageCompiler.dir/src/PageReader.cpp.s
 
 # Object files for target PageCompiler
 PageCompiler_OBJECTS = \
@@ -160,8 +160,8 @@ bin/cpspc: lib/libPocoXML.so.71
 bin/cpspc: lib/libPocoJSON.so.71
 bin/cpspc: lib/libPocoFoundation.so.71
 bin/cpspc: PageCompiler/CMakeFiles/PageCompiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/cpspc"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PageCompiler.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/cpspc"
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PageCompiler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 PageCompiler/CMakeFiles/PageCompiler.dir/build: bin/cpspc
@@ -169,10 +169,10 @@ PageCompiler/CMakeFiles/PageCompiler.dir/build: bin/cpspc
 .PHONY : PageCompiler/CMakeFiles/PageCompiler.dir/build
 
 PageCompiler/CMakeFiles/PageCompiler.dir/clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler && $(CMAKE_COMMAND) -P CMakeFiles/PageCompiler.dir/cmake_clean.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build/PageCompiler && $(CMAKE_COMMAND) -P CMakeFiles/PageCompiler.dir/cmake_clean.cmake
 .PHONY : PageCompiler/CMakeFiles/PageCompiler.dir/clean
 
 PageCompiler/CMakeFiles/PageCompiler.dir/depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Jun_unit_Testing/tcu-adk-dev/poco /root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/Poco_OSP/Poco /mnt/Poco_OSP/Poco/PageCompiler /mnt/Poco_OSP/Poco/cmake-build /mnt/Poco_OSP/Poco/cmake-build/PageCompiler /mnt/Poco_OSP/Poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : PageCompiler/CMakeFiles/PageCompiler.dir/depend
 

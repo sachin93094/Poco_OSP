@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,7 +94,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CPackSourceConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/Poco_OSP/Poco/cmake-build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis/CMakeFiles/progress.marks
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Redis/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles /mnt/Poco_OSP/Poco/cmake-build/Redis/CMakeFiles/progress.marks
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Redis/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Redis/clean
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Redis/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Redis/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Redis/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Redis/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Redis/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Redis/CMakeFiles/Redis.dir/rule:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Redis/CMakeFiles/Redis.dir/rule
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Redis/CMakeFiles/Redis.dir/rule
 .PHONY : Redis/CMakeFiles/Redis.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ Redis: Redis/CMakeFiles/Redis.dir/rule
 
 # fast build rule for target.
 Redis/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/build
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/build
 .PHONY : Redis/fast
 
 src/Array.o: src/Array.cpp.o
@@ -199,7 +199,7 @@ src/Array.o: src/Array.cpp.o
 
 # target to build an object file
 src/Array.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Array.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Array.cpp.o
 .PHONY : src/Array.cpp.o
 
 src/Array.i: src/Array.cpp.i
@@ -208,7 +208,7 @@ src/Array.i: src/Array.cpp.i
 
 # target to preprocess a source file
 src/Array.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Array.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Array.cpp.i
 .PHONY : src/Array.cpp.i
 
 src/Array.s: src/Array.cpp.s
@@ -217,7 +217,7 @@ src/Array.s: src/Array.cpp.s
 
 # target to generate assembly for a file
 src/Array.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Array.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Array.cpp.s
 .PHONY : src/Array.cpp.s
 
 src/AsyncReader.o: src/AsyncReader.cpp.o
@@ -226,7 +226,7 @@ src/AsyncReader.o: src/AsyncReader.cpp.o
 
 # target to build an object file
 src/AsyncReader.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.o
 .PHONY : src/AsyncReader.cpp.o
 
 src/AsyncReader.i: src/AsyncReader.cpp.i
@@ -235,7 +235,7 @@ src/AsyncReader.i: src/AsyncReader.cpp.i
 
 # target to preprocess a source file
 src/AsyncReader.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.i
 .PHONY : src/AsyncReader.cpp.i
 
 src/AsyncReader.s: src/AsyncReader.cpp.s
@@ -244,7 +244,7 @@ src/AsyncReader.s: src/AsyncReader.cpp.s
 
 # target to generate assembly for a file
 src/AsyncReader.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.s
 .PHONY : src/AsyncReader.cpp.s
 
 src/Client.o: src/Client.cpp.o
@@ -253,7 +253,7 @@ src/Client.o: src/Client.cpp.o
 
 # target to build an object file
 src/Client.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Client.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Client.cpp.o
 .PHONY : src/Client.cpp.o
 
 src/Client.i: src/Client.cpp.i
@@ -262,7 +262,7 @@ src/Client.i: src/Client.cpp.i
 
 # target to preprocess a source file
 src/Client.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Client.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Client.cpp.i
 .PHONY : src/Client.cpp.i
 
 src/Client.s: src/Client.cpp.s
@@ -271,7 +271,7 @@ src/Client.s: src/Client.cpp.s
 
 # target to generate assembly for a file
 src/Client.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Client.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Client.cpp.s
 .PHONY : src/Client.cpp.s
 
 src/Command.o: src/Command.cpp.o
@@ -280,7 +280,7 @@ src/Command.o: src/Command.cpp.o
 
 # target to build an object file
 src/Command.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Command.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Command.cpp.o
 .PHONY : src/Command.cpp.o
 
 src/Command.i: src/Command.cpp.i
@@ -289,7 +289,7 @@ src/Command.i: src/Command.cpp.i
 
 # target to preprocess a source file
 src/Command.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Command.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Command.cpp.i
 .PHONY : src/Command.cpp.i
 
 src/Command.s: src/Command.cpp.s
@@ -298,7 +298,7 @@ src/Command.s: src/Command.cpp.s
 
 # target to generate assembly for a file
 src/Command.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Command.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Command.cpp.s
 .PHONY : src/Command.cpp.s
 
 src/Error.o: src/Error.cpp.o
@@ -307,7 +307,7 @@ src/Error.o: src/Error.cpp.o
 
 # target to build an object file
 src/Error.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Error.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Error.cpp.o
 .PHONY : src/Error.cpp.o
 
 src/Error.i: src/Error.cpp.i
@@ -316,7 +316,7 @@ src/Error.i: src/Error.cpp.i
 
 # target to preprocess a source file
 src/Error.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Error.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Error.cpp.i
 .PHONY : src/Error.cpp.i
 
 src/Error.s: src/Error.cpp.s
@@ -325,7 +325,7 @@ src/Error.s: src/Error.cpp.s
 
 # target to generate assembly for a file
 src/Error.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Error.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Error.cpp.s
 .PHONY : src/Error.cpp.s
 
 src/Exception.o: src/Exception.cpp.o
@@ -334,7 +334,7 @@ src/Exception.o: src/Exception.cpp.o
 
 # target to build an object file
 src/Exception.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Exception.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Exception.cpp.o
 .PHONY : src/Exception.cpp.o
 
 src/Exception.i: src/Exception.cpp.i
@@ -343,7 +343,7 @@ src/Exception.i: src/Exception.cpp.i
 
 # target to preprocess a source file
 src/Exception.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Exception.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Exception.cpp.i
 .PHONY : src/Exception.cpp.i
 
 src/Exception.s: src/Exception.cpp.s
@@ -352,7 +352,7 @@ src/Exception.s: src/Exception.cpp.s
 
 # target to generate assembly for a file
 src/Exception.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Exception.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Exception.cpp.s
 .PHONY : src/Exception.cpp.s
 
 src/RedisEventArgs.o: src/RedisEventArgs.cpp.o
@@ -361,7 +361,7 @@ src/RedisEventArgs.o: src/RedisEventArgs.cpp.o
 
 # target to build an object file
 src/RedisEventArgs.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.o
 .PHONY : src/RedisEventArgs.cpp.o
 
 src/RedisEventArgs.i: src/RedisEventArgs.cpp.i
@@ -370,7 +370,7 @@ src/RedisEventArgs.i: src/RedisEventArgs.cpp.i
 
 # target to preprocess a source file
 src/RedisEventArgs.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.i
 .PHONY : src/RedisEventArgs.cpp.i
 
 src/RedisEventArgs.s: src/RedisEventArgs.cpp.s
@@ -379,7 +379,7 @@ src/RedisEventArgs.s: src/RedisEventArgs.cpp.s
 
 # target to generate assembly for a file
 src/RedisEventArgs.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.s
 .PHONY : src/RedisEventArgs.cpp.s
 
 src/RedisStream.o: src/RedisStream.cpp.o
@@ -388,7 +388,7 @@ src/RedisStream.o: src/RedisStream.cpp.o
 
 # target to build an object file
 src/RedisStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.o
 .PHONY : src/RedisStream.cpp.o
 
 src/RedisStream.i: src/RedisStream.cpp.i
@@ -397,7 +397,7 @@ src/RedisStream.i: src/RedisStream.cpp.i
 
 # target to preprocess a source file
 src/RedisStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.i
 .PHONY : src/RedisStream.cpp.i
 
 src/RedisStream.s: src/RedisStream.cpp.s
@@ -406,7 +406,7 @@ src/RedisStream.s: src/RedisStream.cpp.s
 
 # target to generate assembly for a file
 src/RedisStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.s
 .PHONY : src/RedisStream.cpp.s
 
 src/Type.o: src/Type.cpp.o
@@ -415,7 +415,7 @@ src/Type.o: src/Type.cpp.o
 
 # target to build an object file
 src/Type.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Type.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Type.cpp.o
 .PHONY : src/Type.cpp.o
 
 src/Type.i: src/Type.cpp.i
@@ -424,7 +424,7 @@ src/Type.i: src/Type.cpp.i
 
 # target to preprocess a source file
 src/Type.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Type.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Type.cpp.i
 .PHONY : src/Type.cpp.i
 
 src/Type.s: src/Type.cpp.s
@@ -433,7 +433,7 @@ src/Type.s: src/Type.cpp.s
 
 # target to generate assembly for a file
 src/Type.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Type.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Redis/CMakeFiles/Redis.dir/build.make Redis/CMakeFiles/Redis.dir/src/Type.cpp.s
 .PHONY : src/Type.cpp.s
 
 # Help Target
@@ -489,6 +489,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

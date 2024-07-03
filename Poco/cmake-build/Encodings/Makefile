@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,7 +94,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CPackSourceConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/Poco_OSP/Poco/cmake-build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Encodings/CMakeFiles/progress.marks
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Encodings/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles /mnt/Poco_OSP/Poco/cmake-build/Encodings/CMakeFiles/progress.marks
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Encodings/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Encodings/clean
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Encodings/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Encodings/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Encodings/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Encodings/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Encodings/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Encodings/CMakeFiles/Encodings.dir/rule:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Encodings/CMakeFiles/Encodings.dir/rule
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Encodings/CMakeFiles/Encodings.dir/rule
 .PHONY : Encodings/CMakeFiles/Encodings.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ Encodings: Encodings/CMakeFiles/Encodings.dir/rule
 
 # fast build rule for target.
 Encodings/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/build
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/build
 .PHONY : Encodings/fast
 
 src/DoubleByteEncoding.o: src/DoubleByteEncoding.cpp.o
@@ -199,7 +199,7 @@ src/DoubleByteEncoding.o: src/DoubleByteEncoding.cpp.o
 
 # target to build an object file
 src/DoubleByteEncoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/DoubleByteEncoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/DoubleByteEncoding.cpp.o
 .PHONY : src/DoubleByteEncoding.cpp.o
 
 src/DoubleByteEncoding.i: src/DoubleByteEncoding.cpp.i
@@ -208,7 +208,7 @@ src/DoubleByteEncoding.i: src/DoubleByteEncoding.cpp.i
 
 # target to preprocess a source file
 src/DoubleByteEncoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/DoubleByteEncoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/DoubleByteEncoding.cpp.i
 .PHONY : src/DoubleByteEncoding.cpp.i
 
 src/DoubleByteEncoding.s: src/DoubleByteEncoding.cpp.s
@@ -217,7 +217,7 @@ src/DoubleByteEncoding.s: src/DoubleByteEncoding.cpp.s
 
 # target to generate assembly for a file
 src/DoubleByteEncoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/DoubleByteEncoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/DoubleByteEncoding.cpp.s
 .PHONY : src/DoubleByteEncoding.cpp.s
 
 src/Encodings.o: src/Encodings.cpp.o
@@ -226,7 +226,7 @@ src/Encodings.o: src/Encodings.cpp.o
 
 # target to build an object file
 src/Encodings.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Encodings.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Encodings.cpp.o
 .PHONY : src/Encodings.cpp.o
 
 src/Encodings.i: src/Encodings.cpp.i
@@ -235,7 +235,7 @@ src/Encodings.i: src/Encodings.cpp.i
 
 # target to preprocess a source file
 src/Encodings.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Encodings.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Encodings.cpp.i
 .PHONY : src/Encodings.cpp.i
 
 src/Encodings.s: src/Encodings.cpp.s
@@ -244,7 +244,7 @@ src/Encodings.s: src/Encodings.cpp.s
 
 # target to generate assembly for a file
 src/Encodings.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Encodings.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Encodings.cpp.s
 .PHONY : src/Encodings.cpp.s
 
 src/ISO8859_10Encoding.o: src/ISO8859_10Encoding.cpp.o
@@ -253,7 +253,7 @@ src/ISO8859_10Encoding.o: src/ISO8859_10Encoding.cpp.o
 
 # target to build an object file
 src/ISO8859_10Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_10Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_10Encoding.cpp.o
 .PHONY : src/ISO8859_10Encoding.cpp.o
 
 src/ISO8859_10Encoding.i: src/ISO8859_10Encoding.cpp.i
@@ -262,7 +262,7 @@ src/ISO8859_10Encoding.i: src/ISO8859_10Encoding.cpp.i
 
 # target to preprocess a source file
 src/ISO8859_10Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_10Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_10Encoding.cpp.i
 .PHONY : src/ISO8859_10Encoding.cpp.i
 
 src/ISO8859_10Encoding.s: src/ISO8859_10Encoding.cpp.s
@@ -271,7 +271,7 @@ src/ISO8859_10Encoding.s: src/ISO8859_10Encoding.cpp.s
 
 # target to generate assembly for a file
 src/ISO8859_10Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_10Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_10Encoding.cpp.s
 .PHONY : src/ISO8859_10Encoding.cpp.s
 
 src/ISO8859_11Encoding.o: src/ISO8859_11Encoding.cpp.o
@@ -280,7 +280,7 @@ src/ISO8859_11Encoding.o: src/ISO8859_11Encoding.cpp.o
 
 # target to build an object file
 src/ISO8859_11Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_11Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_11Encoding.cpp.o
 .PHONY : src/ISO8859_11Encoding.cpp.o
 
 src/ISO8859_11Encoding.i: src/ISO8859_11Encoding.cpp.i
@@ -289,7 +289,7 @@ src/ISO8859_11Encoding.i: src/ISO8859_11Encoding.cpp.i
 
 # target to preprocess a source file
 src/ISO8859_11Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_11Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_11Encoding.cpp.i
 .PHONY : src/ISO8859_11Encoding.cpp.i
 
 src/ISO8859_11Encoding.s: src/ISO8859_11Encoding.cpp.s
@@ -298,7 +298,7 @@ src/ISO8859_11Encoding.s: src/ISO8859_11Encoding.cpp.s
 
 # target to generate assembly for a file
 src/ISO8859_11Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_11Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_11Encoding.cpp.s
 .PHONY : src/ISO8859_11Encoding.cpp.s
 
 src/ISO8859_13Encoding.o: src/ISO8859_13Encoding.cpp.o
@@ -307,7 +307,7 @@ src/ISO8859_13Encoding.o: src/ISO8859_13Encoding.cpp.o
 
 # target to build an object file
 src/ISO8859_13Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_13Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_13Encoding.cpp.o
 .PHONY : src/ISO8859_13Encoding.cpp.o
 
 src/ISO8859_13Encoding.i: src/ISO8859_13Encoding.cpp.i
@@ -316,7 +316,7 @@ src/ISO8859_13Encoding.i: src/ISO8859_13Encoding.cpp.i
 
 # target to preprocess a source file
 src/ISO8859_13Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_13Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_13Encoding.cpp.i
 .PHONY : src/ISO8859_13Encoding.cpp.i
 
 src/ISO8859_13Encoding.s: src/ISO8859_13Encoding.cpp.s
@@ -325,7 +325,7 @@ src/ISO8859_13Encoding.s: src/ISO8859_13Encoding.cpp.s
 
 # target to generate assembly for a file
 src/ISO8859_13Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_13Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_13Encoding.cpp.s
 .PHONY : src/ISO8859_13Encoding.cpp.s
 
 src/ISO8859_14Encoding.o: src/ISO8859_14Encoding.cpp.o
@@ -334,7 +334,7 @@ src/ISO8859_14Encoding.o: src/ISO8859_14Encoding.cpp.o
 
 # target to build an object file
 src/ISO8859_14Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_14Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_14Encoding.cpp.o
 .PHONY : src/ISO8859_14Encoding.cpp.o
 
 src/ISO8859_14Encoding.i: src/ISO8859_14Encoding.cpp.i
@@ -343,7 +343,7 @@ src/ISO8859_14Encoding.i: src/ISO8859_14Encoding.cpp.i
 
 # target to preprocess a source file
 src/ISO8859_14Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_14Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_14Encoding.cpp.i
 .PHONY : src/ISO8859_14Encoding.cpp.i
 
 src/ISO8859_14Encoding.s: src/ISO8859_14Encoding.cpp.s
@@ -352,7 +352,7 @@ src/ISO8859_14Encoding.s: src/ISO8859_14Encoding.cpp.s
 
 # target to generate assembly for a file
 src/ISO8859_14Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_14Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_14Encoding.cpp.s
 .PHONY : src/ISO8859_14Encoding.cpp.s
 
 src/ISO8859_16Encoding.o: src/ISO8859_16Encoding.cpp.o
@@ -361,7 +361,7 @@ src/ISO8859_16Encoding.o: src/ISO8859_16Encoding.cpp.o
 
 # target to build an object file
 src/ISO8859_16Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_16Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_16Encoding.cpp.o
 .PHONY : src/ISO8859_16Encoding.cpp.o
 
 src/ISO8859_16Encoding.i: src/ISO8859_16Encoding.cpp.i
@@ -370,7 +370,7 @@ src/ISO8859_16Encoding.i: src/ISO8859_16Encoding.cpp.i
 
 # target to preprocess a source file
 src/ISO8859_16Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_16Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_16Encoding.cpp.i
 .PHONY : src/ISO8859_16Encoding.cpp.i
 
 src/ISO8859_16Encoding.s: src/ISO8859_16Encoding.cpp.s
@@ -379,7 +379,7 @@ src/ISO8859_16Encoding.s: src/ISO8859_16Encoding.cpp.s
 
 # target to generate assembly for a file
 src/ISO8859_16Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_16Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_16Encoding.cpp.s
 .PHONY : src/ISO8859_16Encoding.cpp.s
 
 src/ISO8859_3Encoding.o: src/ISO8859_3Encoding.cpp.o
@@ -388,7 +388,7 @@ src/ISO8859_3Encoding.o: src/ISO8859_3Encoding.cpp.o
 
 # target to build an object file
 src/ISO8859_3Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_3Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_3Encoding.cpp.o
 .PHONY : src/ISO8859_3Encoding.cpp.o
 
 src/ISO8859_3Encoding.i: src/ISO8859_3Encoding.cpp.i
@@ -397,7 +397,7 @@ src/ISO8859_3Encoding.i: src/ISO8859_3Encoding.cpp.i
 
 # target to preprocess a source file
 src/ISO8859_3Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_3Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_3Encoding.cpp.i
 .PHONY : src/ISO8859_3Encoding.cpp.i
 
 src/ISO8859_3Encoding.s: src/ISO8859_3Encoding.cpp.s
@@ -406,7 +406,7 @@ src/ISO8859_3Encoding.s: src/ISO8859_3Encoding.cpp.s
 
 # target to generate assembly for a file
 src/ISO8859_3Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_3Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_3Encoding.cpp.s
 .PHONY : src/ISO8859_3Encoding.cpp.s
 
 src/ISO8859_4Encoding.o: src/ISO8859_4Encoding.cpp.o
@@ -415,7 +415,7 @@ src/ISO8859_4Encoding.o: src/ISO8859_4Encoding.cpp.o
 
 # target to build an object file
 src/ISO8859_4Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_4Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_4Encoding.cpp.o
 .PHONY : src/ISO8859_4Encoding.cpp.o
 
 src/ISO8859_4Encoding.i: src/ISO8859_4Encoding.cpp.i
@@ -424,7 +424,7 @@ src/ISO8859_4Encoding.i: src/ISO8859_4Encoding.cpp.i
 
 # target to preprocess a source file
 src/ISO8859_4Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_4Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_4Encoding.cpp.i
 .PHONY : src/ISO8859_4Encoding.cpp.i
 
 src/ISO8859_4Encoding.s: src/ISO8859_4Encoding.cpp.s
@@ -433,7 +433,7 @@ src/ISO8859_4Encoding.s: src/ISO8859_4Encoding.cpp.s
 
 # target to generate assembly for a file
 src/ISO8859_4Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_4Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_4Encoding.cpp.s
 .PHONY : src/ISO8859_4Encoding.cpp.s
 
 src/ISO8859_5Encoding.o: src/ISO8859_5Encoding.cpp.o
@@ -442,7 +442,7 @@ src/ISO8859_5Encoding.o: src/ISO8859_5Encoding.cpp.o
 
 # target to build an object file
 src/ISO8859_5Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_5Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_5Encoding.cpp.o
 .PHONY : src/ISO8859_5Encoding.cpp.o
 
 src/ISO8859_5Encoding.i: src/ISO8859_5Encoding.cpp.i
@@ -451,7 +451,7 @@ src/ISO8859_5Encoding.i: src/ISO8859_5Encoding.cpp.i
 
 # target to preprocess a source file
 src/ISO8859_5Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_5Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_5Encoding.cpp.i
 .PHONY : src/ISO8859_5Encoding.cpp.i
 
 src/ISO8859_5Encoding.s: src/ISO8859_5Encoding.cpp.s
@@ -460,7 +460,7 @@ src/ISO8859_5Encoding.s: src/ISO8859_5Encoding.cpp.s
 
 # target to generate assembly for a file
 src/ISO8859_5Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_5Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_5Encoding.cpp.s
 .PHONY : src/ISO8859_5Encoding.cpp.s
 
 src/ISO8859_6Encoding.o: src/ISO8859_6Encoding.cpp.o
@@ -469,7 +469,7 @@ src/ISO8859_6Encoding.o: src/ISO8859_6Encoding.cpp.o
 
 # target to build an object file
 src/ISO8859_6Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_6Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_6Encoding.cpp.o
 .PHONY : src/ISO8859_6Encoding.cpp.o
 
 src/ISO8859_6Encoding.i: src/ISO8859_6Encoding.cpp.i
@@ -478,7 +478,7 @@ src/ISO8859_6Encoding.i: src/ISO8859_6Encoding.cpp.i
 
 # target to preprocess a source file
 src/ISO8859_6Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_6Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_6Encoding.cpp.i
 .PHONY : src/ISO8859_6Encoding.cpp.i
 
 src/ISO8859_6Encoding.s: src/ISO8859_6Encoding.cpp.s
@@ -487,7 +487,7 @@ src/ISO8859_6Encoding.s: src/ISO8859_6Encoding.cpp.s
 
 # target to generate assembly for a file
 src/ISO8859_6Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_6Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_6Encoding.cpp.s
 .PHONY : src/ISO8859_6Encoding.cpp.s
 
 src/ISO8859_7Encoding.o: src/ISO8859_7Encoding.cpp.o
@@ -496,7 +496,7 @@ src/ISO8859_7Encoding.o: src/ISO8859_7Encoding.cpp.o
 
 # target to build an object file
 src/ISO8859_7Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_7Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_7Encoding.cpp.o
 .PHONY : src/ISO8859_7Encoding.cpp.o
 
 src/ISO8859_7Encoding.i: src/ISO8859_7Encoding.cpp.i
@@ -505,7 +505,7 @@ src/ISO8859_7Encoding.i: src/ISO8859_7Encoding.cpp.i
 
 # target to preprocess a source file
 src/ISO8859_7Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_7Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_7Encoding.cpp.i
 .PHONY : src/ISO8859_7Encoding.cpp.i
 
 src/ISO8859_7Encoding.s: src/ISO8859_7Encoding.cpp.s
@@ -514,7 +514,7 @@ src/ISO8859_7Encoding.s: src/ISO8859_7Encoding.cpp.s
 
 # target to generate assembly for a file
 src/ISO8859_7Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_7Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_7Encoding.cpp.s
 .PHONY : src/ISO8859_7Encoding.cpp.s
 
 src/ISO8859_8Encoding.o: src/ISO8859_8Encoding.cpp.o
@@ -523,7 +523,7 @@ src/ISO8859_8Encoding.o: src/ISO8859_8Encoding.cpp.o
 
 # target to build an object file
 src/ISO8859_8Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_8Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_8Encoding.cpp.o
 .PHONY : src/ISO8859_8Encoding.cpp.o
 
 src/ISO8859_8Encoding.i: src/ISO8859_8Encoding.cpp.i
@@ -532,7 +532,7 @@ src/ISO8859_8Encoding.i: src/ISO8859_8Encoding.cpp.i
 
 # target to preprocess a source file
 src/ISO8859_8Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_8Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_8Encoding.cpp.i
 .PHONY : src/ISO8859_8Encoding.cpp.i
 
 src/ISO8859_8Encoding.s: src/ISO8859_8Encoding.cpp.s
@@ -541,7 +541,7 @@ src/ISO8859_8Encoding.s: src/ISO8859_8Encoding.cpp.s
 
 # target to generate assembly for a file
 src/ISO8859_8Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_8Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_8Encoding.cpp.s
 .PHONY : src/ISO8859_8Encoding.cpp.s
 
 src/ISO8859_9Encoding.o: src/ISO8859_9Encoding.cpp.o
@@ -550,7 +550,7 @@ src/ISO8859_9Encoding.o: src/ISO8859_9Encoding.cpp.o
 
 # target to build an object file
 src/ISO8859_9Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_9Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_9Encoding.cpp.o
 .PHONY : src/ISO8859_9Encoding.cpp.o
 
 src/ISO8859_9Encoding.i: src/ISO8859_9Encoding.cpp.i
@@ -559,7 +559,7 @@ src/ISO8859_9Encoding.i: src/ISO8859_9Encoding.cpp.i
 
 # target to preprocess a source file
 src/ISO8859_9Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_9Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_9Encoding.cpp.i
 .PHONY : src/ISO8859_9Encoding.cpp.i
 
 src/ISO8859_9Encoding.s: src/ISO8859_9Encoding.cpp.s
@@ -568,7 +568,7 @@ src/ISO8859_9Encoding.s: src/ISO8859_9Encoding.cpp.s
 
 # target to generate assembly for a file
 src/ISO8859_9Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_9Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/ISO8859_9Encoding.cpp.s
 .PHONY : src/ISO8859_9Encoding.cpp.s
 
 src/MacCentralEurRomanEncoding.o: src/MacCentralEurRomanEncoding.cpp.o
@@ -577,7 +577,7 @@ src/MacCentralEurRomanEncoding.o: src/MacCentralEurRomanEncoding.cpp.o
 
 # target to build an object file
 src/MacCentralEurRomanEncoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacCentralEurRomanEncoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacCentralEurRomanEncoding.cpp.o
 .PHONY : src/MacCentralEurRomanEncoding.cpp.o
 
 src/MacCentralEurRomanEncoding.i: src/MacCentralEurRomanEncoding.cpp.i
@@ -586,7 +586,7 @@ src/MacCentralEurRomanEncoding.i: src/MacCentralEurRomanEncoding.cpp.i
 
 # target to preprocess a source file
 src/MacCentralEurRomanEncoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacCentralEurRomanEncoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacCentralEurRomanEncoding.cpp.i
 .PHONY : src/MacCentralEurRomanEncoding.cpp.i
 
 src/MacCentralEurRomanEncoding.s: src/MacCentralEurRomanEncoding.cpp.s
@@ -595,7 +595,7 @@ src/MacCentralEurRomanEncoding.s: src/MacCentralEurRomanEncoding.cpp.s
 
 # target to generate assembly for a file
 src/MacCentralEurRomanEncoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacCentralEurRomanEncoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacCentralEurRomanEncoding.cpp.s
 .PHONY : src/MacCentralEurRomanEncoding.cpp.s
 
 src/MacChineseSimpEncoding.o: src/MacChineseSimpEncoding.cpp.o
@@ -604,7 +604,7 @@ src/MacChineseSimpEncoding.o: src/MacChineseSimpEncoding.cpp.o
 
 # target to build an object file
 src/MacChineseSimpEncoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacChineseSimpEncoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacChineseSimpEncoding.cpp.o
 .PHONY : src/MacChineseSimpEncoding.cpp.o
 
 src/MacChineseSimpEncoding.i: src/MacChineseSimpEncoding.cpp.i
@@ -613,7 +613,7 @@ src/MacChineseSimpEncoding.i: src/MacChineseSimpEncoding.cpp.i
 
 # target to preprocess a source file
 src/MacChineseSimpEncoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacChineseSimpEncoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacChineseSimpEncoding.cpp.i
 .PHONY : src/MacChineseSimpEncoding.cpp.i
 
 src/MacChineseSimpEncoding.s: src/MacChineseSimpEncoding.cpp.s
@@ -622,7 +622,7 @@ src/MacChineseSimpEncoding.s: src/MacChineseSimpEncoding.cpp.s
 
 # target to generate assembly for a file
 src/MacChineseSimpEncoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacChineseSimpEncoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacChineseSimpEncoding.cpp.s
 .PHONY : src/MacChineseSimpEncoding.cpp.s
 
 src/MacChineseTradEncoding.o: src/MacChineseTradEncoding.cpp.o
@@ -631,7 +631,7 @@ src/MacChineseTradEncoding.o: src/MacChineseTradEncoding.cpp.o
 
 # target to build an object file
 src/MacChineseTradEncoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacChineseTradEncoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacChineseTradEncoding.cpp.o
 .PHONY : src/MacChineseTradEncoding.cpp.o
 
 src/MacChineseTradEncoding.i: src/MacChineseTradEncoding.cpp.i
@@ -640,7 +640,7 @@ src/MacChineseTradEncoding.i: src/MacChineseTradEncoding.cpp.i
 
 # target to preprocess a source file
 src/MacChineseTradEncoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacChineseTradEncoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacChineseTradEncoding.cpp.i
 .PHONY : src/MacChineseTradEncoding.cpp.i
 
 src/MacChineseTradEncoding.s: src/MacChineseTradEncoding.cpp.s
@@ -649,7 +649,7 @@ src/MacChineseTradEncoding.s: src/MacChineseTradEncoding.cpp.s
 
 # target to generate assembly for a file
 src/MacChineseTradEncoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacChineseTradEncoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacChineseTradEncoding.cpp.s
 .PHONY : src/MacChineseTradEncoding.cpp.s
 
 src/MacCyrillicEncoding.o: src/MacCyrillicEncoding.cpp.o
@@ -658,7 +658,7 @@ src/MacCyrillicEncoding.o: src/MacCyrillicEncoding.cpp.o
 
 # target to build an object file
 src/MacCyrillicEncoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacCyrillicEncoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacCyrillicEncoding.cpp.o
 .PHONY : src/MacCyrillicEncoding.cpp.o
 
 src/MacCyrillicEncoding.i: src/MacCyrillicEncoding.cpp.i
@@ -667,7 +667,7 @@ src/MacCyrillicEncoding.i: src/MacCyrillicEncoding.cpp.i
 
 # target to preprocess a source file
 src/MacCyrillicEncoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacCyrillicEncoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacCyrillicEncoding.cpp.i
 .PHONY : src/MacCyrillicEncoding.cpp.i
 
 src/MacCyrillicEncoding.s: src/MacCyrillicEncoding.cpp.s
@@ -676,7 +676,7 @@ src/MacCyrillicEncoding.s: src/MacCyrillicEncoding.cpp.s
 
 # target to generate assembly for a file
 src/MacCyrillicEncoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacCyrillicEncoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacCyrillicEncoding.cpp.s
 .PHONY : src/MacCyrillicEncoding.cpp.s
 
 src/MacJapaneseEncoding.o: src/MacJapaneseEncoding.cpp.o
@@ -685,7 +685,7 @@ src/MacJapaneseEncoding.o: src/MacJapaneseEncoding.cpp.o
 
 # target to build an object file
 src/MacJapaneseEncoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacJapaneseEncoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacJapaneseEncoding.cpp.o
 .PHONY : src/MacJapaneseEncoding.cpp.o
 
 src/MacJapaneseEncoding.i: src/MacJapaneseEncoding.cpp.i
@@ -694,7 +694,7 @@ src/MacJapaneseEncoding.i: src/MacJapaneseEncoding.cpp.i
 
 # target to preprocess a source file
 src/MacJapaneseEncoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacJapaneseEncoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacJapaneseEncoding.cpp.i
 .PHONY : src/MacJapaneseEncoding.cpp.i
 
 src/MacJapaneseEncoding.s: src/MacJapaneseEncoding.cpp.s
@@ -703,7 +703,7 @@ src/MacJapaneseEncoding.s: src/MacJapaneseEncoding.cpp.s
 
 # target to generate assembly for a file
 src/MacJapaneseEncoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacJapaneseEncoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacJapaneseEncoding.cpp.s
 .PHONY : src/MacJapaneseEncoding.cpp.s
 
 src/MacKoreanEncoding.o: src/MacKoreanEncoding.cpp.o
@@ -712,7 +712,7 @@ src/MacKoreanEncoding.o: src/MacKoreanEncoding.cpp.o
 
 # target to build an object file
 src/MacKoreanEncoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacKoreanEncoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacKoreanEncoding.cpp.o
 .PHONY : src/MacKoreanEncoding.cpp.o
 
 src/MacKoreanEncoding.i: src/MacKoreanEncoding.cpp.i
@@ -721,7 +721,7 @@ src/MacKoreanEncoding.i: src/MacKoreanEncoding.cpp.i
 
 # target to preprocess a source file
 src/MacKoreanEncoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacKoreanEncoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacKoreanEncoding.cpp.i
 .PHONY : src/MacKoreanEncoding.cpp.i
 
 src/MacKoreanEncoding.s: src/MacKoreanEncoding.cpp.s
@@ -730,7 +730,7 @@ src/MacKoreanEncoding.s: src/MacKoreanEncoding.cpp.s
 
 # target to generate assembly for a file
 src/MacKoreanEncoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacKoreanEncoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacKoreanEncoding.cpp.s
 .PHONY : src/MacKoreanEncoding.cpp.s
 
 src/MacRomanEncoding.o: src/MacRomanEncoding.cpp.o
@@ -739,7 +739,7 @@ src/MacRomanEncoding.o: src/MacRomanEncoding.cpp.o
 
 # target to build an object file
 src/MacRomanEncoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacRomanEncoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacRomanEncoding.cpp.o
 .PHONY : src/MacRomanEncoding.cpp.o
 
 src/MacRomanEncoding.i: src/MacRomanEncoding.cpp.i
@@ -748,7 +748,7 @@ src/MacRomanEncoding.i: src/MacRomanEncoding.cpp.i
 
 # target to preprocess a source file
 src/MacRomanEncoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacRomanEncoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacRomanEncoding.cpp.i
 .PHONY : src/MacRomanEncoding.cpp.i
 
 src/MacRomanEncoding.s: src/MacRomanEncoding.cpp.s
@@ -757,7 +757,7 @@ src/MacRomanEncoding.s: src/MacRomanEncoding.cpp.s
 
 # target to generate assembly for a file
 src/MacRomanEncoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacRomanEncoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/MacRomanEncoding.cpp.s
 .PHONY : src/MacRomanEncoding.cpp.s
 
 src/Windows1253Encoding.o: src/Windows1253Encoding.cpp.o
@@ -766,7 +766,7 @@ src/Windows1253Encoding.o: src/Windows1253Encoding.cpp.o
 
 # target to build an object file
 src/Windows1253Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1253Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1253Encoding.cpp.o
 .PHONY : src/Windows1253Encoding.cpp.o
 
 src/Windows1253Encoding.i: src/Windows1253Encoding.cpp.i
@@ -775,7 +775,7 @@ src/Windows1253Encoding.i: src/Windows1253Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows1253Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1253Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1253Encoding.cpp.i
 .PHONY : src/Windows1253Encoding.cpp.i
 
 src/Windows1253Encoding.s: src/Windows1253Encoding.cpp.s
@@ -784,7 +784,7 @@ src/Windows1253Encoding.s: src/Windows1253Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows1253Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1253Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1253Encoding.cpp.s
 .PHONY : src/Windows1253Encoding.cpp.s
 
 src/Windows1254Encoding.o: src/Windows1254Encoding.cpp.o
@@ -793,7 +793,7 @@ src/Windows1254Encoding.o: src/Windows1254Encoding.cpp.o
 
 # target to build an object file
 src/Windows1254Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1254Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1254Encoding.cpp.o
 .PHONY : src/Windows1254Encoding.cpp.o
 
 src/Windows1254Encoding.i: src/Windows1254Encoding.cpp.i
@@ -802,7 +802,7 @@ src/Windows1254Encoding.i: src/Windows1254Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows1254Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1254Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1254Encoding.cpp.i
 .PHONY : src/Windows1254Encoding.cpp.i
 
 src/Windows1254Encoding.s: src/Windows1254Encoding.cpp.s
@@ -811,7 +811,7 @@ src/Windows1254Encoding.s: src/Windows1254Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows1254Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1254Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1254Encoding.cpp.s
 .PHONY : src/Windows1254Encoding.cpp.s
 
 src/Windows1255Encoding.o: src/Windows1255Encoding.cpp.o
@@ -820,7 +820,7 @@ src/Windows1255Encoding.o: src/Windows1255Encoding.cpp.o
 
 # target to build an object file
 src/Windows1255Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1255Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1255Encoding.cpp.o
 .PHONY : src/Windows1255Encoding.cpp.o
 
 src/Windows1255Encoding.i: src/Windows1255Encoding.cpp.i
@@ -829,7 +829,7 @@ src/Windows1255Encoding.i: src/Windows1255Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows1255Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1255Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1255Encoding.cpp.i
 .PHONY : src/Windows1255Encoding.cpp.i
 
 src/Windows1255Encoding.s: src/Windows1255Encoding.cpp.s
@@ -838,7 +838,7 @@ src/Windows1255Encoding.s: src/Windows1255Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows1255Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1255Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1255Encoding.cpp.s
 .PHONY : src/Windows1255Encoding.cpp.s
 
 src/Windows1256Encoding.o: src/Windows1256Encoding.cpp.o
@@ -847,7 +847,7 @@ src/Windows1256Encoding.o: src/Windows1256Encoding.cpp.o
 
 # target to build an object file
 src/Windows1256Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1256Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1256Encoding.cpp.o
 .PHONY : src/Windows1256Encoding.cpp.o
 
 src/Windows1256Encoding.i: src/Windows1256Encoding.cpp.i
@@ -856,7 +856,7 @@ src/Windows1256Encoding.i: src/Windows1256Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows1256Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1256Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1256Encoding.cpp.i
 .PHONY : src/Windows1256Encoding.cpp.i
 
 src/Windows1256Encoding.s: src/Windows1256Encoding.cpp.s
@@ -865,7 +865,7 @@ src/Windows1256Encoding.s: src/Windows1256Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows1256Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1256Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1256Encoding.cpp.s
 .PHONY : src/Windows1256Encoding.cpp.s
 
 src/Windows1257Encoding.o: src/Windows1257Encoding.cpp.o
@@ -874,7 +874,7 @@ src/Windows1257Encoding.o: src/Windows1257Encoding.cpp.o
 
 # target to build an object file
 src/Windows1257Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1257Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1257Encoding.cpp.o
 .PHONY : src/Windows1257Encoding.cpp.o
 
 src/Windows1257Encoding.i: src/Windows1257Encoding.cpp.i
@@ -883,7 +883,7 @@ src/Windows1257Encoding.i: src/Windows1257Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows1257Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1257Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1257Encoding.cpp.i
 .PHONY : src/Windows1257Encoding.cpp.i
 
 src/Windows1257Encoding.s: src/Windows1257Encoding.cpp.s
@@ -892,7 +892,7 @@ src/Windows1257Encoding.s: src/Windows1257Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows1257Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1257Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1257Encoding.cpp.s
 .PHONY : src/Windows1257Encoding.cpp.s
 
 src/Windows1258Encoding.o: src/Windows1258Encoding.cpp.o
@@ -901,7 +901,7 @@ src/Windows1258Encoding.o: src/Windows1258Encoding.cpp.o
 
 # target to build an object file
 src/Windows1258Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1258Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1258Encoding.cpp.o
 .PHONY : src/Windows1258Encoding.cpp.o
 
 src/Windows1258Encoding.i: src/Windows1258Encoding.cpp.i
@@ -910,7 +910,7 @@ src/Windows1258Encoding.i: src/Windows1258Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows1258Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1258Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1258Encoding.cpp.i
 .PHONY : src/Windows1258Encoding.cpp.i
 
 src/Windows1258Encoding.s: src/Windows1258Encoding.cpp.s
@@ -919,7 +919,7 @@ src/Windows1258Encoding.s: src/Windows1258Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows1258Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1258Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows1258Encoding.cpp.s
 .PHONY : src/Windows1258Encoding.cpp.s
 
 src/Windows874Encoding.o: src/Windows874Encoding.cpp.o
@@ -928,7 +928,7 @@ src/Windows874Encoding.o: src/Windows874Encoding.cpp.o
 
 # target to build an object file
 src/Windows874Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows874Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows874Encoding.cpp.o
 .PHONY : src/Windows874Encoding.cpp.o
 
 src/Windows874Encoding.i: src/Windows874Encoding.cpp.i
@@ -937,7 +937,7 @@ src/Windows874Encoding.i: src/Windows874Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows874Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows874Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows874Encoding.cpp.i
 .PHONY : src/Windows874Encoding.cpp.i
 
 src/Windows874Encoding.s: src/Windows874Encoding.cpp.s
@@ -946,7 +946,7 @@ src/Windows874Encoding.s: src/Windows874Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows874Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows874Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows874Encoding.cpp.s
 .PHONY : src/Windows874Encoding.cpp.s
 
 src/Windows932Encoding.o: src/Windows932Encoding.cpp.o
@@ -955,7 +955,7 @@ src/Windows932Encoding.o: src/Windows932Encoding.cpp.o
 
 # target to build an object file
 src/Windows932Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows932Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows932Encoding.cpp.o
 .PHONY : src/Windows932Encoding.cpp.o
 
 src/Windows932Encoding.i: src/Windows932Encoding.cpp.i
@@ -964,7 +964,7 @@ src/Windows932Encoding.i: src/Windows932Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows932Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows932Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows932Encoding.cpp.i
 .PHONY : src/Windows932Encoding.cpp.i
 
 src/Windows932Encoding.s: src/Windows932Encoding.cpp.s
@@ -973,7 +973,7 @@ src/Windows932Encoding.s: src/Windows932Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows932Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows932Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows932Encoding.cpp.s
 .PHONY : src/Windows932Encoding.cpp.s
 
 src/Windows936Encoding.o: src/Windows936Encoding.cpp.o
@@ -982,7 +982,7 @@ src/Windows936Encoding.o: src/Windows936Encoding.cpp.o
 
 # target to build an object file
 src/Windows936Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows936Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows936Encoding.cpp.o
 .PHONY : src/Windows936Encoding.cpp.o
 
 src/Windows936Encoding.i: src/Windows936Encoding.cpp.i
@@ -991,7 +991,7 @@ src/Windows936Encoding.i: src/Windows936Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows936Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows936Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows936Encoding.cpp.i
 .PHONY : src/Windows936Encoding.cpp.i
 
 src/Windows936Encoding.s: src/Windows936Encoding.cpp.s
@@ -1000,7 +1000,7 @@ src/Windows936Encoding.s: src/Windows936Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows936Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows936Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows936Encoding.cpp.s
 .PHONY : src/Windows936Encoding.cpp.s
 
 src/Windows949Encoding.o: src/Windows949Encoding.cpp.o
@@ -1009,7 +1009,7 @@ src/Windows949Encoding.o: src/Windows949Encoding.cpp.o
 
 # target to build an object file
 src/Windows949Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows949Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows949Encoding.cpp.o
 .PHONY : src/Windows949Encoding.cpp.o
 
 src/Windows949Encoding.i: src/Windows949Encoding.cpp.i
@@ -1018,7 +1018,7 @@ src/Windows949Encoding.i: src/Windows949Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows949Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows949Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows949Encoding.cpp.i
 .PHONY : src/Windows949Encoding.cpp.i
 
 src/Windows949Encoding.s: src/Windows949Encoding.cpp.s
@@ -1027,7 +1027,7 @@ src/Windows949Encoding.s: src/Windows949Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows949Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows949Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows949Encoding.cpp.s
 .PHONY : src/Windows949Encoding.cpp.s
 
 src/Windows950Encoding.o: src/Windows950Encoding.cpp.o
@@ -1036,7 +1036,7 @@ src/Windows950Encoding.o: src/Windows950Encoding.cpp.o
 
 # target to build an object file
 src/Windows950Encoding.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows950Encoding.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows950Encoding.cpp.o
 .PHONY : src/Windows950Encoding.cpp.o
 
 src/Windows950Encoding.i: src/Windows950Encoding.cpp.i
@@ -1045,7 +1045,7 @@ src/Windows950Encoding.i: src/Windows950Encoding.cpp.i
 
 # target to preprocess a source file
 src/Windows950Encoding.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows950Encoding.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows950Encoding.cpp.i
 .PHONY : src/Windows950Encoding.cpp.i
 
 src/Windows950Encoding.s: src/Windows950Encoding.cpp.s
@@ -1054,7 +1054,7 @@ src/Windows950Encoding.s: src/Windows950Encoding.cpp.s
 
 # target to generate assembly for a file
 src/Windows950Encoding.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows950Encoding.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Encodings/CMakeFiles/Encodings.dir/build.make Encodings/CMakeFiles/Encodings.dir/src/Windows950Encoding.cpp.s
 .PHONY : src/Windows950Encoding.cpp.s
 
 # Help Target
@@ -1179,6 +1179,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

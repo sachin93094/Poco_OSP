@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,7 +94,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CPackSourceConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/Poco_OSP/Poco/cmake-build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML/CMakeFiles/progress.marks
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 XML/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles /mnt/Poco_OSP/Poco/cmake-build/XML/CMakeFiles/progress.marks
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 XML/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 XML/clean
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 XML/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 XML/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 XML/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 XML/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 XML/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 XML/CMakeFiles/XML.dir/rule:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 XML/CMakeFiles/XML.dir/rule
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 XML/CMakeFiles/XML.dir/rule
 .PHONY : XML/CMakeFiles/XML.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ XML: XML/CMakeFiles/XML.dir/rule
 
 # fast build rule for target.
 XML/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/build
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/build
 .PHONY : XML/fast
 
 src/AbstractContainerNode.o: src/AbstractContainerNode.cpp.o
@@ -199,7 +199,7 @@ src/AbstractContainerNode.o: src/AbstractContainerNode.cpp.o
 
 # target to build an object file
 src/AbstractContainerNode.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.o
 .PHONY : src/AbstractContainerNode.cpp.o
 
 src/AbstractContainerNode.i: src/AbstractContainerNode.cpp.i
@@ -208,7 +208,7 @@ src/AbstractContainerNode.i: src/AbstractContainerNode.cpp.i
 
 # target to preprocess a source file
 src/AbstractContainerNode.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.i
 .PHONY : src/AbstractContainerNode.cpp.i
 
 src/AbstractContainerNode.s: src/AbstractContainerNode.cpp.s
@@ -217,7 +217,7 @@ src/AbstractContainerNode.s: src/AbstractContainerNode.cpp.s
 
 # target to generate assembly for a file
 src/AbstractContainerNode.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.s
 .PHONY : src/AbstractContainerNode.cpp.s
 
 src/AbstractNode.o: src/AbstractNode.cpp.o
@@ -226,7 +226,7 @@ src/AbstractNode.o: src/AbstractNode.cpp.o
 
 # target to build an object file
 src/AbstractNode.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AbstractNode.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AbstractNode.cpp.o
 .PHONY : src/AbstractNode.cpp.o
 
 src/AbstractNode.i: src/AbstractNode.cpp.i
@@ -235,7 +235,7 @@ src/AbstractNode.i: src/AbstractNode.cpp.i
 
 # target to preprocess a source file
 src/AbstractNode.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AbstractNode.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AbstractNode.cpp.i
 .PHONY : src/AbstractNode.cpp.i
 
 src/AbstractNode.s: src/AbstractNode.cpp.s
@@ -244,7 +244,7 @@ src/AbstractNode.s: src/AbstractNode.cpp.s
 
 # target to generate assembly for a file
 src/AbstractNode.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AbstractNode.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AbstractNode.cpp.s
 .PHONY : src/AbstractNode.cpp.s
 
 src/Attr.o: src/Attr.cpp.o
@@ -253,7 +253,7 @@ src/Attr.o: src/Attr.cpp.o
 
 # target to build an object file
 src/Attr.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Attr.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Attr.cpp.o
 .PHONY : src/Attr.cpp.o
 
 src/Attr.i: src/Attr.cpp.i
@@ -262,7 +262,7 @@ src/Attr.i: src/Attr.cpp.i
 
 # target to preprocess a source file
 src/Attr.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Attr.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Attr.cpp.i
 .PHONY : src/Attr.cpp.i
 
 src/Attr.s: src/Attr.cpp.s
@@ -271,7 +271,7 @@ src/Attr.s: src/Attr.cpp.s
 
 # target to generate assembly for a file
 src/Attr.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Attr.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Attr.cpp.s
 .PHONY : src/Attr.cpp.s
 
 src/AttrMap.o: src/AttrMap.cpp.o
@@ -280,7 +280,7 @@ src/AttrMap.o: src/AttrMap.cpp.o
 
 # target to build an object file
 src/AttrMap.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AttrMap.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AttrMap.cpp.o
 .PHONY : src/AttrMap.cpp.o
 
 src/AttrMap.i: src/AttrMap.cpp.i
@@ -289,7 +289,7 @@ src/AttrMap.i: src/AttrMap.cpp.i
 
 # target to preprocess a source file
 src/AttrMap.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AttrMap.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AttrMap.cpp.i
 .PHONY : src/AttrMap.cpp.i
 
 src/AttrMap.s: src/AttrMap.cpp.s
@@ -298,7 +298,7 @@ src/AttrMap.s: src/AttrMap.cpp.s
 
 # target to generate assembly for a file
 src/AttrMap.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AttrMap.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AttrMap.cpp.s
 .PHONY : src/AttrMap.cpp.s
 
 src/Attributes.o: src/Attributes.cpp.o
@@ -307,7 +307,7 @@ src/Attributes.o: src/Attributes.cpp.o
 
 # target to build an object file
 src/Attributes.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Attributes.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Attributes.cpp.o
 .PHONY : src/Attributes.cpp.o
 
 src/Attributes.i: src/Attributes.cpp.i
@@ -316,7 +316,7 @@ src/Attributes.i: src/Attributes.cpp.i
 
 # target to preprocess a source file
 src/Attributes.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Attributes.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Attributes.cpp.i
 .PHONY : src/Attributes.cpp.i
 
 src/Attributes.s: src/Attributes.cpp.s
@@ -325,7 +325,7 @@ src/Attributes.s: src/Attributes.cpp.s
 
 # target to generate assembly for a file
 src/Attributes.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Attributes.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Attributes.cpp.s
 .PHONY : src/Attributes.cpp.s
 
 src/AttributesImpl.o: src/AttributesImpl.cpp.o
@@ -334,7 +334,7 @@ src/AttributesImpl.o: src/AttributesImpl.cpp.o
 
 # target to build an object file
 src/AttributesImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AttributesImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AttributesImpl.cpp.o
 .PHONY : src/AttributesImpl.cpp.o
 
 src/AttributesImpl.i: src/AttributesImpl.cpp.i
@@ -343,7 +343,7 @@ src/AttributesImpl.i: src/AttributesImpl.cpp.i
 
 # target to preprocess a source file
 src/AttributesImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AttributesImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AttributesImpl.cpp.i
 .PHONY : src/AttributesImpl.cpp.i
 
 src/AttributesImpl.s: src/AttributesImpl.cpp.s
@@ -352,7 +352,7 @@ src/AttributesImpl.s: src/AttributesImpl.cpp.s
 
 # target to generate assembly for a file
 src/AttributesImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AttributesImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/AttributesImpl.cpp.s
 .PHONY : src/AttributesImpl.cpp.s
 
 src/CDATASection.o: src/CDATASection.cpp.o
@@ -361,7 +361,7 @@ src/CDATASection.o: src/CDATASection.cpp.o
 
 # target to build an object file
 src/CDATASection.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/CDATASection.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/CDATASection.cpp.o
 .PHONY : src/CDATASection.cpp.o
 
 src/CDATASection.i: src/CDATASection.cpp.i
@@ -370,7 +370,7 @@ src/CDATASection.i: src/CDATASection.cpp.i
 
 # target to preprocess a source file
 src/CDATASection.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/CDATASection.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/CDATASection.cpp.i
 .PHONY : src/CDATASection.cpp.i
 
 src/CDATASection.s: src/CDATASection.cpp.s
@@ -379,7 +379,7 @@ src/CDATASection.s: src/CDATASection.cpp.s
 
 # target to generate assembly for a file
 src/CDATASection.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/CDATASection.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/CDATASection.cpp.s
 .PHONY : src/CDATASection.cpp.s
 
 src/CharacterData.o: src/CharacterData.cpp.o
@@ -388,7 +388,7 @@ src/CharacterData.o: src/CharacterData.cpp.o
 
 # target to build an object file
 src/CharacterData.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/CharacterData.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/CharacterData.cpp.o
 .PHONY : src/CharacterData.cpp.o
 
 src/CharacterData.i: src/CharacterData.cpp.i
@@ -397,7 +397,7 @@ src/CharacterData.i: src/CharacterData.cpp.i
 
 # target to preprocess a source file
 src/CharacterData.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/CharacterData.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/CharacterData.cpp.i
 .PHONY : src/CharacterData.cpp.i
 
 src/CharacterData.s: src/CharacterData.cpp.s
@@ -406,7 +406,7 @@ src/CharacterData.s: src/CharacterData.cpp.s
 
 # target to generate assembly for a file
 src/CharacterData.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/CharacterData.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/CharacterData.cpp.s
 .PHONY : src/CharacterData.cpp.s
 
 src/ChildNodesList.o: src/ChildNodesList.cpp.o
@@ -415,7 +415,7 @@ src/ChildNodesList.o: src/ChildNodesList.cpp.o
 
 # target to build an object file
 src/ChildNodesList.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ChildNodesList.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ChildNodesList.cpp.o
 .PHONY : src/ChildNodesList.cpp.o
 
 src/ChildNodesList.i: src/ChildNodesList.cpp.i
@@ -424,7 +424,7 @@ src/ChildNodesList.i: src/ChildNodesList.cpp.i
 
 # target to preprocess a source file
 src/ChildNodesList.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ChildNodesList.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ChildNodesList.cpp.i
 .PHONY : src/ChildNodesList.cpp.i
 
 src/ChildNodesList.s: src/ChildNodesList.cpp.s
@@ -433,7 +433,7 @@ src/ChildNodesList.s: src/ChildNodesList.cpp.s
 
 # target to generate assembly for a file
 src/ChildNodesList.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ChildNodesList.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ChildNodesList.cpp.s
 .PHONY : src/ChildNodesList.cpp.s
 
 src/Comment.o: src/Comment.cpp.o
@@ -442,7 +442,7 @@ src/Comment.o: src/Comment.cpp.o
 
 # target to build an object file
 src/Comment.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Comment.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Comment.cpp.o
 .PHONY : src/Comment.cpp.o
 
 src/Comment.i: src/Comment.cpp.i
@@ -451,7 +451,7 @@ src/Comment.i: src/Comment.cpp.i
 
 # target to preprocess a source file
 src/Comment.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Comment.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Comment.cpp.i
 .PHONY : src/Comment.cpp.i
 
 src/Comment.s: src/Comment.cpp.s
@@ -460,7 +460,7 @@ src/Comment.s: src/Comment.cpp.s
 
 # target to generate assembly for a file
 src/Comment.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Comment.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Comment.cpp.s
 .PHONY : src/Comment.cpp.s
 
 src/ContentHandler.o: src/ContentHandler.cpp.o
@@ -469,7 +469,7 @@ src/ContentHandler.o: src/ContentHandler.cpp.o
 
 # target to build an object file
 src/ContentHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ContentHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ContentHandler.cpp.o
 .PHONY : src/ContentHandler.cpp.o
 
 src/ContentHandler.i: src/ContentHandler.cpp.i
@@ -478,7 +478,7 @@ src/ContentHandler.i: src/ContentHandler.cpp.i
 
 # target to preprocess a source file
 src/ContentHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ContentHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ContentHandler.cpp.i
 .PHONY : src/ContentHandler.cpp.i
 
 src/ContentHandler.s: src/ContentHandler.cpp.s
@@ -487,7 +487,7 @@ src/ContentHandler.s: src/ContentHandler.cpp.s
 
 # target to generate assembly for a file
 src/ContentHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ContentHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ContentHandler.cpp.s
 .PHONY : src/ContentHandler.cpp.s
 
 src/DOMBuilder.o: src/DOMBuilder.cpp.o
@@ -496,7 +496,7 @@ src/DOMBuilder.o: src/DOMBuilder.cpp.o
 
 # target to build an object file
 src/DOMBuilder.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMBuilder.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMBuilder.cpp.o
 .PHONY : src/DOMBuilder.cpp.o
 
 src/DOMBuilder.i: src/DOMBuilder.cpp.i
@@ -505,7 +505,7 @@ src/DOMBuilder.i: src/DOMBuilder.cpp.i
 
 # target to preprocess a source file
 src/DOMBuilder.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMBuilder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMBuilder.cpp.i
 .PHONY : src/DOMBuilder.cpp.i
 
 src/DOMBuilder.s: src/DOMBuilder.cpp.s
@@ -514,7 +514,7 @@ src/DOMBuilder.s: src/DOMBuilder.cpp.s
 
 # target to generate assembly for a file
 src/DOMBuilder.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMBuilder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMBuilder.cpp.s
 .PHONY : src/DOMBuilder.cpp.s
 
 src/DOMException.o: src/DOMException.cpp.o
@@ -523,7 +523,7 @@ src/DOMException.o: src/DOMException.cpp.o
 
 # target to build an object file
 src/DOMException.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMException.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMException.cpp.o
 .PHONY : src/DOMException.cpp.o
 
 src/DOMException.i: src/DOMException.cpp.i
@@ -532,7 +532,7 @@ src/DOMException.i: src/DOMException.cpp.i
 
 # target to preprocess a source file
 src/DOMException.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMException.cpp.i
 .PHONY : src/DOMException.cpp.i
 
 src/DOMException.s: src/DOMException.cpp.s
@@ -541,7 +541,7 @@ src/DOMException.s: src/DOMException.cpp.s
 
 # target to generate assembly for a file
 src/DOMException.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMException.cpp.s
 .PHONY : src/DOMException.cpp.s
 
 src/DOMImplementation.o: src/DOMImplementation.cpp.o
@@ -550,7 +550,7 @@ src/DOMImplementation.o: src/DOMImplementation.cpp.o
 
 # target to build an object file
 src/DOMImplementation.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMImplementation.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMImplementation.cpp.o
 .PHONY : src/DOMImplementation.cpp.o
 
 src/DOMImplementation.i: src/DOMImplementation.cpp.i
@@ -559,7 +559,7 @@ src/DOMImplementation.i: src/DOMImplementation.cpp.i
 
 # target to preprocess a source file
 src/DOMImplementation.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMImplementation.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMImplementation.cpp.i
 .PHONY : src/DOMImplementation.cpp.i
 
 src/DOMImplementation.s: src/DOMImplementation.cpp.s
@@ -568,7 +568,7 @@ src/DOMImplementation.s: src/DOMImplementation.cpp.s
 
 # target to generate assembly for a file
 src/DOMImplementation.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMImplementation.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMImplementation.cpp.s
 .PHONY : src/DOMImplementation.cpp.s
 
 src/DOMObject.o: src/DOMObject.cpp.o
@@ -577,7 +577,7 @@ src/DOMObject.o: src/DOMObject.cpp.o
 
 # target to build an object file
 src/DOMObject.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMObject.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMObject.cpp.o
 .PHONY : src/DOMObject.cpp.o
 
 src/DOMObject.i: src/DOMObject.cpp.i
@@ -586,7 +586,7 @@ src/DOMObject.i: src/DOMObject.cpp.i
 
 # target to preprocess a source file
 src/DOMObject.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMObject.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMObject.cpp.i
 .PHONY : src/DOMObject.cpp.i
 
 src/DOMObject.s: src/DOMObject.cpp.s
@@ -595,7 +595,7 @@ src/DOMObject.s: src/DOMObject.cpp.s
 
 # target to generate assembly for a file
 src/DOMObject.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMObject.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMObject.cpp.s
 .PHONY : src/DOMObject.cpp.s
 
 src/DOMParser.o: src/DOMParser.cpp.o
@@ -604,7 +604,7 @@ src/DOMParser.o: src/DOMParser.cpp.o
 
 # target to build an object file
 src/DOMParser.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMParser.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMParser.cpp.o
 .PHONY : src/DOMParser.cpp.o
 
 src/DOMParser.i: src/DOMParser.cpp.i
@@ -613,7 +613,7 @@ src/DOMParser.i: src/DOMParser.cpp.i
 
 # target to preprocess a source file
 src/DOMParser.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMParser.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMParser.cpp.i
 .PHONY : src/DOMParser.cpp.i
 
 src/DOMParser.s: src/DOMParser.cpp.s
@@ -622,7 +622,7 @@ src/DOMParser.s: src/DOMParser.cpp.s
 
 # target to generate assembly for a file
 src/DOMParser.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMParser.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMParser.cpp.s
 .PHONY : src/DOMParser.cpp.s
 
 src/DOMSerializer.o: src/DOMSerializer.cpp.o
@@ -631,7 +631,7 @@ src/DOMSerializer.o: src/DOMSerializer.cpp.o
 
 # target to build an object file
 src/DOMSerializer.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMSerializer.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMSerializer.cpp.o
 .PHONY : src/DOMSerializer.cpp.o
 
 src/DOMSerializer.i: src/DOMSerializer.cpp.i
@@ -640,7 +640,7 @@ src/DOMSerializer.i: src/DOMSerializer.cpp.i
 
 # target to preprocess a source file
 src/DOMSerializer.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMSerializer.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMSerializer.cpp.i
 .PHONY : src/DOMSerializer.cpp.i
 
 src/DOMSerializer.s: src/DOMSerializer.cpp.s
@@ -649,7 +649,7 @@ src/DOMSerializer.s: src/DOMSerializer.cpp.s
 
 # target to generate assembly for a file
 src/DOMSerializer.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMSerializer.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMSerializer.cpp.s
 .PHONY : src/DOMSerializer.cpp.s
 
 src/DOMWriter.o: src/DOMWriter.cpp.o
@@ -658,7 +658,7 @@ src/DOMWriter.o: src/DOMWriter.cpp.o
 
 # target to build an object file
 src/DOMWriter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMWriter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMWriter.cpp.o
 .PHONY : src/DOMWriter.cpp.o
 
 src/DOMWriter.i: src/DOMWriter.cpp.i
@@ -667,7 +667,7 @@ src/DOMWriter.i: src/DOMWriter.cpp.i
 
 # target to preprocess a source file
 src/DOMWriter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMWriter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMWriter.cpp.i
 .PHONY : src/DOMWriter.cpp.i
 
 src/DOMWriter.s: src/DOMWriter.cpp.s
@@ -676,7 +676,7 @@ src/DOMWriter.s: src/DOMWriter.cpp.s
 
 # target to generate assembly for a file
 src/DOMWriter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMWriter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DOMWriter.cpp.s
 .PHONY : src/DOMWriter.cpp.s
 
 src/DTDHandler.o: src/DTDHandler.cpp.o
@@ -685,7 +685,7 @@ src/DTDHandler.o: src/DTDHandler.cpp.o
 
 # target to build an object file
 src/DTDHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DTDHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DTDHandler.cpp.o
 .PHONY : src/DTDHandler.cpp.o
 
 src/DTDHandler.i: src/DTDHandler.cpp.i
@@ -694,7 +694,7 @@ src/DTDHandler.i: src/DTDHandler.cpp.i
 
 # target to preprocess a source file
 src/DTDHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DTDHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DTDHandler.cpp.i
 .PHONY : src/DTDHandler.cpp.i
 
 src/DTDHandler.s: src/DTDHandler.cpp.s
@@ -703,7 +703,7 @@ src/DTDHandler.s: src/DTDHandler.cpp.s
 
 # target to generate assembly for a file
 src/DTDHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DTDHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DTDHandler.cpp.s
 .PHONY : src/DTDHandler.cpp.s
 
 src/DTDMap.o: src/DTDMap.cpp.o
@@ -712,7 +712,7 @@ src/DTDMap.o: src/DTDMap.cpp.o
 
 # target to build an object file
 src/DTDMap.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DTDMap.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DTDMap.cpp.o
 .PHONY : src/DTDMap.cpp.o
 
 src/DTDMap.i: src/DTDMap.cpp.i
@@ -721,7 +721,7 @@ src/DTDMap.i: src/DTDMap.cpp.i
 
 # target to preprocess a source file
 src/DTDMap.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DTDMap.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DTDMap.cpp.i
 .PHONY : src/DTDMap.cpp.i
 
 src/DTDMap.s: src/DTDMap.cpp.s
@@ -730,7 +730,7 @@ src/DTDMap.s: src/DTDMap.cpp.s
 
 # target to generate assembly for a file
 src/DTDMap.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DTDMap.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DTDMap.cpp.s
 .PHONY : src/DTDMap.cpp.s
 
 src/DeclHandler.o: src/DeclHandler.cpp.o
@@ -739,7 +739,7 @@ src/DeclHandler.o: src/DeclHandler.cpp.o
 
 # target to build an object file
 src/DeclHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DeclHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DeclHandler.cpp.o
 .PHONY : src/DeclHandler.cpp.o
 
 src/DeclHandler.i: src/DeclHandler.cpp.i
@@ -748,7 +748,7 @@ src/DeclHandler.i: src/DeclHandler.cpp.i
 
 # target to preprocess a source file
 src/DeclHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DeclHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DeclHandler.cpp.i
 .PHONY : src/DeclHandler.cpp.i
 
 src/DeclHandler.s: src/DeclHandler.cpp.s
@@ -757,7 +757,7 @@ src/DeclHandler.s: src/DeclHandler.cpp.s
 
 # target to generate assembly for a file
 src/DeclHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DeclHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DeclHandler.cpp.s
 .PHONY : src/DeclHandler.cpp.s
 
 src/DefaultHandler.o: src/DefaultHandler.cpp.o
@@ -766,7 +766,7 @@ src/DefaultHandler.o: src/DefaultHandler.cpp.o
 
 # target to build an object file
 src/DefaultHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DefaultHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DefaultHandler.cpp.o
 .PHONY : src/DefaultHandler.cpp.o
 
 src/DefaultHandler.i: src/DefaultHandler.cpp.i
@@ -775,7 +775,7 @@ src/DefaultHandler.i: src/DefaultHandler.cpp.i
 
 # target to preprocess a source file
 src/DefaultHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DefaultHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DefaultHandler.cpp.i
 .PHONY : src/DefaultHandler.cpp.i
 
 src/DefaultHandler.s: src/DefaultHandler.cpp.s
@@ -784,7 +784,7 @@ src/DefaultHandler.s: src/DefaultHandler.cpp.s
 
 # target to generate assembly for a file
 src/DefaultHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DefaultHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DefaultHandler.cpp.s
 .PHONY : src/DefaultHandler.cpp.s
 
 src/Document.o: src/Document.cpp.o
@@ -793,7 +793,7 @@ src/Document.o: src/Document.cpp.o
 
 # target to build an object file
 src/Document.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Document.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Document.cpp.o
 .PHONY : src/Document.cpp.o
 
 src/Document.i: src/Document.cpp.i
@@ -802,7 +802,7 @@ src/Document.i: src/Document.cpp.i
 
 # target to preprocess a source file
 src/Document.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Document.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Document.cpp.i
 .PHONY : src/Document.cpp.i
 
 src/Document.s: src/Document.cpp.s
@@ -811,7 +811,7 @@ src/Document.s: src/Document.cpp.s
 
 # target to generate assembly for a file
 src/Document.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Document.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Document.cpp.s
 .PHONY : src/Document.cpp.s
 
 src/DocumentEvent.o: src/DocumentEvent.cpp.o
@@ -820,7 +820,7 @@ src/DocumentEvent.o: src/DocumentEvent.cpp.o
 
 # target to build an object file
 src/DocumentEvent.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentEvent.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentEvent.cpp.o
 .PHONY : src/DocumentEvent.cpp.o
 
 src/DocumentEvent.i: src/DocumentEvent.cpp.i
@@ -829,7 +829,7 @@ src/DocumentEvent.i: src/DocumentEvent.cpp.i
 
 # target to preprocess a source file
 src/DocumentEvent.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentEvent.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentEvent.cpp.i
 .PHONY : src/DocumentEvent.cpp.i
 
 src/DocumentEvent.s: src/DocumentEvent.cpp.s
@@ -838,7 +838,7 @@ src/DocumentEvent.s: src/DocumentEvent.cpp.s
 
 # target to generate assembly for a file
 src/DocumentEvent.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentEvent.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentEvent.cpp.s
 .PHONY : src/DocumentEvent.cpp.s
 
 src/DocumentFragment.o: src/DocumentFragment.cpp.o
@@ -847,7 +847,7 @@ src/DocumentFragment.o: src/DocumentFragment.cpp.o
 
 # target to build an object file
 src/DocumentFragment.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentFragment.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentFragment.cpp.o
 .PHONY : src/DocumentFragment.cpp.o
 
 src/DocumentFragment.i: src/DocumentFragment.cpp.i
@@ -856,7 +856,7 @@ src/DocumentFragment.i: src/DocumentFragment.cpp.i
 
 # target to preprocess a source file
 src/DocumentFragment.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentFragment.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentFragment.cpp.i
 .PHONY : src/DocumentFragment.cpp.i
 
 src/DocumentFragment.s: src/DocumentFragment.cpp.s
@@ -865,7 +865,7 @@ src/DocumentFragment.s: src/DocumentFragment.cpp.s
 
 # target to generate assembly for a file
 src/DocumentFragment.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentFragment.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentFragment.cpp.s
 .PHONY : src/DocumentFragment.cpp.s
 
 src/DocumentType.o: src/DocumentType.cpp.o
@@ -874,7 +874,7 @@ src/DocumentType.o: src/DocumentType.cpp.o
 
 # target to build an object file
 src/DocumentType.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentType.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentType.cpp.o
 .PHONY : src/DocumentType.cpp.o
 
 src/DocumentType.i: src/DocumentType.cpp.i
@@ -883,7 +883,7 @@ src/DocumentType.i: src/DocumentType.cpp.i
 
 # target to preprocess a source file
 src/DocumentType.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentType.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentType.cpp.i
 .PHONY : src/DocumentType.cpp.i
 
 src/DocumentType.s: src/DocumentType.cpp.s
@@ -892,7 +892,7 @@ src/DocumentType.s: src/DocumentType.cpp.s
 
 # target to generate assembly for a file
 src/DocumentType.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentType.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/DocumentType.cpp.s
 .PHONY : src/DocumentType.cpp.s
 
 src/Element.o: src/Element.cpp.o
@@ -901,7 +901,7 @@ src/Element.o: src/Element.cpp.o
 
 # target to build an object file
 src/Element.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Element.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Element.cpp.o
 .PHONY : src/Element.cpp.o
 
 src/Element.i: src/Element.cpp.i
@@ -910,7 +910,7 @@ src/Element.i: src/Element.cpp.i
 
 # target to preprocess a source file
 src/Element.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Element.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Element.cpp.i
 .PHONY : src/Element.cpp.i
 
 src/Element.s: src/Element.cpp.s
@@ -919,7 +919,7 @@ src/Element.s: src/Element.cpp.s
 
 # target to generate assembly for a file
 src/Element.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Element.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Element.cpp.s
 .PHONY : src/Element.cpp.s
 
 src/ElementsByTagNameList.o: src/ElementsByTagNameList.cpp.o
@@ -928,7 +928,7 @@ src/ElementsByTagNameList.o: src/ElementsByTagNameList.cpp.o
 
 # target to build an object file
 src/ElementsByTagNameList.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.o
 .PHONY : src/ElementsByTagNameList.cpp.o
 
 src/ElementsByTagNameList.i: src/ElementsByTagNameList.cpp.i
@@ -937,7 +937,7 @@ src/ElementsByTagNameList.i: src/ElementsByTagNameList.cpp.i
 
 # target to preprocess a source file
 src/ElementsByTagNameList.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.i
 .PHONY : src/ElementsByTagNameList.cpp.i
 
 src/ElementsByTagNameList.s: src/ElementsByTagNameList.cpp.s
@@ -946,7 +946,7 @@ src/ElementsByTagNameList.s: src/ElementsByTagNameList.cpp.s
 
 # target to generate assembly for a file
 src/ElementsByTagNameList.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.s
 .PHONY : src/ElementsByTagNameList.cpp.s
 
 src/Entity.o: src/Entity.cpp.o
@@ -955,7 +955,7 @@ src/Entity.o: src/Entity.cpp.o
 
 # target to build an object file
 src/Entity.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Entity.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Entity.cpp.o
 .PHONY : src/Entity.cpp.o
 
 src/Entity.i: src/Entity.cpp.i
@@ -964,7 +964,7 @@ src/Entity.i: src/Entity.cpp.i
 
 # target to preprocess a source file
 src/Entity.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Entity.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Entity.cpp.i
 .PHONY : src/Entity.cpp.i
 
 src/Entity.s: src/Entity.cpp.s
@@ -973,7 +973,7 @@ src/Entity.s: src/Entity.cpp.s
 
 # target to generate assembly for a file
 src/Entity.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Entity.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Entity.cpp.s
 .PHONY : src/Entity.cpp.s
 
 src/EntityReference.o: src/EntityReference.cpp.o
@@ -982,7 +982,7 @@ src/EntityReference.o: src/EntityReference.cpp.o
 
 # target to build an object file
 src/EntityReference.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityReference.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityReference.cpp.o
 .PHONY : src/EntityReference.cpp.o
 
 src/EntityReference.i: src/EntityReference.cpp.i
@@ -991,7 +991,7 @@ src/EntityReference.i: src/EntityReference.cpp.i
 
 # target to preprocess a source file
 src/EntityReference.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityReference.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityReference.cpp.i
 .PHONY : src/EntityReference.cpp.i
 
 src/EntityReference.s: src/EntityReference.cpp.s
@@ -1000,7 +1000,7 @@ src/EntityReference.s: src/EntityReference.cpp.s
 
 # target to generate assembly for a file
 src/EntityReference.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityReference.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityReference.cpp.s
 .PHONY : src/EntityReference.cpp.s
 
 src/EntityResolver.o: src/EntityResolver.cpp.o
@@ -1009,7 +1009,7 @@ src/EntityResolver.o: src/EntityResolver.cpp.o
 
 # target to build an object file
 src/EntityResolver.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityResolver.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityResolver.cpp.o
 .PHONY : src/EntityResolver.cpp.o
 
 src/EntityResolver.i: src/EntityResolver.cpp.i
@@ -1018,7 +1018,7 @@ src/EntityResolver.i: src/EntityResolver.cpp.i
 
 # target to preprocess a source file
 src/EntityResolver.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityResolver.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityResolver.cpp.i
 .PHONY : src/EntityResolver.cpp.i
 
 src/EntityResolver.s: src/EntityResolver.cpp.s
@@ -1027,7 +1027,7 @@ src/EntityResolver.s: src/EntityResolver.cpp.s
 
 # target to generate assembly for a file
 src/EntityResolver.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityResolver.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityResolver.cpp.s
 .PHONY : src/EntityResolver.cpp.s
 
 src/EntityResolverImpl.o: src/EntityResolverImpl.cpp.o
@@ -1036,7 +1036,7 @@ src/EntityResolverImpl.o: src/EntityResolverImpl.cpp.o
 
 # target to build an object file
 src/EntityResolverImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.o
 .PHONY : src/EntityResolverImpl.cpp.o
 
 src/EntityResolverImpl.i: src/EntityResolverImpl.cpp.i
@@ -1045,7 +1045,7 @@ src/EntityResolverImpl.i: src/EntityResolverImpl.cpp.i
 
 # target to preprocess a source file
 src/EntityResolverImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.i
 .PHONY : src/EntityResolverImpl.cpp.i
 
 src/EntityResolverImpl.s: src/EntityResolverImpl.cpp.s
@@ -1054,7 +1054,7 @@ src/EntityResolverImpl.s: src/EntityResolverImpl.cpp.s
 
 # target to generate assembly for a file
 src/EntityResolverImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.s
 .PHONY : src/EntityResolverImpl.cpp.s
 
 src/ErrorHandler.o: src/ErrorHandler.cpp.o
@@ -1063,7 +1063,7 @@ src/ErrorHandler.o: src/ErrorHandler.cpp.o
 
 # target to build an object file
 src/ErrorHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ErrorHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ErrorHandler.cpp.o
 .PHONY : src/ErrorHandler.cpp.o
 
 src/ErrorHandler.i: src/ErrorHandler.cpp.i
@@ -1072,7 +1072,7 @@ src/ErrorHandler.i: src/ErrorHandler.cpp.i
 
 # target to preprocess a source file
 src/ErrorHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ErrorHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ErrorHandler.cpp.i
 .PHONY : src/ErrorHandler.cpp.i
 
 src/ErrorHandler.s: src/ErrorHandler.cpp.s
@@ -1081,7 +1081,7 @@ src/ErrorHandler.s: src/ErrorHandler.cpp.s
 
 # target to generate assembly for a file
 src/ErrorHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ErrorHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ErrorHandler.cpp.s
 .PHONY : src/ErrorHandler.cpp.s
 
 src/Event.o: src/Event.cpp.o
@@ -1090,7 +1090,7 @@ src/Event.o: src/Event.cpp.o
 
 # target to build an object file
 src/Event.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Event.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Event.cpp.o
 .PHONY : src/Event.cpp.o
 
 src/Event.i: src/Event.cpp.i
@@ -1099,7 +1099,7 @@ src/Event.i: src/Event.cpp.i
 
 # target to preprocess a source file
 src/Event.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Event.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Event.cpp.i
 .PHONY : src/Event.cpp.i
 
 src/Event.s: src/Event.cpp.s
@@ -1108,7 +1108,7 @@ src/Event.s: src/Event.cpp.s
 
 # target to generate assembly for a file
 src/Event.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Event.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Event.cpp.s
 .PHONY : src/Event.cpp.s
 
 src/EventDispatcher.o: src/EventDispatcher.cpp.o
@@ -1117,7 +1117,7 @@ src/EventDispatcher.o: src/EventDispatcher.cpp.o
 
 # target to build an object file
 src/EventDispatcher.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventDispatcher.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventDispatcher.cpp.o
 .PHONY : src/EventDispatcher.cpp.o
 
 src/EventDispatcher.i: src/EventDispatcher.cpp.i
@@ -1126,7 +1126,7 @@ src/EventDispatcher.i: src/EventDispatcher.cpp.i
 
 # target to preprocess a source file
 src/EventDispatcher.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventDispatcher.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventDispatcher.cpp.i
 .PHONY : src/EventDispatcher.cpp.i
 
 src/EventDispatcher.s: src/EventDispatcher.cpp.s
@@ -1135,7 +1135,7 @@ src/EventDispatcher.s: src/EventDispatcher.cpp.s
 
 # target to generate assembly for a file
 src/EventDispatcher.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventDispatcher.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventDispatcher.cpp.s
 .PHONY : src/EventDispatcher.cpp.s
 
 src/EventException.o: src/EventException.cpp.o
@@ -1144,7 +1144,7 @@ src/EventException.o: src/EventException.cpp.o
 
 # target to build an object file
 src/EventException.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventException.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventException.cpp.o
 .PHONY : src/EventException.cpp.o
 
 src/EventException.i: src/EventException.cpp.i
@@ -1153,7 +1153,7 @@ src/EventException.i: src/EventException.cpp.i
 
 # target to preprocess a source file
 src/EventException.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventException.cpp.i
 .PHONY : src/EventException.cpp.i
 
 src/EventException.s: src/EventException.cpp.s
@@ -1162,7 +1162,7 @@ src/EventException.s: src/EventException.cpp.s
 
 # target to generate assembly for a file
 src/EventException.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventException.cpp.s
 .PHONY : src/EventException.cpp.s
 
 src/EventListener.o: src/EventListener.cpp.o
@@ -1171,7 +1171,7 @@ src/EventListener.o: src/EventListener.cpp.o
 
 # target to build an object file
 src/EventListener.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventListener.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventListener.cpp.o
 .PHONY : src/EventListener.cpp.o
 
 src/EventListener.i: src/EventListener.cpp.i
@@ -1180,7 +1180,7 @@ src/EventListener.i: src/EventListener.cpp.i
 
 # target to preprocess a source file
 src/EventListener.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventListener.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventListener.cpp.i
 .PHONY : src/EventListener.cpp.i
 
 src/EventListener.s: src/EventListener.cpp.s
@@ -1189,7 +1189,7 @@ src/EventListener.s: src/EventListener.cpp.s
 
 # target to generate assembly for a file
 src/EventListener.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventListener.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventListener.cpp.s
 .PHONY : src/EventListener.cpp.s
 
 src/EventTarget.o: src/EventTarget.cpp.o
@@ -1198,7 +1198,7 @@ src/EventTarget.o: src/EventTarget.cpp.o
 
 # target to build an object file
 src/EventTarget.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventTarget.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventTarget.cpp.o
 .PHONY : src/EventTarget.cpp.o
 
 src/EventTarget.i: src/EventTarget.cpp.i
@@ -1207,7 +1207,7 @@ src/EventTarget.i: src/EventTarget.cpp.i
 
 # target to preprocess a source file
 src/EventTarget.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventTarget.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventTarget.cpp.i
 .PHONY : src/EventTarget.cpp.i
 
 src/EventTarget.s: src/EventTarget.cpp.s
@@ -1216,7 +1216,7 @@ src/EventTarget.s: src/EventTarget.cpp.s
 
 # target to generate assembly for a file
 src/EventTarget.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventTarget.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/EventTarget.cpp.s
 .PHONY : src/EventTarget.cpp.s
 
 src/InputSource.o: src/InputSource.cpp.o
@@ -1225,7 +1225,7 @@ src/InputSource.o: src/InputSource.cpp.o
 
 # target to build an object file
 src/InputSource.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/InputSource.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/InputSource.cpp.o
 .PHONY : src/InputSource.cpp.o
 
 src/InputSource.i: src/InputSource.cpp.i
@@ -1234,7 +1234,7 @@ src/InputSource.i: src/InputSource.cpp.i
 
 # target to preprocess a source file
 src/InputSource.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/InputSource.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/InputSource.cpp.i
 .PHONY : src/InputSource.cpp.i
 
 src/InputSource.s: src/InputSource.cpp.s
@@ -1243,7 +1243,7 @@ src/InputSource.s: src/InputSource.cpp.s
 
 # target to generate assembly for a file
 src/InputSource.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/InputSource.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/InputSource.cpp.s
 .PHONY : src/InputSource.cpp.s
 
 src/LexicalHandler.o: src/LexicalHandler.cpp.o
@@ -1252,7 +1252,7 @@ src/LexicalHandler.o: src/LexicalHandler.cpp.o
 
 # target to build an object file
 src/LexicalHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/LexicalHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/LexicalHandler.cpp.o
 .PHONY : src/LexicalHandler.cpp.o
 
 src/LexicalHandler.i: src/LexicalHandler.cpp.i
@@ -1261,7 +1261,7 @@ src/LexicalHandler.i: src/LexicalHandler.cpp.i
 
 # target to preprocess a source file
 src/LexicalHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/LexicalHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/LexicalHandler.cpp.i
 .PHONY : src/LexicalHandler.cpp.i
 
 src/LexicalHandler.s: src/LexicalHandler.cpp.s
@@ -1270,7 +1270,7 @@ src/LexicalHandler.s: src/LexicalHandler.cpp.s
 
 # target to generate assembly for a file
 src/LexicalHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/LexicalHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/LexicalHandler.cpp.s
 .PHONY : src/LexicalHandler.cpp.s
 
 src/Locator.o: src/Locator.cpp.o
@@ -1279,7 +1279,7 @@ src/Locator.o: src/Locator.cpp.o
 
 # target to build an object file
 src/Locator.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Locator.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Locator.cpp.o
 .PHONY : src/Locator.cpp.o
 
 src/Locator.i: src/Locator.cpp.i
@@ -1288,7 +1288,7 @@ src/Locator.i: src/Locator.cpp.i
 
 # target to preprocess a source file
 src/Locator.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Locator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Locator.cpp.i
 .PHONY : src/Locator.cpp.i
 
 src/Locator.s: src/Locator.cpp.s
@@ -1297,7 +1297,7 @@ src/Locator.s: src/Locator.cpp.s
 
 # target to generate assembly for a file
 src/Locator.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Locator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Locator.cpp.s
 .PHONY : src/Locator.cpp.s
 
 src/LocatorImpl.o: src/LocatorImpl.cpp.o
@@ -1306,7 +1306,7 @@ src/LocatorImpl.o: src/LocatorImpl.cpp.o
 
 # target to build an object file
 src/LocatorImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/LocatorImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/LocatorImpl.cpp.o
 .PHONY : src/LocatorImpl.cpp.o
 
 src/LocatorImpl.i: src/LocatorImpl.cpp.i
@@ -1315,7 +1315,7 @@ src/LocatorImpl.i: src/LocatorImpl.cpp.i
 
 # target to preprocess a source file
 src/LocatorImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/LocatorImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/LocatorImpl.cpp.i
 .PHONY : src/LocatorImpl.cpp.i
 
 src/LocatorImpl.s: src/LocatorImpl.cpp.s
@@ -1324,7 +1324,7 @@ src/LocatorImpl.s: src/LocatorImpl.cpp.s
 
 # target to generate assembly for a file
 src/LocatorImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/LocatorImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/LocatorImpl.cpp.s
 .PHONY : src/LocatorImpl.cpp.s
 
 src/MutationEvent.o: src/MutationEvent.cpp.o
@@ -1333,7 +1333,7 @@ src/MutationEvent.o: src/MutationEvent.cpp.o
 
 # target to build an object file
 src/MutationEvent.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/MutationEvent.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/MutationEvent.cpp.o
 .PHONY : src/MutationEvent.cpp.o
 
 src/MutationEvent.i: src/MutationEvent.cpp.i
@@ -1342,7 +1342,7 @@ src/MutationEvent.i: src/MutationEvent.cpp.i
 
 # target to preprocess a source file
 src/MutationEvent.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/MutationEvent.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/MutationEvent.cpp.i
 .PHONY : src/MutationEvent.cpp.i
 
 src/MutationEvent.s: src/MutationEvent.cpp.s
@@ -1351,7 +1351,7 @@ src/MutationEvent.s: src/MutationEvent.cpp.s
 
 # target to generate assembly for a file
 src/MutationEvent.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/MutationEvent.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/MutationEvent.cpp.s
 .PHONY : src/MutationEvent.cpp.s
 
 src/Name.o: src/Name.cpp.o
@@ -1360,7 +1360,7 @@ src/Name.o: src/Name.cpp.o
 
 # target to build an object file
 src/Name.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Name.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Name.cpp.o
 .PHONY : src/Name.cpp.o
 
 src/Name.i: src/Name.cpp.i
@@ -1369,7 +1369,7 @@ src/Name.i: src/Name.cpp.i
 
 # target to preprocess a source file
 src/Name.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Name.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Name.cpp.i
 .PHONY : src/Name.cpp.i
 
 src/Name.s: src/Name.cpp.s
@@ -1378,7 +1378,7 @@ src/Name.s: src/Name.cpp.s
 
 # target to generate assembly for a file
 src/Name.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Name.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Name.cpp.s
 .PHONY : src/Name.cpp.s
 
 src/NamePool.o: src/NamePool.cpp.o
@@ -1387,7 +1387,7 @@ src/NamePool.o: src/NamePool.cpp.o
 
 # target to build an object file
 src/NamePool.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamePool.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamePool.cpp.o
 .PHONY : src/NamePool.cpp.o
 
 src/NamePool.i: src/NamePool.cpp.i
@@ -1396,7 +1396,7 @@ src/NamePool.i: src/NamePool.cpp.i
 
 # target to preprocess a source file
 src/NamePool.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamePool.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamePool.cpp.i
 .PHONY : src/NamePool.cpp.i
 
 src/NamePool.s: src/NamePool.cpp.s
@@ -1405,7 +1405,7 @@ src/NamePool.s: src/NamePool.cpp.s
 
 # target to generate assembly for a file
 src/NamePool.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamePool.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamePool.cpp.s
 .PHONY : src/NamePool.cpp.s
 
 src/NamedNodeMap.o: src/NamedNodeMap.cpp.o
@@ -1414,7 +1414,7 @@ src/NamedNodeMap.o: src/NamedNodeMap.cpp.o
 
 # target to build an object file
 src/NamedNodeMap.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamedNodeMap.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamedNodeMap.cpp.o
 .PHONY : src/NamedNodeMap.cpp.o
 
 src/NamedNodeMap.i: src/NamedNodeMap.cpp.i
@@ -1423,7 +1423,7 @@ src/NamedNodeMap.i: src/NamedNodeMap.cpp.i
 
 # target to preprocess a source file
 src/NamedNodeMap.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamedNodeMap.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamedNodeMap.cpp.i
 .PHONY : src/NamedNodeMap.cpp.i
 
 src/NamedNodeMap.s: src/NamedNodeMap.cpp.s
@@ -1432,7 +1432,7 @@ src/NamedNodeMap.s: src/NamedNodeMap.cpp.s
 
 # target to generate assembly for a file
 src/NamedNodeMap.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamedNodeMap.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamedNodeMap.cpp.s
 .PHONY : src/NamedNodeMap.cpp.s
 
 src/NamespaceStrategy.o: src/NamespaceStrategy.cpp.o
@@ -1441,7 +1441,7 @@ src/NamespaceStrategy.o: src/NamespaceStrategy.cpp.o
 
 # target to build an object file
 src/NamespaceStrategy.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.o
 .PHONY : src/NamespaceStrategy.cpp.o
 
 src/NamespaceStrategy.i: src/NamespaceStrategy.cpp.i
@@ -1450,7 +1450,7 @@ src/NamespaceStrategy.i: src/NamespaceStrategy.cpp.i
 
 # target to preprocess a source file
 src/NamespaceStrategy.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.i
 .PHONY : src/NamespaceStrategy.cpp.i
 
 src/NamespaceStrategy.s: src/NamespaceStrategy.cpp.s
@@ -1459,7 +1459,7 @@ src/NamespaceStrategy.s: src/NamespaceStrategy.cpp.s
 
 # target to generate assembly for a file
 src/NamespaceStrategy.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.s
 .PHONY : src/NamespaceStrategy.cpp.s
 
 src/NamespaceSupport.o: src/NamespaceSupport.cpp.o
@@ -1468,7 +1468,7 @@ src/NamespaceSupport.o: src/NamespaceSupport.cpp.o
 
 # target to build an object file
 src/NamespaceSupport.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamespaceSupport.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamespaceSupport.cpp.o
 .PHONY : src/NamespaceSupport.cpp.o
 
 src/NamespaceSupport.i: src/NamespaceSupport.cpp.i
@@ -1477,7 +1477,7 @@ src/NamespaceSupport.i: src/NamespaceSupport.cpp.i
 
 # target to preprocess a source file
 src/NamespaceSupport.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamespaceSupport.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamespaceSupport.cpp.i
 .PHONY : src/NamespaceSupport.cpp.i
 
 src/NamespaceSupport.s: src/NamespaceSupport.cpp.s
@@ -1486,7 +1486,7 @@ src/NamespaceSupport.s: src/NamespaceSupport.cpp.s
 
 # target to generate assembly for a file
 src/NamespaceSupport.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamespaceSupport.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NamespaceSupport.cpp.s
 .PHONY : src/NamespaceSupport.cpp.s
 
 src/Node.o: src/Node.cpp.o
@@ -1495,7 +1495,7 @@ src/Node.o: src/Node.cpp.o
 
 # target to build an object file
 src/Node.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Node.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Node.cpp.o
 .PHONY : src/Node.cpp.o
 
 src/Node.i: src/Node.cpp.i
@@ -1504,7 +1504,7 @@ src/Node.i: src/Node.cpp.i
 
 # target to preprocess a source file
 src/Node.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Node.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Node.cpp.i
 .PHONY : src/Node.cpp.i
 
 src/Node.s: src/Node.cpp.s
@@ -1513,7 +1513,7 @@ src/Node.s: src/Node.cpp.s
 
 # target to generate assembly for a file
 src/Node.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Node.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Node.cpp.s
 .PHONY : src/Node.cpp.s
 
 src/NodeAppender.o: src/NodeAppender.cpp.o
@@ -1522,7 +1522,7 @@ src/NodeAppender.o: src/NodeAppender.cpp.o
 
 # target to build an object file
 src/NodeAppender.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeAppender.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeAppender.cpp.o
 .PHONY : src/NodeAppender.cpp.o
 
 src/NodeAppender.i: src/NodeAppender.cpp.i
@@ -1531,7 +1531,7 @@ src/NodeAppender.i: src/NodeAppender.cpp.i
 
 # target to preprocess a source file
 src/NodeAppender.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeAppender.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeAppender.cpp.i
 .PHONY : src/NodeAppender.cpp.i
 
 src/NodeAppender.s: src/NodeAppender.cpp.s
@@ -1540,7 +1540,7 @@ src/NodeAppender.s: src/NodeAppender.cpp.s
 
 # target to generate assembly for a file
 src/NodeAppender.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeAppender.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeAppender.cpp.s
 .PHONY : src/NodeAppender.cpp.s
 
 src/NodeFilter.o: src/NodeFilter.cpp.o
@@ -1549,7 +1549,7 @@ src/NodeFilter.o: src/NodeFilter.cpp.o
 
 # target to build an object file
 src/NodeFilter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeFilter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeFilter.cpp.o
 .PHONY : src/NodeFilter.cpp.o
 
 src/NodeFilter.i: src/NodeFilter.cpp.i
@@ -1558,7 +1558,7 @@ src/NodeFilter.i: src/NodeFilter.cpp.i
 
 # target to preprocess a source file
 src/NodeFilter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeFilter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeFilter.cpp.i
 .PHONY : src/NodeFilter.cpp.i
 
 src/NodeFilter.s: src/NodeFilter.cpp.s
@@ -1567,7 +1567,7 @@ src/NodeFilter.s: src/NodeFilter.cpp.s
 
 # target to generate assembly for a file
 src/NodeFilter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeFilter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeFilter.cpp.s
 .PHONY : src/NodeFilter.cpp.s
 
 src/NodeIterator.o: src/NodeIterator.cpp.o
@@ -1576,7 +1576,7 @@ src/NodeIterator.o: src/NodeIterator.cpp.o
 
 # target to build an object file
 src/NodeIterator.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeIterator.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeIterator.cpp.o
 .PHONY : src/NodeIterator.cpp.o
 
 src/NodeIterator.i: src/NodeIterator.cpp.i
@@ -1585,7 +1585,7 @@ src/NodeIterator.i: src/NodeIterator.cpp.i
 
 # target to preprocess a source file
 src/NodeIterator.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeIterator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeIterator.cpp.i
 .PHONY : src/NodeIterator.cpp.i
 
 src/NodeIterator.s: src/NodeIterator.cpp.s
@@ -1594,7 +1594,7 @@ src/NodeIterator.s: src/NodeIterator.cpp.s
 
 # target to generate assembly for a file
 src/NodeIterator.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeIterator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeIterator.cpp.s
 .PHONY : src/NodeIterator.cpp.s
 
 src/NodeList.o: src/NodeList.cpp.o
@@ -1603,7 +1603,7 @@ src/NodeList.o: src/NodeList.cpp.o
 
 # target to build an object file
 src/NodeList.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeList.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeList.cpp.o
 .PHONY : src/NodeList.cpp.o
 
 src/NodeList.i: src/NodeList.cpp.i
@@ -1612,7 +1612,7 @@ src/NodeList.i: src/NodeList.cpp.i
 
 # target to preprocess a source file
 src/NodeList.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeList.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeList.cpp.i
 .PHONY : src/NodeList.cpp.i
 
 src/NodeList.s: src/NodeList.cpp.s
@@ -1621,7 +1621,7 @@ src/NodeList.s: src/NodeList.cpp.s
 
 # target to generate assembly for a file
 src/NodeList.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeList.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/NodeList.cpp.s
 .PHONY : src/NodeList.cpp.s
 
 src/Notation.o: src/Notation.cpp.o
@@ -1630,7 +1630,7 @@ src/Notation.o: src/Notation.cpp.o
 
 # target to build an object file
 src/Notation.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Notation.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Notation.cpp.o
 .PHONY : src/Notation.cpp.o
 
 src/Notation.i: src/Notation.cpp.i
@@ -1639,7 +1639,7 @@ src/Notation.i: src/Notation.cpp.i
 
 # target to preprocess a source file
 src/Notation.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Notation.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Notation.cpp.i
 .PHONY : src/Notation.cpp.i
 
 src/Notation.s: src/Notation.cpp.s
@@ -1648,7 +1648,7 @@ src/Notation.s: src/Notation.cpp.s
 
 # target to generate assembly for a file
 src/Notation.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Notation.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Notation.cpp.s
 .PHONY : src/Notation.cpp.s
 
 src/ParserEngine.o: src/ParserEngine.cpp.o
@@ -1657,7 +1657,7 @@ src/ParserEngine.o: src/ParserEngine.cpp.o
 
 # target to build an object file
 src/ParserEngine.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ParserEngine.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ParserEngine.cpp.o
 .PHONY : src/ParserEngine.cpp.o
 
 src/ParserEngine.i: src/ParserEngine.cpp.i
@@ -1666,7 +1666,7 @@ src/ParserEngine.i: src/ParserEngine.cpp.i
 
 # target to preprocess a source file
 src/ParserEngine.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ParserEngine.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ParserEngine.cpp.i
 .PHONY : src/ParserEngine.cpp.i
 
 src/ParserEngine.s: src/ParserEngine.cpp.s
@@ -1675,7 +1675,7 @@ src/ParserEngine.s: src/ParserEngine.cpp.s
 
 # target to generate assembly for a file
 src/ParserEngine.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ParserEngine.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ParserEngine.cpp.s
 .PHONY : src/ParserEngine.cpp.s
 
 src/ProcessingInstruction.o: src/ProcessingInstruction.cpp.o
@@ -1684,7 +1684,7 @@ src/ProcessingInstruction.o: src/ProcessingInstruction.cpp.o
 
 # target to build an object file
 src/ProcessingInstruction.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.o
 .PHONY : src/ProcessingInstruction.cpp.o
 
 src/ProcessingInstruction.i: src/ProcessingInstruction.cpp.i
@@ -1693,7 +1693,7 @@ src/ProcessingInstruction.i: src/ProcessingInstruction.cpp.i
 
 # target to preprocess a source file
 src/ProcessingInstruction.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.i
 .PHONY : src/ProcessingInstruction.cpp.i
 
 src/ProcessingInstruction.s: src/ProcessingInstruction.cpp.s
@@ -1702,7 +1702,7 @@ src/ProcessingInstruction.s: src/ProcessingInstruction.cpp.s
 
 # target to generate assembly for a file
 src/ProcessingInstruction.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.s
 .PHONY : src/ProcessingInstruction.cpp.s
 
 src/QName.o: src/QName.cpp.o
@@ -1711,7 +1711,7 @@ src/QName.o: src/QName.cpp.o
 
 # target to build an object file
 src/QName.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/QName.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/QName.cpp.o
 .PHONY : src/QName.cpp.o
 
 src/QName.i: src/QName.cpp.i
@@ -1720,7 +1720,7 @@ src/QName.i: src/QName.cpp.i
 
 # target to preprocess a source file
 src/QName.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/QName.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/QName.cpp.i
 .PHONY : src/QName.cpp.i
 
 src/QName.s: src/QName.cpp.s
@@ -1729,7 +1729,7 @@ src/QName.s: src/QName.cpp.s
 
 # target to generate assembly for a file
 src/QName.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/QName.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/QName.cpp.s
 .PHONY : src/QName.cpp.s
 
 src/SAXException.o: src/SAXException.cpp.o
@@ -1738,7 +1738,7 @@ src/SAXException.o: src/SAXException.cpp.o
 
 # target to build an object file
 src/SAXException.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/SAXException.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/SAXException.cpp.o
 .PHONY : src/SAXException.cpp.o
 
 src/SAXException.i: src/SAXException.cpp.i
@@ -1747,7 +1747,7 @@ src/SAXException.i: src/SAXException.cpp.i
 
 # target to preprocess a source file
 src/SAXException.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/SAXException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/SAXException.cpp.i
 .PHONY : src/SAXException.cpp.i
 
 src/SAXException.s: src/SAXException.cpp.s
@@ -1756,7 +1756,7 @@ src/SAXException.s: src/SAXException.cpp.s
 
 # target to generate assembly for a file
 src/SAXException.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/SAXException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/SAXException.cpp.s
 .PHONY : src/SAXException.cpp.s
 
 src/SAXParser.o: src/SAXParser.cpp.o
@@ -1765,7 +1765,7 @@ src/SAXParser.o: src/SAXParser.cpp.o
 
 # target to build an object file
 src/SAXParser.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/SAXParser.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/SAXParser.cpp.o
 .PHONY : src/SAXParser.cpp.o
 
 src/SAXParser.i: src/SAXParser.cpp.i
@@ -1774,7 +1774,7 @@ src/SAXParser.i: src/SAXParser.cpp.i
 
 # target to preprocess a source file
 src/SAXParser.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/SAXParser.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/SAXParser.cpp.i
 .PHONY : src/SAXParser.cpp.i
 
 src/SAXParser.s: src/SAXParser.cpp.s
@@ -1783,7 +1783,7 @@ src/SAXParser.s: src/SAXParser.cpp.s
 
 # target to generate assembly for a file
 src/SAXParser.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/SAXParser.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/SAXParser.cpp.s
 .PHONY : src/SAXParser.cpp.s
 
 src/Text.o: src/Text.cpp.o
@@ -1792,7 +1792,7 @@ src/Text.o: src/Text.cpp.o
 
 # target to build an object file
 src/Text.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Text.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Text.cpp.o
 .PHONY : src/Text.cpp.o
 
 src/Text.i: src/Text.cpp.i
@@ -1801,7 +1801,7 @@ src/Text.i: src/Text.cpp.i
 
 # target to preprocess a source file
 src/Text.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Text.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Text.cpp.i
 .PHONY : src/Text.cpp.i
 
 src/Text.s: src/Text.cpp.s
@@ -1810,7 +1810,7 @@ src/Text.s: src/Text.cpp.s
 
 # target to generate assembly for a file
 src/Text.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Text.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/Text.cpp.s
 .PHONY : src/Text.cpp.s
 
 src/TreeWalker.o: src/TreeWalker.cpp.o
@@ -1819,7 +1819,7 @@ src/TreeWalker.o: src/TreeWalker.cpp.o
 
 # target to build an object file
 src/TreeWalker.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/TreeWalker.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/TreeWalker.cpp.o
 .PHONY : src/TreeWalker.cpp.o
 
 src/TreeWalker.i: src/TreeWalker.cpp.i
@@ -1828,7 +1828,7 @@ src/TreeWalker.i: src/TreeWalker.cpp.i
 
 # target to preprocess a source file
 src/TreeWalker.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/TreeWalker.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/TreeWalker.cpp.i
 .PHONY : src/TreeWalker.cpp.i
 
 src/TreeWalker.s: src/TreeWalker.cpp.s
@@ -1837,7 +1837,7 @@ src/TreeWalker.s: src/TreeWalker.cpp.s
 
 # target to generate assembly for a file
 src/TreeWalker.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/TreeWalker.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/TreeWalker.cpp.s
 .PHONY : src/TreeWalker.cpp.s
 
 src/ValueTraits.o: src/ValueTraits.cpp.o
@@ -1846,7 +1846,7 @@ src/ValueTraits.o: src/ValueTraits.cpp.o
 
 # target to build an object file
 src/ValueTraits.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ValueTraits.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ValueTraits.cpp.o
 .PHONY : src/ValueTraits.cpp.o
 
 src/ValueTraits.i: src/ValueTraits.cpp.i
@@ -1855,7 +1855,7 @@ src/ValueTraits.i: src/ValueTraits.cpp.i
 
 # target to preprocess a source file
 src/ValueTraits.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ValueTraits.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ValueTraits.cpp.i
 .PHONY : src/ValueTraits.cpp.i
 
 src/ValueTraits.s: src/ValueTraits.cpp.s
@@ -1864,7 +1864,7 @@ src/ValueTraits.s: src/ValueTraits.cpp.s
 
 # target to generate assembly for a file
 src/ValueTraits.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ValueTraits.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/ValueTraits.cpp.s
 .PHONY : src/ValueTraits.cpp.s
 
 src/WhitespaceFilter.o: src/WhitespaceFilter.cpp.o
@@ -1873,7 +1873,7 @@ src/WhitespaceFilter.o: src/WhitespaceFilter.cpp.o
 
 # target to build an object file
 src/WhitespaceFilter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.o
 .PHONY : src/WhitespaceFilter.cpp.o
 
 src/WhitespaceFilter.i: src/WhitespaceFilter.cpp.i
@@ -1882,7 +1882,7 @@ src/WhitespaceFilter.i: src/WhitespaceFilter.cpp.i
 
 # target to preprocess a source file
 src/WhitespaceFilter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.i
 .PHONY : src/WhitespaceFilter.cpp.i
 
 src/WhitespaceFilter.s: src/WhitespaceFilter.cpp.s
@@ -1891,7 +1891,7 @@ src/WhitespaceFilter.s: src/WhitespaceFilter.cpp.s
 
 # target to generate assembly for a file
 src/WhitespaceFilter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.s
 .PHONY : src/WhitespaceFilter.cpp.s
 
 src/XMLException.o: src/XMLException.cpp.o
@@ -1900,7 +1900,7 @@ src/XMLException.o: src/XMLException.cpp.o
 
 # target to build an object file
 src/XMLException.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLException.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLException.cpp.o
 .PHONY : src/XMLException.cpp.o
 
 src/XMLException.i: src/XMLException.cpp.i
@@ -1909,7 +1909,7 @@ src/XMLException.i: src/XMLException.cpp.i
 
 # target to preprocess a source file
 src/XMLException.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLException.cpp.i
 .PHONY : src/XMLException.cpp.i
 
 src/XMLException.s: src/XMLException.cpp.s
@@ -1918,7 +1918,7 @@ src/XMLException.s: src/XMLException.cpp.s
 
 # target to generate assembly for a file
 src/XMLException.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLException.cpp.s
 .PHONY : src/XMLException.cpp.s
 
 src/XMLFilter.o: src/XMLFilter.cpp.o
@@ -1927,7 +1927,7 @@ src/XMLFilter.o: src/XMLFilter.cpp.o
 
 # target to build an object file
 src/XMLFilter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLFilter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLFilter.cpp.o
 .PHONY : src/XMLFilter.cpp.o
 
 src/XMLFilter.i: src/XMLFilter.cpp.i
@@ -1936,7 +1936,7 @@ src/XMLFilter.i: src/XMLFilter.cpp.i
 
 # target to preprocess a source file
 src/XMLFilter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLFilter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLFilter.cpp.i
 .PHONY : src/XMLFilter.cpp.i
 
 src/XMLFilter.s: src/XMLFilter.cpp.s
@@ -1945,7 +1945,7 @@ src/XMLFilter.s: src/XMLFilter.cpp.s
 
 # target to generate assembly for a file
 src/XMLFilter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLFilter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLFilter.cpp.s
 .PHONY : src/XMLFilter.cpp.s
 
 src/XMLFilterImpl.o: src/XMLFilterImpl.cpp.o
@@ -1954,7 +1954,7 @@ src/XMLFilterImpl.o: src/XMLFilterImpl.cpp.o
 
 # target to build an object file
 src/XMLFilterImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.o
 .PHONY : src/XMLFilterImpl.cpp.o
 
 src/XMLFilterImpl.i: src/XMLFilterImpl.cpp.i
@@ -1963,7 +1963,7 @@ src/XMLFilterImpl.i: src/XMLFilterImpl.cpp.i
 
 # target to preprocess a source file
 src/XMLFilterImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.i
 .PHONY : src/XMLFilterImpl.cpp.i
 
 src/XMLFilterImpl.s: src/XMLFilterImpl.cpp.s
@@ -1972,7 +1972,7 @@ src/XMLFilterImpl.s: src/XMLFilterImpl.cpp.s
 
 # target to generate assembly for a file
 src/XMLFilterImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.s
 .PHONY : src/XMLFilterImpl.cpp.s
 
 src/XMLReader.o: src/XMLReader.cpp.o
@@ -1981,7 +1981,7 @@ src/XMLReader.o: src/XMLReader.cpp.o
 
 # target to build an object file
 src/XMLReader.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLReader.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLReader.cpp.o
 .PHONY : src/XMLReader.cpp.o
 
 src/XMLReader.i: src/XMLReader.cpp.i
@@ -1990,7 +1990,7 @@ src/XMLReader.i: src/XMLReader.cpp.i
 
 # target to preprocess a source file
 src/XMLReader.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLReader.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLReader.cpp.i
 .PHONY : src/XMLReader.cpp.i
 
 src/XMLReader.s: src/XMLReader.cpp.s
@@ -1999,7 +1999,7 @@ src/XMLReader.s: src/XMLReader.cpp.s
 
 # target to generate assembly for a file
 src/XMLReader.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLReader.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLReader.cpp.s
 .PHONY : src/XMLReader.cpp.s
 
 src/XMLStreamParser.o: src/XMLStreamParser.cpp.o
@@ -2008,7 +2008,7 @@ src/XMLStreamParser.o: src/XMLStreamParser.cpp.o
 
 # target to build an object file
 src/XMLStreamParser.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLStreamParser.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLStreamParser.cpp.o
 .PHONY : src/XMLStreamParser.cpp.o
 
 src/XMLStreamParser.i: src/XMLStreamParser.cpp.i
@@ -2017,7 +2017,7 @@ src/XMLStreamParser.i: src/XMLStreamParser.cpp.i
 
 # target to preprocess a source file
 src/XMLStreamParser.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLStreamParser.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLStreamParser.cpp.i
 .PHONY : src/XMLStreamParser.cpp.i
 
 src/XMLStreamParser.s: src/XMLStreamParser.cpp.s
@@ -2026,7 +2026,7 @@ src/XMLStreamParser.s: src/XMLStreamParser.cpp.s
 
 # target to generate assembly for a file
 src/XMLStreamParser.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLStreamParser.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLStreamParser.cpp.s
 .PHONY : src/XMLStreamParser.cpp.s
 
 src/XMLStreamParserException.o: src/XMLStreamParserException.cpp.o
@@ -2035,7 +2035,7 @@ src/XMLStreamParserException.o: src/XMLStreamParserException.cpp.o
 
 # target to build an object file
 src/XMLStreamParserException.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.o
 .PHONY : src/XMLStreamParserException.cpp.o
 
 src/XMLStreamParserException.i: src/XMLStreamParserException.cpp.i
@@ -2044,7 +2044,7 @@ src/XMLStreamParserException.i: src/XMLStreamParserException.cpp.i
 
 # target to preprocess a source file
 src/XMLStreamParserException.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.i
 .PHONY : src/XMLStreamParserException.cpp.i
 
 src/XMLStreamParserException.s: src/XMLStreamParserException.cpp.s
@@ -2053,7 +2053,7 @@ src/XMLStreamParserException.s: src/XMLStreamParserException.cpp.s
 
 # target to generate assembly for a file
 src/XMLStreamParserException.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.s
 .PHONY : src/XMLStreamParserException.cpp.s
 
 src/XMLString.o: src/XMLString.cpp.o
@@ -2062,7 +2062,7 @@ src/XMLString.o: src/XMLString.cpp.o
 
 # target to build an object file
 src/XMLString.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLString.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLString.cpp.o
 .PHONY : src/XMLString.cpp.o
 
 src/XMLString.i: src/XMLString.cpp.i
@@ -2071,7 +2071,7 @@ src/XMLString.i: src/XMLString.cpp.i
 
 # target to preprocess a source file
 src/XMLString.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLString.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLString.cpp.i
 .PHONY : src/XMLString.cpp.i
 
 src/XMLString.s: src/XMLString.cpp.s
@@ -2080,7 +2080,7 @@ src/XMLString.s: src/XMLString.cpp.s
 
 # target to generate assembly for a file
 src/XMLString.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLString.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLString.cpp.s
 .PHONY : src/XMLString.cpp.s
 
 src/XMLWriter.o: src/XMLWriter.cpp.o
@@ -2089,7 +2089,7 @@ src/XMLWriter.o: src/XMLWriter.cpp.o
 
 # target to build an object file
 src/XMLWriter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLWriter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLWriter.cpp.o
 .PHONY : src/XMLWriter.cpp.o
 
 src/XMLWriter.i: src/XMLWriter.cpp.i
@@ -2098,7 +2098,7 @@ src/XMLWriter.i: src/XMLWriter.cpp.i
 
 # target to preprocess a source file
 src/XMLWriter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLWriter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLWriter.cpp.i
 .PHONY : src/XMLWriter.cpp.i
 
 src/XMLWriter.s: src/XMLWriter.cpp.s
@@ -2107,7 +2107,7 @@ src/XMLWriter.s: src/XMLWriter.cpp.s
 
 # target to generate assembly for a file
 src/XMLWriter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLWriter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/XMLWriter.cpp.s
 .PHONY : src/XMLWriter.cpp.s
 
 src/xmlparse.o: src/xmlparse.cpp.o
@@ -2116,7 +2116,7 @@ src/xmlparse.o: src/xmlparse.cpp.o
 
 # target to build an object file
 src/xmlparse.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmlparse.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmlparse.cpp.o
 .PHONY : src/xmlparse.cpp.o
 
 src/xmlparse.i: src/xmlparse.cpp.i
@@ -2125,7 +2125,7 @@ src/xmlparse.i: src/xmlparse.cpp.i
 
 # target to preprocess a source file
 src/xmlparse.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmlparse.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmlparse.cpp.i
 .PHONY : src/xmlparse.cpp.i
 
 src/xmlparse.s: src/xmlparse.cpp.s
@@ -2134,7 +2134,7 @@ src/xmlparse.s: src/xmlparse.cpp.s
 
 # target to generate assembly for a file
 src/xmlparse.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmlparse.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmlparse.cpp.s
 .PHONY : src/xmlparse.cpp.s
 
 src/xmlrole.o: src/xmlrole.c.o
@@ -2143,7 +2143,7 @@ src/xmlrole.o: src/xmlrole.c.o
 
 # target to build an object file
 src/xmlrole.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmlrole.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmlrole.c.o
 .PHONY : src/xmlrole.c.o
 
 src/xmlrole.i: src/xmlrole.c.i
@@ -2152,7 +2152,7 @@ src/xmlrole.i: src/xmlrole.c.i
 
 # target to preprocess a source file
 src/xmlrole.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmlrole.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmlrole.c.i
 .PHONY : src/xmlrole.c.i
 
 src/xmlrole.s: src/xmlrole.c.s
@@ -2161,7 +2161,7 @@ src/xmlrole.s: src/xmlrole.c.s
 
 # target to generate assembly for a file
 src/xmlrole.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmlrole.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmlrole.c.s
 .PHONY : src/xmlrole.c.s
 
 src/xmltok.o: src/xmltok.c.o
@@ -2170,7 +2170,7 @@ src/xmltok.o: src/xmltok.c.o
 
 # target to build an object file
 src/xmltok.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok.c.o
 .PHONY : src/xmltok.c.o
 
 src/xmltok.i: src/xmltok.c.i
@@ -2179,7 +2179,7 @@ src/xmltok.i: src/xmltok.c.i
 
 # target to preprocess a source file
 src/xmltok.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok.c.i
 .PHONY : src/xmltok.c.i
 
 src/xmltok.s: src/xmltok.c.s
@@ -2188,7 +2188,7 @@ src/xmltok.s: src/xmltok.c.s
 
 # target to generate assembly for a file
 src/xmltok.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok.c.s
 .PHONY : src/xmltok.c.s
 
 src/xmltok_impl.o: src/xmltok_impl.c.o
@@ -2197,7 +2197,7 @@ src/xmltok_impl.o: src/xmltok_impl.c.o
 
 # target to build an object file
 src/xmltok_impl.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok_impl.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok_impl.c.o
 .PHONY : src/xmltok_impl.c.o
 
 src/xmltok_impl.i: src/xmltok_impl.c.i
@@ -2206,7 +2206,7 @@ src/xmltok_impl.i: src/xmltok_impl.c.i
 
 # target to preprocess a source file
 src/xmltok_impl.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok_impl.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok_impl.c.i
 .PHONY : src/xmltok_impl.c.i
 
 src/xmltok_impl.s: src/xmltok_impl.c.s
@@ -2215,7 +2215,7 @@ src/xmltok_impl.s: src/xmltok_impl.c.s
 
 # target to generate assembly for a file
 src/xmltok_impl.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok_impl.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok_impl.c.s
 .PHONY : src/xmltok_impl.c.s
 
 src/xmltok_ns.o: src/xmltok_ns.c.o
@@ -2224,7 +2224,7 @@ src/xmltok_ns.o: src/xmltok_ns.c.o
 
 # target to build an object file
 src/xmltok_ns.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok_ns.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok_ns.c.o
 .PHONY : src/xmltok_ns.c.o
 
 src/xmltok_ns.i: src/xmltok_ns.c.i
@@ -2233,7 +2233,7 @@ src/xmltok_ns.i: src/xmltok_ns.c.i
 
 # target to preprocess a source file
 src/xmltok_ns.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok_ns.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok_ns.c.i
 .PHONY : src/xmltok_ns.c.i
 
 src/xmltok_ns.s: src/xmltok_ns.c.s
@@ -2242,7 +2242,7 @@ src/xmltok_ns.s: src/xmltok_ns.c.s
 
 # target to generate assembly for a file
 src/xmltok_ns.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok_ns.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f XML/CMakeFiles/XML.dir/build.make XML/CMakeFiles/XML.dir/src/xmltok_ns.c.s
 .PHONY : src/xmltok_ns.c.s
 
 # Help Target
@@ -2499,6 +2499,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

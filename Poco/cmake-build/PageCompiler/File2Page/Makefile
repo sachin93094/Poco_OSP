@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -127,7 +127,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -138,7 +138,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CPackSourceConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/Poco_OSP/Poco/cmake-build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -148,14 +148,14 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler/File2Page/CMakeFiles/progress.marks
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/File2Page/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles /mnt/Poco_OSP/Poco/cmake-build/PageCompiler/File2Page/CMakeFiles/progress.marks
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/File2Page/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/File2Page/clean
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/File2Page/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/File2Page/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/File2Page/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/File2Page/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/File2Page/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 PageCompiler/File2Page/CMakeFiles/File2Page.dir/rule:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/File2Page/CMakeFiles/File2Page.dir/rule
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 PageCompiler/File2Page/CMakeFiles/File2Page.dir/rule
 .PHONY : PageCompiler/File2Page/CMakeFiles/File2Page.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ File2Page: PageCompiler/File2Page/CMakeFiles/File2Page.dir/rule
 
 # fast build rule for target.
 File2Page/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/File2Page/CMakeFiles/File2Page.dir/build.make PageCompiler/File2Page/CMakeFiles/File2Page.dir/build
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/File2Page/CMakeFiles/File2Page.dir/build.make PageCompiler/File2Page/CMakeFiles/File2Page.dir/build
 .PHONY : File2Page/fast
 
 src/File2Page.o: src/File2Page.cpp.o
@@ -199,7 +199,7 @@ src/File2Page.o: src/File2Page.cpp.o
 
 # target to build an object file
 src/File2Page.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/File2Page/CMakeFiles/File2Page.dir/build.make PageCompiler/File2Page/CMakeFiles/File2Page.dir/src/File2Page.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/File2Page/CMakeFiles/File2Page.dir/build.make PageCompiler/File2Page/CMakeFiles/File2Page.dir/src/File2Page.cpp.o
 .PHONY : src/File2Page.cpp.o
 
 src/File2Page.i: src/File2Page.cpp.i
@@ -208,7 +208,7 @@ src/File2Page.i: src/File2Page.cpp.i
 
 # target to preprocess a source file
 src/File2Page.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/File2Page/CMakeFiles/File2Page.dir/build.make PageCompiler/File2Page/CMakeFiles/File2Page.dir/src/File2Page.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/File2Page/CMakeFiles/File2Page.dir/build.make PageCompiler/File2Page/CMakeFiles/File2Page.dir/src/File2Page.cpp.i
 .PHONY : src/File2Page.cpp.i
 
 src/File2Page.s: src/File2Page.cpp.s
@@ -217,7 +217,7 @@ src/File2Page.s: src/File2Page.cpp.s
 
 # target to generate assembly for a file
 src/File2Page.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f PageCompiler/File2Page/CMakeFiles/File2Page.dir/build.make PageCompiler/File2Page/CMakeFiles/File2Page.dir/src/File2Page.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f PageCompiler/File2Page/CMakeFiles/File2Page.dir/build.make PageCompiler/File2Page/CMakeFiles/File2Page.dir/src/File2Page.cpp.s
 .PHONY : src/File2Page.cpp.s
 
 # Help Target
@@ -249,6 +249,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

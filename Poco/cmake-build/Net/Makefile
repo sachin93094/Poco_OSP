@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -127,7 +127,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -138,7 +138,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CPackSourceConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/Poco_OSP/Poco/cmake-build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -148,14 +148,14 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net/CMakeFiles/progress.marks
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Net/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles /mnt/Poco_OSP/Poco/cmake-build/Net/CMakeFiles/progress.marks
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Net/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Net/clean
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Net/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Net/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Net/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Net/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Net/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Net/CMakeFiles/Net.dir/rule:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Net/CMakeFiles/Net.dir/rule
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 Net/CMakeFiles/Net.dir/rule
 .PHONY : Net/CMakeFiles/Net.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ Net: Net/CMakeFiles/Net.dir/rule
 
 # fast build rule for target.
 Net/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/build
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/build
 .PHONY : Net/fast
 
 src/AbstractHTTPRequestHandler.o: src/AbstractHTTPRequestHandler.cpp.o
@@ -199,7 +199,7 @@ src/AbstractHTTPRequestHandler.o: src/AbstractHTTPRequestHandler.cpp.o
 
 # target to build an object file
 src/AbstractHTTPRequestHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.o
 .PHONY : src/AbstractHTTPRequestHandler.cpp.o
 
 src/AbstractHTTPRequestHandler.i: src/AbstractHTTPRequestHandler.cpp.i
@@ -208,7 +208,7 @@ src/AbstractHTTPRequestHandler.i: src/AbstractHTTPRequestHandler.cpp.i
 
 # target to preprocess a source file
 src/AbstractHTTPRequestHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.i
 .PHONY : src/AbstractHTTPRequestHandler.cpp.i
 
 src/AbstractHTTPRequestHandler.s: src/AbstractHTTPRequestHandler.cpp.s
@@ -217,7 +217,7 @@ src/AbstractHTTPRequestHandler.s: src/AbstractHTTPRequestHandler.cpp.s
 
 # target to generate assembly for a file
 src/AbstractHTTPRequestHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/AbstractHTTPRequestHandler.cpp.s
 .PHONY : src/AbstractHTTPRequestHandler.cpp.s
 
 src/DNS.o: src/DNS.cpp.o
@@ -226,7 +226,7 @@ src/DNS.o: src/DNS.cpp.o
 
 # target to build an object file
 src/DNS.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DNS.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DNS.cpp.o
 .PHONY : src/DNS.cpp.o
 
 src/DNS.i: src/DNS.cpp.i
@@ -235,7 +235,7 @@ src/DNS.i: src/DNS.cpp.i
 
 # target to preprocess a source file
 src/DNS.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DNS.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DNS.cpp.i
 .PHONY : src/DNS.cpp.i
 
 src/DNS.s: src/DNS.cpp.s
@@ -244,7 +244,7 @@ src/DNS.s: src/DNS.cpp.s
 
 # target to generate assembly for a file
 src/DNS.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DNS.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DNS.cpp.s
 .PHONY : src/DNS.cpp.s
 
 src/DatagramSocket.o: src/DatagramSocket.cpp.o
@@ -253,7 +253,7 @@ src/DatagramSocket.o: src/DatagramSocket.cpp.o
 
 # target to build an object file
 src/DatagramSocket.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DatagramSocket.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DatagramSocket.cpp.o
 .PHONY : src/DatagramSocket.cpp.o
 
 src/DatagramSocket.i: src/DatagramSocket.cpp.i
@@ -262,7 +262,7 @@ src/DatagramSocket.i: src/DatagramSocket.cpp.i
 
 # target to preprocess a source file
 src/DatagramSocket.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DatagramSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DatagramSocket.cpp.i
 .PHONY : src/DatagramSocket.cpp.i
 
 src/DatagramSocket.s: src/DatagramSocket.cpp.s
@@ -271,7 +271,7 @@ src/DatagramSocket.s: src/DatagramSocket.cpp.s
 
 # target to generate assembly for a file
 src/DatagramSocket.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DatagramSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DatagramSocket.cpp.s
 .PHONY : src/DatagramSocket.cpp.s
 
 src/DatagramSocketImpl.o: src/DatagramSocketImpl.cpp.o
@@ -280,7 +280,7 @@ src/DatagramSocketImpl.o: src/DatagramSocketImpl.cpp.o
 
 # target to build an object file
 src/DatagramSocketImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.o
 .PHONY : src/DatagramSocketImpl.cpp.o
 
 src/DatagramSocketImpl.i: src/DatagramSocketImpl.cpp.i
@@ -289,7 +289,7 @@ src/DatagramSocketImpl.i: src/DatagramSocketImpl.cpp.i
 
 # target to preprocess a source file
 src/DatagramSocketImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.i
 .PHONY : src/DatagramSocketImpl.cpp.i
 
 src/DatagramSocketImpl.s: src/DatagramSocketImpl.cpp.s
@@ -298,7 +298,7 @@ src/DatagramSocketImpl.s: src/DatagramSocketImpl.cpp.s
 
 # target to generate assembly for a file
 src/DatagramSocketImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DatagramSocketImpl.cpp.s
 .PHONY : src/DatagramSocketImpl.cpp.s
 
 src/DialogSocket.o: src/DialogSocket.cpp.o
@@ -307,7 +307,7 @@ src/DialogSocket.o: src/DialogSocket.cpp.o
 
 # target to build an object file
 src/DialogSocket.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DialogSocket.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DialogSocket.cpp.o
 .PHONY : src/DialogSocket.cpp.o
 
 src/DialogSocket.i: src/DialogSocket.cpp.i
@@ -316,7 +316,7 @@ src/DialogSocket.i: src/DialogSocket.cpp.i
 
 # target to preprocess a source file
 src/DialogSocket.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DialogSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DialogSocket.cpp.i
 .PHONY : src/DialogSocket.cpp.i
 
 src/DialogSocket.s: src/DialogSocket.cpp.s
@@ -325,7 +325,7 @@ src/DialogSocket.s: src/DialogSocket.cpp.s
 
 # target to generate assembly for a file
 src/DialogSocket.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DialogSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/DialogSocket.cpp.s
 .PHONY : src/DialogSocket.cpp.s
 
 src/EscapeHTMLStream.o: src/EscapeHTMLStream.cpp.o
@@ -334,7 +334,7 @@ src/EscapeHTMLStream.o: src/EscapeHTMLStream.cpp.o
 
 # target to build an object file
 src/EscapeHTMLStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.o
 .PHONY : src/EscapeHTMLStream.cpp.o
 
 src/EscapeHTMLStream.i: src/EscapeHTMLStream.cpp.i
@@ -343,7 +343,7 @@ src/EscapeHTMLStream.i: src/EscapeHTMLStream.cpp.i
 
 # target to preprocess a source file
 src/EscapeHTMLStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.i
 .PHONY : src/EscapeHTMLStream.cpp.i
 
 src/EscapeHTMLStream.s: src/EscapeHTMLStream.cpp.s
@@ -352,7 +352,7 @@ src/EscapeHTMLStream.s: src/EscapeHTMLStream.cpp.s
 
 # target to generate assembly for a file
 src/EscapeHTMLStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/EscapeHTMLStream.cpp.s
 .PHONY : src/EscapeHTMLStream.cpp.s
 
 src/FTPClientSession.o: src/FTPClientSession.cpp.o
@@ -361,7 +361,7 @@ src/FTPClientSession.o: src/FTPClientSession.cpp.o
 
 # target to build an object file
 src/FTPClientSession.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FTPClientSession.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FTPClientSession.cpp.o
 .PHONY : src/FTPClientSession.cpp.o
 
 src/FTPClientSession.i: src/FTPClientSession.cpp.i
@@ -370,7 +370,7 @@ src/FTPClientSession.i: src/FTPClientSession.cpp.i
 
 # target to preprocess a source file
 src/FTPClientSession.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FTPClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FTPClientSession.cpp.i
 .PHONY : src/FTPClientSession.cpp.i
 
 src/FTPClientSession.s: src/FTPClientSession.cpp.s
@@ -379,7 +379,7 @@ src/FTPClientSession.s: src/FTPClientSession.cpp.s
 
 # target to generate assembly for a file
 src/FTPClientSession.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FTPClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FTPClientSession.cpp.s
 .PHONY : src/FTPClientSession.cpp.s
 
 src/FTPStreamFactory.o: src/FTPStreamFactory.cpp.o
@@ -388,7 +388,7 @@ src/FTPStreamFactory.o: src/FTPStreamFactory.cpp.o
 
 # target to build an object file
 src/FTPStreamFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.o
 .PHONY : src/FTPStreamFactory.cpp.o
 
 src/FTPStreamFactory.i: src/FTPStreamFactory.cpp.i
@@ -397,7 +397,7 @@ src/FTPStreamFactory.i: src/FTPStreamFactory.cpp.i
 
 # target to preprocess a source file
 src/FTPStreamFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.i
 .PHONY : src/FTPStreamFactory.cpp.i
 
 src/FTPStreamFactory.s: src/FTPStreamFactory.cpp.s
@@ -406,7 +406,7 @@ src/FTPStreamFactory.s: src/FTPStreamFactory.cpp.s
 
 # target to generate assembly for a file
 src/FTPStreamFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FTPStreamFactory.cpp.s
 .PHONY : src/FTPStreamFactory.cpp.s
 
 src/FilePartSource.o: src/FilePartSource.cpp.o
@@ -415,7 +415,7 @@ src/FilePartSource.o: src/FilePartSource.cpp.o
 
 # target to build an object file
 src/FilePartSource.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FilePartSource.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FilePartSource.cpp.o
 .PHONY : src/FilePartSource.cpp.o
 
 src/FilePartSource.i: src/FilePartSource.cpp.i
@@ -424,7 +424,7 @@ src/FilePartSource.i: src/FilePartSource.cpp.i
 
 # target to preprocess a source file
 src/FilePartSource.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FilePartSource.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FilePartSource.cpp.i
 .PHONY : src/FilePartSource.cpp.i
 
 src/FilePartSource.s: src/FilePartSource.cpp.s
@@ -433,7 +433,7 @@ src/FilePartSource.s: src/FilePartSource.cpp.s
 
 # target to generate assembly for a file
 src/FilePartSource.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FilePartSource.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/FilePartSource.cpp.s
 .PHONY : src/FilePartSource.cpp.s
 
 src/HTMLForm.o: src/HTMLForm.cpp.o
@@ -442,7 +442,7 @@ src/HTMLForm.o: src/HTMLForm.cpp.o
 
 # target to build an object file
 src/HTMLForm.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTMLForm.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTMLForm.cpp.o
 .PHONY : src/HTMLForm.cpp.o
 
 src/HTMLForm.i: src/HTMLForm.cpp.i
@@ -451,7 +451,7 @@ src/HTMLForm.i: src/HTMLForm.cpp.i
 
 # target to preprocess a source file
 src/HTMLForm.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTMLForm.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTMLForm.cpp.i
 .PHONY : src/HTMLForm.cpp.i
 
 src/HTMLForm.s: src/HTMLForm.cpp.s
@@ -460,7 +460,7 @@ src/HTMLForm.s: src/HTMLForm.cpp.s
 
 # target to generate assembly for a file
 src/HTMLForm.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTMLForm.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTMLForm.cpp.s
 .PHONY : src/HTMLForm.cpp.s
 
 src/HTTPAuthenticationParams.o: src/HTTPAuthenticationParams.cpp.o
@@ -469,7 +469,7 @@ src/HTTPAuthenticationParams.o: src/HTTPAuthenticationParams.cpp.o
 
 # target to build an object file
 src/HTTPAuthenticationParams.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.o
 .PHONY : src/HTTPAuthenticationParams.cpp.o
 
 src/HTTPAuthenticationParams.i: src/HTTPAuthenticationParams.cpp.i
@@ -478,7 +478,7 @@ src/HTTPAuthenticationParams.i: src/HTTPAuthenticationParams.cpp.i
 
 # target to preprocess a source file
 src/HTTPAuthenticationParams.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.i
 .PHONY : src/HTTPAuthenticationParams.cpp.i
 
 src/HTTPAuthenticationParams.s: src/HTTPAuthenticationParams.cpp.s
@@ -487,7 +487,7 @@ src/HTTPAuthenticationParams.s: src/HTTPAuthenticationParams.cpp.s
 
 # target to generate assembly for a file
 src/HTTPAuthenticationParams.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPAuthenticationParams.cpp.s
 .PHONY : src/HTTPAuthenticationParams.cpp.s
 
 src/HTTPBasicCredentials.o: src/HTTPBasicCredentials.cpp.o
@@ -496,7 +496,7 @@ src/HTTPBasicCredentials.o: src/HTTPBasicCredentials.cpp.o
 
 # target to build an object file
 src/HTTPBasicCredentials.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.o
 .PHONY : src/HTTPBasicCredentials.cpp.o
 
 src/HTTPBasicCredentials.i: src/HTTPBasicCredentials.cpp.i
@@ -505,7 +505,7 @@ src/HTTPBasicCredentials.i: src/HTTPBasicCredentials.cpp.i
 
 # target to preprocess a source file
 src/HTTPBasicCredentials.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.i
 .PHONY : src/HTTPBasicCredentials.cpp.i
 
 src/HTTPBasicCredentials.s: src/HTTPBasicCredentials.cpp.s
@@ -514,7 +514,7 @@ src/HTTPBasicCredentials.s: src/HTTPBasicCredentials.cpp.s
 
 # target to generate assembly for a file
 src/HTTPBasicCredentials.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPBasicCredentials.cpp.s
 .PHONY : src/HTTPBasicCredentials.cpp.s
 
 src/HTTPBufferAllocator.o: src/HTTPBufferAllocator.cpp.o
@@ -523,7 +523,7 @@ src/HTTPBufferAllocator.o: src/HTTPBufferAllocator.cpp.o
 
 # target to build an object file
 src/HTTPBufferAllocator.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.o
 .PHONY : src/HTTPBufferAllocator.cpp.o
 
 src/HTTPBufferAllocator.i: src/HTTPBufferAllocator.cpp.i
@@ -532,7 +532,7 @@ src/HTTPBufferAllocator.i: src/HTTPBufferAllocator.cpp.i
 
 # target to preprocess a source file
 src/HTTPBufferAllocator.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.i
 .PHONY : src/HTTPBufferAllocator.cpp.i
 
 src/HTTPBufferAllocator.s: src/HTTPBufferAllocator.cpp.s
@@ -541,7 +541,7 @@ src/HTTPBufferAllocator.s: src/HTTPBufferAllocator.cpp.s
 
 # target to generate assembly for a file
 src/HTTPBufferAllocator.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPBufferAllocator.cpp.s
 .PHONY : src/HTTPBufferAllocator.cpp.s
 
 src/HTTPChunkedStream.o: src/HTTPChunkedStream.cpp.o
@@ -550,7 +550,7 @@ src/HTTPChunkedStream.o: src/HTTPChunkedStream.cpp.o
 
 # target to build an object file
 src/HTTPChunkedStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.o
 .PHONY : src/HTTPChunkedStream.cpp.o
 
 src/HTTPChunkedStream.i: src/HTTPChunkedStream.cpp.i
@@ -559,7 +559,7 @@ src/HTTPChunkedStream.i: src/HTTPChunkedStream.cpp.i
 
 # target to preprocess a source file
 src/HTTPChunkedStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.i
 .PHONY : src/HTTPChunkedStream.cpp.i
 
 src/HTTPChunkedStream.s: src/HTTPChunkedStream.cpp.s
@@ -568,7 +568,7 @@ src/HTTPChunkedStream.s: src/HTTPChunkedStream.cpp.s
 
 # target to generate assembly for a file
 src/HTTPChunkedStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPChunkedStream.cpp.s
 .PHONY : src/HTTPChunkedStream.cpp.s
 
 src/HTTPClientSession.o: src/HTTPClientSession.cpp.o
@@ -577,7 +577,7 @@ src/HTTPClientSession.o: src/HTTPClientSession.cpp.o
 
 # target to build an object file
 src/HTTPClientSession.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPClientSession.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPClientSession.cpp.o
 .PHONY : src/HTTPClientSession.cpp.o
 
 src/HTTPClientSession.i: src/HTTPClientSession.cpp.i
@@ -586,7 +586,7 @@ src/HTTPClientSession.i: src/HTTPClientSession.cpp.i
 
 # target to preprocess a source file
 src/HTTPClientSession.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPClientSession.cpp.i
 .PHONY : src/HTTPClientSession.cpp.i
 
 src/HTTPClientSession.s: src/HTTPClientSession.cpp.s
@@ -595,7 +595,7 @@ src/HTTPClientSession.s: src/HTTPClientSession.cpp.s
 
 # target to generate assembly for a file
 src/HTTPClientSession.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPClientSession.cpp.s
 .PHONY : src/HTTPClientSession.cpp.s
 
 src/HTTPCookie.o: src/HTTPCookie.cpp.o
@@ -604,7 +604,7 @@ src/HTTPCookie.o: src/HTTPCookie.cpp.o
 
 # target to build an object file
 src/HTTPCookie.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPCookie.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPCookie.cpp.o
 .PHONY : src/HTTPCookie.cpp.o
 
 src/HTTPCookie.i: src/HTTPCookie.cpp.i
@@ -613,7 +613,7 @@ src/HTTPCookie.i: src/HTTPCookie.cpp.i
 
 # target to preprocess a source file
 src/HTTPCookie.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPCookie.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPCookie.cpp.i
 .PHONY : src/HTTPCookie.cpp.i
 
 src/HTTPCookie.s: src/HTTPCookie.cpp.s
@@ -622,7 +622,7 @@ src/HTTPCookie.s: src/HTTPCookie.cpp.s
 
 # target to generate assembly for a file
 src/HTTPCookie.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPCookie.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPCookie.cpp.s
 .PHONY : src/HTTPCookie.cpp.s
 
 src/HTTPCredentials.o: src/HTTPCredentials.cpp.o
@@ -631,7 +631,7 @@ src/HTTPCredentials.o: src/HTTPCredentials.cpp.o
 
 # target to build an object file
 src/HTTPCredentials.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPCredentials.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPCredentials.cpp.o
 .PHONY : src/HTTPCredentials.cpp.o
 
 src/HTTPCredentials.i: src/HTTPCredentials.cpp.i
@@ -640,7 +640,7 @@ src/HTTPCredentials.i: src/HTTPCredentials.cpp.i
 
 # target to preprocess a source file
 src/HTTPCredentials.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPCredentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPCredentials.cpp.i
 .PHONY : src/HTTPCredentials.cpp.i
 
 src/HTTPCredentials.s: src/HTTPCredentials.cpp.s
@@ -649,7 +649,7 @@ src/HTTPCredentials.s: src/HTTPCredentials.cpp.s
 
 # target to generate assembly for a file
 src/HTTPCredentials.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPCredentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPCredentials.cpp.s
 .PHONY : src/HTTPCredentials.cpp.s
 
 src/HTTPDigestCredentials.o: src/HTTPDigestCredentials.cpp.o
@@ -658,7 +658,7 @@ src/HTTPDigestCredentials.o: src/HTTPDigestCredentials.cpp.o
 
 # target to build an object file
 src/HTTPDigestCredentials.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.o
 .PHONY : src/HTTPDigestCredentials.cpp.o
 
 src/HTTPDigestCredentials.i: src/HTTPDigestCredentials.cpp.i
@@ -667,7 +667,7 @@ src/HTTPDigestCredentials.i: src/HTTPDigestCredentials.cpp.i
 
 # target to preprocess a source file
 src/HTTPDigestCredentials.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.i
 .PHONY : src/HTTPDigestCredentials.cpp.i
 
 src/HTTPDigestCredentials.s: src/HTTPDigestCredentials.cpp.s
@@ -676,7 +676,7 @@ src/HTTPDigestCredentials.s: src/HTTPDigestCredentials.cpp.s
 
 # target to generate assembly for a file
 src/HTTPDigestCredentials.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPDigestCredentials.cpp.s
 .PHONY : src/HTTPDigestCredentials.cpp.s
 
 src/HTTPFixedLengthStream.o: src/HTTPFixedLengthStream.cpp.o
@@ -685,7 +685,7 @@ src/HTTPFixedLengthStream.o: src/HTTPFixedLengthStream.cpp.o
 
 # target to build an object file
 src/HTTPFixedLengthStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.o
 .PHONY : src/HTTPFixedLengthStream.cpp.o
 
 src/HTTPFixedLengthStream.i: src/HTTPFixedLengthStream.cpp.i
@@ -694,7 +694,7 @@ src/HTTPFixedLengthStream.i: src/HTTPFixedLengthStream.cpp.i
 
 # target to preprocess a source file
 src/HTTPFixedLengthStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.i
 .PHONY : src/HTTPFixedLengthStream.cpp.i
 
 src/HTTPFixedLengthStream.s: src/HTTPFixedLengthStream.cpp.s
@@ -703,7 +703,7 @@ src/HTTPFixedLengthStream.s: src/HTTPFixedLengthStream.cpp.s
 
 # target to generate assembly for a file
 src/HTTPFixedLengthStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPFixedLengthStream.cpp.s
 .PHONY : src/HTTPFixedLengthStream.cpp.s
 
 src/HTTPHeaderStream.o: src/HTTPHeaderStream.cpp.o
@@ -712,7 +712,7 @@ src/HTTPHeaderStream.o: src/HTTPHeaderStream.cpp.o
 
 # target to build an object file
 src/HTTPHeaderStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.o
 .PHONY : src/HTTPHeaderStream.cpp.o
 
 src/HTTPHeaderStream.i: src/HTTPHeaderStream.cpp.i
@@ -721,7 +721,7 @@ src/HTTPHeaderStream.i: src/HTTPHeaderStream.cpp.i
 
 # target to preprocess a source file
 src/HTTPHeaderStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.i
 .PHONY : src/HTTPHeaderStream.cpp.i
 
 src/HTTPHeaderStream.s: src/HTTPHeaderStream.cpp.s
@@ -730,7 +730,7 @@ src/HTTPHeaderStream.s: src/HTTPHeaderStream.cpp.s
 
 # target to generate assembly for a file
 src/HTTPHeaderStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPHeaderStream.cpp.s
 .PHONY : src/HTTPHeaderStream.cpp.s
 
 src/HTTPIOStream.o: src/HTTPIOStream.cpp.o
@@ -739,7 +739,7 @@ src/HTTPIOStream.o: src/HTTPIOStream.cpp.o
 
 # target to build an object file
 src/HTTPIOStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPIOStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPIOStream.cpp.o
 .PHONY : src/HTTPIOStream.cpp.o
 
 src/HTTPIOStream.i: src/HTTPIOStream.cpp.i
@@ -748,7 +748,7 @@ src/HTTPIOStream.i: src/HTTPIOStream.cpp.i
 
 # target to preprocess a source file
 src/HTTPIOStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPIOStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPIOStream.cpp.i
 .PHONY : src/HTTPIOStream.cpp.i
 
 src/HTTPIOStream.s: src/HTTPIOStream.cpp.s
@@ -757,7 +757,7 @@ src/HTTPIOStream.s: src/HTTPIOStream.cpp.s
 
 # target to generate assembly for a file
 src/HTTPIOStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPIOStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPIOStream.cpp.s
 .PHONY : src/HTTPIOStream.cpp.s
 
 src/HTTPMessage.o: src/HTTPMessage.cpp.o
@@ -766,7 +766,7 @@ src/HTTPMessage.o: src/HTTPMessage.cpp.o
 
 # target to build an object file
 src/HTTPMessage.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPMessage.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPMessage.cpp.o
 .PHONY : src/HTTPMessage.cpp.o
 
 src/HTTPMessage.i: src/HTTPMessage.cpp.i
@@ -775,7 +775,7 @@ src/HTTPMessage.i: src/HTTPMessage.cpp.i
 
 # target to preprocess a source file
 src/HTTPMessage.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPMessage.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPMessage.cpp.i
 .PHONY : src/HTTPMessage.cpp.i
 
 src/HTTPMessage.s: src/HTTPMessage.cpp.s
@@ -784,7 +784,7 @@ src/HTTPMessage.s: src/HTTPMessage.cpp.s
 
 # target to generate assembly for a file
 src/HTTPMessage.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPMessage.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPMessage.cpp.s
 .PHONY : src/HTTPMessage.cpp.s
 
 src/HTTPNTLMCredentials.o: src/HTTPNTLMCredentials.cpp.o
@@ -793,7 +793,7 @@ src/HTTPNTLMCredentials.o: src/HTTPNTLMCredentials.cpp.o
 
 # target to build an object file
 src/HTTPNTLMCredentials.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.o
 .PHONY : src/HTTPNTLMCredentials.cpp.o
 
 src/HTTPNTLMCredentials.i: src/HTTPNTLMCredentials.cpp.i
@@ -802,7 +802,7 @@ src/HTTPNTLMCredentials.i: src/HTTPNTLMCredentials.cpp.i
 
 # target to preprocess a source file
 src/HTTPNTLMCredentials.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.i
 .PHONY : src/HTTPNTLMCredentials.cpp.i
 
 src/HTTPNTLMCredentials.s: src/HTTPNTLMCredentials.cpp.s
@@ -811,7 +811,7 @@ src/HTTPNTLMCredentials.s: src/HTTPNTLMCredentials.cpp.s
 
 # target to generate assembly for a file
 src/HTTPNTLMCredentials.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPNTLMCredentials.cpp.s
 .PHONY : src/HTTPNTLMCredentials.cpp.s
 
 src/HTTPRequest.o: src/HTTPRequest.cpp.o
@@ -820,7 +820,7 @@ src/HTTPRequest.o: src/HTTPRequest.cpp.o
 
 # target to build an object file
 src/HTTPRequest.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequest.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequest.cpp.o
 .PHONY : src/HTTPRequest.cpp.o
 
 src/HTTPRequest.i: src/HTTPRequest.cpp.i
@@ -829,7 +829,7 @@ src/HTTPRequest.i: src/HTTPRequest.cpp.i
 
 # target to preprocess a source file
 src/HTTPRequest.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequest.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequest.cpp.i
 .PHONY : src/HTTPRequest.cpp.i
 
 src/HTTPRequest.s: src/HTTPRequest.cpp.s
@@ -838,7 +838,7 @@ src/HTTPRequest.s: src/HTTPRequest.cpp.s
 
 # target to generate assembly for a file
 src/HTTPRequest.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequest.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequest.cpp.s
 .PHONY : src/HTTPRequest.cpp.s
 
 src/HTTPRequestHandler.o: src/HTTPRequestHandler.cpp.o
@@ -847,7 +847,7 @@ src/HTTPRequestHandler.o: src/HTTPRequestHandler.cpp.o
 
 # target to build an object file
 src/HTTPRequestHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.o
 .PHONY : src/HTTPRequestHandler.cpp.o
 
 src/HTTPRequestHandler.i: src/HTTPRequestHandler.cpp.i
@@ -856,7 +856,7 @@ src/HTTPRequestHandler.i: src/HTTPRequestHandler.cpp.i
 
 # target to preprocess a source file
 src/HTTPRequestHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.i
 .PHONY : src/HTTPRequestHandler.cpp.i
 
 src/HTTPRequestHandler.s: src/HTTPRequestHandler.cpp.s
@@ -865,7 +865,7 @@ src/HTTPRequestHandler.s: src/HTTPRequestHandler.cpp.s
 
 # target to generate assembly for a file
 src/HTTPRequestHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequestHandler.cpp.s
 .PHONY : src/HTTPRequestHandler.cpp.s
 
 src/HTTPRequestHandlerFactory.o: src/HTTPRequestHandlerFactory.cpp.o
@@ -874,7 +874,7 @@ src/HTTPRequestHandlerFactory.o: src/HTTPRequestHandlerFactory.cpp.o
 
 # target to build an object file
 src/HTTPRequestHandlerFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.o
 .PHONY : src/HTTPRequestHandlerFactory.cpp.o
 
 src/HTTPRequestHandlerFactory.i: src/HTTPRequestHandlerFactory.cpp.i
@@ -883,7 +883,7 @@ src/HTTPRequestHandlerFactory.i: src/HTTPRequestHandlerFactory.cpp.i
 
 # target to preprocess a source file
 src/HTTPRequestHandlerFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.i
 .PHONY : src/HTTPRequestHandlerFactory.cpp.i
 
 src/HTTPRequestHandlerFactory.s: src/HTTPRequestHandlerFactory.cpp.s
@@ -892,7 +892,7 @@ src/HTTPRequestHandlerFactory.s: src/HTTPRequestHandlerFactory.cpp.s
 
 # target to generate assembly for a file
 src/HTTPRequestHandlerFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPRequestHandlerFactory.cpp.s
 .PHONY : src/HTTPRequestHandlerFactory.cpp.s
 
 src/HTTPResponse.o: src/HTTPResponse.cpp.o
@@ -901,7 +901,7 @@ src/HTTPResponse.o: src/HTTPResponse.cpp.o
 
 # target to build an object file
 src/HTTPResponse.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPResponse.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPResponse.cpp.o
 .PHONY : src/HTTPResponse.cpp.o
 
 src/HTTPResponse.i: src/HTTPResponse.cpp.i
@@ -910,7 +910,7 @@ src/HTTPResponse.i: src/HTTPResponse.cpp.i
 
 # target to preprocess a source file
 src/HTTPResponse.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPResponse.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPResponse.cpp.i
 .PHONY : src/HTTPResponse.cpp.i
 
 src/HTTPResponse.s: src/HTTPResponse.cpp.s
@@ -919,7 +919,7 @@ src/HTTPResponse.s: src/HTTPResponse.cpp.s
 
 # target to generate assembly for a file
 src/HTTPResponse.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPResponse.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPResponse.cpp.s
 .PHONY : src/HTTPResponse.cpp.s
 
 src/HTTPServer.o: src/HTTPServer.cpp.o
@@ -928,7 +928,7 @@ src/HTTPServer.o: src/HTTPServer.cpp.o
 
 # target to build an object file
 src/HTTPServer.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServer.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServer.cpp.o
 .PHONY : src/HTTPServer.cpp.o
 
 src/HTTPServer.i: src/HTTPServer.cpp.i
@@ -937,7 +937,7 @@ src/HTTPServer.i: src/HTTPServer.cpp.i
 
 # target to preprocess a source file
 src/HTTPServer.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServer.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServer.cpp.i
 .PHONY : src/HTTPServer.cpp.i
 
 src/HTTPServer.s: src/HTTPServer.cpp.s
@@ -946,7 +946,7 @@ src/HTTPServer.s: src/HTTPServer.cpp.s
 
 # target to generate assembly for a file
 src/HTTPServer.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServer.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServer.cpp.s
 .PHONY : src/HTTPServer.cpp.s
 
 src/HTTPServerConnection.o: src/HTTPServerConnection.cpp.o
@@ -955,7 +955,7 @@ src/HTTPServerConnection.o: src/HTTPServerConnection.cpp.o
 
 # target to build an object file
 src/HTTPServerConnection.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.o
 .PHONY : src/HTTPServerConnection.cpp.o
 
 src/HTTPServerConnection.i: src/HTTPServerConnection.cpp.i
@@ -964,7 +964,7 @@ src/HTTPServerConnection.i: src/HTTPServerConnection.cpp.i
 
 # target to preprocess a source file
 src/HTTPServerConnection.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.i
 .PHONY : src/HTTPServerConnection.cpp.i
 
 src/HTTPServerConnection.s: src/HTTPServerConnection.cpp.s
@@ -973,7 +973,7 @@ src/HTTPServerConnection.s: src/HTTPServerConnection.cpp.s
 
 # target to generate assembly for a file
 src/HTTPServerConnection.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerConnection.cpp.s
 .PHONY : src/HTTPServerConnection.cpp.s
 
 src/HTTPServerConnectionFactory.o: src/HTTPServerConnectionFactory.cpp.o
@@ -982,7 +982,7 @@ src/HTTPServerConnectionFactory.o: src/HTTPServerConnectionFactory.cpp.o
 
 # target to build an object file
 src/HTTPServerConnectionFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.o
 .PHONY : src/HTTPServerConnectionFactory.cpp.o
 
 src/HTTPServerConnectionFactory.i: src/HTTPServerConnectionFactory.cpp.i
@@ -991,7 +991,7 @@ src/HTTPServerConnectionFactory.i: src/HTTPServerConnectionFactory.cpp.i
 
 # target to preprocess a source file
 src/HTTPServerConnectionFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.i
 .PHONY : src/HTTPServerConnectionFactory.cpp.i
 
 src/HTTPServerConnectionFactory.s: src/HTTPServerConnectionFactory.cpp.s
@@ -1000,7 +1000,7 @@ src/HTTPServerConnectionFactory.s: src/HTTPServerConnectionFactory.cpp.s
 
 # target to generate assembly for a file
 src/HTTPServerConnectionFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerConnectionFactory.cpp.s
 .PHONY : src/HTTPServerConnectionFactory.cpp.s
 
 src/HTTPServerParams.o: src/HTTPServerParams.cpp.o
@@ -1009,7 +1009,7 @@ src/HTTPServerParams.o: src/HTTPServerParams.cpp.o
 
 # target to build an object file
 src/HTTPServerParams.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerParams.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerParams.cpp.o
 .PHONY : src/HTTPServerParams.cpp.o
 
 src/HTTPServerParams.i: src/HTTPServerParams.cpp.i
@@ -1018,7 +1018,7 @@ src/HTTPServerParams.i: src/HTTPServerParams.cpp.i
 
 # target to preprocess a source file
 src/HTTPServerParams.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerParams.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerParams.cpp.i
 .PHONY : src/HTTPServerParams.cpp.i
 
 src/HTTPServerParams.s: src/HTTPServerParams.cpp.s
@@ -1027,7 +1027,7 @@ src/HTTPServerParams.s: src/HTTPServerParams.cpp.s
 
 # target to generate assembly for a file
 src/HTTPServerParams.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerParams.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerParams.cpp.s
 .PHONY : src/HTTPServerParams.cpp.s
 
 src/HTTPServerRequest.o: src/HTTPServerRequest.cpp.o
@@ -1036,7 +1036,7 @@ src/HTTPServerRequest.o: src/HTTPServerRequest.cpp.o
 
 # target to build an object file
 src/HTTPServerRequest.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.o
 .PHONY : src/HTTPServerRequest.cpp.o
 
 src/HTTPServerRequest.i: src/HTTPServerRequest.cpp.i
@@ -1045,7 +1045,7 @@ src/HTTPServerRequest.i: src/HTTPServerRequest.cpp.i
 
 # target to preprocess a source file
 src/HTTPServerRequest.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.i
 .PHONY : src/HTTPServerRequest.cpp.i
 
 src/HTTPServerRequest.s: src/HTTPServerRequest.cpp.s
@@ -1054,7 +1054,7 @@ src/HTTPServerRequest.s: src/HTTPServerRequest.cpp.s
 
 # target to generate assembly for a file
 src/HTTPServerRequest.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerRequest.cpp.s
 .PHONY : src/HTTPServerRequest.cpp.s
 
 src/HTTPServerRequestImpl.o: src/HTTPServerRequestImpl.cpp.o
@@ -1063,7 +1063,7 @@ src/HTTPServerRequestImpl.o: src/HTTPServerRequestImpl.cpp.o
 
 # target to build an object file
 src/HTTPServerRequestImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.o
 .PHONY : src/HTTPServerRequestImpl.cpp.o
 
 src/HTTPServerRequestImpl.i: src/HTTPServerRequestImpl.cpp.i
@@ -1072,7 +1072,7 @@ src/HTTPServerRequestImpl.i: src/HTTPServerRequestImpl.cpp.i
 
 # target to preprocess a source file
 src/HTTPServerRequestImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.i
 .PHONY : src/HTTPServerRequestImpl.cpp.i
 
 src/HTTPServerRequestImpl.s: src/HTTPServerRequestImpl.cpp.s
@@ -1081,7 +1081,7 @@ src/HTTPServerRequestImpl.s: src/HTTPServerRequestImpl.cpp.s
 
 # target to generate assembly for a file
 src/HTTPServerRequestImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerRequestImpl.cpp.s
 .PHONY : src/HTTPServerRequestImpl.cpp.s
 
 src/HTTPServerResponse.o: src/HTTPServerResponse.cpp.o
@@ -1090,7 +1090,7 @@ src/HTTPServerResponse.o: src/HTTPServerResponse.cpp.o
 
 # target to build an object file
 src/HTTPServerResponse.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.o
 .PHONY : src/HTTPServerResponse.cpp.o
 
 src/HTTPServerResponse.i: src/HTTPServerResponse.cpp.i
@@ -1099,7 +1099,7 @@ src/HTTPServerResponse.i: src/HTTPServerResponse.cpp.i
 
 # target to preprocess a source file
 src/HTTPServerResponse.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.i
 .PHONY : src/HTTPServerResponse.cpp.i
 
 src/HTTPServerResponse.s: src/HTTPServerResponse.cpp.s
@@ -1108,7 +1108,7 @@ src/HTTPServerResponse.s: src/HTTPServerResponse.cpp.s
 
 # target to generate assembly for a file
 src/HTTPServerResponse.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerResponse.cpp.s
 .PHONY : src/HTTPServerResponse.cpp.s
 
 src/HTTPServerResponseImpl.o: src/HTTPServerResponseImpl.cpp.o
@@ -1117,7 +1117,7 @@ src/HTTPServerResponseImpl.o: src/HTTPServerResponseImpl.cpp.o
 
 # target to build an object file
 src/HTTPServerResponseImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.o
 .PHONY : src/HTTPServerResponseImpl.cpp.o
 
 src/HTTPServerResponseImpl.i: src/HTTPServerResponseImpl.cpp.i
@@ -1126,7 +1126,7 @@ src/HTTPServerResponseImpl.i: src/HTTPServerResponseImpl.cpp.i
 
 # target to preprocess a source file
 src/HTTPServerResponseImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.i
 .PHONY : src/HTTPServerResponseImpl.cpp.i
 
 src/HTTPServerResponseImpl.s: src/HTTPServerResponseImpl.cpp.s
@@ -1135,7 +1135,7 @@ src/HTTPServerResponseImpl.s: src/HTTPServerResponseImpl.cpp.s
 
 # target to generate assembly for a file
 src/HTTPServerResponseImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerResponseImpl.cpp.s
 .PHONY : src/HTTPServerResponseImpl.cpp.s
 
 src/HTTPServerSession.o: src/HTTPServerSession.cpp.o
@@ -1144,7 +1144,7 @@ src/HTTPServerSession.o: src/HTTPServerSession.cpp.o
 
 # target to build an object file
 src/HTTPServerSession.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerSession.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerSession.cpp.o
 .PHONY : src/HTTPServerSession.cpp.o
 
 src/HTTPServerSession.i: src/HTTPServerSession.cpp.i
@@ -1153,7 +1153,7 @@ src/HTTPServerSession.i: src/HTTPServerSession.cpp.i
 
 # target to preprocess a source file
 src/HTTPServerSession.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerSession.cpp.i
 .PHONY : src/HTTPServerSession.cpp.i
 
 src/HTTPServerSession.s: src/HTTPServerSession.cpp.s
@@ -1162,7 +1162,7 @@ src/HTTPServerSession.s: src/HTTPServerSession.cpp.s
 
 # target to generate assembly for a file
 src/HTTPServerSession.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPServerSession.cpp.s
 .PHONY : src/HTTPServerSession.cpp.s
 
 src/HTTPSession.o: src/HTTPSession.cpp.o
@@ -1171,7 +1171,7 @@ src/HTTPSession.o: src/HTTPSession.cpp.o
 
 # target to build an object file
 src/HTTPSession.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSession.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSession.cpp.o
 .PHONY : src/HTTPSession.cpp.o
 
 src/HTTPSession.i: src/HTTPSession.cpp.i
@@ -1180,7 +1180,7 @@ src/HTTPSession.i: src/HTTPSession.cpp.i
 
 # target to preprocess a source file
 src/HTTPSession.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSession.cpp.i
 .PHONY : src/HTTPSession.cpp.i
 
 src/HTTPSession.s: src/HTTPSession.cpp.s
@@ -1189,7 +1189,7 @@ src/HTTPSession.s: src/HTTPSession.cpp.s
 
 # target to generate assembly for a file
 src/HTTPSession.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSession.cpp.s
 .PHONY : src/HTTPSession.cpp.s
 
 src/HTTPSessionFactory.o: src/HTTPSessionFactory.cpp.o
@@ -1198,7 +1198,7 @@ src/HTTPSessionFactory.o: src/HTTPSessionFactory.cpp.o
 
 # target to build an object file
 src/HTTPSessionFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.o
 .PHONY : src/HTTPSessionFactory.cpp.o
 
 src/HTTPSessionFactory.i: src/HTTPSessionFactory.cpp.i
@@ -1207,7 +1207,7 @@ src/HTTPSessionFactory.i: src/HTTPSessionFactory.cpp.i
 
 # target to preprocess a source file
 src/HTTPSessionFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.i
 .PHONY : src/HTTPSessionFactory.cpp.i
 
 src/HTTPSessionFactory.s: src/HTTPSessionFactory.cpp.s
@@ -1216,7 +1216,7 @@ src/HTTPSessionFactory.s: src/HTTPSessionFactory.cpp.s
 
 # target to generate assembly for a file
 src/HTTPSessionFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSessionFactory.cpp.s
 .PHONY : src/HTTPSessionFactory.cpp.s
 
 src/HTTPSessionInstantiator.o: src/HTTPSessionInstantiator.cpp.o
@@ -1225,7 +1225,7 @@ src/HTTPSessionInstantiator.o: src/HTTPSessionInstantiator.cpp.o
 
 # target to build an object file
 src/HTTPSessionInstantiator.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.o
 .PHONY : src/HTTPSessionInstantiator.cpp.o
 
 src/HTTPSessionInstantiator.i: src/HTTPSessionInstantiator.cpp.i
@@ -1234,7 +1234,7 @@ src/HTTPSessionInstantiator.i: src/HTTPSessionInstantiator.cpp.i
 
 # target to preprocess a source file
 src/HTTPSessionInstantiator.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.i
 .PHONY : src/HTTPSessionInstantiator.cpp.i
 
 src/HTTPSessionInstantiator.s: src/HTTPSessionInstantiator.cpp.s
@@ -1243,7 +1243,7 @@ src/HTTPSessionInstantiator.s: src/HTTPSessionInstantiator.cpp.s
 
 # target to generate assembly for a file
 src/HTTPSessionInstantiator.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPSessionInstantiator.cpp.s
 .PHONY : src/HTTPSessionInstantiator.cpp.s
 
 src/HTTPStream.o: src/HTTPStream.cpp.o
@@ -1252,7 +1252,7 @@ src/HTTPStream.o: src/HTTPStream.cpp.o
 
 # target to build an object file
 src/HTTPStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPStream.cpp.o
 .PHONY : src/HTTPStream.cpp.o
 
 src/HTTPStream.i: src/HTTPStream.cpp.i
@@ -1261,7 +1261,7 @@ src/HTTPStream.i: src/HTTPStream.cpp.i
 
 # target to preprocess a source file
 src/HTTPStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPStream.cpp.i
 .PHONY : src/HTTPStream.cpp.i
 
 src/HTTPStream.s: src/HTTPStream.cpp.s
@@ -1270,7 +1270,7 @@ src/HTTPStream.s: src/HTTPStream.cpp.s
 
 # target to generate assembly for a file
 src/HTTPStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPStream.cpp.s
 .PHONY : src/HTTPStream.cpp.s
 
 src/HTTPStreamFactory.o: src/HTTPStreamFactory.cpp.o
@@ -1279,7 +1279,7 @@ src/HTTPStreamFactory.o: src/HTTPStreamFactory.cpp.o
 
 # target to build an object file
 src/HTTPStreamFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.o
 .PHONY : src/HTTPStreamFactory.cpp.o
 
 src/HTTPStreamFactory.i: src/HTTPStreamFactory.cpp.i
@@ -1288,7 +1288,7 @@ src/HTTPStreamFactory.i: src/HTTPStreamFactory.cpp.i
 
 # target to preprocess a source file
 src/HTTPStreamFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.i
 .PHONY : src/HTTPStreamFactory.cpp.i
 
 src/HTTPStreamFactory.s: src/HTTPStreamFactory.cpp.s
@@ -1297,7 +1297,7 @@ src/HTTPStreamFactory.s: src/HTTPStreamFactory.cpp.s
 
 # target to generate assembly for a file
 src/HTTPStreamFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HTTPStreamFactory.cpp.s
 .PHONY : src/HTTPStreamFactory.cpp.s
 
 src/HostEntry.o: src/HostEntry.cpp.o
@@ -1306,7 +1306,7 @@ src/HostEntry.o: src/HostEntry.cpp.o
 
 # target to build an object file
 src/HostEntry.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HostEntry.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HostEntry.cpp.o
 .PHONY : src/HostEntry.cpp.o
 
 src/HostEntry.i: src/HostEntry.cpp.i
@@ -1315,7 +1315,7 @@ src/HostEntry.i: src/HostEntry.cpp.i
 
 # target to preprocess a source file
 src/HostEntry.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HostEntry.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HostEntry.cpp.i
 .PHONY : src/HostEntry.cpp.i
 
 src/HostEntry.s: src/HostEntry.cpp.s
@@ -1324,7 +1324,7 @@ src/HostEntry.s: src/HostEntry.cpp.s
 
 # target to generate assembly for a file
 src/HostEntry.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HostEntry.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/HostEntry.cpp.s
 .PHONY : src/HostEntry.cpp.s
 
 src/ICMPClient.o: src/ICMPClient.cpp.o
@@ -1333,7 +1333,7 @@ src/ICMPClient.o: src/ICMPClient.cpp.o
 
 # target to build an object file
 src/ICMPClient.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPClient.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPClient.cpp.o
 .PHONY : src/ICMPClient.cpp.o
 
 src/ICMPClient.i: src/ICMPClient.cpp.i
@@ -1342,7 +1342,7 @@ src/ICMPClient.i: src/ICMPClient.cpp.i
 
 # target to preprocess a source file
 src/ICMPClient.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPClient.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPClient.cpp.i
 .PHONY : src/ICMPClient.cpp.i
 
 src/ICMPClient.s: src/ICMPClient.cpp.s
@@ -1351,7 +1351,7 @@ src/ICMPClient.s: src/ICMPClient.cpp.s
 
 # target to generate assembly for a file
 src/ICMPClient.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPClient.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPClient.cpp.s
 .PHONY : src/ICMPClient.cpp.s
 
 src/ICMPEventArgs.o: src/ICMPEventArgs.cpp.o
@@ -1360,7 +1360,7 @@ src/ICMPEventArgs.o: src/ICMPEventArgs.cpp.o
 
 # target to build an object file
 src/ICMPEventArgs.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.o
 .PHONY : src/ICMPEventArgs.cpp.o
 
 src/ICMPEventArgs.i: src/ICMPEventArgs.cpp.i
@@ -1369,7 +1369,7 @@ src/ICMPEventArgs.i: src/ICMPEventArgs.cpp.i
 
 # target to preprocess a source file
 src/ICMPEventArgs.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.i
 .PHONY : src/ICMPEventArgs.cpp.i
 
 src/ICMPEventArgs.s: src/ICMPEventArgs.cpp.s
@@ -1378,7 +1378,7 @@ src/ICMPEventArgs.s: src/ICMPEventArgs.cpp.s
 
 # target to generate assembly for a file
 src/ICMPEventArgs.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPEventArgs.cpp.s
 .PHONY : src/ICMPEventArgs.cpp.s
 
 src/ICMPPacket.o: src/ICMPPacket.cpp.o
@@ -1387,7 +1387,7 @@ src/ICMPPacket.o: src/ICMPPacket.cpp.o
 
 # target to build an object file
 src/ICMPPacket.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPPacket.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPPacket.cpp.o
 .PHONY : src/ICMPPacket.cpp.o
 
 src/ICMPPacket.i: src/ICMPPacket.cpp.i
@@ -1396,7 +1396,7 @@ src/ICMPPacket.i: src/ICMPPacket.cpp.i
 
 # target to preprocess a source file
 src/ICMPPacket.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPPacket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPPacket.cpp.i
 .PHONY : src/ICMPPacket.cpp.i
 
 src/ICMPPacket.s: src/ICMPPacket.cpp.s
@@ -1405,7 +1405,7 @@ src/ICMPPacket.s: src/ICMPPacket.cpp.s
 
 # target to generate assembly for a file
 src/ICMPPacket.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPPacket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPPacket.cpp.s
 .PHONY : src/ICMPPacket.cpp.s
 
 src/ICMPPacketImpl.o: src/ICMPPacketImpl.cpp.o
@@ -1414,7 +1414,7 @@ src/ICMPPacketImpl.o: src/ICMPPacketImpl.cpp.o
 
 # target to build an object file
 src/ICMPPacketImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.o
 .PHONY : src/ICMPPacketImpl.cpp.o
 
 src/ICMPPacketImpl.i: src/ICMPPacketImpl.cpp.i
@@ -1423,7 +1423,7 @@ src/ICMPPacketImpl.i: src/ICMPPacketImpl.cpp.i
 
 # target to preprocess a source file
 src/ICMPPacketImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.i
 .PHONY : src/ICMPPacketImpl.cpp.i
 
 src/ICMPPacketImpl.s: src/ICMPPacketImpl.cpp.s
@@ -1432,7 +1432,7 @@ src/ICMPPacketImpl.s: src/ICMPPacketImpl.cpp.s
 
 # target to generate assembly for a file
 src/ICMPPacketImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPPacketImpl.cpp.s
 .PHONY : src/ICMPPacketImpl.cpp.s
 
 src/ICMPSocket.o: src/ICMPSocket.cpp.o
@@ -1441,7 +1441,7 @@ src/ICMPSocket.o: src/ICMPSocket.cpp.o
 
 # target to build an object file
 src/ICMPSocket.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPSocket.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPSocket.cpp.o
 .PHONY : src/ICMPSocket.cpp.o
 
 src/ICMPSocket.i: src/ICMPSocket.cpp.i
@@ -1450,7 +1450,7 @@ src/ICMPSocket.i: src/ICMPSocket.cpp.i
 
 # target to preprocess a source file
 src/ICMPSocket.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPSocket.cpp.i
 .PHONY : src/ICMPSocket.cpp.i
 
 src/ICMPSocket.s: src/ICMPSocket.cpp.s
@@ -1459,7 +1459,7 @@ src/ICMPSocket.s: src/ICMPSocket.cpp.s
 
 # target to generate assembly for a file
 src/ICMPSocket.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPSocket.cpp.s
 .PHONY : src/ICMPSocket.cpp.s
 
 src/ICMPSocketImpl.o: src/ICMPSocketImpl.cpp.o
@@ -1468,7 +1468,7 @@ src/ICMPSocketImpl.o: src/ICMPSocketImpl.cpp.o
 
 # target to build an object file
 src/ICMPSocketImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.o
 .PHONY : src/ICMPSocketImpl.cpp.o
 
 src/ICMPSocketImpl.i: src/ICMPSocketImpl.cpp.i
@@ -1477,7 +1477,7 @@ src/ICMPSocketImpl.i: src/ICMPSocketImpl.cpp.i
 
 # target to preprocess a source file
 src/ICMPSocketImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.i
 .PHONY : src/ICMPSocketImpl.cpp.i
 
 src/ICMPSocketImpl.s: src/ICMPSocketImpl.cpp.s
@@ -1486,7 +1486,7 @@ src/ICMPSocketImpl.s: src/ICMPSocketImpl.cpp.s
 
 # target to generate assembly for a file
 src/ICMPSocketImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPSocketImpl.cpp.s
 .PHONY : src/ICMPSocketImpl.cpp.s
 
 src/ICMPv4PacketImpl.o: src/ICMPv4PacketImpl.cpp.o
@@ -1495,7 +1495,7 @@ src/ICMPv4PacketImpl.o: src/ICMPv4PacketImpl.cpp.o
 
 # target to build an object file
 src/ICMPv4PacketImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.o
 .PHONY : src/ICMPv4PacketImpl.cpp.o
 
 src/ICMPv4PacketImpl.i: src/ICMPv4PacketImpl.cpp.i
@@ -1504,7 +1504,7 @@ src/ICMPv4PacketImpl.i: src/ICMPv4PacketImpl.cpp.i
 
 # target to preprocess a source file
 src/ICMPv4PacketImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.i
 .PHONY : src/ICMPv4PacketImpl.cpp.i
 
 src/ICMPv4PacketImpl.s: src/ICMPv4PacketImpl.cpp.s
@@ -1513,7 +1513,7 @@ src/ICMPv4PacketImpl.s: src/ICMPv4PacketImpl.cpp.s
 
 # target to generate assembly for a file
 src/ICMPv4PacketImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ICMPv4PacketImpl.cpp.s
 .PHONY : src/ICMPv4PacketImpl.cpp.s
 
 src/IPAddress.o: src/IPAddress.cpp.o
@@ -1522,7 +1522,7 @@ src/IPAddress.o: src/IPAddress.cpp.o
 
 # target to build an object file
 src/IPAddress.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/IPAddress.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/IPAddress.cpp.o
 .PHONY : src/IPAddress.cpp.o
 
 src/IPAddress.i: src/IPAddress.cpp.i
@@ -1531,7 +1531,7 @@ src/IPAddress.i: src/IPAddress.cpp.i
 
 # target to preprocess a source file
 src/IPAddress.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/IPAddress.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/IPAddress.cpp.i
 .PHONY : src/IPAddress.cpp.i
 
 src/IPAddress.s: src/IPAddress.cpp.s
@@ -1540,7 +1540,7 @@ src/IPAddress.s: src/IPAddress.cpp.s
 
 # target to generate assembly for a file
 src/IPAddress.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/IPAddress.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/IPAddress.cpp.s
 .PHONY : src/IPAddress.cpp.s
 
 src/IPAddressImpl.o: src/IPAddressImpl.cpp.o
@@ -1549,7 +1549,7 @@ src/IPAddressImpl.o: src/IPAddressImpl.cpp.o
 
 # target to build an object file
 src/IPAddressImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/IPAddressImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/IPAddressImpl.cpp.o
 .PHONY : src/IPAddressImpl.cpp.o
 
 src/IPAddressImpl.i: src/IPAddressImpl.cpp.i
@@ -1558,7 +1558,7 @@ src/IPAddressImpl.i: src/IPAddressImpl.cpp.i
 
 # target to preprocess a source file
 src/IPAddressImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/IPAddressImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/IPAddressImpl.cpp.i
 .PHONY : src/IPAddressImpl.cpp.i
 
 src/IPAddressImpl.s: src/IPAddressImpl.cpp.s
@@ -1567,7 +1567,7 @@ src/IPAddressImpl.s: src/IPAddressImpl.cpp.s
 
 # target to generate assembly for a file
 src/IPAddressImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/IPAddressImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/IPAddressImpl.cpp.s
 .PHONY : src/IPAddressImpl.cpp.s
 
 src/MailMessage.o: src/MailMessage.cpp.o
@@ -1576,7 +1576,7 @@ src/MailMessage.o: src/MailMessage.cpp.o
 
 # target to build an object file
 src/MailMessage.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailMessage.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailMessage.cpp.o
 .PHONY : src/MailMessage.cpp.o
 
 src/MailMessage.i: src/MailMessage.cpp.i
@@ -1585,7 +1585,7 @@ src/MailMessage.i: src/MailMessage.cpp.i
 
 # target to preprocess a source file
 src/MailMessage.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailMessage.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailMessage.cpp.i
 .PHONY : src/MailMessage.cpp.i
 
 src/MailMessage.s: src/MailMessage.cpp.s
@@ -1594,7 +1594,7 @@ src/MailMessage.s: src/MailMessage.cpp.s
 
 # target to generate assembly for a file
 src/MailMessage.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailMessage.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailMessage.cpp.s
 .PHONY : src/MailMessage.cpp.s
 
 src/MailRecipient.o: src/MailRecipient.cpp.o
@@ -1603,7 +1603,7 @@ src/MailRecipient.o: src/MailRecipient.cpp.o
 
 # target to build an object file
 src/MailRecipient.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailRecipient.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailRecipient.cpp.o
 .PHONY : src/MailRecipient.cpp.o
 
 src/MailRecipient.i: src/MailRecipient.cpp.i
@@ -1612,7 +1612,7 @@ src/MailRecipient.i: src/MailRecipient.cpp.i
 
 # target to preprocess a source file
 src/MailRecipient.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailRecipient.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailRecipient.cpp.i
 .PHONY : src/MailRecipient.cpp.i
 
 src/MailRecipient.s: src/MailRecipient.cpp.s
@@ -1621,7 +1621,7 @@ src/MailRecipient.s: src/MailRecipient.cpp.s
 
 # target to generate assembly for a file
 src/MailRecipient.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailRecipient.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailRecipient.cpp.s
 .PHONY : src/MailRecipient.cpp.s
 
 src/MailStream.o: src/MailStream.cpp.o
@@ -1630,7 +1630,7 @@ src/MailStream.o: src/MailStream.cpp.o
 
 # target to build an object file
 src/MailStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailStream.cpp.o
 .PHONY : src/MailStream.cpp.o
 
 src/MailStream.i: src/MailStream.cpp.i
@@ -1639,7 +1639,7 @@ src/MailStream.i: src/MailStream.cpp.i
 
 # target to preprocess a source file
 src/MailStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailStream.cpp.i
 .PHONY : src/MailStream.cpp.i
 
 src/MailStream.s: src/MailStream.cpp.s
@@ -1648,7 +1648,7 @@ src/MailStream.s: src/MailStream.cpp.s
 
 # target to generate assembly for a file
 src/MailStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MailStream.cpp.s
 .PHONY : src/MailStream.cpp.s
 
 src/MediaType.o: src/MediaType.cpp.o
@@ -1657,7 +1657,7 @@ src/MediaType.o: src/MediaType.cpp.o
 
 # target to build an object file
 src/MediaType.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MediaType.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MediaType.cpp.o
 .PHONY : src/MediaType.cpp.o
 
 src/MediaType.i: src/MediaType.cpp.i
@@ -1666,7 +1666,7 @@ src/MediaType.i: src/MediaType.cpp.i
 
 # target to preprocess a source file
 src/MediaType.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MediaType.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MediaType.cpp.i
 .PHONY : src/MediaType.cpp.i
 
 src/MediaType.s: src/MediaType.cpp.s
@@ -1675,7 +1675,7 @@ src/MediaType.s: src/MediaType.cpp.s
 
 # target to generate assembly for a file
 src/MediaType.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MediaType.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MediaType.cpp.s
 .PHONY : src/MediaType.cpp.s
 
 src/MessageHeader.o: src/MessageHeader.cpp.o
@@ -1684,7 +1684,7 @@ src/MessageHeader.o: src/MessageHeader.cpp.o
 
 # target to build an object file
 src/MessageHeader.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MessageHeader.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MessageHeader.cpp.o
 .PHONY : src/MessageHeader.cpp.o
 
 src/MessageHeader.i: src/MessageHeader.cpp.i
@@ -1693,7 +1693,7 @@ src/MessageHeader.i: src/MessageHeader.cpp.i
 
 # target to preprocess a source file
 src/MessageHeader.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MessageHeader.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MessageHeader.cpp.i
 .PHONY : src/MessageHeader.cpp.i
 
 src/MessageHeader.s: src/MessageHeader.cpp.s
@@ -1702,7 +1702,7 @@ src/MessageHeader.s: src/MessageHeader.cpp.s
 
 # target to generate assembly for a file
 src/MessageHeader.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MessageHeader.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MessageHeader.cpp.s
 .PHONY : src/MessageHeader.cpp.s
 
 src/MulticastSocket.o: src/MulticastSocket.cpp.o
@@ -1711,7 +1711,7 @@ src/MulticastSocket.o: src/MulticastSocket.cpp.o
 
 # target to build an object file
 src/MulticastSocket.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MulticastSocket.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MulticastSocket.cpp.o
 .PHONY : src/MulticastSocket.cpp.o
 
 src/MulticastSocket.i: src/MulticastSocket.cpp.i
@@ -1720,7 +1720,7 @@ src/MulticastSocket.i: src/MulticastSocket.cpp.i
 
 # target to preprocess a source file
 src/MulticastSocket.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MulticastSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MulticastSocket.cpp.i
 .PHONY : src/MulticastSocket.cpp.i
 
 src/MulticastSocket.s: src/MulticastSocket.cpp.s
@@ -1729,7 +1729,7 @@ src/MulticastSocket.s: src/MulticastSocket.cpp.s
 
 # target to generate assembly for a file
 src/MulticastSocket.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MulticastSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MulticastSocket.cpp.s
 .PHONY : src/MulticastSocket.cpp.s
 
 src/MultipartReader.o: src/MultipartReader.cpp.o
@@ -1738,7 +1738,7 @@ src/MultipartReader.o: src/MultipartReader.cpp.o
 
 # target to build an object file
 src/MultipartReader.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MultipartReader.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MultipartReader.cpp.o
 .PHONY : src/MultipartReader.cpp.o
 
 src/MultipartReader.i: src/MultipartReader.cpp.i
@@ -1747,7 +1747,7 @@ src/MultipartReader.i: src/MultipartReader.cpp.i
 
 # target to preprocess a source file
 src/MultipartReader.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MultipartReader.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MultipartReader.cpp.i
 .PHONY : src/MultipartReader.cpp.i
 
 src/MultipartReader.s: src/MultipartReader.cpp.s
@@ -1756,7 +1756,7 @@ src/MultipartReader.s: src/MultipartReader.cpp.s
 
 # target to generate assembly for a file
 src/MultipartReader.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MultipartReader.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MultipartReader.cpp.s
 .PHONY : src/MultipartReader.cpp.s
 
 src/MultipartWriter.o: src/MultipartWriter.cpp.o
@@ -1765,7 +1765,7 @@ src/MultipartWriter.o: src/MultipartWriter.cpp.o
 
 # target to build an object file
 src/MultipartWriter.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MultipartWriter.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MultipartWriter.cpp.o
 .PHONY : src/MultipartWriter.cpp.o
 
 src/MultipartWriter.i: src/MultipartWriter.cpp.i
@@ -1774,7 +1774,7 @@ src/MultipartWriter.i: src/MultipartWriter.cpp.i
 
 # target to preprocess a source file
 src/MultipartWriter.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MultipartWriter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MultipartWriter.cpp.i
 .PHONY : src/MultipartWriter.cpp.i
 
 src/MultipartWriter.s: src/MultipartWriter.cpp.s
@@ -1783,7 +1783,7 @@ src/MultipartWriter.s: src/MultipartWriter.cpp.s
 
 # target to generate assembly for a file
 src/MultipartWriter.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MultipartWriter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/MultipartWriter.cpp.s
 .PHONY : src/MultipartWriter.cpp.s
 
 src/NTLMCredentials.o: src/NTLMCredentials.cpp.o
@@ -1792,7 +1792,7 @@ src/NTLMCredentials.o: src/NTLMCredentials.cpp.o
 
 # target to build an object file
 src/NTLMCredentials.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTLMCredentials.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTLMCredentials.cpp.o
 .PHONY : src/NTLMCredentials.cpp.o
 
 src/NTLMCredentials.i: src/NTLMCredentials.cpp.i
@@ -1801,7 +1801,7 @@ src/NTLMCredentials.i: src/NTLMCredentials.cpp.i
 
 # target to preprocess a source file
 src/NTLMCredentials.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTLMCredentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTLMCredentials.cpp.i
 .PHONY : src/NTLMCredentials.cpp.i
 
 src/NTLMCredentials.s: src/NTLMCredentials.cpp.s
@@ -1810,7 +1810,7 @@ src/NTLMCredentials.s: src/NTLMCredentials.cpp.s
 
 # target to generate assembly for a file
 src/NTLMCredentials.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTLMCredentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTLMCredentials.cpp.s
 .PHONY : src/NTLMCredentials.cpp.s
 
 src/NTPClient.o: src/NTPClient.cpp.o
@@ -1819,7 +1819,7 @@ src/NTPClient.o: src/NTPClient.cpp.o
 
 # target to build an object file
 src/NTPClient.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPClient.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPClient.cpp.o
 .PHONY : src/NTPClient.cpp.o
 
 src/NTPClient.i: src/NTPClient.cpp.i
@@ -1828,7 +1828,7 @@ src/NTPClient.i: src/NTPClient.cpp.i
 
 # target to preprocess a source file
 src/NTPClient.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPClient.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPClient.cpp.i
 .PHONY : src/NTPClient.cpp.i
 
 src/NTPClient.s: src/NTPClient.cpp.s
@@ -1837,7 +1837,7 @@ src/NTPClient.s: src/NTPClient.cpp.s
 
 # target to generate assembly for a file
 src/NTPClient.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPClient.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPClient.cpp.s
 .PHONY : src/NTPClient.cpp.s
 
 src/NTPEventArgs.o: src/NTPEventArgs.cpp.o
@@ -1846,7 +1846,7 @@ src/NTPEventArgs.o: src/NTPEventArgs.cpp.o
 
 # target to build an object file
 src/NTPEventArgs.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPEventArgs.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPEventArgs.cpp.o
 .PHONY : src/NTPEventArgs.cpp.o
 
 src/NTPEventArgs.i: src/NTPEventArgs.cpp.i
@@ -1855,7 +1855,7 @@ src/NTPEventArgs.i: src/NTPEventArgs.cpp.i
 
 # target to preprocess a source file
 src/NTPEventArgs.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPEventArgs.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPEventArgs.cpp.i
 .PHONY : src/NTPEventArgs.cpp.i
 
 src/NTPEventArgs.s: src/NTPEventArgs.cpp.s
@@ -1864,7 +1864,7 @@ src/NTPEventArgs.s: src/NTPEventArgs.cpp.s
 
 # target to generate assembly for a file
 src/NTPEventArgs.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPEventArgs.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPEventArgs.cpp.s
 .PHONY : src/NTPEventArgs.cpp.s
 
 src/NTPPacket.o: src/NTPPacket.cpp.o
@@ -1873,7 +1873,7 @@ src/NTPPacket.o: src/NTPPacket.cpp.o
 
 # target to build an object file
 src/NTPPacket.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPPacket.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPPacket.cpp.o
 .PHONY : src/NTPPacket.cpp.o
 
 src/NTPPacket.i: src/NTPPacket.cpp.i
@@ -1882,7 +1882,7 @@ src/NTPPacket.i: src/NTPPacket.cpp.i
 
 # target to preprocess a source file
 src/NTPPacket.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPPacket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPPacket.cpp.i
 .PHONY : src/NTPPacket.cpp.i
 
 src/NTPPacket.s: src/NTPPacket.cpp.s
@@ -1891,7 +1891,7 @@ src/NTPPacket.s: src/NTPPacket.cpp.s
 
 # target to generate assembly for a file
 src/NTPPacket.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPPacket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NTPPacket.cpp.s
 .PHONY : src/NTPPacket.cpp.s
 
 src/NameValueCollection.o: src/NameValueCollection.cpp.o
@@ -1900,7 +1900,7 @@ src/NameValueCollection.o: src/NameValueCollection.cpp.o
 
 # target to build an object file
 src/NameValueCollection.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NameValueCollection.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NameValueCollection.cpp.o
 .PHONY : src/NameValueCollection.cpp.o
 
 src/NameValueCollection.i: src/NameValueCollection.cpp.i
@@ -1909,7 +1909,7 @@ src/NameValueCollection.i: src/NameValueCollection.cpp.i
 
 # target to preprocess a source file
 src/NameValueCollection.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NameValueCollection.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NameValueCollection.cpp.i
 .PHONY : src/NameValueCollection.cpp.i
 
 src/NameValueCollection.s: src/NameValueCollection.cpp.s
@@ -1918,7 +1918,7 @@ src/NameValueCollection.s: src/NameValueCollection.cpp.s
 
 # target to generate assembly for a file
 src/NameValueCollection.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NameValueCollection.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NameValueCollection.cpp.s
 .PHONY : src/NameValueCollection.cpp.s
 
 src/Net.o: src/Net.cpp.o
@@ -1927,7 +1927,7 @@ src/Net.o: src/Net.cpp.o
 
 # target to build an object file
 src/Net.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/Net.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/Net.cpp.o
 .PHONY : src/Net.cpp.o
 
 src/Net.i: src/Net.cpp.i
@@ -1936,7 +1936,7 @@ src/Net.i: src/Net.cpp.i
 
 # target to preprocess a source file
 src/Net.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/Net.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/Net.cpp.i
 .PHONY : src/Net.cpp.i
 
 src/Net.s: src/Net.cpp.s
@@ -1945,7 +1945,7 @@ src/Net.s: src/Net.cpp.s
 
 # target to generate assembly for a file
 src/Net.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/Net.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/Net.cpp.s
 .PHONY : src/Net.cpp.s
 
 src/NetException.o: src/NetException.cpp.o
@@ -1954,7 +1954,7 @@ src/NetException.o: src/NetException.cpp.o
 
 # target to build an object file
 src/NetException.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NetException.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NetException.cpp.o
 .PHONY : src/NetException.cpp.o
 
 src/NetException.i: src/NetException.cpp.i
@@ -1963,7 +1963,7 @@ src/NetException.i: src/NetException.cpp.i
 
 # target to preprocess a source file
 src/NetException.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NetException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NetException.cpp.i
 .PHONY : src/NetException.cpp.i
 
 src/NetException.s: src/NetException.cpp.s
@@ -1972,7 +1972,7 @@ src/NetException.s: src/NetException.cpp.s
 
 # target to generate assembly for a file
 src/NetException.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NetException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NetException.cpp.s
 .PHONY : src/NetException.cpp.s
 
 src/NetworkInterface.o: src/NetworkInterface.cpp.o
@@ -1981,7 +1981,7 @@ src/NetworkInterface.o: src/NetworkInterface.cpp.o
 
 # target to build an object file
 src/NetworkInterface.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NetworkInterface.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NetworkInterface.cpp.o
 .PHONY : src/NetworkInterface.cpp.o
 
 src/NetworkInterface.i: src/NetworkInterface.cpp.i
@@ -1990,7 +1990,7 @@ src/NetworkInterface.i: src/NetworkInterface.cpp.i
 
 # target to preprocess a source file
 src/NetworkInterface.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NetworkInterface.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NetworkInterface.cpp.i
 .PHONY : src/NetworkInterface.cpp.i
 
 src/NetworkInterface.s: src/NetworkInterface.cpp.s
@@ -1999,7 +1999,7 @@ src/NetworkInterface.s: src/NetworkInterface.cpp.s
 
 # target to generate assembly for a file
 src/NetworkInterface.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NetworkInterface.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NetworkInterface.cpp.s
 .PHONY : src/NetworkInterface.cpp.s
 
 src/NullPartHandler.o: src/NullPartHandler.cpp.o
@@ -2008,7 +2008,7 @@ src/NullPartHandler.o: src/NullPartHandler.cpp.o
 
 # target to build an object file
 src/NullPartHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NullPartHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NullPartHandler.cpp.o
 .PHONY : src/NullPartHandler.cpp.o
 
 src/NullPartHandler.i: src/NullPartHandler.cpp.i
@@ -2017,7 +2017,7 @@ src/NullPartHandler.i: src/NullPartHandler.cpp.i
 
 # target to preprocess a source file
 src/NullPartHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NullPartHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NullPartHandler.cpp.i
 .PHONY : src/NullPartHandler.cpp.i
 
 src/NullPartHandler.s: src/NullPartHandler.cpp.s
@@ -2026,7 +2026,7 @@ src/NullPartHandler.s: src/NullPartHandler.cpp.s
 
 # target to generate assembly for a file
 src/NullPartHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NullPartHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/NullPartHandler.cpp.s
 .PHONY : src/NullPartHandler.cpp.s
 
 src/OAuth10Credentials.o: src/OAuth10Credentials.cpp.o
@@ -2035,7 +2035,7 @@ src/OAuth10Credentials.o: src/OAuth10Credentials.cpp.o
 
 # target to build an object file
 src/OAuth10Credentials.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.o
 .PHONY : src/OAuth10Credentials.cpp.o
 
 src/OAuth10Credentials.i: src/OAuth10Credentials.cpp.i
@@ -2044,7 +2044,7 @@ src/OAuth10Credentials.i: src/OAuth10Credentials.cpp.i
 
 # target to preprocess a source file
 src/OAuth10Credentials.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.i
 .PHONY : src/OAuth10Credentials.cpp.i
 
 src/OAuth10Credentials.s: src/OAuth10Credentials.cpp.s
@@ -2053,7 +2053,7 @@ src/OAuth10Credentials.s: src/OAuth10Credentials.cpp.s
 
 # target to generate assembly for a file
 src/OAuth10Credentials.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/OAuth10Credentials.cpp.s
 .PHONY : src/OAuth10Credentials.cpp.s
 
 src/OAuth20Credentials.o: src/OAuth20Credentials.cpp.o
@@ -2062,7 +2062,7 @@ src/OAuth20Credentials.o: src/OAuth20Credentials.cpp.o
 
 # target to build an object file
 src/OAuth20Credentials.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.o
 .PHONY : src/OAuth20Credentials.cpp.o
 
 src/OAuth20Credentials.i: src/OAuth20Credentials.cpp.i
@@ -2071,7 +2071,7 @@ src/OAuth20Credentials.i: src/OAuth20Credentials.cpp.i
 
 # target to preprocess a source file
 src/OAuth20Credentials.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.i
 .PHONY : src/OAuth20Credentials.cpp.i
 
 src/OAuth20Credentials.s: src/OAuth20Credentials.cpp.s
@@ -2080,7 +2080,7 @@ src/OAuth20Credentials.s: src/OAuth20Credentials.cpp.s
 
 # target to generate assembly for a file
 src/OAuth20Credentials.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/OAuth20Credentials.cpp.s
 .PHONY : src/OAuth20Credentials.cpp.s
 
 src/POP3ClientSession.o: src/POP3ClientSession.cpp.o
@@ -2089,7 +2089,7 @@ src/POP3ClientSession.o: src/POP3ClientSession.cpp.o
 
 # target to build an object file
 src/POP3ClientSession.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/POP3ClientSession.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/POP3ClientSession.cpp.o
 .PHONY : src/POP3ClientSession.cpp.o
 
 src/POP3ClientSession.i: src/POP3ClientSession.cpp.i
@@ -2098,7 +2098,7 @@ src/POP3ClientSession.i: src/POP3ClientSession.cpp.i
 
 # target to preprocess a source file
 src/POP3ClientSession.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/POP3ClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/POP3ClientSession.cpp.i
 .PHONY : src/POP3ClientSession.cpp.i
 
 src/POP3ClientSession.s: src/POP3ClientSession.cpp.s
@@ -2107,7 +2107,7 @@ src/POP3ClientSession.s: src/POP3ClientSession.cpp.s
 
 # target to generate assembly for a file
 src/POP3ClientSession.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/POP3ClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/POP3ClientSession.cpp.s
 .PHONY : src/POP3ClientSession.cpp.s
 
 src/PartHandler.o: src/PartHandler.cpp.o
@@ -2116,7 +2116,7 @@ src/PartHandler.o: src/PartHandler.cpp.o
 
 # target to build an object file
 src/PartHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartHandler.cpp.o
 .PHONY : src/PartHandler.cpp.o
 
 src/PartHandler.i: src/PartHandler.cpp.i
@@ -2125,7 +2125,7 @@ src/PartHandler.i: src/PartHandler.cpp.i
 
 # target to preprocess a source file
 src/PartHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartHandler.cpp.i
 .PHONY : src/PartHandler.cpp.i
 
 src/PartHandler.s: src/PartHandler.cpp.s
@@ -2134,7 +2134,7 @@ src/PartHandler.s: src/PartHandler.cpp.s
 
 # target to generate assembly for a file
 src/PartHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartHandler.cpp.s
 .PHONY : src/PartHandler.cpp.s
 
 src/PartSource.o: src/PartSource.cpp.o
@@ -2143,7 +2143,7 @@ src/PartSource.o: src/PartSource.cpp.o
 
 # target to build an object file
 src/PartSource.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartSource.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartSource.cpp.o
 .PHONY : src/PartSource.cpp.o
 
 src/PartSource.i: src/PartSource.cpp.i
@@ -2152,7 +2152,7 @@ src/PartSource.i: src/PartSource.cpp.i
 
 # target to preprocess a source file
 src/PartSource.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartSource.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartSource.cpp.i
 .PHONY : src/PartSource.cpp.i
 
 src/PartSource.s: src/PartSource.cpp.s
@@ -2161,7 +2161,7 @@ src/PartSource.s: src/PartSource.cpp.s
 
 # target to generate assembly for a file
 src/PartSource.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartSource.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartSource.cpp.s
 .PHONY : src/PartSource.cpp.s
 
 src/PartStore.o: src/PartStore.cpp.o
@@ -2170,7 +2170,7 @@ src/PartStore.o: src/PartStore.cpp.o
 
 # target to build an object file
 src/PartStore.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartStore.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartStore.cpp.o
 .PHONY : src/PartStore.cpp.o
 
 src/PartStore.i: src/PartStore.cpp.i
@@ -2179,7 +2179,7 @@ src/PartStore.i: src/PartStore.cpp.i
 
 # target to preprocess a source file
 src/PartStore.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartStore.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartStore.cpp.i
 .PHONY : src/PartStore.cpp.i
 
 src/PartStore.s: src/PartStore.cpp.s
@@ -2188,7 +2188,7 @@ src/PartStore.s: src/PartStore.cpp.s
 
 # target to generate assembly for a file
 src/PartStore.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartStore.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PartStore.cpp.s
 .PHONY : src/PartStore.cpp.s
 
 src/PollSet.o: src/PollSet.cpp.o
@@ -2197,7 +2197,7 @@ src/PollSet.o: src/PollSet.cpp.o
 
 # target to build an object file
 src/PollSet.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PollSet.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PollSet.cpp.o
 .PHONY : src/PollSet.cpp.o
 
 src/PollSet.i: src/PollSet.cpp.i
@@ -2206,7 +2206,7 @@ src/PollSet.i: src/PollSet.cpp.i
 
 # target to preprocess a source file
 src/PollSet.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PollSet.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PollSet.cpp.i
 .PHONY : src/PollSet.cpp.i
 
 src/PollSet.s: src/PollSet.cpp.s
@@ -2215,7 +2215,7 @@ src/PollSet.s: src/PollSet.cpp.s
 
 # target to generate assembly for a file
 src/PollSet.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PollSet.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/PollSet.cpp.s
 .PHONY : src/PollSet.cpp.s
 
 src/QuotedPrintableDecoder.o: src/QuotedPrintableDecoder.cpp.o
@@ -2224,7 +2224,7 @@ src/QuotedPrintableDecoder.o: src/QuotedPrintableDecoder.cpp.o
 
 # target to build an object file
 src/QuotedPrintableDecoder.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.o
 .PHONY : src/QuotedPrintableDecoder.cpp.o
 
 src/QuotedPrintableDecoder.i: src/QuotedPrintableDecoder.cpp.i
@@ -2233,7 +2233,7 @@ src/QuotedPrintableDecoder.i: src/QuotedPrintableDecoder.cpp.i
 
 # target to preprocess a source file
 src/QuotedPrintableDecoder.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.i
 .PHONY : src/QuotedPrintableDecoder.cpp.i
 
 src/QuotedPrintableDecoder.s: src/QuotedPrintableDecoder.cpp.s
@@ -2242,7 +2242,7 @@ src/QuotedPrintableDecoder.s: src/QuotedPrintableDecoder.cpp.s
 
 # target to generate assembly for a file
 src/QuotedPrintableDecoder.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/QuotedPrintableDecoder.cpp.s
 .PHONY : src/QuotedPrintableDecoder.cpp.s
 
 src/QuotedPrintableEncoder.o: src/QuotedPrintableEncoder.cpp.o
@@ -2251,7 +2251,7 @@ src/QuotedPrintableEncoder.o: src/QuotedPrintableEncoder.cpp.o
 
 # target to build an object file
 src/QuotedPrintableEncoder.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.o
 .PHONY : src/QuotedPrintableEncoder.cpp.o
 
 src/QuotedPrintableEncoder.i: src/QuotedPrintableEncoder.cpp.i
@@ -2260,7 +2260,7 @@ src/QuotedPrintableEncoder.i: src/QuotedPrintableEncoder.cpp.i
 
 # target to preprocess a source file
 src/QuotedPrintableEncoder.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.i
 .PHONY : src/QuotedPrintableEncoder.cpp.i
 
 src/QuotedPrintableEncoder.s: src/QuotedPrintableEncoder.cpp.s
@@ -2269,7 +2269,7 @@ src/QuotedPrintableEncoder.s: src/QuotedPrintableEncoder.cpp.s
 
 # target to generate assembly for a file
 src/QuotedPrintableEncoder.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/QuotedPrintableEncoder.cpp.s
 .PHONY : src/QuotedPrintableEncoder.cpp.s
 
 src/RawSocket.o: src/RawSocket.cpp.o
@@ -2278,7 +2278,7 @@ src/RawSocket.o: src/RawSocket.cpp.o
 
 # target to build an object file
 src/RawSocket.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RawSocket.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RawSocket.cpp.o
 .PHONY : src/RawSocket.cpp.o
 
 src/RawSocket.i: src/RawSocket.cpp.i
@@ -2287,7 +2287,7 @@ src/RawSocket.i: src/RawSocket.cpp.i
 
 # target to preprocess a source file
 src/RawSocket.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RawSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RawSocket.cpp.i
 .PHONY : src/RawSocket.cpp.i
 
 src/RawSocket.s: src/RawSocket.cpp.s
@@ -2296,7 +2296,7 @@ src/RawSocket.s: src/RawSocket.cpp.s
 
 # target to generate assembly for a file
 src/RawSocket.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RawSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RawSocket.cpp.s
 .PHONY : src/RawSocket.cpp.s
 
 src/RawSocketImpl.o: src/RawSocketImpl.cpp.o
@@ -2305,7 +2305,7 @@ src/RawSocketImpl.o: src/RawSocketImpl.cpp.o
 
 # target to build an object file
 src/RawSocketImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RawSocketImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RawSocketImpl.cpp.o
 .PHONY : src/RawSocketImpl.cpp.o
 
 src/RawSocketImpl.i: src/RawSocketImpl.cpp.i
@@ -2314,7 +2314,7 @@ src/RawSocketImpl.i: src/RawSocketImpl.cpp.i
 
 # target to preprocess a source file
 src/RawSocketImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RawSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RawSocketImpl.cpp.i
 .PHONY : src/RawSocketImpl.cpp.i
 
 src/RawSocketImpl.s: src/RawSocketImpl.cpp.s
@@ -2323,7 +2323,7 @@ src/RawSocketImpl.s: src/RawSocketImpl.cpp.s
 
 # target to generate assembly for a file
 src/RawSocketImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RawSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RawSocketImpl.cpp.s
 .PHONY : src/RawSocketImpl.cpp.s
 
 src/RemoteSyslogChannel.o: src/RemoteSyslogChannel.cpp.o
@@ -2332,7 +2332,7 @@ src/RemoteSyslogChannel.o: src/RemoteSyslogChannel.cpp.o
 
 # target to build an object file
 src/RemoteSyslogChannel.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.o
 .PHONY : src/RemoteSyslogChannel.cpp.o
 
 src/RemoteSyslogChannel.i: src/RemoteSyslogChannel.cpp.i
@@ -2341,7 +2341,7 @@ src/RemoteSyslogChannel.i: src/RemoteSyslogChannel.cpp.i
 
 # target to preprocess a source file
 src/RemoteSyslogChannel.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.i
 .PHONY : src/RemoteSyslogChannel.cpp.i
 
 src/RemoteSyslogChannel.s: src/RemoteSyslogChannel.cpp.s
@@ -2350,7 +2350,7 @@ src/RemoteSyslogChannel.s: src/RemoteSyslogChannel.cpp.s
 
 # target to generate assembly for a file
 src/RemoteSyslogChannel.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RemoteSyslogChannel.cpp.s
 .PHONY : src/RemoteSyslogChannel.cpp.s
 
 src/RemoteSyslogListener.o: src/RemoteSyslogListener.cpp.o
@@ -2359,7 +2359,7 @@ src/RemoteSyslogListener.o: src/RemoteSyslogListener.cpp.o
 
 # target to build an object file
 src/RemoteSyslogListener.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.o
 .PHONY : src/RemoteSyslogListener.cpp.o
 
 src/RemoteSyslogListener.i: src/RemoteSyslogListener.cpp.i
@@ -2368,7 +2368,7 @@ src/RemoteSyslogListener.i: src/RemoteSyslogListener.cpp.i
 
 # target to preprocess a source file
 src/RemoteSyslogListener.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.i
 .PHONY : src/RemoteSyslogListener.cpp.i
 
 src/RemoteSyslogListener.s: src/RemoteSyslogListener.cpp.s
@@ -2377,7 +2377,7 @@ src/RemoteSyslogListener.s: src/RemoteSyslogListener.cpp.s
 
 # target to generate assembly for a file
 src/RemoteSyslogListener.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/RemoteSyslogListener.cpp.s
 .PHONY : src/RemoteSyslogListener.cpp.s
 
 src/SMTPChannel.o: src/SMTPChannel.cpp.o
@@ -2386,7 +2386,7 @@ src/SMTPChannel.o: src/SMTPChannel.cpp.o
 
 # target to build an object file
 src/SMTPChannel.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SMTPChannel.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SMTPChannel.cpp.o
 .PHONY : src/SMTPChannel.cpp.o
 
 src/SMTPChannel.i: src/SMTPChannel.cpp.i
@@ -2395,7 +2395,7 @@ src/SMTPChannel.i: src/SMTPChannel.cpp.i
 
 # target to preprocess a source file
 src/SMTPChannel.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SMTPChannel.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SMTPChannel.cpp.i
 .PHONY : src/SMTPChannel.cpp.i
 
 src/SMTPChannel.s: src/SMTPChannel.cpp.s
@@ -2404,7 +2404,7 @@ src/SMTPChannel.s: src/SMTPChannel.cpp.s
 
 # target to generate assembly for a file
 src/SMTPChannel.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SMTPChannel.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SMTPChannel.cpp.s
 .PHONY : src/SMTPChannel.cpp.s
 
 src/SMTPClientSession.o: src/SMTPClientSession.cpp.o
@@ -2413,7 +2413,7 @@ src/SMTPClientSession.o: src/SMTPClientSession.cpp.o
 
 # target to build an object file
 src/SMTPClientSession.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SMTPClientSession.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SMTPClientSession.cpp.o
 .PHONY : src/SMTPClientSession.cpp.o
 
 src/SMTPClientSession.i: src/SMTPClientSession.cpp.i
@@ -2422,7 +2422,7 @@ src/SMTPClientSession.i: src/SMTPClientSession.cpp.i
 
 # target to preprocess a source file
 src/SMTPClientSession.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SMTPClientSession.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SMTPClientSession.cpp.i
 .PHONY : src/SMTPClientSession.cpp.i
 
 src/SMTPClientSession.s: src/SMTPClientSession.cpp.s
@@ -2431,7 +2431,7 @@ src/SMTPClientSession.s: src/SMTPClientSession.cpp.s
 
 # target to generate assembly for a file
 src/SMTPClientSession.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SMTPClientSession.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SMTPClientSession.cpp.s
 .PHONY : src/SMTPClientSession.cpp.s
 
 src/SSPINTLMCredentials.o: src/SSPINTLMCredentials.cpp.o
@@ -2440,7 +2440,7 @@ src/SSPINTLMCredentials.o: src/SSPINTLMCredentials.cpp.o
 
 # target to build an object file
 src/SSPINTLMCredentials.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.o
 .PHONY : src/SSPINTLMCredentials.cpp.o
 
 src/SSPINTLMCredentials.i: src/SSPINTLMCredentials.cpp.i
@@ -2449,7 +2449,7 @@ src/SSPINTLMCredentials.i: src/SSPINTLMCredentials.cpp.i
 
 # target to preprocess a source file
 src/SSPINTLMCredentials.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.i
 .PHONY : src/SSPINTLMCredentials.cpp.i
 
 src/SSPINTLMCredentials.s: src/SSPINTLMCredentials.cpp.s
@@ -2458,7 +2458,7 @@ src/SSPINTLMCredentials.s: src/SSPINTLMCredentials.cpp.s
 
 # target to generate assembly for a file
 src/SSPINTLMCredentials.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SSPINTLMCredentials.cpp.s
 .PHONY : src/SSPINTLMCredentials.cpp.s
 
 src/ServerSocket.o: src/ServerSocket.cpp.o
@@ -2467,7 +2467,7 @@ src/ServerSocket.o: src/ServerSocket.cpp.o
 
 # target to build an object file
 src/ServerSocket.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ServerSocket.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ServerSocket.cpp.o
 .PHONY : src/ServerSocket.cpp.o
 
 src/ServerSocket.i: src/ServerSocket.cpp.i
@@ -2476,7 +2476,7 @@ src/ServerSocket.i: src/ServerSocket.cpp.i
 
 # target to preprocess a source file
 src/ServerSocket.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ServerSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ServerSocket.cpp.i
 .PHONY : src/ServerSocket.cpp.i
 
 src/ServerSocket.s: src/ServerSocket.cpp.s
@@ -2485,7 +2485,7 @@ src/ServerSocket.s: src/ServerSocket.cpp.s
 
 # target to generate assembly for a file
 src/ServerSocket.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ServerSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ServerSocket.cpp.s
 .PHONY : src/ServerSocket.cpp.s
 
 src/ServerSocketImpl.o: src/ServerSocketImpl.cpp.o
@@ -2494,7 +2494,7 @@ src/ServerSocketImpl.o: src/ServerSocketImpl.cpp.o
 
 # target to build an object file
 src/ServerSocketImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.o
 .PHONY : src/ServerSocketImpl.cpp.o
 
 src/ServerSocketImpl.i: src/ServerSocketImpl.cpp.i
@@ -2503,7 +2503,7 @@ src/ServerSocketImpl.i: src/ServerSocketImpl.cpp.i
 
 # target to preprocess a source file
 src/ServerSocketImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.i
 .PHONY : src/ServerSocketImpl.cpp.i
 
 src/ServerSocketImpl.s: src/ServerSocketImpl.cpp.s
@@ -2512,7 +2512,7 @@ src/ServerSocketImpl.s: src/ServerSocketImpl.cpp.s
 
 # target to generate assembly for a file
 src/ServerSocketImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/ServerSocketImpl.cpp.s
 .PHONY : src/ServerSocketImpl.cpp.s
 
 src/Socket.o: src/Socket.cpp.o
@@ -2521,7 +2521,7 @@ src/Socket.o: src/Socket.cpp.o
 
 # target to build an object file
 src/Socket.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/Socket.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/Socket.cpp.o
 .PHONY : src/Socket.cpp.o
 
 src/Socket.i: src/Socket.cpp.i
@@ -2530,7 +2530,7 @@ src/Socket.i: src/Socket.cpp.i
 
 # target to preprocess a source file
 src/Socket.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/Socket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/Socket.cpp.i
 .PHONY : src/Socket.cpp.i
 
 src/Socket.s: src/Socket.cpp.s
@@ -2539,7 +2539,7 @@ src/Socket.s: src/Socket.cpp.s
 
 # target to generate assembly for a file
 src/Socket.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/Socket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/Socket.cpp.s
 .PHONY : src/Socket.cpp.s
 
 src/SocketAddress.o: src/SocketAddress.cpp.o
@@ -2548,7 +2548,7 @@ src/SocketAddress.o: src/SocketAddress.cpp.o
 
 # target to build an object file
 src/SocketAddress.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketAddress.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketAddress.cpp.o
 .PHONY : src/SocketAddress.cpp.o
 
 src/SocketAddress.i: src/SocketAddress.cpp.i
@@ -2557,7 +2557,7 @@ src/SocketAddress.i: src/SocketAddress.cpp.i
 
 # target to preprocess a source file
 src/SocketAddress.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketAddress.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketAddress.cpp.i
 .PHONY : src/SocketAddress.cpp.i
 
 src/SocketAddress.s: src/SocketAddress.cpp.s
@@ -2566,7 +2566,7 @@ src/SocketAddress.s: src/SocketAddress.cpp.s
 
 # target to generate assembly for a file
 src/SocketAddress.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketAddress.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketAddress.cpp.s
 .PHONY : src/SocketAddress.cpp.s
 
 src/SocketAddressImpl.o: src/SocketAddressImpl.cpp.o
@@ -2575,7 +2575,7 @@ src/SocketAddressImpl.o: src/SocketAddressImpl.cpp.o
 
 # target to build an object file
 src/SocketAddressImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.o
 .PHONY : src/SocketAddressImpl.cpp.o
 
 src/SocketAddressImpl.i: src/SocketAddressImpl.cpp.i
@@ -2584,7 +2584,7 @@ src/SocketAddressImpl.i: src/SocketAddressImpl.cpp.i
 
 # target to preprocess a source file
 src/SocketAddressImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.i
 .PHONY : src/SocketAddressImpl.cpp.i
 
 src/SocketAddressImpl.s: src/SocketAddressImpl.cpp.s
@@ -2593,7 +2593,7 @@ src/SocketAddressImpl.s: src/SocketAddressImpl.cpp.s
 
 # target to generate assembly for a file
 src/SocketAddressImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketAddressImpl.cpp.s
 .PHONY : src/SocketAddressImpl.cpp.s
 
 src/SocketImpl.o: src/SocketImpl.cpp.o
@@ -2602,7 +2602,7 @@ src/SocketImpl.o: src/SocketImpl.cpp.o
 
 # target to build an object file
 src/SocketImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketImpl.cpp.o
 .PHONY : src/SocketImpl.cpp.o
 
 src/SocketImpl.i: src/SocketImpl.cpp.i
@@ -2611,7 +2611,7 @@ src/SocketImpl.i: src/SocketImpl.cpp.i
 
 # target to preprocess a source file
 src/SocketImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketImpl.cpp.i
 .PHONY : src/SocketImpl.cpp.i
 
 src/SocketImpl.s: src/SocketImpl.cpp.s
@@ -2620,7 +2620,7 @@ src/SocketImpl.s: src/SocketImpl.cpp.s
 
 # target to generate assembly for a file
 src/SocketImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketImpl.cpp.s
 .PHONY : src/SocketImpl.cpp.s
 
 src/SocketNotification.o: src/SocketNotification.cpp.o
@@ -2629,7 +2629,7 @@ src/SocketNotification.o: src/SocketNotification.cpp.o
 
 # target to build an object file
 src/SocketNotification.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketNotification.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketNotification.cpp.o
 .PHONY : src/SocketNotification.cpp.o
 
 src/SocketNotification.i: src/SocketNotification.cpp.i
@@ -2638,7 +2638,7 @@ src/SocketNotification.i: src/SocketNotification.cpp.i
 
 # target to preprocess a source file
 src/SocketNotification.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketNotification.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketNotification.cpp.i
 .PHONY : src/SocketNotification.cpp.i
 
 src/SocketNotification.s: src/SocketNotification.cpp.s
@@ -2647,7 +2647,7 @@ src/SocketNotification.s: src/SocketNotification.cpp.s
 
 # target to generate assembly for a file
 src/SocketNotification.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketNotification.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketNotification.cpp.s
 .PHONY : src/SocketNotification.cpp.s
 
 src/SocketNotifier.o: src/SocketNotifier.cpp.o
@@ -2656,7 +2656,7 @@ src/SocketNotifier.o: src/SocketNotifier.cpp.o
 
 # target to build an object file
 src/SocketNotifier.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketNotifier.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketNotifier.cpp.o
 .PHONY : src/SocketNotifier.cpp.o
 
 src/SocketNotifier.i: src/SocketNotifier.cpp.i
@@ -2665,7 +2665,7 @@ src/SocketNotifier.i: src/SocketNotifier.cpp.i
 
 # target to preprocess a source file
 src/SocketNotifier.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketNotifier.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketNotifier.cpp.i
 .PHONY : src/SocketNotifier.cpp.i
 
 src/SocketNotifier.s: src/SocketNotifier.cpp.s
@@ -2674,7 +2674,7 @@ src/SocketNotifier.s: src/SocketNotifier.cpp.s
 
 # target to generate assembly for a file
 src/SocketNotifier.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketNotifier.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketNotifier.cpp.s
 .PHONY : src/SocketNotifier.cpp.s
 
 src/SocketReactor.o: src/SocketReactor.cpp.o
@@ -2683,7 +2683,7 @@ src/SocketReactor.o: src/SocketReactor.cpp.o
 
 # target to build an object file
 src/SocketReactor.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketReactor.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketReactor.cpp.o
 .PHONY : src/SocketReactor.cpp.o
 
 src/SocketReactor.i: src/SocketReactor.cpp.i
@@ -2692,7 +2692,7 @@ src/SocketReactor.i: src/SocketReactor.cpp.i
 
 # target to preprocess a source file
 src/SocketReactor.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketReactor.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketReactor.cpp.i
 .PHONY : src/SocketReactor.cpp.i
 
 src/SocketReactor.s: src/SocketReactor.cpp.s
@@ -2701,7 +2701,7 @@ src/SocketReactor.s: src/SocketReactor.cpp.s
 
 # target to generate assembly for a file
 src/SocketReactor.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketReactor.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketReactor.cpp.s
 .PHONY : src/SocketReactor.cpp.s
 
 src/SocketStream.o: src/SocketStream.cpp.o
@@ -2710,7 +2710,7 @@ src/SocketStream.o: src/SocketStream.cpp.o
 
 # target to build an object file
 src/SocketStream.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketStream.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketStream.cpp.o
 .PHONY : src/SocketStream.cpp.o
 
 src/SocketStream.i: src/SocketStream.cpp.i
@@ -2719,7 +2719,7 @@ src/SocketStream.i: src/SocketStream.cpp.i
 
 # target to preprocess a source file
 src/SocketStream.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketStream.cpp.i
 .PHONY : src/SocketStream.cpp.i
 
 src/SocketStream.s: src/SocketStream.cpp.s
@@ -2728,7 +2728,7 @@ src/SocketStream.s: src/SocketStream.cpp.s
 
 # target to generate assembly for a file
 src/SocketStream.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/SocketStream.cpp.s
 .PHONY : src/SocketStream.cpp.s
 
 src/StreamSocket.o: src/StreamSocket.cpp.o
@@ -2737,7 +2737,7 @@ src/StreamSocket.o: src/StreamSocket.cpp.o
 
 # target to build an object file
 src/StreamSocket.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StreamSocket.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StreamSocket.cpp.o
 .PHONY : src/StreamSocket.cpp.o
 
 src/StreamSocket.i: src/StreamSocket.cpp.i
@@ -2746,7 +2746,7 @@ src/StreamSocket.i: src/StreamSocket.cpp.i
 
 # target to preprocess a source file
 src/StreamSocket.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StreamSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StreamSocket.cpp.i
 .PHONY : src/StreamSocket.cpp.i
 
 src/StreamSocket.s: src/StreamSocket.cpp.s
@@ -2755,7 +2755,7 @@ src/StreamSocket.s: src/StreamSocket.cpp.s
 
 # target to generate assembly for a file
 src/StreamSocket.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StreamSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StreamSocket.cpp.s
 .PHONY : src/StreamSocket.cpp.s
 
 src/StreamSocketImpl.o: src/StreamSocketImpl.cpp.o
@@ -2764,7 +2764,7 @@ src/StreamSocketImpl.o: src/StreamSocketImpl.cpp.o
 
 # target to build an object file
 src/StreamSocketImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.o
 .PHONY : src/StreamSocketImpl.cpp.o
 
 src/StreamSocketImpl.i: src/StreamSocketImpl.cpp.i
@@ -2773,7 +2773,7 @@ src/StreamSocketImpl.i: src/StreamSocketImpl.cpp.i
 
 # target to preprocess a source file
 src/StreamSocketImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.i
 .PHONY : src/StreamSocketImpl.cpp.i
 
 src/StreamSocketImpl.s: src/StreamSocketImpl.cpp.s
@@ -2782,7 +2782,7 @@ src/StreamSocketImpl.s: src/StreamSocketImpl.cpp.s
 
 # target to generate assembly for a file
 src/StreamSocketImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StreamSocketImpl.cpp.s
 .PHONY : src/StreamSocketImpl.cpp.s
 
 src/StringPartSource.o: src/StringPartSource.cpp.o
@@ -2791,7 +2791,7 @@ src/StringPartSource.o: src/StringPartSource.cpp.o
 
 # target to build an object file
 src/StringPartSource.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StringPartSource.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StringPartSource.cpp.o
 .PHONY : src/StringPartSource.cpp.o
 
 src/StringPartSource.i: src/StringPartSource.cpp.i
@@ -2800,7 +2800,7 @@ src/StringPartSource.i: src/StringPartSource.cpp.i
 
 # target to preprocess a source file
 src/StringPartSource.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StringPartSource.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StringPartSource.cpp.i
 .PHONY : src/StringPartSource.cpp.i
 
 src/StringPartSource.s: src/StringPartSource.cpp.s
@@ -2809,7 +2809,7 @@ src/StringPartSource.s: src/StringPartSource.cpp.s
 
 # target to generate assembly for a file
 src/StringPartSource.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StringPartSource.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/StringPartSource.cpp.s
 .PHONY : src/StringPartSource.cpp.s
 
 src/TCPServer.o: src/TCPServer.cpp.o
@@ -2818,7 +2818,7 @@ src/TCPServer.o: src/TCPServer.cpp.o
 
 # target to build an object file
 src/TCPServer.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServer.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServer.cpp.o
 .PHONY : src/TCPServer.cpp.o
 
 src/TCPServer.i: src/TCPServer.cpp.i
@@ -2827,7 +2827,7 @@ src/TCPServer.i: src/TCPServer.cpp.i
 
 # target to preprocess a source file
 src/TCPServer.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServer.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServer.cpp.i
 .PHONY : src/TCPServer.cpp.i
 
 src/TCPServer.s: src/TCPServer.cpp.s
@@ -2836,7 +2836,7 @@ src/TCPServer.s: src/TCPServer.cpp.s
 
 # target to generate assembly for a file
 src/TCPServer.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServer.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServer.cpp.s
 .PHONY : src/TCPServer.cpp.s
 
 src/TCPServerConnection.o: src/TCPServerConnection.cpp.o
@@ -2845,7 +2845,7 @@ src/TCPServerConnection.o: src/TCPServerConnection.cpp.o
 
 # target to build an object file
 src/TCPServerConnection.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerConnection.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerConnection.cpp.o
 .PHONY : src/TCPServerConnection.cpp.o
 
 src/TCPServerConnection.i: src/TCPServerConnection.cpp.i
@@ -2854,7 +2854,7 @@ src/TCPServerConnection.i: src/TCPServerConnection.cpp.i
 
 # target to preprocess a source file
 src/TCPServerConnection.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerConnection.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerConnection.cpp.i
 .PHONY : src/TCPServerConnection.cpp.i
 
 src/TCPServerConnection.s: src/TCPServerConnection.cpp.s
@@ -2863,7 +2863,7 @@ src/TCPServerConnection.s: src/TCPServerConnection.cpp.s
 
 # target to generate assembly for a file
 src/TCPServerConnection.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerConnection.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerConnection.cpp.s
 .PHONY : src/TCPServerConnection.cpp.s
 
 src/TCPServerConnectionFactory.o: src/TCPServerConnectionFactory.cpp.o
@@ -2872,7 +2872,7 @@ src/TCPServerConnectionFactory.o: src/TCPServerConnectionFactory.cpp.o
 
 # target to build an object file
 src/TCPServerConnectionFactory.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.o
 .PHONY : src/TCPServerConnectionFactory.cpp.o
 
 src/TCPServerConnectionFactory.i: src/TCPServerConnectionFactory.cpp.i
@@ -2881,7 +2881,7 @@ src/TCPServerConnectionFactory.i: src/TCPServerConnectionFactory.cpp.i
 
 # target to preprocess a source file
 src/TCPServerConnectionFactory.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.i
 .PHONY : src/TCPServerConnectionFactory.cpp.i
 
 src/TCPServerConnectionFactory.s: src/TCPServerConnectionFactory.cpp.s
@@ -2890,7 +2890,7 @@ src/TCPServerConnectionFactory.s: src/TCPServerConnectionFactory.cpp.s
 
 # target to generate assembly for a file
 src/TCPServerConnectionFactory.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerConnectionFactory.cpp.s
 .PHONY : src/TCPServerConnectionFactory.cpp.s
 
 src/TCPServerDispatcher.o: src/TCPServerDispatcher.cpp.o
@@ -2899,7 +2899,7 @@ src/TCPServerDispatcher.o: src/TCPServerDispatcher.cpp.o
 
 # target to build an object file
 src/TCPServerDispatcher.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.o
 .PHONY : src/TCPServerDispatcher.cpp.o
 
 src/TCPServerDispatcher.i: src/TCPServerDispatcher.cpp.i
@@ -2908,7 +2908,7 @@ src/TCPServerDispatcher.i: src/TCPServerDispatcher.cpp.i
 
 # target to preprocess a source file
 src/TCPServerDispatcher.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.i
 .PHONY : src/TCPServerDispatcher.cpp.i
 
 src/TCPServerDispatcher.s: src/TCPServerDispatcher.cpp.s
@@ -2917,7 +2917,7 @@ src/TCPServerDispatcher.s: src/TCPServerDispatcher.cpp.s
 
 # target to generate assembly for a file
 src/TCPServerDispatcher.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerDispatcher.cpp.s
 .PHONY : src/TCPServerDispatcher.cpp.s
 
 src/TCPServerParams.o: src/TCPServerParams.cpp.o
@@ -2926,7 +2926,7 @@ src/TCPServerParams.o: src/TCPServerParams.cpp.o
 
 # target to build an object file
 src/TCPServerParams.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerParams.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerParams.cpp.o
 .PHONY : src/TCPServerParams.cpp.o
 
 src/TCPServerParams.i: src/TCPServerParams.cpp.i
@@ -2935,7 +2935,7 @@ src/TCPServerParams.i: src/TCPServerParams.cpp.i
 
 # target to preprocess a source file
 src/TCPServerParams.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerParams.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerParams.cpp.i
 .PHONY : src/TCPServerParams.cpp.i
 
 src/TCPServerParams.s: src/TCPServerParams.cpp.s
@@ -2944,7 +2944,7 @@ src/TCPServerParams.s: src/TCPServerParams.cpp.s
 
 # target to generate assembly for a file
 src/TCPServerParams.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerParams.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/TCPServerParams.cpp.s
 .PHONY : src/TCPServerParams.cpp.s
 
 src/UDPClient.o: src/UDPClient.cpp.o
@@ -2953,7 +2953,7 @@ src/UDPClient.o: src/UDPClient.cpp.o
 
 # target to build an object file
 src/UDPClient.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/UDPClient.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/UDPClient.cpp.o
 .PHONY : src/UDPClient.cpp.o
 
 src/UDPClient.i: src/UDPClient.cpp.i
@@ -2962,7 +2962,7 @@ src/UDPClient.i: src/UDPClient.cpp.i
 
 # target to preprocess a source file
 src/UDPClient.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/UDPClient.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/UDPClient.cpp.i
 .PHONY : src/UDPClient.cpp.i
 
 src/UDPClient.s: src/UDPClient.cpp.s
@@ -2971,7 +2971,7 @@ src/UDPClient.s: src/UDPClient.cpp.s
 
 # target to generate assembly for a file
 src/UDPClient.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/UDPClient.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/UDPClient.cpp.s
 .PHONY : src/UDPClient.cpp.s
 
 src/UDPServerParams.o: src/UDPServerParams.cpp.o
@@ -2980,7 +2980,7 @@ src/UDPServerParams.o: src/UDPServerParams.cpp.o
 
 # target to build an object file
 src/UDPServerParams.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/UDPServerParams.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/UDPServerParams.cpp.o
 .PHONY : src/UDPServerParams.cpp.o
 
 src/UDPServerParams.i: src/UDPServerParams.cpp.i
@@ -2989,7 +2989,7 @@ src/UDPServerParams.i: src/UDPServerParams.cpp.i
 
 # target to preprocess a source file
 src/UDPServerParams.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/UDPServerParams.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/UDPServerParams.cpp.i
 .PHONY : src/UDPServerParams.cpp.i
 
 src/UDPServerParams.s: src/UDPServerParams.cpp.s
@@ -2998,7 +2998,7 @@ src/UDPServerParams.s: src/UDPServerParams.cpp.s
 
 # target to generate assembly for a file
 src/UDPServerParams.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/UDPServerParams.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/UDPServerParams.cpp.s
 .PHONY : src/UDPServerParams.cpp.s
 
 src/WebSocket.o: src/WebSocket.cpp.o
@@ -3007,7 +3007,7 @@ src/WebSocket.o: src/WebSocket.cpp.o
 
 # target to build an object file
 src/WebSocket.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/WebSocket.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/WebSocket.cpp.o
 .PHONY : src/WebSocket.cpp.o
 
 src/WebSocket.i: src/WebSocket.cpp.i
@@ -3016,7 +3016,7 @@ src/WebSocket.i: src/WebSocket.cpp.i
 
 # target to preprocess a source file
 src/WebSocket.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/WebSocket.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/WebSocket.cpp.i
 .PHONY : src/WebSocket.cpp.i
 
 src/WebSocket.s: src/WebSocket.cpp.s
@@ -3025,7 +3025,7 @@ src/WebSocket.s: src/WebSocket.cpp.s
 
 # target to generate assembly for a file
 src/WebSocket.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/WebSocket.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/WebSocket.cpp.s
 .PHONY : src/WebSocket.cpp.s
 
 src/WebSocketImpl.o: src/WebSocketImpl.cpp.o
@@ -3034,7 +3034,7 @@ src/WebSocketImpl.o: src/WebSocketImpl.cpp.o
 
 # target to build an object file
 src/WebSocketImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/WebSocketImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/WebSocketImpl.cpp.o
 .PHONY : src/WebSocketImpl.cpp.o
 
 src/WebSocketImpl.i: src/WebSocketImpl.cpp.i
@@ -3043,7 +3043,7 @@ src/WebSocketImpl.i: src/WebSocketImpl.cpp.i
 
 # target to preprocess a source file
 src/WebSocketImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/WebSocketImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/WebSocketImpl.cpp.i
 .PHONY : src/WebSocketImpl.cpp.i
 
 src/WebSocketImpl.s: src/WebSocketImpl.cpp.s
@@ -3052,7 +3052,7 @@ src/WebSocketImpl.s: src/WebSocketImpl.cpp.s
 
 # target to generate assembly for a file
 src/WebSocketImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/WebSocketImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f Net/CMakeFiles/Net.dir/build.make Net/CMakeFiles/Net.dir/src/WebSocketImpl.cpp.s
 .PHONY : src/WebSocketImpl.cpp.s
 
 # Help Target
@@ -3399,6 +3399,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

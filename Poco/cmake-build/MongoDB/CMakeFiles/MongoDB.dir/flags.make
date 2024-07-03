@@ -6,5 +6,5 @@ CXX_FLAGS = -O2 -g -DNDEBUG -fPIC   -std=gnu++14
 
 CXX_DEFINES = -DMongoDB_EXPORTS -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500
 
-CXX_INCLUDES = -I/root/Jun_unit_Testing/tcu-adk-dev/poco/MongoDB/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/MongoDB/src -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Net/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Foundation/include 
+CXX_INCLUDES = -I/mnt/Poco_OSP/Poco/MongoDB/include -I/mnt/Poco_OSP/Poco/MongoDB/src -I/mnt/Poco_OSP/Poco/Net/include -I/mnt/Poco_OSP/Poco/Foundation/include 
 

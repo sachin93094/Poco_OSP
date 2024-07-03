@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 # Include any dependencies generated for this target.
 include Redis/CMakeFiles/Redis.dir/depend.make
@@ -59,120 +59,120 @@ include Redis/CMakeFiles/Redis.dir/flags.make
 
 Redis/CMakeFiles/Redis.dir/src/Array.cpp.o: Redis/CMakeFiles/Redis.dir/flags.make
 Redis/CMakeFiles/Redis.dir/src/Array.cpp.o: ../Redis/src/Array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Redis/CMakeFiles/Redis.dir/src/Array.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/Array.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Redis/CMakeFiles/Redis.dir/src/Array.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/Array.cpp.o -c /mnt/Poco_OSP/Poco/Redis/src/Array.cpp
 
 Redis/CMakeFiles/Redis.dir/src/Array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Redis.dir/src/Array.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Array.cpp > CMakeFiles/Redis.dir/src/Array.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Redis/src/Array.cpp > CMakeFiles/Redis.dir/src/Array.cpp.i
 
 Redis/CMakeFiles/Redis.dir/src/Array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Redis.dir/src/Array.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Array.cpp -o CMakeFiles/Redis.dir/src/Array.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Redis/src/Array.cpp -o CMakeFiles/Redis.dir/src/Array.cpp.s
 
 Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.o: Redis/CMakeFiles/Redis.dir/flags.make
 Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.o: ../Redis/src/AsyncReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/AsyncReader.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/AsyncReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/AsyncReader.cpp.o -c /mnt/Poco_OSP/Poco/Redis/src/AsyncReader.cpp
 
 Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Redis.dir/src/AsyncReader.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/AsyncReader.cpp > CMakeFiles/Redis.dir/src/AsyncReader.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Redis/src/AsyncReader.cpp > CMakeFiles/Redis.dir/src/AsyncReader.cpp.i
 
 Redis/CMakeFiles/Redis.dir/src/AsyncReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Redis.dir/src/AsyncReader.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/AsyncReader.cpp -o CMakeFiles/Redis.dir/src/AsyncReader.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Redis/src/AsyncReader.cpp -o CMakeFiles/Redis.dir/src/AsyncReader.cpp.s
 
 Redis/CMakeFiles/Redis.dir/src/Client.cpp.o: Redis/CMakeFiles/Redis.dir/flags.make
 Redis/CMakeFiles/Redis.dir/src/Client.cpp.o: ../Redis/src/Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Redis/CMakeFiles/Redis.dir/src/Client.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/Client.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Redis/CMakeFiles/Redis.dir/src/Client.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/Client.cpp.o -c /mnt/Poco_OSP/Poco/Redis/src/Client.cpp
 
 Redis/CMakeFiles/Redis.dir/src/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Redis.dir/src/Client.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Client.cpp > CMakeFiles/Redis.dir/src/Client.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Redis/src/Client.cpp > CMakeFiles/Redis.dir/src/Client.cpp.i
 
 Redis/CMakeFiles/Redis.dir/src/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Redis.dir/src/Client.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Client.cpp -o CMakeFiles/Redis.dir/src/Client.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Redis/src/Client.cpp -o CMakeFiles/Redis.dir/src/Client.cpp.s
 
 Redis/CMakeFiles/Redis.dir/src/Command.cpp.o: Redis/CMakeFiles/Redis.dir/flags.make
 Redis/CMakeFiles/Redis.dir/src/Command.cpp.o: ../Redis/src/Command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Redis/CMakeFiles/Redis.dir/src/Command.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/Command.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Redis/CMakeFiles/Redis.dir/src/Command.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/Command.cpp.o -c /mnt/Poco_OSP/Poco/Redis/src/Command.cpp
 
 Redis/CMakeFiles/Redis.dir/src/Command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Redis.dir/src/Command.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Command.cpp > CMakeFiles/Redis.dir/src/Command.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Redis/src/Command.cpp > CMakeFiles/Redis.dir/src/Command.cpp.i
 
 Redis/CMakeFiles/Redis.dir/src/Command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Redis.dir/src/Command.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Command.cpp -o CMakeFiles/Redis.dir/src/Command.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Redis/src/Command.cpp -o CMakeFiles/Redis.dir/src/Command.cpp.s
 
 Redis/CMakeFiles/Redis.dir/src/Error.cpp.o: Redis/CMakeFiles/Redis.dir/flags.make
 Redis/CMakeFiles/Redis.dir/src/Error.cpp.o: ../Redis/src/Error.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Redis/CMakeFiles/Redis.dir/src/Error.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/Error.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Error.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Redis/CMakeFiles/Redis.dir/src/Error.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/Error.cpp.o -c /mnt/Poco_OSP/Poco/Redis/src/Error.cpp
 
 Redis/CMakeFiles/Redis.dir/src/Error.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Redis.dir/src/Error.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Error.cpp > CMakeFiles/Redis.dir/src/Error.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Redis/src/Error.cpp > CMakeFiles/Redis.dir/src/Error.cpp.i
 
 Redis/CMakeFiles/Redis.dir/src/Error.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Redis.dir/src/Error.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Error.cpp -o CMakeFiles/Redis.dir/src/Error.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Redis/src/Error.cpp -o CMakeFiles/Redis.dir/src/Error.cpp.s
 
 Redis/CMakeFiles/Redis.dir/src/Exception.cpp.o: Redis/CMakeFiles/Redis.dir/flags.make
 Redis/CMakeFiles/Redis.dir/src/Exception.cpp.o: ../Redis/src/Exception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Redis/CMakeFiles/Redis.dir/src/Exception.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/Exception.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Redis/CMakeFiles/Redis.dir/src/Exception.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/Exception.cpp.o -c /mnt/Poco_OSP/Poco/Redis/src/Exception.cpp
 
 Redis/CMakeFiles/Redis.dir/src/Exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Redis.dir/src/Exception.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Exception.cpp > CMakeFiles/Redis.dir/src/Exception.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Redis/src/Exception.cpp > CMakeFiles/Redis.dir/src/Exception.cpp.i
 
 Redis/CMakeFiles/Redis.dir/src/Exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Redis.dir/src/Exception.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Exception.cpp -o CMakeFiles/Redis.dir/src/Exception.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Redis/src/Exception.cpp -o CMakeFiles/Redis.dir/src/Exception.cpp.s
 
 Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.o: Redis/CMakeFiles/Redis.dir/flags.make
 Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.o: ../Redis/src/RedisEventArgs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/RedisEventArgs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.o -c /mnt/Poco_OSP/Poco/Redis/src/RedisEventArgs.cpp
 
 Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/RedisEventArgs.cpp > CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Redis/src/RedisEventArgs.cpp > CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.i
 
 Redis/CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/RedisEventArgs.cpp -o CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Redis/src/RedisEventArgs.cpp -o CMakeFiles/Redis.dir/src/RedisEventArgs.cpp.s
 
 Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.o: Redis/CMakeFiles/Redis.dir/flags.make
 Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.o: ../Redis/src/RedisStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/RedisStream.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/RedisStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/RedisStream.cpp.o -c /mnt/Poco_OSP/Poco/Redis/src/RedisStream.cpp
 
 Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Redis.dir/src/RedisStream.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/RedisStream.cpp > CMakeFiles/Redis.dir/src/RedisStream.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Redis/src/RedisStream.cpp > CMakeFiles/Redis.dir/src/RedisStream.cpp.i
 
 Redis/CMakeFiles/Redis.dir/src/RedisStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Redis.dir/src/RedisStream.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/RedisStream.cpp -o CMakeFiles/Redis.dir/src/RedisStream.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Redis/src/RedisStream.cpp -o CMakeFiles/Redis.dir/src/RedisStream.cpp.s
 
 Redis/CMakeFiles/Redis.dir/src/Type.cpp.o: Redis/CMakeFiles/Redis.dir/flags.make
 Redis/CMakeFiles/Redis.dir/src/Type.cpp.o: ../Redis/src/Type.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Redis/CMakeFiles/Redis.dir/src/Type.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/Type.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Redis/CMakeFiles/Redis.dir/src/Type.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Redis.dir/src/Type.cpp.o -c /mnt/Poco_OSP/Poco/Redis/src/Type.cpp
 
 Redis/CMakeFiles/Redis.dir/src/Type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Redis.dir/src/Type.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Type.cpp > CMakeFiles/Redis.dir/src/Type.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/Redis/src/Type.cpp > CMakeFiles/Redis.dir/src/Type.cpp.i
 
 Redis/CMakeFiles/Redis.dir/src/Type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Redis.dir/src/Type.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis/src/Type.cpp -o CMakeFiles/Redis.dir/src/Type.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/Redis/src/Type.cpp -o CMakeFiles/Redis.dir/src/Type.cpp.s
 
 # Object files for target Redis
 Redis_OBJECTS = \
@@ -202,9 +202,9 @@ lib/libPocoRedis.so.71: Redis/CMakeFiles/Redis.dir/build.make
 lib/libPocoRedis.so.71: lib/libPocoNet.so.71
 lib/libPocoRedis.so.71: lib/libPocoFoundation.so.71
 lib/libPocoRedis.so.71: Redis/CMakeFiles/Redis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library ../lib/libPocoRedis.so"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Redis.dir/link.txt --verbose=$(VERBOSE)
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libPocoRedis.so.71 ../lib/libPocoRedis.so.71 ../lib/libPocoRedis.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library ../lib/libPocoRedis.so"
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Redis.dir/link.txt --verbose=$(VERBOSE)
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libPocoRedis.so.71 ../lib/libPocoRedis.so.71 ../lib/libPocoRedis.so
 
 lib/libPocoRedis.so: lib/libPocoRedis.so.71
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libPocoRedis.so
@@ -215,10 +215,10 @@ Redis/CMakeFiles/Redis.dir/build: lib/libPocoRedis.so
 .PHONY : Redis/CMakeFiles/Redis.dir/build
 
 Redis/CMakeFiles/Redis.dir/clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis && $(CMAKE_COMMAND) -P CMakeFiles/Redis.dir/cmake_clean.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build/Redis && $(CMAKE_COMMAND) -P CMakeFiles/Redis.dir/cmake_clean.cmake
 .PHONY : Redis/CMakeFiles/Redis.dir/clean
 
 Redis/CMakeFiles/Redis.dir/depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Jun_unit_Testing/tcu-adk-dev/poco /root/Jun_unit_Testing/tcu-adk-dev/poco/Redis /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis/CMakeFiles/Redis.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/Poco_OSP/Poco /mnt/Poco_OSP/Poco/Redis /mnt/Poco_OSP/Poco/cmake-build /mnt/Poco_OSP/Poco/cmake-build/Redis /mnt/Poco_OSP/Poco/cmake-build/Redis/CMakeFiles/Redis.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Redis/CMakeFiles/Redis.dir/depend
 

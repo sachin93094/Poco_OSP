@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(Poco::Encodings SHARED IMPORTED)
 
 set_target_properties(Poco::Encodings PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/root/Jun_unit_Testing/tcu-adk-dev/poco/Encodings/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/mnt/Poco_OSP/Poco/Encodings/include"
   INTERFACE_LINK_LIBRARIES "Poco::Foundation"
 )
 
 # Import target "Poco::Encodings" for configuration "RelWithDebInfo"
 set_property(TARGET Poco::Encodings APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(Poco::Encodings PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib/libPocoEncodings.so.71"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/mnt/Poco_OSP/Poco/cmake-build/lib/libPocoEncodings.so.71"
   IMPORTED_SONAME_RELWITHDEBINFO "libPocoEncodings.so.71"
   )
 

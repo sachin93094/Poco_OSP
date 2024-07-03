@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,7 +82,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CPackSourceConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/Poco_OSP/Poco/cmake-build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -126,7 +126,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON/CMakeFiles/progress.marks
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JSON/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles /mnt/Poco_OSP/Poco/cmake-build/JSON/CMakeFiles/progress.marks
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JSON/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JSON/clean
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JSON/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JSON/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JSON/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JSON/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JSON/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 JSON/CMakeFiles/JSON.dir/rule:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JSON/CMakeFiles/JSON.dir/rule
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JSON/CMakeFiles/JSON.dir/rule
 .PHONY : JSON/CMakeFiles/JSON.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ JSON: JSON/CMakeFiles/JSON.dir/rule
 
 # fast build rule for target.
 JSON/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/build
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/build
 .PHONY : JSON/fast
 
 src/Array.o: src/Array.cpp.o
@@ -199,7 +199,7 @@ src/Array.o: src/Array.cpp.o
 
 # target to build an object file
 src/Array.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Array.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Array.cpp.o
 .PHONY : src/Array.cpp.o
 
 src/Array.i: src/Array.cpp.i
@@ -208,7 +208,7 @@ src/Array.i: src/Array.cpp.i
 
 # target to preprocess a source file
 src/Array.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Array.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Array.cpp.i
 .PHONY : src/Array.cpp.i
 
 src/Array.s: src/Array.cpp.s
@@ -217,7 +217,7 @@ src/Array.s: src/Array.cpp.s
 
 # target to generate assembly for a file
 src/Array.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Array.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Array.cpp.s
 .PHONY : src/Array.cpp.s
 
 src/Handler.o: src/Handler.cpp.o
@@ -226,7 +226,7 @@ src/Handler.o: src/Handler.cpp.o
 
 # target to build an object file
 src/Handler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Handler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Handler.cpp.o
 .PHONY : src/Handler.cpp.o
 
 src/Handler.i: src/Handler.cpp.i
@@ -235,7 +235,7 @@ src/Handler.i: src/Handler.cpp.i
 
 # target to preprocess a source file
 src/Handler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Handler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Handler.cpp.i
 .PHONY : src/Handler.cpp.i
 
 src/Handler.s: src/Handler.cpp.s
@@ -244,7 +244,7 @@ src/Handler.s: src/Handler.cpp.s
 
 # target to generate assembly for a file
 src/Handler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Handler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Handler.cpp.s
 .PHONY : src/Handler.cpp.s
 
 src/JSONException.o: src/JSONException.cpp.o
@@ -253,7 +253,7 @@ src/JSONException.o: src/JSONException.cpp.o
 
 # target to build an object file
 src/JSONException.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/JSONException.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/JSONException.cpp.o
 .PHONY : src/JSONException.cpp.o
 
 src/JSONException.i: src/JSONException.cpp.i
@@ -262,7 +262,7 @@ src/JSONException.i: src/JSONException.cpp.i
 
 # target to preprocess a source file
 src/JSONException.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/JSONException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/JSONException.cpp.i
 .PHONY : src/JSONException.cpp.i
 
 src/JSONException.s: src/JSONException.cpp.s
@@ -271,7 +271,7 @@ src/JSONException.s: src/JSONException.cpp.s
 
 # target to generate assembly for a file
 src/JSONException.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/JSONException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/JSONException.cpp.s
 .PHONY : src/JSONException.cpp.s
 
 src/Object.o: src/Object.cpp.o
@@ -280,7 +280,7 @@ src/Object.o: src/Object.cpp.o
 
 # target to build an object file
 src/Object.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Object.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Object.cpp.o
 .PHONY : src/Object.cpp.o
 
 src/Object.i: src/Object.cpp.i
@@ -289,7 +289,7 @@ src/Object.i: src/Object.cpp.i
 
 # target to preprocess a source file
 src/Object.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Object.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Object.cpp.i
 .PHONY : src/Object.cpp.i
 
 src/Object.s: src/Object.cpp.s
@@ -298,7 +298,7 @@ src/Object.s: src/Object.cpp.s
 
 # target to generate assembly for a file
 src/Object.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Object.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Object.cpp.s
 .PHONY : src/Object.cpp.s
 
 src/ParseHandler.o: src/ParseHandler.cpp.o
@@ -307,7 +307,7 @@ src/ParseHandler.o: src/ParseHandler.cpp.o
 
 # target to build an object file
 src/ParseHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/ParseHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/ParseHandler.cpp.o
 .PHONY : src/ParseHandler.cpp.o
 
 src/ParseHandler.i: src/ParseHandler.cpp.i
@@ -316,7 +316,7 @@ src/ParseHandler.i: src/ParseHandler.cpp.i
 
 # target to preprocess a source file
 src/ParseHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/ParseHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/ParseHandler.cpp.i
 .PHONY : src/ParseHandler.cpp.i
 
 src/ParseHandler.s: src/ParseHandler.cpp.s
@@ -325,7 +325,7 @@ src/ParseHandler.s: src/ParseHandler.cpp.s
 
 # target to generate assembly for a file
 src/ParseHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/ParseHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/ParseHandler.cpp.s
 .PHONY : src/ParseHandler.cpp.s
 
 src/Parser.o: src/Parser.cpp.o
@@ -334,7 +334,7 @@ src/Parser.o: src/Parser.cpp.o
 
 # target to build an object file
 src/Parser.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Parser.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Parser.cpp.o
 .PHONY : src/Parser.cpp.o
 
 src/Parser.i: src/Parser.cpp.i
@@ -343,7 +343,7 @@ src/Parser.i: src/Parser.cpp.i
 
 # target to preprocess a source file
 src/Parser.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Parser.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Parser.cpp.i
 .PHONY : src/Parser.cpp.i
 
 src/Parser.s: src/Parser.cpp.s
@@ -352,7 +352,7 @@ src/Parser.s: src/Parser.cpp.s
 
 # target to generate assembly for a file
 src/Parser.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Parser.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Parser.cpp.s
 .PHONY : src/Parser.cpp.s
 
 src/ParserImpl.o: src/ParserImpl.cpp.o
@@ -361,7 +361,7 @@ src/ParserImpl.o: src/ParserImpl.cpp.o
 
 # target to build an object file
 src/ParserImpl.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/ParserImpl.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/ParserImpl.cpp.o
 .PHONY : src/ParserImpl.cpp.o
 
 src/ParserImpl.i: src/ParserImpl.cpp.i
@@ -370,7 +370,7 @@ src/ParserImpl.i: src/ParserImpl.cpp.i
 
 # target to preprocess a source file
 src/ParserImpl.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/ParserImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/ParserImpl.cpp.i
 .PHONY : src/ParserImpl.cpp.i
 
 src/ParserImpl.s: src/ParserImpl.cpp.s
@@ -379,7 +379,7 @@ src/ParserImpl.s: src/ParserImpl.cpp.s
 
 # target to generate assembly for a file
 src/ParserImpl.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/ParserImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/ParserImpl.cpp.s
 .PHONY : src/ParserImpl.cpp.s
 
 src/PrintHandler.o: src/PrintHandler.cpp.o
@@ -388,7 +388,7 @@ src/PrintHandler.o: src/PrintHandler.cpp.o
 
 # target to build an object file
 src/PrintHandler.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/PrintHandler.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/PrintHandler.cpp.o
 .PHONY : src/PrintHandler.cpp.o
 
 src/PrintHandler.i: src/PrintHandler.cpp.i
@@ -397,7 +397,7 @@ src/PrintHandler.i: src/PrintHandler.cpp.i
 
 # target to preprocess a source file
 src/PrintHandler.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/PrintHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/PrintHandler.cpp.i
 .PHONY : src/PrintHandler.cpp.i
 
 src/PrintHandler.s: src/PrintHandler.cpp.s
@@ -406,7 +406,7 @@ src/PrintHandler.s: src/PrintHandler.cpp.s
 
 # target to generate assembly for a file
 src/PrintHandler.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/PrintHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/PrintHandler.cpp.s
 .PHONY : src/PrintHandler.cpp.s
 
 src/Query.o: src/Query.cpp.o
@@ -415,7 +415,7 @@ src/Query.o: src/Query.cpp.o
 
 # target to build an object file
 src/Query.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Query.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Query.cpp.o
 .PHONY : src/Query.cpp.o
 
 src/Query.i: src/Query.cpp.i
@@ -424,7 +424,7 @@ src/Query.i: src/Query.cpp.i
 
 # target to preprocess a source file
 src/Query.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Query.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Query.cpp.i
 .PHONY : src/Query.cpp.i
 
 src/Query.s: src/Query.cpp.s
@@ -433,7 +433,7 @@ src/Query.s: src/Query.cpp.s
 
 # target to generate assembly for a file
 src/Query.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Query.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Query.cpp.s
 .PHONY : src/Query.cpp.s
 
 src/Stringifier.o: src/Stringifier.cpp.o
@@ -442,7 +442,7 @@ src/Stringifier.o: src/Stringifier.cpp.o
 
 # target to build an object file
 src/Stringifier.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Stringifier.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Stringifier.cpp.o
 .PHONY : src/Stringifier.cpp.o
 
 src/Stringifier.i: src/Stringifier.cpp.i
@@ -451,7 +451,7 @@ src/Stringifier.i: src/Stringifier.cpp.i
 
 # target to preprocess a source file
 src/Stringifier.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Stringifier.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Stringifier.cpp.i
 .PHONY : src/Stringifier.cpp.i
 
 src/Stringifier.s: src/Stringifier.cpp.s
@@ -460,7 +460,7 @@ src/Stringifier.s: src/Stringifier.cpp.s
 
 # target to generate assembly for a file
 src/Stringifier.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Stringifier.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Stringifier.cpp.s
 .PHONY : src/Stringifier.cpp.s
 
 src/Template.o: src/Template.cpp.o
@@ -469,7 +469,7 @@ src/Template.o: src/Template.cpp.o
 
 # target to build an object file
 src/Template.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Template.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Template.cpp.o
 .PHONY : src/Template.cpp.o
 
 src/Template.i: src/Template.cpp.i
@@ -478,7 +478,7 @@ src/Template.i: src/Template.cpp.i
 
 # target to preprocess a source file
 src/Template.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Template.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Template.cpp.i
 .PHONY : src/Template.cpp.i
 
 src/Template.s: src/Template.cpp.s
@@ -487,7 +487,7 @@ src/Template.s: src/Template.cpp.s
 
 # target to generate assembly for a file
 src/Template.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Template.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/Template.cpp.s
 .PHONY : src/Template.cpp.s
 
 src/TemplateCache.o: src/TemplateCache.cpp.o
@@ -496,7 +496,7 @@ src/TemplateCache.o: src/TemplateCache.cpp.o
 
 # target to build an object file
 src/TemplateCache.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/TemplateCache.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/TemplateCache.cpp.o
 .PHONY : src/TemplateCache.cpp.o
 
 src/TemplateCache.i: src/TemplateCache.cpp.i
@@ -505,7 +505,7 @@ src/TemplateCache.i: src/TemplateCache.cpp.i
 
 # target to preprocess a source file
 src/TemplateCache.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/TemplateCache.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/TemplateCache.cpp.i
 .PHONY : src/TemplateCache.cpp.i
 
 src/TemplateCache.s: src/TemplateCache.cpp.s
@@ -514,7 +514,7 @@ src/TemplateCache.s: src/TemplateCache.cpp.s
 
 # target to generate assembly for a file
 src/TemplateCache.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/TemplateCache.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/TemplateCache.cpp.s
 .PHONY : src/TemplateCache.cpp.s
 
 src/pdjson.o: src/pdjson.c.o
@@ -523,7 +523,7 @@ src/pdjson.o: src/pdjson.c.o
 
 # target to build an object file
 src/pdjson.c.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/pdjson.c.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/pdjson.c.o
 .PHONY : src/pdjson.c.o
 
 src/pdjson.i: src/pdjson.c.i
@@ -532,7 +532,7 @@ src/pdjson.i: src/pdjson.c.i
 
 # target to preprocess a source file
 src/pdjson.c.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/pdjson.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/pdjson.c.i
 .PHONY : src/pdjson.c.i
 
 src/pdjson.s: src/pdjson.c.s
@@ -541,7 +541,7 @@ src/pdjson.s: src/pdjson.c.s
 
 # target to generate assembly for a file
 src/pdjson.c.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/pdjson.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JSON/CMakeFiles/JSON.dir/build.make JSON/CMakeFiles/JSON.dir/src/pdjson.c.s
 .PHONY : src/pdjson.c.s
 
 # Help Target
@@ -609,6 +609,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

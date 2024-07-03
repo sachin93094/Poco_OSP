@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(Poco::DataSQLite SHARED IMPORTED)
 
 set_target_properties(Poco::DataSQLite PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/SQLite/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/mnt/Poco_OSP/Poco/Data/SQLite/include"
   INTERFACE_LINK_LIBRARIES "Poco::Data"
 )
 
 # Import target "Poco::DataSQLite" for configuration "RelWithDebInfo"
 set_property(TARGET Poco::DataSQLite APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(Poco::DataSQLite PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib/libPocoDataSQLite.so.71"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/mnt/Poco_OSP/Poco/cmake-build/lib/libPocoDataSQLite.so.71"
   IMPORTED_SONAME_RELWITHDEBINFO "libPocoDataSQLite.so.71"
   )
 

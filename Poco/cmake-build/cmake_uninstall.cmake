@@ -1,8 +1,8 @@
-IF(NOT EXISTS "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/install_manifest.txt")
-  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/install_manifest.txt\"")
-ENDIF(NOT EXISTS "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/install_manifest.txt")
+IF(NOT EXISTS "/mnt/Poco_OSP/Poco/cmake-build/install_manifest.txt")
+  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/mnt/Poco_OSP/Poco/cmake-build/install_manifest.txt\"")
+ENDIF(NOT EXISTS "/mnt/Poco_OSP/Poco/cmake-build/install_manifest.txt")
 
-FILE(READ "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/install_manifest.txt" files)
+FILE(READ "/mnt/Poco_OSP/Poco/cmake-build/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 FOREACH(file ${files})
   MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

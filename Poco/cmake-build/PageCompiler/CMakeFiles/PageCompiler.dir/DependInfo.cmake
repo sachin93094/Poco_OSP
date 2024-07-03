@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/ApacheCodeWriter.cpp" "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.o"
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/CodeWriter.cpp" "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.o"
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/OSPCodeWriter.cpp" "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.o"
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/Page.cpp" "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.o"
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/PageCompiler.cpp" "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.o"
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/PageCompiler/src/PageReader.cpp" "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.o"
+  "/mnt/Poco_OSP/Poco/PageCompiler/src/ApacheCodeWriter.cpp" "/mnt/Poco_OSP/Poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/src/ApacheCodeWriter.cpp.o"
+  "/mnt/Poco_OSP/Poco/PageCompiler/src/CodeWriter.cpp" "/mnt/Poco_OSP/Poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/src/CodeWriter.cpp.o"
+  "/mnt/Poco_OSP/Poco/PageCompiler/src/OSPCodeWriter.cpp" "/mnt/Poco_OSP/Poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/src/OSPCodeWriter.cpp.o"
+  "/mnt/Poco_OSP/Poco/PageCompiler/src/Page.cpp" "/mnt/Poco_OSP/Poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/src/Page.cpp.o"
+  "/mnt/Poco_OSP/Poco/PageCompiler/src/PageCompiler.cpp" "/mnt/Poco_OSP/Poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/src/PageCompiler.cpp.o"
+  "/mnt/Poco_OSP/Poco/PageCompiler/src/PageReader.cpp" "/mnt/Poco_OSP/Poco/cmake-build/PageCompiler/CMakeFiles/PageCompiler.dir/src/PageReader.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -38,11 +38,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net/CMakeFiles/Net.dir/DependInfo.cmake"
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Util/CMakeFiles/Util.dir/DependInfo.cmake"
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML/CMakeFiles/XML.dir/DependInfo.cmake"
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON/CMakeFiles/JSON.dir/DependInfo.cmake"
-  "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Foundation/CMakeFiles/Foundation.dir/DependInfo.cmake"
+  "/mnt/Poco_OSP/Poco/cmake-build/Net/CMakeFiles/Net.dir/DependInfo.cmake"
+  "/mnt/Poco_OSP/Poco/cmake-build/Util/CMakeFiles/Util.dir/DependInfo.cmake"
+  "/mnt/Poco_OSP/Poco/cmake-build/XML/CMakeFiles/XML.dir/DependInfo.cmake"
+  "/mnt/Poco_OSP/Poco/cmake-build/JSON/CMakeFiles/JSON.dir/DependInfo.cmake"
+  "/mnt/Poco_OSP/Poco/cmake-build/Foundation/CMakeFiles/Foundation.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -7,11 +7,11 @@ C_FLAGS = -O2 -g -DNDEBUG -fPIC
 
 C_DEFINES = -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DSQLITE_DISABLE_LFS -DSQLITE_OMIT_COMPLETE -DSQLITE_OMIT_DEPRECATED -DSQLITE_OMIT_PROGRESS_CALLBACK -DSQLITE_OMIT_TCL_VARIABLE -DSQLITE_OMIT_UTF16 -DSQLITE_THREADSAFE=1 -DSQLite_EXPORTS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500
 
-C_INCLUDES = -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/SQLite/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/SQLite/src -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Foundation/include 
+C_INCLUDES = -I/mnt/Poco_OSP/Poco/Data/SQLite/include -I/mnt/Poco_OSP/Poco/Data/SQLite/src -I/mnt/Poco_OSP/Poco/Data/include -I/mnt/Poco_OSP/Poco/Foundation/include 
 
 CXX_FLAGS = -O2 -g -DNDEBUG -fPIC   -std=gnu++14
 
 CXX_DEFINES = -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DSQLITE_DISABLE_LFS -DSQLITE_OMIT_COMPLETE -DSQLITE_OMIT_DEPRECATED -DSQLITE_OMIT_PROGRESS_CALLBACK -DSQLITE_OMIT_TCL_VARIABLE -DSQLITE_OMIT_UTF16 -DSQLITE_THREADSAFE=1 -DSQLite_EXPORTS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500
 
-CXX_INCLUDES = -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/SQLite/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/SQLite/src -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Data/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Foundation/include 
+CXX_INCLUDES = -I/mnt/Poco_OSP/Poco/Data/SQLite/include -I/mnt/Poco_OSP/Poco/Data/SQLite/src -I/mnt/Poco_OSP/Poco/Data/include -I/mnt/Poco_OSP/Poco/Foundation/include 
 

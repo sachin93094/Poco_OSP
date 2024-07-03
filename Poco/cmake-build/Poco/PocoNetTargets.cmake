@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(Poco::Net SHARED IMPORTED)
 
 set_target_properties(Poco::Net PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/root/Jun_unit_Testing/tcu-adk-dev/poco/Net/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/mnt/Poco_OSP/Poco/Net/include"
   INTERFACE_LINK_LIBRARIES "Poco::Foundation"
 )
 
 # Import target "Poco::Net" for configuration "RelWithDebInfo"
 set_property(TARGET Poco::Net APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(Poco::Net PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib/libPocoNet.so.71"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/mnt/Poco_OSP/Poco/cmake-build/lib/libPocoNet.so.71"
   IMPORTED_SONAME_RELWITHDEBINFO "libPocoNet.so.71"
   )
 

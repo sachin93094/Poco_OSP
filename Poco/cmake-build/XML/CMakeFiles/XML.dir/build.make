@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 # Include any dependencies generated for this target.
 include XML/CMakeFiles/XML.dir/depend.make
@@ -59,991 +59,991 @@ include XML/CMakeFiles/XML.dir/flags.make
 
 XML/CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.o: ../XML/src/AbstractContainerNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object XML/CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/AbstractContainerNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object XML/CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/AbstractContainerNode.cpp
 
 XML/CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/AbstractContainerNode.cpp > CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/AbstractContainerNode.cpp > CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.i
 
 XML/CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/AbstractContainerNode.cpp -o CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/AbstractContainerNode.cpp -o CMakeFiles/XML.dir/src/AbstractContainerNode.cpp.s
 
 XML/CMakeFiles/XML.dir/src/AbstractNode.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/AbstractNode.cpp.o: ../XML/src/AbstractNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object XML/CMakeFiles/XML.dir/src/AbstractNode.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/AbstractNode.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/AbstractNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object XML/CMakeFiles/XML.dir/src/AbstractNode.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/AbstractNode.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/AbstractNode.cpp
 
 XML/CMakeFiles/XML.dir/src/AbstractNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/AbstractNode.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/AbstractNode.cpp > CMakeFiles/XML.dir/src/AbstractNode.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/AbstractNode.cpp > CMakeFiles/XML.dir/src/AbstractNode.cpp.i
 
 XML/CMakeFiles/XML.dir/src/AbstractNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/AbstractNode.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/AbstractNode.cpp -o CMakeFiles/XML.dir/src/AbstractNode.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/AbstractNode.cpp -o CMakeFiles/XML.dir/src/AbstractNode.cpp.s
 
 XML/CMakeFiles/XML.dir/src/Attr.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/Attr.cpp.o: ../XML/src/Attr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object XML/CMakeFiles/XML.dir/src/Attr.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Attr.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Attr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object XML/CMakeFiles/XML.dir/src/Attr.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Attr.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/Attr.cpp
 
 XML/CMakeFiles/XML.dir/src/Attr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/Attr.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Attr.cpp > CMakeFiles/XML.dir/src/Attr.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/Attr.cpp > CMakeFiles/XML.dir/src/Attr.cpp.i
 
 XML/CMakeFiles/XML.dir/src/Attr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/Attr.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Attr.cpp -o CMakeFiles/XML.dir/src/Attr.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/Attr.cpp -o CMakeFiles/XML.dir/src/Attr.cpp.s
 
 XML/CMakeFiles/XML.dir/src/AttrMap.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/AttrMap.cpp.o: ../XML/src/AttrMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object XML/CMakeFiles/XML.dir/src/AttrMap.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/AttrMap.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/AttrMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object XML/CMakeFiles/XML.dir/src/AttrMap.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/AttrMap.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/AttrMap.cpp
 
 XML/CMakeFiles/XML.dir/src/AttrMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/AttrMap.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/AttrMap.cpp > CMakeFiles/XML.dir/src/AttrMap.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/AttrMap.cpp > CMakeFiles/XML.dir/src/AttrMap.cpp.i
 
 XML/CMakeFiles/XML.dir/src/AttrMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/AttrMap.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/AttrMap.cpp -o CMakeFiles/XML.dir/src/AttrMap.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/AttrMap.cpp -o CMakeFiles/XML.dir/src/AttrMap.cpp.s
 
 XML/CMakeFiles/XML.dir/src/Attributes.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/Attributes.cpp.o: ../XML/src/Attributes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object XML/CMakeFiles/XML.dir/src/Attributes.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Attributes.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Attributes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object XML/CMakeFiles/XML.dir/src/Attributes.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Attributes.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/Attributes.cpp
 
 XML/CMakeFiles/XML.dir/src/Attributes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/Attributes.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Attributes.cpp > CMakeFiles/XML.dir/src/Attributes.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/Attributes.cpp > CMakeFiles/XML.dir/src/Attributes.cpp.i
 
 XML/CMakeFiles/XML.dir/src/Attributes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/Attributes.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Attributes.cpp -o CMakeFiles/XML.dir/src/Attributes.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/Attributes.cpp -o CMakeFiles/XML.dir/src/Attributes.cpp.s
 
 XML/CMakeFiles/XML.dir/src/AttributesImpl.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/AttributesImpl.cpp.o: ../XML/src/AttributesImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object XML/CMakeFiles/XML.dir/src/AttributesImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/AttributesImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/AttributesImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object XML/CMakeFiles/XML.dir/src/AttributesImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/AttributesImpl.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/AttributesImpl.cpp
 
 XML/CMakeFiles/XML.dir/src/AttributesImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/AttributesImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/AttributesImpl.cpp > CMakeFiles/XML.dir/src/AttributesImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/AttributesImpl.cpp > CMakeFiles/XML.dir/src/AttributesImpl.cpp.i
 
 XML/CMakeFiles/XML.dir/src/AttributesImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/AttributesImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/AttributesImpl.cpp -o CMakeFiles/XML.dir/src/AttributesImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/AttributesImpl.cpp -o CMakeFiles/XML.dir/src/AttributesImpl.cpp.s
 
 XML/CMakeFiles/XML.dir/src/CDATASection.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/CDATASection.cpp.o: ../XML/src/CDATASection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object XML/CMakeFiles/XML.dir/src/CDATASection.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/CDATASection.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/CDATASection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object XML/CMakeFiles/XML.dir/src/CDATASection.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/CDATASection.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/CDATASection.cpp
 
 XML/CMakeFiles/XML.dir/src/CDATASection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/CDATASection.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/CDATASection.cpp > CMakeFiles/XML.dir/src/CDATASection.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/CDATASection.cpp > CMakeFiles/XML.dir/src/CDATASection.cpp.i
 
 XML/CMakeFiles/XML.dir/src/CDATASection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/CDATASection.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/CDATASection.cpp -o CMakeFiles/XML.dir/src/CDATASection.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/CDATASection.cpp -o CMakeFiles/XML.dir/src/CDATASection.cpp.s
 
 XML/CMakeFiles/XML.dir/src/CharacterData.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/CharacterData.cpp.o: ../XML/src/CharacterData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object XML/CMakeFiles/XML.dir/src/CharacterData.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/CharacterData.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/CharacterData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object XML/CMakeFiles/XML.dir/src/CharacterData.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/CharacterData.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/CharacterData.cpp
 
 XML/CMakeFiles/XML.dir/src/CharacterData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/CharacterData.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/CharacterData.cpp > CMakeFiles/XML.dir/src/CharacterData.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/CharacterData.cpp > CMakeFiles/XML.dir/src/CharacterData.cpp.i
 
 XML/CMakeFiles/XML.dir/src/CharacterData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/CharacterData.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/CharacterData.cpp -o CMakeFiles/XML.dir/src/CharacterData.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/CharacterData.cpp -o CMakeFiles/XML.dir/src/CharacterData.cpp.s
 
 XML/CMakeFiles/XML.dir/src/ChildNodesList.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/ChildNodesList.cpp.o: ../XML/src/ChildNodesList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object XML/CMakeFiles/XML.dir/src/ChildNodesList.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ChildNodesList.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ChildNodesList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object XML/CMakeFiles/XML.dir/src/ChildNodesList.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ChildNodesList.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/ChildNodesList.cpp
 
 XML/CMakeFiles/XML.dir/src/ChildNodesList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/ChildNodesList.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ChildNodesList.cpp > CMakeFiles/XML.dir/src/ChildNodesList.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/ChildNodesList.cpp > CMakeFiles/XML.dir/src/ChildNodesList.cpp.i
 
 XML/CMakeFiles/XML.dir/src/ChildNodesList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/ChildNodesList.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ChildNodesList.cpp -o CMakeFiles/XML.dir/src/ChildNodesList.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/ChildNodesList.cpp -o CMakeFiles/XML.dir/src/ChildNodesList.cpp.s
 
 XML/CMakeFiles/XML.dir/src/Comment.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/Comment.cpp.o: ../XML/src/Comment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object XML/CMakeFiles/XML.dir/src/Comment.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Comment.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Comment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object XML/CMakeFiles/XML.dir/src/Comment.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Comment.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/Comment.cpp
 
 XML/CMakeFiles/XML.dir/src/Comment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/Comment.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Comment.cpp > CMakeFiles/XML.dir/src/Comment.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/Comment.cpp > CMakeFiles/XML.dir/src/Comment.cpp.i
 
 XML/CMakeFiles/XML.dir/src/Comment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/Comment.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Comment.cpp -o CMakeFiles/XML.dir/src/Comment.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/Comment.cpp -o CMakeFiles/XML.dir/src/Comment.cpp.s
 
 XML/CMakeFiles/XML.dir/src/ContentHandler.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/ContentHandler.cpp.o: ../XML/src/ContentHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object XML/CMakeFiles/XML.dir/src/ContentHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ContentHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ContentHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object XML/CMakeFiles/XML.dir/src/ContentHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ContentHandler.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/ContentHandler.cpp
 
 XML/CMakeFiles/XML.dir/src/ContentHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/ContentHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ContentHandler.cpp > CMakeFiles/XML.dir/src/ContentHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/ContentHandler.cpp > CMakeFiles/XML.dir/src/ContentHandler.cpp.i
 
 XML/CMakeFiles/XML.dir/src/ContentHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/ContentHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ContentHandler.cpp -o CMakeFiles/XML.dir/src/ContentHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/ContentHandler.cpp -o CMakeFiles/XML.dir/src/ContentHandler.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DOMBuilder.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DOMBuilder.cpp.o: ../XML/src/DOMBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMBuilder.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMBuilder.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMBuilder.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMBuilder.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DOMBuilder.cpp
 
 XML/CMakeFiles/XML.dir/src/DOMBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DOMBuilder.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMBuilder.cpp > CMakeFiles/XML.dir/src/DOMBuilder.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DOMBuilder.cpp > CMakeFiles/XML.dir/src/DOMBuilder.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DOMBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DOMBuilder.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMBuilder.cpp -o CMakeFiles/XML.dir/src/DOMBuilder.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DOMBuilder.cpp -o CMakeFiles/XML.dir/src/DOMBuilder.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DOMException.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DOMException.cpp.o: ../XML/src/DOMException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMException.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMException.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMException.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMException.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DOMException.cpp
 
 XML/CMakeFiles/XML.dir/src/DOMException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DOMException.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMException.cpp > CMakeFiles/XML.dir/src/DOMException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DOMException.cpp > CMakeFiles/XML.dir/src/DOMException.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DOMException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DOMException.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMException.cpp -o CMakeFiles/XML.dir/src/DOMException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DOMException.cpp -o CMakeFiles/XML.dir/src/DOMException.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DOMImplementation.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DOMImplementation.cpp.o: ../XML/src/DOMImplementation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMImplementation.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMImplementation.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMImplementation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMImplementation.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMImplementation.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DOMImplementation.cpp
 
 XML/CMakeFiles/XML.dir/src/DOMImplementation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DOMImplementation.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMImplementation.cpp > CMakeFiles/XML.dir/src/DOMImplementation.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DOMImplementation.cpp > CMakeFiles/XML.dir/src/DOMImplementation.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DOMImplementation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DOMImplementation.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMImplementation.cpp -o CMakeFiles/XML.dir/src/DOMImplementation.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DOMImplementation.cpp -o CMakeFiles/XML.dir/src/DOMImplementation.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DOMObject.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DOMObject.cpp.o: ../XML/src/DOMObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMObject.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMObject.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMObject.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMObject.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DOMObject.cpp
 
 XML/CMakeFiles/XML.dir/src/DOMObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DOMObject.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMObject.cpp > CMakeFiles/XML.dir/src/DOMObject.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DOMObject.cpp > CMakeFiles/XML.dir/src/DOMObject.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DOMObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DOMObject.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMObject.cpp -o CMakeFiles/XML.dir/src/DOMObject.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DOMObject.cpp -o CMakeFiles/XML.dir/src/DOMObject.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DOMParser.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DOMParser.cpp.o: ../XML/src/DOMParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMParser.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMParser.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMParser.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMParser.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DOMParser.cpp
 
 XML/CMakeFiles/XML.dir/src/DOMParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DOMParser.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMParser.cpp > CMakeFiles/XML.dir/src/DOMParser.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DOMParser.cpp > CMakeFiles/XML.dir/src/DOMParser.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DOMParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DOMParser.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMParser.cpp -o CMakeFiles/XML.dir/src/DOMParser.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DOMParser.cpp -o CMakeFiles/XML.dir/src/DOMParser.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DOMSerializer.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DOMSerializer.cpp.o: ../XML/src/DOMSerializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMSerializer.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMSerializer.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMSerializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMSerializer.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMSerializer.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DOMSerializer.cpp
 
 XML/CMakeFiles/XML.dir/src/DOMSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DOMSerializer.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMSerializer.cpp > CMakeFiles/XML.dir/src/DOMSerializer.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DOMSerializer.cpp > CMakeFiles/XML.dir/src/DOMSerializer.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DOMSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DOMSerializer.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMSerializer.cpp -o CMakeFiles/XML.dir/src/DOMSerializer.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DOMSerializer.cpp -o CMakeFiles/XML.dir/src/DOMSerializer.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DOMWriter.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DOMWriter.cpp.o: ../XML/src/DOMWriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMWriter.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMWriter.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMWriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object XML/CMakeFiles/XML.dir/src/DOMWriter.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DOMWriter.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DOMWriter.cpp
 
 XML/CMakeFiles/XML.dir/src/DOMWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DOMWriter.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMWriter.cpp > CMakeFiles/XML.dir/src/DOMWriter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DOMWriter.cpp > CMakeFiles/XML.dir/src/DOMWriter.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DOMWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DOMWriter.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DOMWriter.cpp -o CMakeFiles/XML.dir/src/DOMWriter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DOMWriter.cpp -o CMakeFiles/XML.dir/src/DOMWriter.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DTDHandler.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DTDHandler.cpp.o: ../XML/src/DTDHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object XML/CMakeFiles/XML.dir/src/DTDHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DTDHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DTDHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object XML/CMakeFiles/XML.dir/src/DTDHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DTDHandler.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DTDHandler.cpp
 
 XML/CMakeFiles/XML.dir/src/DTDHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DTDHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DTDHandler.cpp > CMakeFiles/XML.dir/src/DTDHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DTDHandler.cpp > CMakeFiles/XML.dir/src/DTDHandler.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DTDHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DTDHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DTDHandler.cpp -o CMakeFiles/XML.dir/src/DTDHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DTDHandler.cpp -o CMakeFiles/XML.dir/src/DTDHandler.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DTDMap.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DTDMap.cpp.o: ../XML/src/DTDMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object XML/CMakeFiles/XML.dir/src/DTDMap.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DTDMap.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DTDMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object XML/CMakeFiles/XML.dir/src/DTDMap.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DTDMap.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DTDMap.cpp
 
 XML/CMakeFiles/XML.dir/src/DTDMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DTDMap.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DTDMap.cpp > CMakeFiles/XML.dir/src/DTDMap.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DTDMap.cpp > CMakeFiles/XML.dir/src/DTDMap.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DTDMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DTDMap.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DTDMap.cpp -o CMakeFiles/XML.dir/src/DTDMap.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DTDMap.cpp -o CMakeFiles/XML.dir/src/DTDMap.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DeclHandler.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DeclHandler.cpp.o: ../XML/src/DeclHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object XML/CMakeFiles/XML.dir/src/DeclHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DeclHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DeclHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object XML/CMakeFiles/XML.dir/src/DeclHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DeclHandler.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DeclHandler.cpp
 
 XML/CMakeFiles/XML.dir/src/DeclHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DeclHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DeclHandler.cpp > CMakeFiles/XML.dir/src/DeclHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DeclHandler.cpp > CMakeFiles/XML.dir/src/DeclHandler.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DeclHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DeclHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DeclHandler.cpp -o CMakeFiles/XML.dir/src/DeclHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DeclHandler.cpp -o CMakeFiles/XML.dir/src/DeclHandler.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DefaultHandler.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DefaultHandler.cpp.o: ../XML/src/DefaultHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object XML/CMakeFiles/XML.dir/src/DefaultHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DefaultHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DefaultHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object XML/CMakeFiles/XML.dir/src/DefaultHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DefaultHandler.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DefaultHandler.cpp
 
 XML/CMakeFiles/XML.dir/src/DefaultHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DefaultHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DefaultHandler.cpp > CMakeFiles/XML.dir/src/DefaultHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DefaultHandler.cpp > CMakeFiles/XML.dir/src/DefaultHandler.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DefaultHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DefaultHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DefaultHandler.cpp -o CMakeFiles/XML.dir/src/DefaultHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DefaultHandler.cpp -o CMakeFiles/XML.dir/src/DefaultHandler.cpp.s
 
 XML/CMakeFiles/XML.dir/src/Document.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/Document.cpp.o: ../XML/src/Document.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object XML/CMakeFiles/XML.dir/src/Document.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Document.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Document.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object XML/CMakeFiles/XML.dir/src/Document.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Document.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/Document.cpp
 
 XML/CMakeFiles/XML.dir/src/Document.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/Document.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Document.cpp > CMakeFiles/XML.dir/src/Document.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/Document.cpp > CMakeFiles/XML.dir/src/Document.cpp.i
 
 XML/CMakeFiles/XML.dir/src/Document.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/Document.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Document.cpp -o CMakeFiles/XML.dir/src/Document.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/Document.cpp -o CMakeFiles/XML.dir/src/Document.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DocumentEvent.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DocumentEvent.cpp.o: ../XML/src/DocumentEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object XML/CMakeFiles/XML.dir/src/DocumentEvent.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DocumentEvent.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DocumentEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object XML/CMakeFiles/XML.dir/src/DocumentEvent.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DocumentEvent.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DocumentEvent.cpp
 
 XML/CMakeFiles/XML.dir/src/DocumentEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DocumentEvent.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DocumentEvent.cpp > CMakeFiles/XML.dir/src/DocumentEvent.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DocumentEvent.cpp > CMakeFiles/XML.dir/src/DocumentEvent.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DocumentEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DocumentEvent.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DocumentEvent.cpp -o CMakeFiles/XML.dir/src/DocumentEvent.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DocumentEvent.cpp -o CMakeFiles/XML.dir/src/DocumentEvent.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DocumentFragment.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DocumentFragment.cpp.o: ../XML/src/DocumentFragment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object XML/CMakeFiles/XML.dir/src/DocumentFragment.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DocumentFragment.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DocumentFragment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object XML/CMakeFiles/XML.dir/src/DocumentFragment.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DocumentFragment.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DocumentFragment.cpp
 
 XML/CMakeFiles/XML.dir/src/DocumentFragment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DocumentFragment.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DocumentFragment.cpp > CMakeFiles/XML.dir/src/DocumentFragment.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DocumentFragment.cpp > CMakeFiles/XML.dir/src/DocumentFragment.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DocumentFragment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DocumentFragment.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DocumentFragment.cpp -o CMakeFiles/XML.dir/src/DocumentFragment.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DocumentFragment.cpp -o CMakeFiles/XML.dir/src/DocumentFragment.cpp.s
 
 XML/CMakeFiles/XML.dir/src/DocumentType.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/DocumentType.cpp.o: ../XML/src/DocumentType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object XML/CMakeFiles/XML.dir/src/DocumentType.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DocumentType.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DocumentType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object XML/CMakeFiles/XML.dir/src/DocumentType.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/DocumentType.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/DocumentType.cpp
 
 XML/CMakeFiles/XML.dir/src/DocumentType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/DocumentType.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DocumentType.cpp > CMakeFiles/XML.dir/src/DocumentType.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/DocumentType.cpp > CMakeFiles/XML.dir/src/DocumentType.cpp.i
 
 XML/CMakeFiles/XML.dir/src/DocumentType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/DocumentType.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/DocumentType.cpp -o CMakeFiles/XML.dir/src/DocumentType.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/DocumentType.cpp -o CMakeFiles/XML.dir/src/DocumentType.cpp.s
 
 XML/CMakeFiles/XML.dir/src/Element.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/Element.cpp.o: ../XML/src/Element.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object XML/CMakeFiles/XML.dir/src/Element.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Element.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Element.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object XML/CMakeFiles/XML.dir/src/Element.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Element.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/Element.cpp
 
 XML/CMakeFiles/XML.dir/src/Element.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/Element.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Element.cpp > CMakeFiles/XML.dir/src/Element.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/Element.cpp > CMakeFiles/XML.dir/src/Element.cpp.i
 
 XML/CMakeFiles/XML.dir/src/Element.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/Element.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Element.cpp -o CMakeFiles/XML.dir/src/Element.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/Element.cpp -o CMakeFiles/XML.dir/src/Element.cpp.s
 
 XML/CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.o: ../XML/src/ElementsByTagNameList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object XML/CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ElementsByTagNameList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object XML/CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/ElementsByTagNameList.cpp
 
 XML/CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ElementsByTagNameList.cpp > CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/ElementsByTagNameList.cpp > CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.i
 
 XML/CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ElementsByTagNameList.cpp -o CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/ElementsByTagNameList.cpp -o CMakeFiles/XML.dir/src/ElementsByTagNameList.cpp.s
 
 XML/CMakeFiles/XML.dir/src/Entity.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/Entity.cpp.o: ../XML/src/Entity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object XML/CMakeFiles/XML.dir/src/Entity.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Entity.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object XML/CMakeFiles/XML.dir/src/Entity.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Entity.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/Entity.cpp
 
 XML/CMakeFiles/XML.dir/src/Entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/Entity.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Entity.cpp > CMakeFiles/XML.dir/src/Entity.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/Entity.cpp > CMakeFiles/XML.dir/src/Entity.cpp.i
 
 XML/CMakeFiles/XML.dir/src/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/Entity.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Entity.cpp -o CMakeFiles/XML.dir/src/Entity.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/Entity.cpp -o CMakeFiles/XML.dir/src/Entity.cpp.s
 
 XML/CMakeFiles/XML.dir/src/EntityReference.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/EntityReference.cpp.o: ../XML/src/EntityReference.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object XML/CMakeFiles/XML.dir/src/EntityReference.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EntityReference.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EntityReference.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object XML/CMakeFiles/XML.dir/src/EntityReference.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EntityReference.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/EntityReference.cpp
 
 XML/CMakeFiles/XML.dir/src/EntityReference.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/EntityReference.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EntityReference.cpp > CMakeFiles/XML.dir/src/EntityReference.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/EntityReference.cpp > CMakeFiles/XML.dir/src/EntityReference.cpp.i
 
 XML/CMakeFiles/XML.dir/src/EntityReference.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/EntityReference.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EntityReference.cpp -o CMakeFiles/XML.dir/src/EntityReference.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/EntityReference.cpp -o CMakeFiles/XML.dir/src/EntityReference.cpp.s
 
 XML/CMakeFiles/XML.dir/src/EntityResolver.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/EntityResolver.cpp.o: ../XML/src/EntityResolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object XML/CMakeFiles/XML.dir/src/EntityResolver.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EntityResolver.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EntityResolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object XML/CMakeFiles/XML.dir/src/EntityResolver.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EntityResolver.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/EntityResolver.cpp
 
 XML/CMakeFiles/XML.dir/src/EntityResolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/EntityResolver.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EntityResolver.cpp > CMakeFiles/XML.dir/src/EntityResolver.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/EntityResolver.cpp > CMakeFiles/XML.dir/src/EntityResolver.cpp.i
 
 XML/CMakeFiles/XML.dir/src/EntityResolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/EntityResolver.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EntityResolver.cpp -o CMakeFiles/XML.dir/src/EntityResolver.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/EntityResolver.cpp -o CMakeFiles/XML.dir/src/EntityResolver.cpp.s
 
 XML/CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.o: ../XML/src/EntityResolverImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object XML/CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EntityResolverImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object XML/CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/EntityResolverImpl.cpp
 
 XML/CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EntityResolverImpl.cpp > CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/EntityResolverImpl.cpp > CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.i
 
 XML/CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EntityResolverImpl.cpp -o CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/EntityResolverImpl.cpp -o CMakeFiles/XML.dir/src/EntityResolverImpl.cpp.s
 
 XML/CMakeFiles/XML.dir/src/ErrorHandler.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/ErrorHandler.cpp.o: ../XML/src/ErrorHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object XML/CMakeFiles/XML.dir/src/ErrorHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ErrorHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ErrorHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object XML/CMakeFiles/XML.dir/src/ErrorHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ErrorHandler.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/ErrorHandler.cpp
 
 XML/CMakeFiles/XML.dir/src/ErrorHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/ErrorHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ErrorHandler.cpp > CMakeFiles/XML.dir/src/ErrorHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/ErrorHandler.cpp > CMakeFiles/XML.dir/src/ErrorHandler.cpp.i
 
 XML/CMakeFiles/XML.dir/src/ErrorHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/ErrorHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ErrorHandler.cpp -o CMakeFiles/XML.dir/src/ErrorHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/ErrorHandler.cpp -o CMakeFiles/XML.dir/src/ErrorHandler.cpp.s
 
 XML/CMakeFiles/XML.dir/src/Event.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/Event.cpp.o: ../XML/src/Event.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object XML/CMakeFiles/XML.dir/src/Event.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Event.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object XML/CMakeFiles/XML.dir/src/Event.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Event.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/Event.cpp
 
 XML/CMakeFiles/XML.dir/src/Event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/Event.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Event.cpp > CMakeFiles/XML.dir/src/Event.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/Event.cpp > CMakeFiles/XML.dir/src/Event.cpp.i
 
 XML/CMakeFiles/XML.dir/src/Event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/Event.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Event.cpp -o CMakeFiles/XML.dir/src/Event.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/Event.cpp -o CMakeFiles/XML.dir/src/Event.cpp.s
 
 XML/CMakeFiles/XML.dir/src/EventDispatcher.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/EventDispatcher.cpp.o: ../XML/src/EventDispatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object XML/CMakeFiles/XML.dir/src/EventDispatcher.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EventDispatcher.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EventDispatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object XML/CMakeFiles/XML.dir/src/EventDispatcher.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EventDispatcher.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/EventDispatcher.cpp
 
 XML/CMakeFiles/XML.dir/src/EventDispatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/EventDispatcher.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EventDispatcher.cpp > CMakeFiles/XML.dir/src/EventDispatcher.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/EventDispatcher.cpp > CMakeFiles/XML.dir/src/EventDispatcher.cpp.i
 
 XML/CMakeFiles/XML.dir/src/EventDispatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/EventDispatcher.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EventDispatcher.cpp -o CMakeFiles/XML.dir/src/EventDispatcher.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/EventDispatcher.cpp -o CMakeFiles/XML.dir/src/EventDispatcher.cpp.s
 
 XML/CMakeFiles/XML.dir/src/EventException.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/EventException.cpp.o: ../XML/src/EventException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object XML/CMakeFiles/XML.dir/src/EventException.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EventException.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EventException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object XML/CMakeFiles/XML.dir/src/EventException.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EventException.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/EventException.cpp
 
 XML/CMakeFiles/XML.dir/src/EventException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/EventException.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EventException.cpp > CMakeFiles/XML.dir/src/EventException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/EventException.cpp > CMakeFiles/XML.dir/src/EventException.cpp.i
 
 XML/CMakeFiles/XML.dir/src/EventException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/EventException.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EventException.cpp -o CMakeFiles/XML.dir/src/EventException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/EventException.cpp -o CMakeFiles/XML.dir/src/EventException.cpp.s
 
 XML/CMakeFiles/XML.dir/src/EventListener.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/EventListener.cpp.o: ../XML/src/EventListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object XML/CMakeFiles/XML.dir/src/EventListener.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EventListener.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EventListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object XML/CMakeFiles/XML.dir/src/EventListener.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EventListener.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/EventListener.cpp
 
 XML/CMakeFiles/XML.dir/src/EventListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/EventListener.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EventListener.cpp > CMakeFiles/XML.dir/src/EventListener.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/EventListener.cpp > CMakeFiles/XML.dir/src/EventListener.cpp.i
 
 XML/CMakeFiles/XML.dir/src/EventListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/EventListener.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EventListener.cpp -o CMakeFiles/XML.dir/src/EventListener.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/EventListener.cpp -o CMakeFiles/XML.dir/src/EventListener.cpp.s
 
 XML/CMakeFiles/XML.dir/src/EventTarget.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/EventTarget.cpp.o: ../XML/src/EventTarget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object XML/CMakeFiles/XML.dir/src/EventTarget.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EventTarget.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EventTarget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object XML/CMakeFiles/XML.dir/src/EventTarget.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/EventTarget.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/EventTarget.cpp
 
 XML/CMakeFiles/XML.dir/src/EventTarget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/EventTarget.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EventTarget.cpp > CMakeFiles/XML.dir/src/EventTarget.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/EventTarget.cpp > CMakeFiles/XML.dir/src/EventTarget.cpp.i
 
 XML/CMakeFiles/XML.dir/src/EventTarget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/EventTarget.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/EventTarget.cpp -o CMakeFiles/XML.dir/src/EventTarget.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/EventTarget.cpp -o CMakeFiles/XML.dir/src/EventTarget.cpp.s
 
 XML/CMakeFiles/XML.dir/src/InputSource.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/InputSource.cpp.o: ../XML/src/InputSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object XML/CMakeFiles/XML.dir/src/InputSource.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/InputSource.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/InputSource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object XML/CMakeFiles/XML.dir/src/InputSource.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/InputSource.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/InputSource.cpp
 
 XML/CMakeFiles/XML.dir/src/InputSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/InputSource.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/InputSource.cpp > CMakeFiles/XML.dir/src/InputSource.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/InputSource.cpp > CMakeFiles/XML.dir/src/InputSource.cpp.i
 
 XML/CMakeFiles/XML.dir/src/InputSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/InputSource.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/InputSource.cpp -o CMakeFiles/XML.dir/src/InputSource.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/InputSource.cpp -o CMakeFiles/XML.dir/src/InputSource.cpp.s
 
 XML/CMakeFiles/XML.dir/src/LexicalHandler.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/LexicalHandler.cpp.o: ../XML/src/LexicalHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object XML/CMakeFiles/XML.dir/src/LexicalHandler.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/LexicalHandler.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/LexicalHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object XML/CMakeFiles/XML.dir/src/LexicalHandler.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/LexicalHandler.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/LexicalHandler.cpp
 
 XML/CMakeFiles/XML.dir/src/LexicalHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/LexicalHandler.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/LexicalHandler.cpp > CMakeFiles/XML.dir/src/LexicalHandler.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/LexicalHandler.cpp > CMakeFiles/XML.dir/src/LexicalHandler.cpp.i
 
 XML/CMakeFiles/XML.dir/src/LexicalHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/LexicalHandler.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/LexicalHandler.cpp -o CMakeFiles/XML.dir/src/LexicalHandler.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/LexicalHandler.cpp -o CMakeFiles/XML.dir/src/LexicalHandler.cpp.s
 
 XML/CMakeFiles/XML.dir/src/Locator.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/Locator.cpp.o: ../XML/src/Locator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object XML/CMakeFiles/XML.dir/src/Locator.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Locator.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Locator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object XML/CMakeFiles/XML.dir/src/Locator.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Locator.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/Locator.cpp
 
 XML/CMakeFiles/XML.dir/src/Locator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/Locator.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Locator.cpp > CMakeFiles/XML.dir/src/Locator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/Locator.cpp > CMakeFiles/XML.dir/src/Locator.cpp.i
 
 XML/CMakeFiles/XML.dir/src/Locator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/Locator.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Locator.cpp -o CMakeFiles/XML.dir/src/Locator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/Locator.cpp -o CMakeFiles/XML.dir/src/Locator.cpp.s
 
 XML/CMakeFiles/XML.dir/src/LocatorImpl.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/LocatorImpl.cpp.o: ../XML/src/LocatorImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object XML/CMakeFiles/XML.dir/src/LocatorImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/LocatorImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/LocatorImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object XML/CMakeFiles/XML.dir/src/LocatorImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/LocatorImpl.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/LocatorImpl.cpp
 
 XML/CMakeFiles/XML.dir/src/LocatorImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/LocatorImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/LocatorImpl.cpp > CMakeFiles/XML.dir/src/LocatorImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/LocatorImpl.cpp > CMakeFiles/XML.dir/src/LocatorImpl.cpp.i
 
 XML/CMakeFiles/XML.dir/src/LocatorImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/LocatorImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/LocatorImpl.cpp -o CMakeFiles/XML.dir/src/LocatorImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/LocatorImpl.cpp -o CMakeFiles/XML.dir/src/LocatorImpl.cpp.s
 
 XML/CMakeFiles/XML.dir/src/MutationEvent.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/MutationEvent.cpp.o: ../XML/src/MutationEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object XML/CMakeFiles/XML.dir/src/MutationEvent.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/MutationEvent.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/MutationEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object XML/CMakeFiles/XML.dir/src/MutationEvent.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/MutationEvent.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/MutationEvent.cpp
 
 XML/CMakeFiles/XML.dir/src/MutationEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/MutationEvent.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/MutationEvent.cpp > CMakeFiles/XML.dir/src/MutationEvent.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/MutationEvent.cpp > CMakeFiles/XML.dir/src/MutationEvent.cpp.i
 
 XML/CMakeFiles/XML.dir/src/MutationEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/MutationEvent.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/MutationEvent.cpp -o CMakeFiles/XML.dir/src/MutationEvent.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/MutationEvent.cpp -o CMakeFiles/XML.dir/src/MutationEvent.cpp.s
 
 XML/CMakeFiles/XML.dir/src/Name.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/Name.cpp.o: ../XML/src/Name.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object XML/CMakeFiles/XML.dir/src/Name.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Name.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Name.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object XML/CMakeFiles/XML.dir/src/Name.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Name.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/Name.cpp
 
 XML/CMakeFiles/XML.dir/src/Name.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/Name.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Name.cpp > CMakeFiles/XML.dir/src/Name.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/Name.cpp > CMakeFiles/XML.dir/src/Name.cpp.i
 
 XML/CMakeFiles/XML.dir/src/Name.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/Name.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Name.cpp -o CMakeFiles/XML.dir/src/Name.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/Name.cpp -o CMakeFiles/XML.dir/src/Name.cpp.s
 
 XML/CMakeFiles/XML.dir/src/NamePool.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/NamePool.cpp.o: ../XML/src/NamePool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object XML/CMakeFiles/XML.dir/src/NamePool.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NamePool.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NamePool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object XML/CMakeFiles/XML.dir/src/NamePool.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NamePool.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/NamePool.cpp
 
 XML/CMakeFiles/XML.dir/src/NamePool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/NamePool.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NamePool.cpp > CMakeFiles/XML.dir/src/NamePool.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/NamePool.cpp > CMakeFiles/XML.dir/src/NamePool.cpp.i
 
 XML/CMakeFiles/XML.dir/src/NamePool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/NamePool.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NamePool.cpp -o CMakeFiles/XML.dir/src/NamePool.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/NamePool.cpp -o CMakeFiles/XML.dir/src/NamePool.cpp.s
 
 XML/CMakeFiles/XML.dir/src/NamedNodeMap.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/NamedNodeMap.cpp.o: ../XML/src/NamedNodeMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object XML/CMakeFiles/XML.dir/src/NamedNodeMap.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NamedNodeMap.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NamedNodeMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object XML/CMakeFiles/XML.dir/src/NamedNodeMap.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NamedNodeMap.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/NamedNodeMap.cpp
 
 XML/CMakeFiles/XML.dir/src/NamedNodeMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/NamedNodeMap.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NamedNodeMap.cpp > CMakeFiles/XML.dir/src/NamedNodeMap.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/NamedNodeMap.cpp > CMakeFiles/XML.dir/src/NamedNodeMap.cpp.i
 
 XML/CMakeFiles/XML.dir/src/NamedNodeMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/NamedNodeMap.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NamedNodeMap.cpp -o CMakeFiles/XML.dir/src/NamedNodeMap.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/NamedNodeMap.cpp -o CMakeFiles/XML.dir/src/NamedNodeMap.cpp.s
 
 XML/CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.o: ../XML/src/NamespaceStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object XML/CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NamespaceStrategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object XML/CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/NamespaceStrategy.cpp
 
 XML/CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NamespaceStrategy.cpp > CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/NamespaceStrategy.cpp > CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.i
 
 XML/CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NamespaceStrategy.cpp -o CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/NamespaceStrategy.cpp -o CMakeFiles/XML.dir/src/NamespaceStrategy.cpp.s
 
 XML/CMakeFiles/XML.dir/src/NamespaceSupport.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/NamespaceSupport.cpp.o: ../XML/src/NamespaceSupport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object XML/CMakeFiles/XML.dir/src/NamespaceSupport.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NamespaceSupport.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NamespaceSupport.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object XML/CMakeFiles/XML.dir/src/NamespaceSupport.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NamespaceSupport.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/NamespaceSupport.cpp
 
 XML/CMakeFiles/XML.dir/src/NamespaceSupport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/NamespaceSupport.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NamespaceSupport.cpp > CMakeFiles/XML.dir/src/NamespaceSupport.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/NamespaceSupport.cpp > CMakeFiles/XML.dir/src/NamespaceSupport.cpp.i
 
 XML/CMakeFiles/XML.dir/src/NamespaceSupport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/NamespaceSupport.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NamespaceSupport.cpp -o CMakeFiles/XML.dir/src/NamespaceSupport.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/NamespaceSupport.cpp -o CMakeFiles/XML.dir/src/NamespaceSupport.cpp.s
 
 XML/CMakeFiles/XML.dir/src/Node.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/Node.cpp.o: ../XML/src/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object XML/CMakeFiles/XML.dir/src/Node.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Node.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object XML/CMakeFiles/XML.dir/src/Node.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Node.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/Node.cpp
 
 XML/CMakeFiles/XML.dir/src/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/Node.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Node.cpp > CMakeFiles/XML.dir/src/Node.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/Node.cpp > CMakeFiles/XML.dir/src/Node.cpp.i
 
 XML/CMakeFiles/XML.dir/src/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/Node.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Node.cpp -o CMakeFiles/XML.dir/src/Node.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/Node.cpp -o CMakeFiles/XML.dir/src/Node.cpp.s
 
 XML/CMakeFiles/XML.dir/src/NodeAppender.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/NodeAppender.cpp.o: ../XML/src/NodeAppender.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object XML/CMakeFiles/XML.dir/src/NodeAppender.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NodeAppender.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NodeAppender.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object XML/CMakeFiles/XML.dir/src/NodeAppender.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NodeAppender.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/NodeAppender.cpp
 
 XML/CMakeFiles/XML.dir/src/NodeAppender.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/NodeAppender.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NodeAppender.cpp > CMakeFiles/XML.dir/src/NodeAppender.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/NodeAppender.cpp > CMakeFiles/XML.dir/src/NodeAppender.cpp.i
 
 XML/CMakeFiles/XML.dir/src/NodeAppender.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/NodeAppender.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NodeAppender.cpp -o CMakeFiles/XML.dir/src/NodeAppender.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/NodeAppender.cpp -o CMakeFiles/XML.dir/src/NodeAppender.cpp.s
 
 XML/CMakeFiles/XML.dir/src/NodeFilter.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/NodeFilter.cpp.o: ../XML/src/NodeFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object XML/CMakeFiles/XML.dir/src/NodeFilter.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NodeFilter.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NodeFilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object XML/CMakeFiles/XML.dir/src/NodeFilter.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NodeFilter.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/NodeFilter.cpp
 
 XML/CMakeFiles/XML.dir/src/NodeFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/NodeFilter.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NodeFilter.cpp > CMakeFiles/XML.dir/src/NodeFilter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/NodeFilter.cpp > CMakeFiles/XML.dir/src/NodeFilter.cpp.i
 
 XML/CMakeFiles/XML.dir/src/NodeFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/NodeFilter.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NodeFilter.cpp -o CMakeFiles/XML.dir/src/NodeFilter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/NodeFilter.cpp -o CMakeFiles/XML.dir/src/NodeFilter.cpp.s
 
 XML/CMakeFiles/XML.dir/src/NodeIterator.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/NodeIterator.cpp.o: ../XML/src/NodeIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object XML/CMakeFiles/XML.dir/src/NodeIterator.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NodeIterator.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NodeIterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object XML/CMakeFiles/XML.dir/src/NodeIterator.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NodeIterator.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/NodeIterator.cpp
 
 XML/CMakeFiles/XML.dir/src/NodeIterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/NodeIterator.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NodeIterator.cpp > CMakeFiles/XML.dir/src/NodeIterator.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/NodeIterator.cpp > CMakeFiles/XML.dir/src/NodeIterator.cpp.i
 
 XML/CMakeFiles/XML.dir/src/NodeIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/NodeIterator.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NodeIterator.cpp -o CMakeFiles/XML.dir/src/NodeIterator.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/NodeIterator.cpp -o CMakeFiles/XML.dir/src/NodeIterator.cpp.s
 
 XML/CMakeFiles/XML.dir/src/NodeList.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/NodeList.cpp.o: ../XML/src/NodeList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object XML/CMakeFiles/XML.dir/src/NodeList.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NodeList.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NodeList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object XML/CMakeFiles/XML.dir/src/NodeList.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/NodeList.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/NodeList.cpp
 
 XML/CMakeFiles/XML.dir/src/NodeList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/NodeList.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NodeList.cpp > CMakeFiles/XML.dir/src/NodeList.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/NodeList.cpp > CMakeFiles/XML.dir/src/NodeList.cpp.i
 
 XML/CMakeFiles/XML.dir/src/NodeList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/NodeList.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/NodeList.cpp -o CMakeFiles/XML.dir/src/NodeList.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/NodeList.cpp -o CMakeFiles/XML.dir/src/NodeList.cpp.s
 
 XML/CMakeFiles/XML.dir/src/Notation.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/Notation.cpp.o: ../XML/src/Notation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object XML/CMakeFiles/XML.dir/src/Notation.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Notation.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Notation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object XML/CMakeFiles/XML.dir/src/Notation.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Notation.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/Notation.cpp
 
 XML/CMakeFiles/XML.dir/src/Notation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/Notation.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Notation.cpp > CMakeFiles/XML.dir/src/Notation.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/Notation.cpp > CMakeFiles/XML.dir/src/Notation.cpp.i
 
 XML/CMakeFiles/XML.dir/src/Notation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/Notation.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Notation.cpp -o CMakeFiles/XML.dir/src/Notation.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/Notation.cpp -o CMakeFiles/XML.dir/src/Notation.cpp.s
 
 XML/CMakeFiles/XML.dir/src/ParserEngine.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/ParserEngine.cpp.o: ../XML/src/ParserEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object XML/CMakeFiles/XML.dir/src/ParserEngine.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ParserEngine.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ParserEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object XML/CMakeFiles/XML.dir/src/ParserEngine.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ParserEngine.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/ParserEngine.cpp
 
 XML/CMakeFiles/XML.dir/src/ParserEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/ParserEngine.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ParserEngine.cpp > CMakeFiles/XML.dir/src/ParserEngine.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/ParserEngine.cpp > CMakeFiles/XML.dir/src/ParserEngine.cpp.i
 
 XML/CMakeFiles/XML.dir/src/ParserEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/ParserEngine.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ParserEngine.cpp -o CMakeFiles/XML.dir/src/ParserEngine.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/ParserEngine.cpp -o CMakeFiles/XML.dir/src/ParserEngine.cpp.s
 
 XML/CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.o: ../XML/src/ProcessingInstruction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object XML/CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ProcessingInstruction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object XML/CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/ProcessingInstruction.cpp
 
 XML/CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ProcessingInstruction.cpp > CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/ProcessingInstruction.cpp > CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.i
 
 XML/CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ProcessingInstruction.cpp -o CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/ProcessingInstruction.cpp -o CMakeFiles/XML.dir/src/ProcessingInstruction.cpp.s
 
 XML/CMakeFiles/XML.dir/src/QName.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/QName.cpp.o: ../XML/src/QName.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object XML/CMakeFiles/XML.dir/src/QName.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/QName.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/QName.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object XML/CMakeFiles/XML.dir/src/QName.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/QName.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/QName.cpp
 
 XML/CMakeFiles/XML.dir/src/QName.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/QName.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/QName.cpp > CMakeFiles/XML.dir/src/QName.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/QName.cpp > CMakeFiles/XML.dir/src/QName.cpp.i
 
 XML/CMakeFiles/XML.dir/src/QName.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/QName.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/QName.cpp -o CMakeFiles/XML.dir/src/QName.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/QName.cpp -o CMakeFiles/XML.dir/src/QName.cpp.s
 
 XML/CMakeFiles/XML.dir/src/SAXException.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/SAXException.cpp.o: ../XML/src/SAXException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object XML/CMakeFiles/XML.dir/src/SAXException.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/SAXException.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/SAXException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object XML/CMakeFiles/XML.dir/src/SAXException.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/SAXException.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/SAXException.cpp
 
 XML/CMakeFiles/XML.dir/src/SAXException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/SAXException.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/SAXException.cpp > CMakeFiles/XML.dir/src/SAXException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/SAXException.cpp > CMakeFiles/XML.dir/src/SAXException.cpp.i
 
 XML/CMakeFiles/XML.dir/src/SAXException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/SAXException.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/SAXException.cpp -o CMakeFiles/XML.dir/src/SAXException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/SAXException.cpp -o CMakeFiles/XML.dir/src/SAXException.cpp.s
 
 XML/CMakeFiles/XML.dir/src/SAXParser.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/SAXParser.cpp.o: ../XML/src/SAXParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object XML/CMakeFiles/XML.dir/src/SAXParser.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/SAXParser.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/SAXParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object XML/CMakeFiles/XML.dir/src/SAXParser.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/SAXParser.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/SAXParser.cpp
 
 XML/CMakeFiles/XML.dir/src/SAXParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/SAXParser.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/SAXParser.cpp > CMakeFiles/XML.dir/src/SAXParser.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/SAXParser.cpp > CMakeFiles/XML.dir/src/SAXParser.cpp.i
 
 XML/CMakeFiles/XML.dir/src/SAXParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/SAXParser.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/SAXParser.cpp -o CMakeFiles/XML.dir/src/SAXParser.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/SAXParser.cpp -o CMakeFiles/XML.dir/src/SAXParser.cpp.s
 
 XML/CMakeFiles/XML.dir/src/Text.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/Text.cpp.o: ../XML/src/Text.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object XML/CMakeFiles/XML.dir/src/Text.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Text.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Text.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object XML/CMakeFiles/XML.dir/src/Text.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/Text.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/Text.cpp
 
 XML/CMakeFiles/XML.dir/src/Text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/Text.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Text.cpp > CMakeFiles/XML.dir/src/Text.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/Text.cpp > CMakeFiles/XML.dir/src/Text.cpp.i
 
 XML/CMakeFiles/XML.dir/src/Text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/Text.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/Text.cpp -o CMakeFiles/XML.dir/src/Text.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/Text.cpp -o CMakeFiles/XML.dir/src/Text.cpp.s
 
 XML/CMakeFiles/XML.dir/src/TreeWalker.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/TreeWalker.cpp.o: ../XML/src/TreeWalker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object XML/CMakeFiles/XML.dir/src/TreeWalker.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/TreeWalker.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/TreeWalker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object XML/CMakeFiles/XML.dir/src/TreeWalker.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/TreeWalker.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/TreeWalker.cpp
 
 XML/CMakeFiles/XML.dir/src/TreeWalker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/TreeWalker.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/TreeWalker.cpp > CMakeFiles/XML.dir/src/TreeWalker.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/TreeWalker.cpp > CMakeFiles/XML.dir/src/TreeWalker.cpp.i
 
 XML/CMakeFiles/XML.dir/src/TreeWalker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/TreeWalker.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/TreeWalker.cpp -o CMakeFiles/XML.dir/src/TreeWalker.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/TreeWalker.cpp -o CMakeFiles/XML.dir/src/TreeWalker.cpp.s
 
 XML/CMakeFiles/XML.dir/src/ValueTraits.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/ValueTraits.cpp.o: ../XML/src/ValueTraits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object XML/CMakeFiles/XML.dir/src/ValueTraits.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ValueTraits.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ValueTraits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object XML/CMakeFiles/XML.dir/src/ValueTraits.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/ValueTraits.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/ValueTraits.cpp
 
 XML/CMakeFiles/XML.dir/src/ValueTraits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/ValueTraits.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ValueTraits.cpp > CMakeFiles/XML.dir/src/ValueTraits.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/ValueTraits.cpp > CMakeFiles/XML.dir/src/ValueTraits.cpp.i
 
 XML/CMakeFiles/XML.dir/src/ValueTraits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/ValueTraits.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/ValueTraits.cpp -o CMakeFiles/XML.dir/src/ValueTraits.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/ValueTraits.cpp -o CMakeFiles/XML.dir/src/ValueTraits.cpp.s
 
 XML/CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.o: ../XML/src/WhitespaceFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object XML/CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/WhitespaceFilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object XML/CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/WhitespaceFilter.cpp
 
 XML/CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/WhitespaceFilter.cpp > CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/WhitespaceFilter.cpp > CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.i
 
 XML/CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/WhitespaceFilter.cpp -o CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/WhitespaceFilter.cpp -o CMakeFiles/XML.dir/src/WhitespaceFilter.cpp.s
 
 XML/CMakeFiles/XML.dir/src/XMLException.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/XMLException.cpp.o: ../XML/src/XMLException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLException.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLException.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLException.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLException.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/XMLException.cpp
 
 XML/CMakeFiles/XML.dir/src/XMLException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/XMLException.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLException.cpp > CMakeFiles/XML.dir/src/XMLException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/XMLException.cpp > CMakeFiles/XML.dir/src/XMLException.cpp.i
 
 XML/CMakeFiles/XML.dir/src/XMLException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/XMLException.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLException.cpp -o CMakeFiles/XML.dir/src/XMLException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/XMLException.cpp -o CMakeFiles/XML.dir/src/XMLException.cpp.s
 
 XML/CMakeFiles/XML.dir/src/XMLFilter.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/XMLFilter.cpp.o: ../XML/src/XMLFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLFilter.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLFilter.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLFilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLFilter.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLFilter.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/XMLFilter.cpp
 
 XML/CMakeFiles/XML.dir/src/XMLFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/XMLFilter.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLFilter.cpp > CMakeFiles/XML.dir/src/XMLFilter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/XMLFilter.cpp > CMakeFiles/XML.dir/src/XMLFilter.cpp.i
 
 XML/CMakeFiles/XML.dir/src/XMLFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/XMLFilter.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLFilter.cpp -o CMakeFiles/XML.dir/src/XMLFilter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/XMLFilter.cpp -o CMakeFiles/XML.dir/src/XMLFilter.cpp.s
 
 XML/CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.o: ../XML/src/XMLFilterImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLFilterImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/XMLFilterImpl.cpp
 
 XML/CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLFilterImpl.cpp > CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/XMLFilterImpl.cpp > CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.i
 
 XML/CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLFilterImpl.cpp -o CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/XMLFilterImpl.cpp -o CMakeFiles/XML.dir/src/XMLFilterImpl.cpp.s
 
 XML/CMakeFiles/XML.dir/src/XMLReader.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/XMLReader.cpp.o: ../XML/src/XMLReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLReader.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLReader.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLReader.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLReader.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/XMLReader.cpp
 
 XML/CMakeFiles/XML.dir/src/XMLReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/XMLReader.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLReader.cpp > CMakeFiles/XML.dir/src/XMLReader.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/XMLReader.cpp > CMakeFiles/XML.dir/src/XMLReader.cpp.i
 
 XML/CMakeFiles/XML.dir/src/XMLReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/XMLReader.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLReader.cpp -o CMakeFiles/XML.dir/src/XMLReader.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/XMLReader.cpp -o CMakeFiles/XML.dir/src/XMLReader.cpp.s
 
 XML/CMakeFiles/XML.dir/src/XMLStreamParser.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/XMLStreamParser.cpp.o: ../XML/src/XMLStreamParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLStreamParser.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLStreamParser.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLStreamParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLStreamParser.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLStreamParser.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/XMLStreamParser.cpp
 
 XML/CMakeFiles/XML.dir/src/XMLStreamParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/XMLStreamParser.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLStreamParser.cpp > CMakeFiles/XML.dir/src/XMLStreamParser.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/XMLStreamParser.cpp > CMakeFiles/XML.dir/src/XMLStreamParser.cpp.i
 
 XML/CMakeFiles/XML.dir/src/XMLStreamParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/XMLStreamParser.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLStreamParser.cpp -o CMakeFiles/XML.dir/src/XMLStreamParser.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/XMLStreamParser.cpp -o CMakeFiles/XML.dir/src/XMLStreamParser.cpp.s
 
 XML/CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.o: ../XML/src/XMLStreamParserException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLStreamParserException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/XMLStreamParserException.cpp
 
 XML/CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLStreamParserException.cpp > CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/XMLStreamParserException.cpp > CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.i
 
 XML/CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLStreamParserException.cpp -o CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/XMLStreamParserException.cpp -o CMakeFiles/XML.dir/src/XMLStreamParserException.cpp.s
 
 XML/CMakeFiles/XML.dir/src/XMLString.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/XMLString.cpp.o: ../XML/src/XMLString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLString.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLString.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLString.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLString.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/XMLString.cpp
 
 XML/CMakeFiles/XML.dir/src/XMLString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/XMLString.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLString.cpp > CMakeFiles/XML.dir/src/XMLString.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/XMLString.cpp > CMakeFiles/XML.dir/src/XMLString.cpp.i
 
 XML/CMakeFiles/XML.dir/src/XMLString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/XMLString.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLString.cpp -o CMakeFiles/XML.dir/src/XMLString.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/XMLString.cpp -o CMakeFiles/XML.dir/src/XMLString.cpp.s
 
 XML/CMakeFiles/XML.dir/src/XMLWriter.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/XMLWriter.cpp.o: ../XML/src/XMLWriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLWriter.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLWriter.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLWriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object XML/CMakeFiles/XML.dir/src/XMLWriter.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/XMLWriter.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/XMLWriter.cpp
 
 XML/CMakeFiles/XML.dir/src/XMLWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/XMLWriter.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLWriter.cpp > CMakeFiles/XML.dir/src/XMLWriter.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/XMLWriter.cpp > CMakeFiles/XML.dir/src/XMLWriter.cpp.i
 
 XML/CMakeFiles/XML.dir/src/XMLWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/XMLWriter.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/XMLWriter.cpp -o CMakeFiles/XML.dir/src/XMLWriter.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/XMLWriter.cpp -o CMakeFiles/XML.dir/src/XMLWriter.cpp.s
 
 XML/CMakeFiles/XML.dir/src/xmlparse.cpp.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/xmlparse.cpp.o: ../XML/src/xmlparse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object XML/CMakeFiles/XML.dir/src/xmlparse.cpp.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/xmlparse.cpp.o -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmlparse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object XML/CMakeFiles/XML.dir/src/xmlparse.cpp.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XML.dir/src/xmlparse.cpp.o -c /mnt/Poco_OSP/Poco/XML/src/xmlparse.cpp
 
 XML/CMakeFiles/XML.dir/src/xmlparse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XML.dir/src/xmlparse.cpp.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmlparse.cpp > CMakeFiles/XML.dir/src/xmlparse.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/xmlparse.cpp > CMakeFiles/XML.dir/src/xmlparse.cpp.i
 
 XML/CMakeFiles/XML.dir/src/xmlparse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XML.dir/src/xmlparse.cpp.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmlparse.cpp -o CMakeFiles/XML.dir/src/xmlparse.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/xmlparse.cpp -o CMakeFiles/XML.dir/src/xmlparse.cpp.s
 
 XML/CMakeFiles/XML.dir/src/xmlrole.c.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/xmlrole.c.o: ../XML/src/xmlrole.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object XML/CMakeFiles/XML.dir/src/xmlrole.c.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XML.dir/src/xmlrole.c.o   -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmlrole.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object XML/CMakeFiles/XML.dir/src/xmlrole.c.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XML.dir/src/xmlrole.c.o   -c /mnt/Poco_OSP/Poco/XML/src/xmlrole.c
 
 XML/CMakeFiles/XML.dir/src/xmlrole.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/XML.dir/src/xmlrole.c.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmlrole.c > CMakeFiles/XML.dir/src/xmlrole.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/xmlrole.c > CMakeFiles/XML.dir/src/xmlrole.c.i
 
 XML/CMakeFiles/XML.dir/src/xmlrole.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/XML.dir/src/xmlrole.c.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmlrole.c -o CMakeFiles/XML.dir/src/xmlrole.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/xmlrole.c -o CMakeFiles/XML.dir/src/xmlrole.c.s
 
 XML/CMakeFiles/XML.dir/src/xmltok.c.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/xmltok.c.o: ../XML/src/xmltok.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object XML/CMakeFiles/XML.dir/src/xmltok.c.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XML.dir/src/xmltok.c.o   -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmltok.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object XML/CMakeFiles/XML.dir/src/xmltok.c.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XML.dir/src/xmltok.c.o   -c /mnt/Poco_OSP/Poco/XML/src/xmltok.c
 
 XML/CMakeFiles/XML.dir/src/xmltok.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/XML.dir/src/xmltok.c.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmltok.c > CMakeFiles/XML.dir/src/xmltok.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/xmltok.c > CMakeFiles/XML.dir/src/xmltok.c.i
 
 XML/CMakeFiles/XML.dir/src/xmltok.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/XML.dir/src/xmltok.c.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmltok.c -o CMakeFiles/XML.dir/src/xmltok.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/xmltok.c -o CMakeFiles/XML.dir/src/xmltok.c.s
 
 XML/CMakeFiles/XML.dir/src/xmltok_impl.c.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/xmltok_impl.c.o: ../XML/src/xmltok_impl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object XML/CMakeFiles/XML.dir/src/xmltok_impl.c.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XML.dir/src/xmltok_impl.c.o   -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmltok_impl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object XML/CMakeFiles/XML.dir/src/xmltok_impl.c.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XML.dir/src/xmltok_impl.c.o   -c /mnt/Poco_OSP/Poco/XML/src/xmltok_impl.c
 
 XML/CMakeFiles/XML.dir/src/xmltok_impl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/XML.dir/src/xmltok_impl.c.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmltok_impl.c > CMakeFiles/XML.dir/src/xmltok_impl.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/xmltok_impl.c > CMakeFiles/XML.dir/src/xmltok_impl.c.i
 
 XML/CMakeFiles/XML.dir/src/xmltok_impl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/XML.dir/src/xmltok_impl.c.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmltok_impl.c -o CMakeFiles/XML.dir/src/xmltok_impl.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/xmltok_impl.c -o CMakeFiles/XML.dir/src/xmltok_impl.c.s
 
 XML/CMakeFiles/XML.dir/src/xmltok_ns.c.o: XML/CMakeFiles/XML.dir/flags.make
 XML/CMakeFiles/XML.dir/src/xmltok_ns.c.o: ../XML/src/xmltok_ns.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object XML/CMakeFiles/XML.dir/src/xmltok_ns.c.o"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XML.dir/src/xmltok_ns.c.o   -c /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmltok_ns.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object XML/CMakeFiles/XML.dir/src/xmltok_ns.c.o"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XML.dir/src/xmltok_ns.c.o   -c /mnt/Poco_OSP/Poco/XML/src/xmltok_ns.c
 
 XML/CMakeFiles/XML.dir/src/xmltok_ns.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/XML.dir/src/xmltok_ns.c.i"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmltok_ns.c > CMakeFiles/XML.dir/src/xmltok_ns.c.i
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/Poco_OSP/Poco/XML/src/xmltok_ns.c > CMakeFiles/XML.dir/src/xmltok_ns.c.i
 
 XML/CMakeFiles/XML.dir/src/xmltok_ns.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/XML.dir/src/xmltok_ns.c.s"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Jun_unit_Testing/tcu-adk-dev/poco/XML/src/xmltok_ns.c -o CMakeFiles/XML.dir/src/xmltok_ns.c.s
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/Poco_OSP/Poco/XML/src/xmltok_ns.c -o CMakeFiles/XML.dir/src/xmltok_ns.c.s
 
 # Object files for target XML
 XML_OBJECTS = \
@@ -1206,9 +1206,9 @@ lib/libPocoXML.so.71: XML/CMakeFiles/XML.dir/src/xmltok_ns.c.o
 lib/libPocoXML.so.71: XML/CMakeFiles/XML.dir/build.make
 lib/libPocoXML.so.71: lib/libPocoFoundation.so.71
 lib/libPocoXML.so.71: XML/CMakeFiles/XML.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Linking CXX shared library ../lib/libPocoXML.so"
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/XML.dir/link.txt --verbose=$(VERBOSE)
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libPocoXML.so.71 ../lib/libPocoXML.so.71 ../lib/libPocoXML.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/Poco_OSP/Poco/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Linking CXX shared library ../lib/libPocoXML.so"
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/XML.dir/link.txt --verbose=$(VERBOSE)
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && $(CMAKE_COMMAND) -E cmake_symlink_library ../lib/libPocoXML.so.71 ../lib/libPocoXML.so.71 ../lib/libPocoXML.so
 
 lib/libPocoXML.so: lib/libPocoXML.so.71
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libPocoXML.so
@@ -1219,10 +1219,10 @@ XML/CMakeFiles/XML.dir/build: lib/libPocoXML.so
 .PHONY : XML/CMakeFiles/XML.dir/build
 
 XML/CMakeFiles/XML.dir/clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML && $(CMAKE_COMMAND) -P CMakeFiles/XML.dir/cmake_clean.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build/XML && $(CMAKE_COMMAND) -P CMakeFiles/XML.dir/cmake_clean.cmake
 .PHONY : XML/CMakeFiles/XML.dir/clean
 
 XML/CMakeFiles/XML.dir/depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Jun_unit_Testing/tcu-adk-dev/poco /root/Jun_unit_Testing/tcu-adk-dev/poco/XML /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML/CMakeFiles/XML.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/Poco_OSP/Poco /mnt/Poco_OSP/Poco/XML /mnt/Poco_OSP/Poco/cmake-build /mnt/Poco_OSP/Poco/cmake-build/XML /mnt/Poco_OSP/Poco/cmake-build/XML/CMakeFiles/XML.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : XML/CMakeFiles/XML.dir/depend
 

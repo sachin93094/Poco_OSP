@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco
+CMAKE_SOURCE_DIR = /mnt/Poco_OSP/Poco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build
+CMAKE_BINARY_DIR = /mnt/Poco_OSP/Poco/cmake-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,7 +94,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CPackSourceConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/Poco_OSP/Poco/cmake-build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /mnt/Poco_OSP/Poco/cmake-build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JWT/CMakeFiles/progress.marks
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JWT/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/CMakeFiles 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles /mnt/Poco_OSP/Poco/cmake-build/JWT/CMakeFiles/progress.marks
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JWT/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/Poco_OSP/Poco/cmake-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JWT/clean
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JWT/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JWT/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JWT/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JWT/preinstall
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JWT/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 JWT/CMakeFiles/JWT.dir/rule:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JWT/CMakeFiles/JWT.dir/rule
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f CMakeFiles/Makefile2 JWT/CMakeFiles/JWT.dir/rule
 .PHONY : JWT/CMakeFiles/JWT.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ JWT: JWT/CMakeFiles/JWT.dir/rule
 
 # fast build rule for target.
 JWT/fast:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/build
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/build
 .PHONY : JWT/fast
 
 src/JWTException.o: src/JWTException.cpp.o
@@ -199,7 +199,7 @@ src/JWTException.o: src/JWTException.cpp.o
 
 # target to build an object file
 src/JWTException.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/JWTException.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/JWTException.cpp.o
 .PHONY : src/JWTException.cpp.o
 
 src/JWTException.i: src/JWTException.cpp.i
@@ -208,7 +208,7 @@ src/JWTException.i: src/JWTException.cpp.i
 
 # target to preprocess a source file
 src/JWTException.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/JWTException.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/JWTException.cpp.i
 .PHONY : src/JWTException.cpp.i
 
 src/JWTException.s: src/JWTException.cpp.s
@@ -217,7 +217,7 @@ src/JWTException.s: src/JWTException.cpp.s
 
 # target to generate assembly for a file
 src/JWTException.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/JWTException.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/JWTException.cpp.s
 .PHONY : src/JWTException.cpp.s
 
 src/Serializer.o: src/Serializer.cpp.o
@@ -226,7 +226,7 @@ src/Serializer.o: src/Serializer.cpp.o
 
 # target to build an object file
 src/Serializer.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Serializer.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Serializer.cpp.o
 .PHONY : src/Serializer.cpp.o
 
 src/Serializer.i: src/Serializer.cpp.i
@@ -235,7 +235,7 @@ src/Serializer.i: src/Serializer.cpp.i
 
 # target to preprocess a source file
 src/Serializer.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Serializer.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Serializer.cpp.i
 .PHONY : src/Serializer.cpp.i
 
 src/Serializer.s: src/Serializer.cpp.s
@@ -244,7 +244,7 @@ src/Serializer.s: src/Serializer.cpp.s
 
 # target to generate assembly for a file
 src/Serializer.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Serializer.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Serializer.cpp.s
 .PHONY : src/Serializer.cpp.s
 
 src/Signer.o: src/Signer.cpp.o
@@ -253,7 +253,7 @@ src/Signer.o: src/Signer.cpp.o
 
 # target to build an object file
 src/Signer.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Signer.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Signer.cpp.o
 .PHONY : src/Signer.cpp.o
 
 src/Signer.i: src/Signer.cpp.i
@@ -262,7 +262,7 @@ src/Signer.i: src/Signer.cpp.i
 
 # target to preprocess a source file
 src/Signer.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Signer.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Signer.cpp.i
 .PHONY : src/Signer.cpp.i
 
 src/Signer.s: src/Signer.cpp.s
@@ -271,7 +271,7 @@ src/Signer.s: src/Signer.cpp.s
 
 # target to generate assembly for a file
 src/Signer.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Signer.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Signer.cpp.s
 .PHONY : src/Signer.cpp.s
 
 src/Token.o: src/Token.cpp.o
@@ -280,7 +280,7 @@ src/Token.o: src/Token.cpp.o
 
 # target to build an object file
 src/Token.cpp.o:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Token.cpp.o
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Token.cpp.o
 .PHONY : src/Token.cpp.o
 
 src/Token.i: src/Token.cpp.i
@@ -289,7 +289,7 @@ src/Token.i: src/Token.cpp.i
 
 # target to preprocess a source file
 src/Token.cpp.i:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Token.cpp.i
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Token.cpp.i
 .PHONY : src/Token.cpp.i
 
 src/Token.s: src/Token.cpp.s
@@ -298,7 +298,7 @@ src/Token.s: src/Token.cpp.s
 
 # target to generate assembly for a file
 src/Token.cpp.s:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Token.cpp.s
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(MAKE) -f JWT/CMakeFiles/JWT.dir/build.make JWT/CMakeFiles/JWT.dir/src/Token.cpp.s
 .PHONY : src/Token.cpp.s
 
 # Help Target
@@ -339,6 +339,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/Poco_OSP/Poco/cmake-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /root/Jun_unit_Testing/tcu-adk-dev/poco
+# Install script for directory: /mnt/Poco_OSP/Poco
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,29 +39,29 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Poco" TYPE FILE FILES
-    "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Poco/PocoConfig.cmake"
-    "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Poco/PocoConfigVersion.cmake"
+    "/mnt/Poco_OSP/Poco/cmake-build/Poco/PocoConfig.cmake"
+    "/mnt/Poco_OSP/Poco/cmake-build/Poco/PocoConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Foundation/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Encodings/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JSON/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/OSP/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Util/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Net/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/MongoDB/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Redis/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/JWT/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/NetSSL_OpenSSL/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Crypto/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Data/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Zip/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler/cmake_install.cmake")
-  include("/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/PageCompiler/File2Page/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/Foundation/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/Encodings/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/XML/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/JSON/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/OSP/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/Util/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/Net/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/MongoDB/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/Redis/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/JWT/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/NetSSL_OpenSSL/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/Crypto/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/Data/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/Zip/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/PageCompiler/cmake_install.cmake")
+  include("/mnt/Poco_OSP/Poco/cmake-build/PageCompiler/File2Page/cmake_install.cmake")
 
 endif()
 
@@ -73,5 +73,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/Poco_OSP/Poco/cmake-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

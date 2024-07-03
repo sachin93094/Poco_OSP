@@ -6,5 +6,5 @@ CXX_FLAGS = -O2 -g -DNDEBUG -fPIC   -std=gnu++14
 
 CXX_DEFINES = -DOSP_EXPORTS -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500
 
-CXX_INCLUDES = -I/root/Jun_unit_Testing/tcu-adk-dev/poco/OSP/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/OSP/src -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Foundation/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/XML/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Util/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/JSON/include -I/root/Jun_unit_Testing/tcu-adk-dev/poco/Zip/include 
+CXX_INCLUDES = -I/mnt/Poco_OSP/Poco/OSP/include -I/mnt/Poco_OSP/Poco/OSP/src -I/mnt/Poco_OSP/Poco/Foundation/include -I/mnt/Poco_OSP/Poco/XML/include -I/mnt/Poco_OSP/Poco/Util/include -I/mnt/Poco_OSP/Poco/JSON/include -I/mnt/Poco_OSP/Poco/Zip/include 
 

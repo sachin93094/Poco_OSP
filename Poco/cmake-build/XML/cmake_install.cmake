@@ -1,4 +1,4 @@
-# Install script for directory: /root/Jun_unit_Testing/tcu-adk-dev/poco/XML
+# Install script for directory: /mnt/Poco_OSP/Poco/XML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/root/Jun_unit_Testing/tcu-adk-dev/poco/XML/include/Poco" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/mnt/Poco_OSP/Poco/XML/include/Poco" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -48,12 +48,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPocoXML.so.71"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib/libPocoXML.so.71")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/Poco_OSP/Poco/cmake-build/lib/libPocoXML.so.71")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPocoXML.so.71" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPocoXML.so.71")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPocoXML.so.71"
-         OLD_RPATH "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib:"
+         OLD_RPATH "/mnt/Poco_OSP/Poco/cmake-build/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPocoXML.so.71")
@@ -68,12 +68,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPocoXML.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib/libPocoXML.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/Poco_OSP/Poco/cmake-build/lib/libPocoXML.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPocoXML.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPocoXML.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPocoXML.so"
-         OLD_RPATH "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/lib:"
+         OLD_RPATH "/mnt/Poco_OSP/Poco/cmake-build/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPocoXML.so")
@@ -85,7 +85,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Poco/PocoXMLTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Poco/PocoXMLTargets.cmake"
-         "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML/CMakeFiles/Export/lib/cmake/Poco/PocoXMLTargets.cmake")
+         "/mnt/Poco_OSP/Poco/cmake-build/XML/CMakeFiles/Export/lib/cmake/Poco/PocoXMLTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Poco/PocoXMLTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -94,16 +94,16 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Poco" TYPE FILE FILES "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML/CMakeFiles/Export/lib/cmake/Poco/PocoXMLTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Poco" TYPE FILE FILES "/mnt/Poco_OSP/Poco/cmake-build/XML/CMakeFiles/Export/lib/cmake/Poco/PocoXMLTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Poco" TYPE FILE FILES "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/XML/CMakeFiles/Export/lib/cmake/Poco/PocoXMLTargets-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Poco" TYPE FILE FILES "/mnt/Poco_OSP/Poco/cmake-build/XML/CMakeFiles/Export/lib/cmake/Poco/PocoXMLTargets-relwithdebinfo.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Poco" TYPE FILE FILES
-    "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Poco/PocoXMLConfig.cmake"
-    "/root/Jun_unit_Testing/tcu-adk-dev/poco/cmake-build/Poco/PocoXMLConfigVersion.cmake"
+    "/mnt/Poco_OSP/Poco/cmake-build/Poco/PocoXMLConfig.cmake"
+    "/mnt/Poco_OSP/Poco/cmake-build/Poco/PocoXMLConfigVersion.cmake"
     )
 endif()
 
